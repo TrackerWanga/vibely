@@ -1,0 +1,3282 @@
+{
+  "country": "Brazil",
+  "flag": "🇧🇷",
+  "code": "BR",
+  "continent": "South America",
+  "categories": {
+    "secular": {
+      "count": 43,
+      "artists": [
+        {
+          "name": "Alok",
+          "channel": {
+            "id": "UCQlaArsZfebRbb70iXm6usg",
+            "name": "Alok",
+            "image": "https://yt3.googleusercontent.com/PZr_6xXoa2VeFKB4Ezjg_e6Qmn4Nm_5F4D_JNo1aywN1CGQW-1p1kg_i8-kpLD8k33vvVLiy-3Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7010000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ZcMB0MbZ1L8",
+              "title": "Alok & Still Val – Flavour (Visualizer Resmi)",
+              "views": 51219,
+              "duration": "2:28",
+              "thumbnail": "https://i.ytimg.com/vi/ZcMB0MbZ1L8/hq720.jpg"
+            },
+            {
+              "videoId": "JVpTp8IHdEg",
+              "title": "Alok, Bruno Martini feat. Zeeba - Hear Me Now (Official Music Video)",
+              "views": 695091263,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/JVpTp8IHdEg/hqdefault.jpg"
+            },
+            {
+              "videoId": "GgdnY3yIuIE",
+              "title": "Alok |  Portal do Amanhã",
+              "views": 330275,
+              "duration": "1:28:50",
+              "thumbnail": "https://i.ytimg.com/vi/GgdnY3yIuIE/hq720.jpg"
+            },
+            {
+              "videoId": "kyLuzKbgXAs",
+              "title": "Alok & Alan Walker - Headlights (feat. KIDDO) [Official Lyric Video]",
+              "views": 249760246,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/kyLuzKbgXAs/hqdefault.jpg"
+            },
+            {
+              "videoId": "uIsIyjcLkco",
+              "title": "Alok | Tomorrowland Winter 2026",
+              "views": 1184692,
+              "duration": "1:00:42",
+              "thumbnail": "https://i.ytimg.com/vi/uIsIyjcLkco/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Anitta",
+          "channel": {
+            "id": "UCqjjyPUghDSSKFBABM_CXMw",
+            "name": "Anitta",
+            "image": "https://yt3.googleusercontent.com/-nO5Ju9dD9c-tOy0ezJexgowv_vKGVnRhbUxRzU1Lfoj-NJuveO48RC_MHyAvLwjPljaKWDu91o=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 18300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "safzyuZNCGI",
+              "title": "LISA, Anitta, Rema, FIFA Sound - Goals (FIFA World Cup 2026™) [Official Music Video]",
+              "views": 7273098,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/safzyuZNCGI/hq720.jpg"
+            },
+            {
+              "videoId": "JG3ZuM5f5Ik",
+              "title": "Anitta - So Much Love (Official Music Video)",
+              "views": 280575,
+              "duration": "2:43",
+              "thumbnail": "https://i.ytimg.com/vi/JG3ZuM5f5Ik/hq720.jpg"
+            },
+            {
+              "videoId": "hFCjGiawJi4",
+              "title": "Anitta - Envolver [Official Music Video]",
+              "views": 903253250,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/hFCjGiawJi4/hq720.jpg"
+            },
+            {
+              "videoId": "QH_P3HeXAJk",
+              "title": "Anitta - Mil Veces",
+              "views": 60188458,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/QH_P3HeXAJk/hq720.jpg"
+            },
+            {
+              "videoId": "kDhptBT_-VI",
+              "title": "Anitta, Mc Zaac, Maejor feat. Tropkillaz & DJ Yuri Martins - Vai Malandra [Official Music Video]",
+              "views": 472520781,
+              "duration": "3:27",
+              "thumbnail": "https://i.ytimg.com/vi/kDhptBT_-VI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Caetano Veloso",
+          "channel": {
+            "id": "UCPcx7C0G024NtLNLODhu3VA",
+            "name": "Caetano Veloso",
+            "image": "https://yt3.googleusercontent.com/PBK63h_dk51ZjOvmsd5qB8HiCddBtqjyNs7BcxYxU6svdVmZjMPuQ2mS6Cdu-S3uLY9Z3g2z=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1210000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "j9UbE1slI-Q",
+              "title": "Caetano Veloso - Sozinho",
+              "views": 40527036,
+              "duration": "2:44",
+              "thumbnail": "https://i.ytimg.com/vi/j9UbE1slI-Q/hq720.jpg"
+            },
+            {
+              "videoId": "ujUaIXcQh9Y",
+              "title": "Caetano Veloso à la Philharmonie, Paris 2021",
+              "views": 760507,
+              "duration": "1:25:52",
+              "thumbnail": "https://i.ytimg.com/vi/ujUaIXcQh9Y/hq720.jpg"
+            },
+            {
+              "videoId": "cpvf1zbJuZQ",
+              "title": "As 10 Melhores de Caetano Veloso",
+              "views": 2667194,
+              "duration": "39:39",
+              "thumbnail": "https://i.ytimg.com/vi/cpvf1zbJuZQ/hq720.jpg"
+            },
+            {
+              "videoId": "ZoZ5uYk_Zao",
+              "title": "Que noite maravilhosa, São Paulo! 👉🏼❤️ #caetanoveloso #mpb",
+              "views": 9527,
+              "duration": "1:01",
+              "thumbnail": "https://i.ytimg.com/vi/ZoZ5uYk_Zao/hq720.jpg"
+            },
+            {
+              "videoId": "uvMIf_lbrZU",
+              "title": "Caetano Veloso - Sozinho",
+              "views": 7385004,
+              "duration": "4:59",
+              "thumbnail": "https://i.ytimg.com/vi/uvMIf_lbrZU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Claudia Leitte",
+          "channel": {
+            "id": "UCoNxStSEPiLxBiQQhYDFthA",
+            "name": "Claudia Leitte",
+            "image": "https://yt3.googleusercontent.com/iszqU7zcIP7RxjE6SgJnT0D4r2fk7OmI-NJvgA7ebb1BOjEOyPCD4p8uEfR6ZFf2YTKuYRBhqw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1080000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "-H6e-AdwweM",
+              "title": "Sambah - Claudia Leitte (Ao Vivo na Turnê Intemporal)",
+              "views": 12479,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/-H6e-AdwweM/hq720.jpg"
+            },
+            {
+              "videoId": "wSWXN6dPZtQ",
+              "title": "Claudia Leitte - Pensando Em Você (Ao Vivo Em Copacabana)",
+              "views": 28622081,
+              "duration": "5:21",
+              "thumbnail": "https://i.ytimg.com/vi/wSWXN6dPZtQ/hq720.jpg"
+            },
+            {
+              "videoId": "JFC9ouS-_hM",
+              "title": "Macaco Sessions: Claudia Leitte (Completo)",
+              "views": 1787884,
+              "duration": "1:17:07",
+              "thumbnail": "https://i.ytimg.com/vi/JFC9ouS-_hM/hq720.jpg"
+            },
+            {
+              "videoId": "YSY0iuRWiVY",
+              "title": "Claudia Leitte - Carnaval ft. Pitbull",
+              "views": 7798743,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/YSY0iuRWiVY/hq720.jpg"
+            },
+            {
+              "videoId": "eopqTdpQjck",
+              "title": "Intemporal - Claudia Leitte | Show completo (oficial)",
+              "views": 314850,
+              "duration": "1:14:00",
+              "thumbnail": "https://i.ytimg.com/vi/eopqTdpQjck/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "DJ Guuga",
+          "channel": {
+            "id": "UCVbAUDuhnjqQHuiLlB_vKtg",
+            "name": "DJ Guuga",
+            "image": "https://yt3.googleusercontent.com/QG-o5bV7nGqA-JBqAz831P1mIndOKOGDSt4tlueVUBeO9YnkzPHw0LIcPaOAF8IICoZ476U-3g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5050000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OXMI_YpsSi4",
+              "title": "VIDRADO EM VOCE - DJ GUUGA e MC LIVINHO (Pode Sentar)",
+              "views": 117083820,
+              "duration": "2:19",
+              "thumbnail": "https://i.ytimg.com/vi/OXMI_YpsSi4/hq720.jpg"
+            },
+            {
+              "videoId": "bINRlmehzMw",
+              "title": "DJ GUUGA - SÓ BUND4O GRANDÃO (AUDIO OFICIAL) trend viral TIK TOK",
+              "views": 13145597,
+              "duration": "2:18",
+              "thumbnail": "https://i.ytimg.com/vi/bINRlmehzMw/hq720.jpg"
+            },
+            {
+              "videoId": "5VkjOqPrbME",
+              "title": "DJ Guuga - A Fila querendo ta no seu lugar ( Video Clipe )",
+              "views": 37513199,
+              "duration": "2:30",
+              "thumbnail": "https://i.ytimg.com/vi/5VkjOqPrbME/hq720.jpg"
+            },
+            {
+              "videoId": "Ro9cnwwwmO8",
+              "title": "DJ GUUGA = CASAMENTO ((DJGUUGA))",
+              "views": 65847361,
+              "duration": "3:33",
+              "thumbnail": "https://i.ytimg.com/vi/Ro9cnwwwmO8/hq720.jpg"
+            },
+            {
+              "videoId": "olMgnjsP4Mk",
+              "title": "DJ Gege e DJ Guuga - Intenso Boom Boom (Acompanha o Grave) (kondzilla.com) | Official Music Video",
+              "views": 105912023,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/olMgnjsP4Mk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Dennis DJ",
+          "channel": {
+            "id": "UCrPMM16a2XymtrPJwFW4kAQ",
+            "name": "DENNIS",
+            "image": "https://yt3.googleusercontent.com/Nzq9qV9burMFgBV5GzFEBRDCXRi9xKcsEphzXzlQbCj_9U66S7QgG1Hae821zZi0oNncCQ1XzeE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5240000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "PktnmvoHVG0",
+              "title": "DENNIS, Kevin o Chris e Puterrier - Atrás da Equipe",
+              "views": 6554,
+              "duration": "1:56",
+              "thumbnail": "https://i.ytimg.com/vi/PktnmvoHVG0/hq720.jpg"
+            },
+            {
+              "videoId": "fml2ry3vPDs",
+              "title": "LIVE SET FUNKBOX - Dennis O Brabo",
+              "views": 477345,
+              "duration": "1:01:24",
+              "thumbnail": "https://i.ytimg.com/vi/fml2ry3vPDs/hq720.jpg"
+            },
+            {
+              "videoId": "WXqbEG6vCgk",
+              "title": "Dennis Gold Live SUNSET MIX / Afro House DJ Set 2026",
+              "views": 1439484,
+              "duration": "2:01:26",
+              "thumbnail": "https://i.ytimg.com/vi/WXqbEG6vCgk/hqdefault.jpg"
+            },
+            {
+              "videoId": "2u6RTgti_8k",
+              "title": "Dennis Gold AFRO HOUSE MIX In Style Of Keinemusik, Adam Port, Moojo / SUNSET DJ SET 2026",
+              "views": 2937799,
+              "duration": "1:41:30",
+              "thumbnail": "https://i.ytimg.com/vi/2u6RTgti_8k/hq720.jpg"
+            },
+            {
+              "videoId": "XgmX5xzK8U8",
+              "title": "Dennis & MC Don Juan - Te Prometo (Clipe Oficial)",
+              "views": 186999895,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/XgmX5xzK8U8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Dilsinho",
+          "channel": {
+            "id": "UCT7fDhHzPWNlI14o4SVD4NQ",
+            "name": "Dilsinho",
+            "image": "https://yt3.googleusercontent.com/6_toGod_KtUwQvZ5DOxG_ILj0ypZME2I6YjAY8X115xUR3iqQt_XH4ytu-dXgdvNAbEpKLIHBw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5360000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "4uQi5XvGI1M",
+              "title": "Dilsinho - Péssimo Negócio (DVD Terra do Nunca Ao Vivo)",
+              "views": 586093679,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/4uQi5XvGI1M/hq720.jpg"
+            },
+            {
+              "videoId": "BvalYFjApoY",
+              "title": "Dilsinho - Refém (DVD Terra do Nunca Ao Vivo)",
+              "views": 290226732,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/BvalYFjApoY/hq720.jpg"
+            },
+            {
+              "videoId": "ME9_HuR7mZM",
+              "title": "Dilsinho - É uma partida de Futebol",
+              "views": 92763,
+              "duration": "3:00",
+              "thumbnail": "https://i.ytimg.com/vi/ME9_HuR7mZM/hq720.jpg"
+            },
+            {
+              "videoId": "MLJh6dCQejY",
+              "title": "Dilsinho, Sorriso Maroto - Mensagem Apagada (Clipe Oficial)",
+              "views": 97408382,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/MLJh6dCQejY/hq720.jpg"
+            },
+            {
+              "videoId": "1-wJdGLlRNo",
+              "title": "Dilsinho - Trovão (Ao Vivo) (Videoclipe)",
+              "views": 100319962,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/1-wJdGLlRNo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ferrugem",
+          "channel": {
+            "id": "UCrbPlzWoueuZBkdVMRndw_Q",
+            "name": "Ferrugem",
+            "image": "https://yt3.googleusercontent.com/mcw6mn7UOjbaLan4JCRPTAzkZN4h7iUfTarEsHgIIs5NOQy7Z03HrRd73Q3egeYrC9p_qr7i=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6040000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "mILYtp4UHIQ",
+              "title": "Ferrugem - Arrependidaço (Onde Você Anda) (Sentimento)",
+              "views": 24636409,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/mILYtp4UHIQ/hq720.jpg"
+            },
+            {
+              "videoId": "JhXagtxvDKY",
+              "title": "Ferrugem - Sinto sua Falta, É Natural, Pra Você Acreditar e Pirata e Tesouro \"DVD Chão De Estrelas\"",
+              "views": 672525122,
+              "duration": "7:41",
+              "thumbnail": "https://i.ytimg.com/vi/JhXagtxvDKY/hq720.jpg"
+            },
+            {
+              "videoId": "kMnaZAgJGVU",
+              "title": "Ferrugem 10 Anos (Ao Vivo) [COMPLETO]",
+              "views": 7163485,
+              "duration": "1:53:00",
+              "thumbnail": "https://i.ytimg.com/vi/kMnaZAgJGVU/hq720.jpg"
+            },
+            {
+              "videoId": "o3dknP3jclw",
+              "title": "Ferrugem, Sorriso Maroto - Apaguei Pra Todos (Ferrugem 10 Anos - Ao Vivo)",
+              "views": 163037650,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/o3dknP3jclw/hq720.jpg"
+            },
+            {
+              "videoId": "qr3zfkvuMDM",
+              "title": "Ferrugem - Eu Não Sou de Me Entregar (Clipe Oficial)",
+              "views": 157142326,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/qr3zfkvuMDM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Filipe Ret",
+          "channel": {
+            "id": "UC9vsg8Lpxf2R8CjaLrd-R1g",
+            "name": "Filipe Ret",
+            "image": "https://yt3.googleusercontent.com/Bt3jIV34jYGw8t8jJB5e4T6rDTd3rVPl8HSF2M5hsJca7oXfQBalEf-xer6APCnIYgHssMzuog=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3440000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "UYKrwYJzZFw",
+              "title": "Filipe Ret - Acima de Mim Só Deus☝🏽(Clipe Oficial)",
+              "views": 24350149,
+              "duration": "2:31",
+              "thumbnail": "https://i.ytimg.com/vi/UYKrwYJzZFw/hq720.jpg"
+            },
+            {
+              "videoId": "cp-rI_px6uA",
+              "title": "FIM DO VLOG! POR QUE?",
+              "views": 57019,
+              "duration": "10:40",
+              "thumbnail": "https://i.ytimg.com/vi/cp-rI_px6uA/hq720.jpg"
+            },
+            {
+              "videoId": "7S-lfmsvd2A",
+              "title": "Filipe Ret - FRXV Ao Vivo - DVD COMPLETO",
+              "views": 14423514,
+              "duration": "2:00:49",
+              "thumbnail": "https://i.ytimg.com/vi/7S-lfmsvd2A/hq720.jpg"
+            },
+            {
+              "videoId": "DBV_6F0GCcM",
+              "title": "Filipe Ret - Isso Que é Vida (prod. Reeo Mix e Mãolee)",
+              "views": 79181872,
+              "duration": "5:01",
+              "thumbnail": "https://i.ytimg.com/vi/DBV_6F0GCcM/hq720.jpg"
+            },
+            {
+              "videoId": "IBgUZWbmy2M",
+              "title": "Nós Combina (Clipe Alternativo) 👩🏼‍❤️‍💋‍👨🏻",
+              "views": 139869737,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/IBgUZWbmy2M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gabriel Diniz",
+          "channel": {
+            "id": "UCXxV1xCGwNla_Jk7MpONq2g",
+            "name": "Gabriel Diniz",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_l3Aszmygp-Gx7DD2q5ttTvaEXNbnykoZXIcjhtMBXl0w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "6rZuOPAB5nw",
+              "title": "Gabriel Diniz - Paraquedas (Ao Vivo)",
+              "views": 134850861,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/6rZuOPAB5nw/hq720.jpg"
+            },
+            {
+              "videoId": "DAldyPS-UHA",
+              "title": "Gabriel Diniz, Luiza & Maurílio - Pouca Roupa",
+              "views": 49924488,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/DAldyPS-UHA/hq720.jpg"
+            },
+            {
+              "videoId": "D2rG7pXd2LY",
+              "title": "Gabriel Diniz - Jenifer",
+              "views": 380331429,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/D2rG7pXd2LY/hq720.jpg"
+            },
+            {
+              "videoId": "FJOoPAEvIdM",
+              "title": "Gabriel Diniz - Acabou Acabou (Quando Eu Digo Que Acabou) (Ao Vivo) ft. Wesley Safadão",
+              "views": 131198740,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/FJOoPAEvIdM/hq720.jpg"
+            },
+            {
+              "videoId": "H53qmO5TL94",
+              "title": "Gabriel Diniz - Amor de Copo (Part. Cristiano Araújo) (Oficial 4K)",
+              "views": 5911218,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/H53qmO5TL94/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gilberto Gil",
+          "channel": {
+            "id": "UCStXqgyucmicmfhpvnJK6cw",
+            "name": "Gilberto Gil",
+            "image": "https://yt3.googleusercontent.com/aYPc9c-Wp8fk0vXX1Tp6vf-5UuFdpDSoJc7Ff4MB02GLiLEdcVF2XDJJyGnWd2sDC8zpB6ZrEQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 678000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "jxmdf19xTIA",
+              "title": "Queremos Saber (Gilberto Gil, Fran Gil e Mãeana) | Ao Vivo no Allianz Parque - Turnê Tempo Rei",
+              "views": 4929,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/jxmdf19xTIA/hq720.jpg"
+            },
+            {
+              "videoId": "YdMn8xzCOS0",
+              "title": "Gilberto Gil – Gilbertos Samba Ao Vivo | DVD COMPLETO",
+              "views": 2451876,
+              "duration": "1:32:33",
+              "thumbnail": "https://i.ytimg.com/vi/YdMn8xzCOS0/hq720.jpg"
+            },
+            {
+              "videoId": "CBiVTXr4PXQ",
+              "title": "As 10 Melhores de Gilberto Gil",
+              "views": 760178,
+              "duration": "42:49",
+              "thumbnail": "https://i.ytimg.com/vi/CBiVTXr4PXQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "ou78Tuy_MNM",
+              "title": "Palco",
+              "views": 7681394,
+              "duration": "4:27",
+              "thumbnail": "https://i.ytimg.com/vi/ou78Tuy_MNM/hq720.jpg"
+            },
+            {
+              "videoId": "LAsAYoZ0aKs",
+              "title": "Drão",
+              "views": 4889527,
+              "duration": "3:17",
+              "thumbnail": "https://i.ytimg.com/vi/LAsAYoZ0aKs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gloria Groove",
+          "channel": {
+            "id": "UCLoL96fSeaLOen3mpDYeqtA",
+            "name": "Gloria Groove",
+            "image": "https://yt3.googleusercontent.com/bIuE0bpHEmrG2wm65l7UKvYutnJgsiRSvq-ufvI9Ga03UYhfCXKGSjmTKw6_7AvNTXUgmQtf=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4170000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ltexM-cln54",
+              "title": "Gloria Groove - Bonekinha (YouTube Music Nights)",
+              "views": 53495,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/6TIlKlhm_Lc/hq720.jpg"
+            },
+            {
+              "videoId": "mBvcHrwuAjs",
+              "title": "Gloria Groove - Nosso Primeiro Beijo (Ao Vivo)",
+              "views": 152969165,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/mBvcHrwuAjs/hq720.jpg"
+            },
+            {
+              "videoId": "BpxrvcYDnf4",
+              "title": "GLORIA GROOVE - A QUEDA (CLIPE OFICIAL)",
+              "views": 228680707,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/BpxrvcYDnf4/hq720.jpg"
+            },
+            {
+              "videoId": "s3w6Qst7ee4",
+              "title": "Gloria Groove: Tiny Desk Brazil",
+              "views": 1193125,
+              "duration": "21:04",
+              "thumbnail": "https://i.ytimg.com/vi/s3w6Qst7ee4/hq720.jpg"
+            },
+            {
+              "videoId": "EhjIxhpGxDc",
+              "title": "GLORIA GROOVE - DOLLY",
+              "views": 109594758,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/EhjIxhpGxDc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gusttavo Lima",
+          "channel": {
+            "id": "UCXooz9whNJZBRTHi9AqdjPw",
+            "name": "Gusttavo Lima Oficial",
+            "image": "https://yt3.googleusercontent.com/6w0fh2ZRxofKGzuNZW7Q8FPtfrxyw0JoGeRTzZtXOruWawePOtyPHV1OE1XEaChFCqZiRppB=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 21800000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "h1BLSyMS5Uw",
+              "title": "Gusttavo Lima - Soy Yo | DVD \"Feito à Mão\"",
+              "views": 5245506,
+              "duration": "4:03",
+              "thumbnail": "https://i.ytimg.com/vi/h1BLSyMS5Uw/hq720.jpg"
+            },
+            {
+              "videoId": "Z1ZKaR-9Kt4",
+              "title": "Gusttavo Lima - Balada (Tchê Tchê Rere) (Gusttavo Lima e Você - Ao Vivo)",
+              "views": 220431321,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/Z1ZKaR-9Kt4/hq720.jpg"
+            },
+            {
+              "videoId": "AGDTB7ydJxQ",
+              "title": "Gusttavo Lima - Balada (Letra/Lyrics) Ao Vivo",
+              "views": 938031,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/AGDTB7ydJxQ/hq720.jpg"
+            },
+            {
+              "videoId": "3MsefIuCp44",
+              "title": "Gusttavo Lima - O Embaixador (Show Completo)",
+              "views": 18319911,
+              "duration": "1:09:58",
+              "thumbnail": "https://i.ytimg.com/vi/3MsefIuCp44/hq720.jpg"
+            },
+            {
+              "videoId": "oFJIenHfjK0",
+              "title": "Gusttavo Lima & Neymar - BALADA (TCHÊ TCHERERE TCHÊ TCHÊ)",
+              "views": 370459809,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/oFJIenHfjK0/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Haikaiss",
+          "channel": {
+            "id": "UCqhmlFknRAuBvT1grx1jZPw",
+            "name": "HAIKAISS OFICIAL",
+            "image": "https://yt3.googleusercontent.com/Zg6lvbPUKc1zaOZhzVKuEP5YowWtYEcoUFaz3YCAQieHnDs8TdmBpRsbqWwCV86GF8u5hek_=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3430000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "e_xGeZDk3Sw",
+              "title": "Haikaiss - RAP LORD part. Jonas Bento (Prod. NeoBeats) [VIDEOCLIPE OFICIAL]",
+              "views": 214714598,
+              "duration": "5:01",
+              "thumbnail": "https://i.ytimg.com/vi/e_xGeZDk3Sw/hq720.jpg"
+            },
+            {
+              "videoId": "DADUy4eowwk",
+              "title": "Haikaiss - Sem Graça (Prod. Tuchê)",
+              "views": 84452400,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/DADUy4eowwk/hq720.jpg"
+            },
+            {
+              "videoId": "YGiyqvHIRbw",
+              "title": "ENSAIO CASA 1 - Haikaiss - De Longe (Acústico)",
+              "views": 21783746,
+              "duration": "3:32",
+              "thumbnail": "https://i.ytimg.com/vi/YGiyqvHIRbw/hq720.jpg"
+            },
+            {
+              "videoId": "AZ_6dDe5ooA",
+              "title": "Haikaiss Ao Vivo no Estúdio Showlivre 2013",
+              "views": 2079670,
+              "duration": "51:05",
+              "thumbnail": "https://i.ytimg.com/vi/AZ_6dDe5ooA/hq720.jpg"
+            },
+            {
+              "videoId": "UMb-EiePHvU",
+              "title": "Pedro Qualy & WIU - Papel de Parede ( Prod. Riff )",
+              "views": 4855822,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/UMb-EiePHvU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Henrique e Juliano",
+          "channel": {
+            "id": "UCfLTxnQboSLcoSakgONmukQ",
+            "name": "Henrique e Juliano",
+            "image": "https://yt3.googleusercontent.com/nKH8O4Arv6kIKDNKwdV3MDVkJmwAAymwWjBc6gre6TmAAgrFR0uiSs7tvI1x7QmeIuhI8YCRECM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 17500000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "9Vt4XguN2-A",
+              "title": "Henrique e Juliano - ÚLTIMA SAUDADE (Manifesto Musical 2)",
+              "views": 276333088,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/9Vt4XguN2-A/hq720.jpg"
+            },
+            {
+              "videoId": "6EGg0_l-edc",
+              "title": "Henrique e Juliano -  A MAIOR SAUDADE - DVD Manifesto Musical",
+              "views": 441109446,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/6EGg0_l-edc/hq720.jpg"
+            },
+            {
+              "videoId": "0kiCQLdfgVg",
+              "title": "Henrique e Juliano - AMOR DOS OUTROS (Manifesto Musical 2)",
+              "views": 109111049,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/0kiCQLdfgVg/hq720.jpg"
+            },
+            {
+              "videoId": "X8jD3F9PI7Q",
+              "title": "Henrique e Juliano - NA HORA DA RAIVA - DVD Novas Histórias - Ao vivo em Recife",
+              "views": 593866299,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/X8jD3F9PI7Q/hq720.jpg"
+            },
+            {
+              "videoId": "tsyETGFUXiI",
+              "title": "Henrique e Juliano - SE EU FOSSE VOCÊ - DVD Ao Vivo No Ibirapuera",
+              "views": 331311566,
+              "duration": "3:33",
+              "thumbnail": "https://i.ytimg.com/vi/tsyETGFUXiI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ivete Sangalo",
+          "channel": {
+            "id": "UC4FK6Ki675LB-rkbD8O7ayg",
+            "name": "Ivete Sangalo",
+            "image": "https://yt3.googleusercontent.com/pA28eEV_QNeSbqoPsKthGs_EM0alOTTaIpjDIkl8xkucYQAUmil00RYLH7aRt9W6ZDbZvSsA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3230000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "rG0ZTcHcS5w",
+              "title": "Ivete Sangalo - Pais Tropical / Arerê / Taj Mahal",
+              "views": 31140241,
+              "duration": "4:55",
+              "thumbnail": "https://i.ytimg.com/vi/rG0ZTcHcS5w/hq720.jpg"
+            },
+            {
+              "videoId": "gJcAWUY8hZA",
+              "title": "IVETE SANGALO - ESPECIAL 30 ANOS DE CARREIRA | AO VIVO NO MARACANÃ",
+              "views": 2752389,
+              "duration": "2:00:35",
+              "thumbnail": "https://i.ytimg.com/vi/gJcAWUY8hZA/hq720.jpg"
+            },
+            {
+              "videoId": "CXMg52VD-R0",
+              "title": "Ivete Sangalo - Ao Vivo no Maracanã (DVD Completo)",
+              "views": 546432,
+              "duration": "1:55:42",
+              "thumbnail": "https://i.ytimg.com/vi/CXMg52VD-R0/hqdefault.jpg"
+            },
+            {
+              "videoId": "XzD3yaS9nRY",
+              "title": "Ivete Sangalo - O Mundo Vai",
+              "views": 23418033,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/XzD3yaS9nRY/hq720.jpg"
+            },
+            {
+              "videoId": "OrVFYsc6gAI",
+              "title": "Ivete Sangalo - Quando A Chuva Passar",
+              "views": 62448294,
+              "duration": "5:26",
+              "thumbnail": "https://i.ytimg.com/vi/OrVFYsc6gAI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jonas Esticado",
+          "channel": {
+            "id": "UC1XJOqlpIPQ1cUPZf54yXyg",
+            "name": "Jonas Esticado ",
+            "image": "https://yt3.googleusercontent.com/qc9Fu4bb-MlvtUDcVzKfCFkN7RVtsUWtNd4lVFtqWjw2F0ViRlr8-TbqdqZTCQRcn4noqQjr=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1830000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "eK3UtP-YGwo",
+              "title": "Não Era Você - Jonas Esticado e Zé Vaqueiro - Jonas Intense - Ao Vivo em Recife",
+              "views": 6675140,
+              "duration": "3:00",
+              "thumbnail": "https://i.ytimg.com/vi/eK3UtP-YGwo/hq720.jpg"
+            },
+            {
+              "videoId": "bmYm9aDSX80",
+              "title": "Sonho - Jonas Intense - Ao Vivo em Recife",
+              "views": 765878,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/bmYm9aDSX80/hq720.jpg"
+            },
+            {
+              "videoId": "Tupv5w2BPJw",
+              "title": "Jonas Esticado - Investe em mim",
+              "views": 285437609,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/Tupv5w2BPJw/hq720.jpg"
+            },
+            {
+              "videoId": "fH-BP60kSBE",
+              "title": "Só Mais Uma Vez - Jonas Esticado e Léo Foguete - Jonas Intense - Ao Vivo em Recife",
+              "views": 2160288,
+              "duration": "2:24",
+              "thumbnail": "https://i.ytimg.com/vi/fH-BP60kSBE/hq720.jpg"
+            },
+            {
+              "videoId": "-596qRWYYFs",
+              "title": "O que Você Esconde? - Jonas Intense - Ao Vivo em Recife",
+              "views": 5206031,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/-596qRWYYFs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jorge e Mateus",
+          "channel": {
+            "id": "UCL64gn1KZ1C-u87BGQv3b6w",
+            "name": "Jorge & Mateus Oficial",
+            "image": "https://yt3.googleusercontent.com/dl85dsp4QiIoHti9sm7NJ087PTXX053St8HlJr87a9HcPwx47s7zSwcBOB9bG3RN-1mbf2t1Ew=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 15500000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "8n9IKoUuHOA",
+              "title": "Jorge & Mateus - Os Grandes Sucessos de Jorge & Mateus",
+              "views": 42494713,
+              "duration": "1:23:11",
+              "thumbnail": "https://i.ytimg.com/vi/8n9IKoUuHOA/hq720.jpg"
+            },
+            {
+              "videoId": "XWDwUuwLV2M",
+              "title": "Jorge & Mateus - A Hora É Agora (Ao Vivo Em Jurerê - DVD Completo)",
+              "views": 4937204,
+              "duration": "1:07:53",
+              "thumbnail": "https://i.ytimg.com/vi/XWDwUuwLV2M/hq720.jpg"
+            },
+            {
+              "videoId": "HR4ZxjGQGYY",
+              "title": "Jorge & Mateus - Duas Metades - [DVD Ao Vivo em Jurerê] - (Clipe Oficial)",
+              "views": 211155212,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/HR4ZxjGQGYY/hq720.jpg"
+            },
+            {
+              "videoId": "KJDIA5pLwuo",
+              "title": "Jorge & Mateus - Um Dia Eu Te Levo Comigo",
+              "views": 49470503,
+              "duration": "3:28",
+              "thumbnail": "https://i.ytimg.com/vi/KJDIA5pLwuo/hq720.jpg"
+            },
+            {
+              "videoId": "VWRkQARH-9o",
+              "title": "Jorge & Mateus - Pra Sempre Com Você (Como Sempre Feito Nunca) [Vídeo Oficial]",
+              "views": 311126844,
+              "duration": "3:20",
+              "thumbnail": "https://i.ytimg.com/vi/VWRkQARH-9o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kevin O Chris",
+          "channel": {
+            "id": "UCCx90zE99aHD2NCKXoCmmag",
+            "name": "Kevin O Chris",
+            "image": "https://yt3.googleusercontent.com/c_uFjidmNbMMjdBcltYkQHOmC95ybhtoRF8ftBb--TPXfZtu0YpPgDQBVTiO58sNpzaqs9pkcls=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3870000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "fFeQDbY741I",
+              "title": "BRAZILIAN FUNK - Kevin O Chris - Incendeia (Coisa Linda Bebê, Hoje é Eu e Você) (Oficial)",
+              "views": 52991701,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/fFeQDbY741I/hq720.jpg"
+            },
+            {
+              "videoId": "ScKI1eLZgLo",
+              "title": "Kevin O Chris, DJ Nk da Serra - Faz um Vuk Vuk (Teto Espelhado) [Clipe Oficial]",
+              "views": 167535157,
+              "duration": "2:19",
+              "thumbnail": "https://i.ytimg.com/vi/ScKI1eLZgLo/hq720.jpg"
+            },
+            {
+              "videoId": "aHBW_Nd_z8k",
+              "title": "Dennis e Kevin O Chris - TÁ OK (Clipe Oficial)",
+              "views": 189896821,
+              "duration": "1:58",
+              "thumbnail": "https://i.ytimg.com/vi/aHBW_Nd_z8k/hq720.jpg"
+            },
+            {
+              "videoId": "B_GrvIc0dak",
+              "title": "BRAZILIAN FUNK - MC Kevin O Chris - Vai Rebola Pro Pai - Ela É Do Tipo (Clipe Oficial)",
+              "views": 67487054,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/B_GrvIc0dak/hq720.jpg"
+            },
+            {
+              "videoId": "WsLId2tTWYg",
+              "title": "BRAZILIAN FUNK - MC Kevin O Chris, Sodré e DJ Juninho 22 – Evoluiu (DVD Evoluiu) [Vídeo Oficial]",
+              "views": 14286730,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/WsLId2tTWYg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Luan Santana",
+          "channel": {
+            "id": "UC6rwiIxv0w2fbmmr66wl1rA",
+            "name": "Luan Santana",
+            "image": "https://yt3.googleusercontent.com/sD0HrrUgTt_1hZwTminEtggeI3Gu2dSLMqvnMDkxRWdaIXDUL11fgFiGjwLsvCNSn5BJZCo-=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 13400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "-YzDsDMYqdw",
+              "title": "Luan Santana - Tudo Que Você Quiser (O Nosso Tempo É Hoje - Vídeo Oficial)",
+              "views": 327955755,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/-YzDsDMYqdw/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZYd2yeeEad4",
+              "title": "Luan Santana - REGISTRO HISTÓRICO (Parte 1)",
+              "views": 11607920,
+              "duration": "1:28:24",
+              "thumbnail": "https://i.ytimg.com/vi/ZYd2yeeEad4/hq720.jpg"
+            },
+            {
+              "videoId": "dl0Dp_FRMo4",
+              "title": "Luan Santana - ILHA (Clipe Oficial)",
+              "views": 135980447,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/dl0Dp_FRMo4/hq720.jpg"
+            },
+            {
+              "videoId": "9suXjRdz5zQ",
+              "title": "Luan Santana - Aqui É Seu Lugar / Digitais (Ao Vivo - Vídeo Oficial)",
+              "views": 17241663,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/9suXjRdz5zQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "Xh7bdsJWJCU",
+              "title": "Luan Santana - Amar Não é Pecado (Ao Vivo No Rio - Vídeo Oficial)",
+              "views": 84486598,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/Xh7bdsJWJCU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ludmilla",
+          "channel": {
+            "id": "UCSCB1IQUmNa8Gn5VfSUAUpg",
+            "name": "LUDMILLA",
+            "image": "https://yt3.googleusercontent.com/65SiFVN_ceH5q6w2gFaBI_jGqtoZoT2ARnbl2DANAg5bomsZgQgPKbdsvmlL6ta1nKW1pvbIbA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 9470000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "EtJvPRRNCjI",
+              "title": "LUDMILLA - Saudade da Gente (feat. Caio Luccas) - Numanice #3",
+              "views": 111685019,
+              "duration": "3:09",
+              "thumbnail": "https://i.ytimg.com/vi/EtJvPRRNCjI/hq720.jpg"
+            },
+            {
+              "videoId": "0-mKwNMXETo",
+              "title": "Lud Session #2 feat. Gloria Groove (Live)",
+              "views": 213021739,
+              "duration": "9:20",
+              "thumbnail": "https://i.ytimg.com/vi/0-mKwNMXETo/hq720.jpg"
+            },
+            {
+              "videoId": "pFUcAatShLk",
+              "title": "LUDMILLA - Falta de Mim (feat. Mari Fernandez) - Numanice #3",
+              "views": 74419356,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/pFUcAatShLk/hq720.jpg"
+            },
+            {
+              "videoId": "nmRsGILGMT0",
+              "title": "LUDMILLA - Numanice #3 Ao Vivo (completo)",
+              "views": 23369006,
+              "duration": "55:25",
+              "thumbnail": "https://i.ytimg.com/vi/nmRsGILGMT0/hq720.jpg"
+            },
+            {
+              "videoId": "woEMCufks9k",
+              "title": "LUDMILLA - Maliciosa - Numanice #3",
+              "views": 48371448,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/woEMCufks9k/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Luisa Sonza",
+          "channel": {
+            "id": "UCnJoUTYXU142gxoyDzp-KRQ",
+            "name": "Luísa Sonza",
+            "image": "https://yt3.googleusercontent.com/CcTZhqFlrH35Ec5iMslZkbIQkIAWZjgZmCHmgvW78-PmEq_hSS9OYf-ND2ZBgyH4pQahXbLQpw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8460000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "gQihxm0-U64",
+              "title": "Luísa Sonza - Loira Gelada (Clipe Oficial)",
+              "views": 2305126,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/gQihxm0-U64/hq720.jpg"
+            },
+            {
+              "videoId": "fZ9nQvgt2hg",
+              "title": "Luísa Sonza - \"Que O Amor Morra,\" \"Safada,\" & \"Telefone\" | carRADIO 113",
+              "views": 108571,
+              "duration": "7:17",
+              "thumbnail": "https://i.ytimg.com/vi/fZ9nQvgt2hg/hq720.jpg"
+            },
+            {
+              "videoId": "-fR_W18UG0U",
+              "title": "Luísa Sonza - Telefone (clipe oficial)",
+              "views": 1836447,
+              "duration": "1:38",
+              "thumbnail": "https://i.ytimg.com/vi/-fR_W18UG0U/hq720.jpg"
+            },
+            {
+              "videoId": "WqCYnnPDDfw",
+              "title": "Luísa Sonza - Fruto Do Tempo (clipe oficial)",
+              "views": 1337606,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/WqCYnnPDDfw/hq720.jpg"
+            },
+            {
+              "videoId": "Y9KY4s8lIHA",
+              "title": "Luísa Sonza - Iguaria (Áudio Oficial)",
+              "views": 22003435,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/Y9KY4s8lIHA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "MC Don Juan",
+          "channel": {
+            "id": "UCdtI3Qa3vlZsoDMh8MJTvdA",
+            "name": "MC Don Juan",
+            "image": "https://yt3.googleusercontent.com/I2lZxBYke72Lmk7XHhOW6h4GUBXpL1Zo8J1sEf6SnacFLLZ6uamhs--9_X0FP3HXCmyKgZIy3Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1840000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "XFo7RaOhpHw",
+              "title": "ELA SAI DE PROVOCAÇÃO (FINAL DE ANO) - DON JUAN, BOLADIN 211, DJ KAIOKEN E DJ FELIPE MAIA",
+              "views": 27869457,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/XFo7RaOhpHw/hq720.jpg"
+            },
+            {
+              "videoId": "_Qub7jfzYQw",
+              "title": "MC Don Juan - Amar, Amei (KondZilla)",
+              "views": 320948141,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/_Qub7jfzYQw/hq720.jpg"
+            },
+            {
+              "videoId": "OrcRaShjGQk",
+              "title": "Se Eu Ficar Pá Nem Me Testa - J9, Ryan SP,  Don Juan, IG, Negão Original, Menor Richard, Alan JR",
+              "views": 23943199,
+              "duration": "6:48",
+              "thumbnail": "https://i.ytimg.com/vi/OrcRaShjGQk/hq720.jpg"
+            },
+            {
+              "videoId": "c_ebWRlpB5c",
+              "title": "I DROWNED IN LONELINESS - MC Don Juan, MC Luuky, MC Gui da Norte and MC Vine 7 [Official Music Vi...",
+              "views": 417057,
+              "duration": "6:29",
+              "thumbnail": "https://i.ytimg.com/vi/c_ebWRlpB5c/hq720.jpg"
+            },
+            {
+              "videoId": "3EhhbOPRSeU",
+              "title": "MC Don Juan - Coração Amoleceu - Prod. DJ Yuri Martins  (Vídeo Oficial)",
+              "views": 39924987,
+              "duration": "2:46",
+              "thumbnail": "https://i.ytimg.com/vi/3EhhbOPRSeU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "MC Fioti",
+          "channel": {
+            "id": "UC__w9BkosFxrONiPkNoW5kg",
+            "name": "Mc Fioti",
+            "image": "https://yt3.googleusercontent.com/IP9r0XInIk0-YM3xpBw8xjCJOryNaDtT9Zg4Sd70c8hQq4d5vTUm4Ib2LGLdYgpLZ6Fao-jCcw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 304000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "_P7S2lKif-A",
+              "title": "MC Fioti - Bum Bum Tam Tam (KondZilla) | Official Music Video",
+              "views": 1949627010,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/_P7S2lKif-A/hq720.jpg"
+            },
+            {
+              "videoId": "_S6llrT6mDo",
+              "title": "MC Fioti - Você Me Deixou (Ciclone Filmes)",
+              "views": 53540692,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/_S6llrT6mDo/hq720.jpg"
+            },
+            {
+              "videoId": "3yd_eoMOvqk",
+              "title": "MC Kevinho - Olha a Explosão (KondZilla) | Official Music Video",
+              "views": 1295090352,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/3yd_eoMOvqk/hq720.jpg"
+            },
+            {
+              "videoId": "G3Z2D_HxDNg",
+              "title": "MC Fioti - Bum Bum Tam Tam (KondZilla) | Official Lyrics Video",
+              "views": 9656092,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/G3Z2D_HxDNg/hqdefault.jpg"
+            },
+            {
+              "videoId": "jHHBP_Zlb20",
+              "title": "Topo La Maskara, MC Fioti - Panda Pon",
+              "views": 8362580,
+              "duration": "2:50",
+              "thumbnail": "https://i.ytimg.com/vi/jHHBP_Zlb20/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "MC Kevinho",
+          "channel": {
+            "id": "UCRxAbWkaLIVlyOy3N9QHm6w",
+            "name": "Kevinho",
+            "image": "https://yt3.googleusercontent.com/gsKY1TSDKCQJhOhpivupYwzafHMd1W4LdYpOVsiznoUs_gEG5iz1QUP3m0q7YQqAZCE2Omo-HQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6460000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "3yd_eoMOvqk",
+              "title": "MC Kevinho - Olha a Explosão (KondZilla) | Official Music Video",
+              "views": 1295090352,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/3yd_eoMOvqk/hq720.jpg"
+            },
+            {
+              "videoId": "-PH4S7IPQxU",
+              "title": "MC Kevinho - O Grave Bater  [Sintonia Soundtrack] (KondZilla)",
+              "views": 714648600,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/-PH4S7IPQxU/hq720.jpg"
+            },
+            {
+              "videoId": "tXFyeIjwQUw",
+              "title": "MC Kevinho - Rabiola (KondZilla)",
+              "views": 318734394,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/tXFyeIjwQUw/hq720.jpg"
+            },
+            {
+              "videoId": "O65FBF9RamQ",
+              "title": "Anitta & Kevinho - Terremoto [Official Music Video]",
+              "views": 366950584,
+              "duration": "2:36",
+              "thumbnail": "https://i.ytimg.com/vi/O65FBF9RamQ/hq720.jpg"
+            },
+            {
+              "videoId": "Btyfrd-UtSw",
+              "title": "Kevinho e MC Kekel - O Bebê (kondzilla.com) | Official Music Video",
+              "views": 440947220,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/Btyfrd-UtSw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "MC Livinho",
+          "channel": {
+            "id": "UCuSargZazuHgL_ob-M9ckHQ",
+            "name": "Canal MC Livinho",
+            "image": "https://yt3.googleusercontent.com/Y2QQu4oemi5wZoPmTjdO0ryyFca_fDewEZ2GPyyy4yj0l2jN97Dcp09BWlny7tfLjXIGTFwYnQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3530000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1fdv0OIhzzA",
+              "title": "MC Livinho - Cheia de Marra (KondZilla) | Official Music Video",
+              "views": 527845325,
+              "duration": "5:37",
+              "thumbnail": "https://i.ytimg.com/vi/1fdv0OIhzzA/hq720.jpg"
+            },
+            {
+              "videoId": "XjxI5Qvpptc",
+              "title": "MC Livinho e MC Pedrinho - Se Saudade Sentir (Se prepara 3) (Prod. Dj Perera e DJ JB Mix)",
+              "views": 12194457,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/XjxI5Qvpptc/hq720.jpg"
+            },
+            {
+              "videoId": "kDfR4yI9TSY",
+              "title": "MC Livinho e DJ Guuga - Pode Sentar - Eu Tô Vidrado Em Você (Videoclipe Oficial)",
+              "views": 37012096,
+              "duration": "2:19",
+              "thumbnail": "https://i.ytimg.com/vi/kDfR4yI9TSY/hq720.jpg"
+            },
+            {
+              "videoId": "bUeuvDCrqr0",
+              "title": "MC Livinho - Fazer Falta (Videoclipe Oficial) Perera DJ",
+              "views": 66293741,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/bUeuvDCrqr0/hq720.jpg"
+            },
+            {
+              "videoId": "VklymStK1Vo",
+              "title": "DJ TOPO, LIVINHO - MTG NA IMAGINAÇÃO (TOPO SESSIONS VOL.1)",
+              "views": 147432676,
+              "duration": "2:24",
+              "thumbnail": "https://i.ytimg.com/vi/VklymStK1Vo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Maiara e Maraisa",
+          "channel": {
+            "id": "UCULzCZWkkOb9dW8rr6dguQQ",
+            "name": "Maiara e Maraisa",
+            "image": "https://yt3.googleusercontent.com/VVl9RrhRuYGOznIacv3Oz5r90I9Xvc_OFsV-i4wuJVrrLIXZbxs8hPAQW_8tcVsLvkuC1VriEg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "JvqBpWtoLqk",
+              "title": "Maiara e Maraisa - Narcisista - Ao Vivo em Portugal",
+              "views": 254055163,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/JvqBpWtoLqk/hq720.jpg"
+            },
+            {
+              "videoId": "JybMBMTHWP8",
+              "title": "Maiara & Maraisa - 10% (Ao Vivo em Goiânia)",
+              "views": 532088966,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/JybMBMTHWP8/hq720.jpg"
+            },
+            {
+              "videoId": "Jzl_nrTkfIM",
+              "title": "Maiara & Maraisa - Medo Bobo (Ao Vivo em Goiânia)",
+              "views": 722560930,
+              "duration": "2:55",
+              "thumbnail": "https://i.ytimg.com/vi/Jzl_nrTkfIM/hq720.jpg"
+            },
+            {
+              "videoId": "YSI8PDrdLuU",
+              "title": "Maiara & Maraisa - FAREWELL AND RETURN | BETTER THAN I IMAGINED",
+              "views": 29709,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/YSI8PDrdLuU/hq720.jpg"
+            },
+            {
+              "videoId": "KY_6FYsX6wo",
+              "title": "Maiara e Maraisa - Aí Eu bebo - EP Aqui Em Casa",
+              "views": 301301280,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/KY_6FYsX6wo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mano Walter",
+          "channel": {
+            "id": "UCVMZ4ElJeNP2w_ncofb3DRw",
+            "name": "Mano Walter",
+            "image": "https://yt3.googleusercontent.com/WN3SWk0CpwZFRPnWz6cdiJETcjQ4m-NbHJ60-3IsLNBsFURNFxQuRQAd7_ZCskVV09sB5BtF=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5500000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "HJqrbPC6bXM",
+              "title": "Mano Walter - O Que Houve? ft. Marília Mendonça",
+              "views": 510789267,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/HJqrbPC6bXM/hq720.jpg"
+            },
+            {
+              "videoId": "htrlDVrF4vw",
+              "title": "Mano Walter - Não Deixo Não",
+              "views": 497504415,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/htrlDVrF4vw/hq720.jpg"
+            },
+            {
+              "videoId": "_9IYiAE_au8",
+              "title": "Mano Walter e Fagner - Sem Deus É Ruim (Clipe Oficial)",
+              "views": 16122,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/_9IYiAE_au8/hq720.jpg"
+            },
+            {
+              "videoId": "FtDRSP4P5AU",
+              "title": "Mano Walter - Então Vem Cá part. Claudia Leitte (Ao Vivo em São Paulo) [Vídeo Oficial]",
+              "views": 135714609,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/FtDRSP4P5AU/hq720.jpg"
+            },
+            {
+              "videoId": "9AzLCfvuNOM",
+              "title": "MANO WALTER - CD ATUALIZADO MUSICAS NOVAS 2025",
+              "views": 78304,
+              "duration": "58:47",
+              "thumbnail": "https://i.ytimg.com/vi/9AzLCfvuNOM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Marilia Mendonca",
+          "channel": {
+            "id": "UCwfEOn0O1DWcyTgzVVu28ig",
+            "name": "Marília Mendonça",
+            "image": "https://yt3.googleusercontent.com/EkmbsLoiGniQB9dNKKXCs2tvy3RSqmWMrjnwcDbr-EgL9wqMJXsvQdySSwQojvzT6841JWhljQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 27500000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "eCyMh-mZ1B0",
+              "title": "Marília Mendonça - Infiel (Vídeo Oficial)",
+              "views": 675109648,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/eCyMh-mZ1B0/hq720.jpg"
+            },
+            {
+              "videoId": "g_Dx8vhI3z0",
+              "title": "Marília Mendonça - Os Sucessos da Rainha (Vídeo Oficial)",
+              "views": 17316424,
+              "duration": "1:31:16",
+              "thumbnail": "https://i.ytimg.com/vi/g_Dx8vhI3z0/hq720.jpg"
+            },
+            {
+              "videoId": "Dt13Wv6Opeo",
+              "title": "Marília Mendonça - Foi Por Conveniência (Não Foi Por Amor) (Vídeo Oficial)",
+              "views": 135180213,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/Dt13Wv6Opeo/hq720.jpg"
+            },
+            {
+              "videoId": "lmXo83Adl7g",
+              "title": "Marília Mendonça - DVD \"Marília Mendonça Ao Vivo\" Completo (Vídeo Oficial)",
+              "views": 3780915,
+              "duration": "50:19",
+              "thumbnail": "https://i.ytimg.com/vi/lmXo83Adl7g/hq720.jpg"
+            },
+            {
+              "videoId": "JPWjJlNtE_w",
+              "title": "Marília Mendonça - Como Faz Com Ela (Vídeo Oficial)",
+              "views": 351674367,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/JPWjJlNtE_w/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Matheus e Kauan",
+          "channel": {
+            "id": "UC4WvVh0AwJ6K9w1JLepce7A",
+            "name": "Matheus e Kauan",
+            "image": "https://yt3.googleusercontent.com/7UYqxk-_LKrIaANrSId0JQulYeasCxZbgDj2P0csyvVtPRdUkdgcPX6y6t8lADvdpUfXlxl7Vg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 11300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "KtlnDbWkQEM",
+              "title": "Matheus & Kauan - As melhores",
+              "views": 22972477,
+              "duration": "1:01:42",
+              "thumbnail": "https://i.ytimg.com/vi/KtlnDbWkQEM/hq720.jpg"
+            },
+            {
+              "videoId": "IJmxyfbRg0A",
+              "title": "Matheus & Kauan - Vou Ter Que Superar (Ao Vivo) ft. Marília Mendonça",
+              "views": 834860789,
+              "duration": "3:07",
+              "thumbnail": "https://i.ytimg.com/vi/IJmxyfbRg0A/hq720.jpg"
+            },
+            {
+              "videoId": "BEz8l69aI8Y",
+              "title": "Matheus & Kauan - Quarta Cadeira (Ao Vivo Em Goiânia / 2018) ft. Jorge & Mateus",
+              "views": 743378289,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/BEz8l69aI8Y/hq720.jpg"
+            },
+            {
+              "videoId": "BkpqU3gdjlw",
+              "title": "Matheus & Kauan - Que Sorte A Nossa",
+              "views": 427868666,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/BkpqU3gdjlw/hq720.jpg"
+            },
+            {
+              "videoId": "pRgCcgbjVDA",
+              "title": "Matheus & Kauan - Decide Aí - Na Praia Ao Vivo",
+              "views": 368310459,
+              "duration": "2:43",
+              "thumbnail": "https://i.ytimg.com/vi/pRgCcgbjVDA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Michel Telo",
+          "channel": {
+            "id": "UCs0vNuS1IQ0hCMgrD8ACjAg",
+            "name": "Michel Teló",
+            "image": "https://yt3.googleusercontent.com/JzKOdYyYwMz1qJYfaIPtPjeaLR1rRaYF9A6KeFKCwAYF2R_igQKHCVez4E7oL6I1EyHnCtuZFGM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3380000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "hcm55lU9knw",
+              "title": "Michel Teló - Ai Se Eu Te Pego -  Video Oficial (Assim você me mata)",
+              "views": 1269137644,
+              "duration": "2:46",
+              "thumbnail": "https://i.ytimg.com/vi/hcm55lU9knw/hq720.jpg"
+            },
+            {
+              "videoId": "gEiqSUzQ1fo",
+              "title": "MICHEL TELÓ - BARÁ BERÊ  [CLIPE OFICIAL]",
+              "views": 156115624,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/gEiqSUzQ1fo/hq720.jpg"
+            },
+            {
+              "videoId": "CwC5BFX7rqQ",
+              "title": "IF I CATCH YOU - VIDEO OFICIAL - MICHEL TELÓ (AI SE EU TE PEGO)",
+              "views": 47546931,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/CwC5BFX7rqQ/hq720.jpg"
+            },
+            {
+              "videoId": "ogD8UDiMe1g",
+              "title": "Michel Teló - Humilde Residência [VIDEO OFICIAL]",
+              "views": 66068765,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/ogD8UDiMe1g/hq720.jpg"
+            },
+            {
+              "videoId": "ALRxqOpMewE",
+              "title": "Michel Teló - Ai Se Eu Te Pego (Letra/Lyrics)",
+              "views": 2124418,
+              "duration": "2:46",
+              "thumbnail": "https://i.ytimg.com/vi/ALRxqOpMewE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pabllo Vittar",
+          "channel": {
+            "id": "UCugD1HAP3INAiXo70S_sAFQ",
+            "name": "Pabllo Vittar",
+            "image": "https://yt3.googleusercontent.com/kJMCFjbIJZmdJtI-EJO8w52GsXPzRseHHLNvEq-iyGHHXvApkfto9NMY-YhniJWug0R1hUXRlG4=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8039999.999999999,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "qVqFuokjRMc",
+              "title": "SEVDALIZA - ALIBI FT. PABLLO VITTAR & YSEULT (OFFICIAL MUSIC VIDEO)",
+              "views": 265422950,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/qVqFuokjRMc/hq720.jpg"
+            },
+            {
+              "videoId": "0zgJgsbcAN8",
+              "title": "Pabllo Vittar, NMIXX - MEXE (Official Music Video)",
+              "views": 7006683,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/0zgJgsbcAN8/hq720.jpg"
+            },
+            {
+              "videoId": "1tkjwhhYIFU",
+              "title": "NMIXX(엔믹스) “TIC TIC (feat. Pabllo Vittar)” M/V",
+              "views": 5085774,
+              "duration": "2:24",
+              "thumbnail": "https://i.ytimg.com/vi/1tkjwhhYIFU/hq720.jpg"
+            },
+            {
+              "videoId": "omzk3klIy0E",
+              "title": "Major Lazer - Sua Cara (Feat. Anitta & Pabllo Vittar) [Official Music Video]",
+              "views": 604131936,
+              "duration": "2:47",
+              "thumbnail": "https://i.ytimg.com/vi/omzk3klIy0E/hq720.jpg"
+            },
+            {
+              "videoId": "rZVhR399IoA",
+              "title": "Pabllo Vittar ft. Charli XCX - Flash Pose (Official Music Video)",
+              "views": 31818768,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/rZVhR399IoA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pedro Sampaio",
+          "channel": {
+            "id": "UCMbytiCiUSKLHhikpOIsbxQ",
+            "name": "PEDRO SAMPAIO",
+            "image": "https://yt3.googleusercontent.com/n5v81FuZB87vE7e1bKeAYfhpP7u6qGlrPmGH-bdSIs_s6uUmJsMWL3l754_6P6B47u82xJ6rgfs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5360000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "_zKnEm9xPWw",
+              "title": "PEDRO SAMPAIO - SEQUÊNCIA FEITICEIRA feat MC GW, MC Rodrigo do CN, MC Jhey, MC Nito",
+              "views": 195706384,
+              "duration": "2:10",
+              "thumbnail": "https://i.ytimg.com/vi/_zKnEm9xPWw/hq720.jpg"
+            },
+            {
+              "videoId": "7CF5qbw8zec",
+              "title": "PEDRO SAMPAIO, MC Meno K, Melody - JETSKI",
+              "views": 147681959,
+              "duration": "2:28",
+              "thumbnail": "https://i.ytimg.com/vi/7CF5qbw8zec/hq720.jpg"
+            },
+            {
+              "videoId": "7Yh7S7xKdtk",
+              "title": "PEDRO SAMPAIO - SEQUÊNCIA STRIPTEASE feat MC GW, MC Talibã, MC Debby",
+              "views": 36612829,
+              "duration": "2:25",
+              "thumbnail": "https://i.ytimg.com/vi/7Yh7S7xKdtk/hq720.jpg"
+            },
+            {
+              "videoId": "xjcPhHkM7bA",
+              "title": "PEDRO SAMPAIO | LET HIM COOK radio - Brazilian Funk",
+              "views": 312732,
+              "duration": "1:19:01",
+              "thumbnail": "https://i.ytimg.com/vi/xjcPhHkM7bA/hq720.jpg"
+            },
+            {
+              "videoId": "QYyAVW84rpk",
+              "title": "PEDRO SAMPAIO - GALOPA (COREOGRAFIA OFICIAL)",
+              "views": 253977846,
+              "duration": "2:18",
+              "thumbnail": "https://i.ytimg.com/vi/QYyAVW84rpk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Projota",
+          "channel": {
+            "id": "UCbLZdchhrM7oceoT5_DsWsQ",
+            "name": "Projota Oficial",
+            "image": "https://yt3.googleusercontent.com/wqwwM5rnWHk2Qa2VqZdd3QByCDvAA2ltlizuaZwDH7pvrVIVHI0fZ0A1sL3Qh4DkqrrPUD5p1g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "kzLESxMqnTg",
+              "title": "Projota - Muleque De Vila (Ao Vivo)",
+              "views": 539815822,
+              "duration": "4:44",
+              "thumbnail": "https://i.ytimg.com/vi/kzLESxMqnTg/hq720.jpg"
+            },
+            {
+              "videoId": "SBs_pd1QQu8",
+              "title": "Projota - Ela Só Quer Paz",
+              "views": 281916893,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/SBs_pd1QQu8/hq720.jpg"
+            },
+            {
+              "videoId": "44Qg63RfEG0",
+              "title": "Projota - Pra Não Dizer Que Não Falei Do Ódio (Ao Vivo)",
+              "views": 132751007,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/44Qg63RfEG0/hq720.jpg"
+            },
+            {
+              "videoId": "KiNn1JtXhGE",
+              "title": "Projota - Oh Meu Deus",
+              "views": 114979910,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/KiNn1JtXhGE/hq720.jpg"
+            },
+            {
+              "videoId": "Yyzu2yfdZtY",
+              "title": "Projota - O Homem Que Não Tinha Nada (Ao Vivo)",
+              "views": 107408350,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/Yyzu2yfdZtY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Simone e Simaria",
+          "channel": {
+            "id": "UCSriAVggapS9Fb43fRB2vyQ",
+            "name": "Simone e Simaria",
+            "image": "https://yt3.googleusercontent.com/no_HUtPBR6P8YkGnDQcC7QQ-hvFthiKQyy_QxE60P1c_R5udAKeheWLrfgU-NolyzzpqrOsGXys=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 11700000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "bgf18kANm_k",
+              "title": "Simone & Simaria, Zé Felipe - Vontade de Morder",
+              "views": 309237377,
+              "duration": "2:36",
+              "thumbnail": "https://i.ytimg.com/vi/bgf18kANm_k/hq720.jpg"
+            },
+            {
+              "videoId": "G8xc80bWKzI",
+              "title": "Simone & Simaria - Foi Pá Pum",
+              "views": 376010399,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/G8xc80bWKzI/hq720.jpg"
+            },
+            {
+              "videoId": "wn_7FY82uP0",
+              "title": "Simone & Simaria - Regime Fechado",
+              "views": 226400949,
+              "duration": "4:27",
+              "thumbnail": "https://i.ytimg.com/vi/wn_7FY82uP0/hq720.jpg"
+            },
+            {
+              "videoId": "O0fV4xNbHOg",
+              "title": "KAROL G, Simone & Simaria - La Vida Continuó",
+              "views": 124716953,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/O0fV4xNbHOg/hq720.jpg"
+            },
+            {
+              "videoId": "48s6RGU1dr0",
+              "title": "Simone & Simaria - Amiga",
+              "views": 191017706,
+              "duration": "2:17",
+              "thumbnail": "https://i.ytimg.com/vi/48s6RGU1dr0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Solange Almeida",
+          "channel": {
+            "id": "UCmefFmh-DKDUoxH67_b-5Vg",
+            "name": "Solange Almeida",
+            "image": "https://yt3.googleusercontent.com/7saWzalMeJQmZ3MhaLNk0_qhoHEQf2Vhz2lI5R22wDvD_3yLao91pMXzD-oRKfRC-lc0v3rtgQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1480000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "DML990_HbqY",
+              "title": "Solange Almeida - Se Não Valorizar (Umbrella)",
+              "views": 26334057,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/DML990_HbqY/hq720.jpg"
+            },
+            {
+              "videoId": "EKyqAHf7Mnw",
+              "title": "Solange Almeida - Sinceramente (Ao Vivo) ft. Gusttavo Lima",
+              "views": 47432637,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/EKyqAHf7Mnw/hq720.jpg"
+            },
+            {
+              "videoId": "NugscPfz71w",
+              "title": "Solange Almeida, João Gomes - Se Quiser é Assim (Ao Vivo em Fortaleza)",
+              "views": 9257010,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/NugscPfz71w/hq720.jpg"
+            },
+            {
+              "videoId": "g0m7hof3KFE",
+              "title": "Solange Almeida - Luxo (Ao Vivo) ft. Anitta",
+              "views": 8300667,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/g0m7hof3KFE/hq720.jpg"
+            },
+            {
+              "videoId": "q-3GgzpUxfo",
+              "title": "Solange Almeida - Revoltada (Ao Vivo) ft. Ivete Sangalo",
+              "views": 29737078,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/q-3GgzpUxfo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tayrone",
+          "channel": {
+            "id": "UCHl1u_R6WCYfPGixrChPGPg",
+            "name": "Tayrone",
+            "image": "https://yt3.googleusercontent.com/u1GHYgoGmHtpvHswicAxcD9xC8cQQAmb94nktgMDwuX0IjG63DYOMHCtqVcwfjD7_WF2LBGaSrE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1950000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "jW7j41mbxXU",
+              "title": "Tayrone - Cê Tá Preparada (Ao Vivo Em Goiânia / 2021) ft. Marília Mendonça",
+              "views": 916781931,
+              "duration": "3:32",
+              "thumbnail": "https://i.ytimg.com/vi/jW7j41mbxXU/hq720.jpg"
+            },
+            {
+              "videoId": "_7xaMCpAS_U",
+              "title": "Tayrone - Volte amor (DVD ESSÊNCIA)",
+              "views": 4318059,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/_7xaMCpAS_U/hq720.jpg"
+            },
+            {
+              "videoId": "ldi5jt2qFxE",
+              "title": "Tayrone - Dieta Forçada (Ao Vivo Em Goiânia / 2021)",
+              "views": 14959375,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/ldi5jt2qFxE/hq720.jpg"
+            },
+            {
+              "videoId": "XDB85ianmsI",
+              "title": "Tayrone - DVD ESSÊNCIA COMPLETO",
+              "views": 4726662,
+              "duration": "1:13:54",
+              "thumbnail": "https://i.ytimg.com/vi/XDB85ianmsI/hq720.jpg"
+            },
+            {
+              "videoId": "x-xs5RstEEY",
+              "title": "TAYRONE - BIPOLAR",
+              "views": 3324493,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/x-xs5RstEEY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Thiaguinho",
+          "channel": {
+            "id": "UCEnQ70n_hbsUmYXN9R11aSQ",
+            "name": "Thiaguinho",
+            "image": "https://yt3.googleusercontent.com/3BQlw3JFs8-9azwrcioWn7NP35yHGG84-sliCpEiTjq0TxrO1It6IotcNBHHCEFAjlGZrY9-4w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3360000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "kq-0xb-M_e0",
+              "title": "Thiaguinho - Bem Black Ao Vivo (Filme Concerto)",
+              "views": 58264,
+              "duration": "1:25:08",
+              "thumbnail": "https://i.ytimg.com/vi/kq-0xb-M_e0/hq720.jpg"
+            },
+            {
+              "videoId": "Qj-qS4aV0UY",
+              "title": "Thiaguinho - Falta Você (Infinito Vol. 2) [Vídeo Oficial]",
+              "views": 107500794,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/Qj-qS4aV0UY/hq720.jpg"
+            },
+            {
+              "videoId": "6OiloPQfjkg",
+              "title": "Thiaguinho - Tardezinha 10 Anos (Ao Vivo)",
+              "views": 6658276,
+              "duration": "41:56",
+              "thumbnail": "https://i.ytimg.com/vi/6OiloPQfjkg/hq720.jpg"
+            },
+            {
+              "videoId": "fX-pB-s52LY",
+              "title": "Thiaguinho - Deixa Tudo Como Tá (Clipe Oficial)",
+              "views": 124175749,
+              "duration": "3:33",
+              "thumbnail": "https://i.ytimg.com/vi/fX-pB-s52LY/hq720.jpg"
+            },
+            {
+              "videoId": "XXO8a0465Bc",
+              "title": "Thiaguinho - Buquê de Flores",
+              "views": 39764640,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/XXO8a0465Bc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Vintage Culture",
+          "channel": {
+            "id": "UC4N1snt2b0d83vOkvaWP6mg",
+            "name": "Vintage Culture",
+            "image": "https://yt3.googleusercontent.com/QEtxYWbon1TDZ7qTalJ5juIVVYBbshyBkmtyAwchNnnlNPAnC2z3vyZEj0IsBm8-M0QqnnIQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1250000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "xXRjglkAmq8",
+              "title": "Vintage Culture @ Ultra Music Festival Miami 2026 - Resistance Megastructure",
+              "views": 1258976,
+              "duration": "1:29:04",
+              "thumbnail": "https://i.ytimg.com/vi/xXRjglkAmq8/hq720.jpg"
+            },
+            {
+              "videoId": "qvCh6t-7ouo",
+              "title": "Vintage Culture | Awakenings Festival 2025",
+              "views": 688191,
+              "duration": "1:31:22",
+              "thumbnail": "https://i.ytimg.com/vi/qvCh6t-7ouo/hq720.jpg"
+            },
+            {
+              "videoId": "HLDMs7_miOc",
+              "title": "Vintage Culture @ DNA ART CAR 2025 - Camboriú, Brazil",
+              "views": 1946333,
+              "duration": "5:51:23",
+              "thumbnail": "https://i.ytimg.com/vi/HLDMs7_miOc/hq720.jpg"
+            },
+            {
+              "videoId": "IaU7-9NYP_0",
+              "title": "Vintage Culture, Volkoder - Hands Up [AFFAIRS 011]",
+              "views": 30780,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/IaU7-9NYP_0/hq720.jpg"
+            },
+            {
+              "videoId": "6fDabPCarSY",
+              "title": "Vintage Culture live @ DNA Art Car, Campinas, São Paulo, Brasil Full 9h Set 2026",
+              "views": 655104,
+              "duration": "8:54:03",
+              "thumbnail": "https://i.ytimg.com/vi/6fDabPCarSY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Vitor Kley",
+          "channel": {
+            "id": "UCy9mF52-GP9NqOmfR0g9ukg",
+            "name": "Vitor Kley",
+            "image": "https://yt3.googleusercontent.com/QDbWd3qMDQhXWEywwMLVyhCnoyfX7GKll7yP9lFDswNvW8qO7doH-JLXeGrEXlO79-7hubtuQ74=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 311000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "n--U89q_eWs",
+              "title": "Vitor Kley #OnTour – Novo Hamburgo/RS",
+              "views": 1170,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/n--U89q_eWs/hq720_custom_3.jpg"
+            },
+            {
+              "videoId": "YVJijQIualA",
+              "title": "Vitor Kley  - O Sol  (Videoclipe Oficial)",
+              "views": 328088224,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/YVJijQIualA/hq720.jpg"
+            },
+            {
+              "videoId": "UBJEA5eSIG4",
+              "title": "Vitor Kley  - A Bolha Ao Vivo em São Paulo (Show Completo)",
+              "views": 364554,
+              "duration": "1:17:21",
+              "thumbnail": "https://i.ytimg.com/vi/UBJEA5eSIG4/hq720.jpg"
+            },
+            {
+              "videoId": "lndsIgAwbY8",
+              "title": "Vitor Kley - Como Se Fosse Ontem (Microfonado)",
+              "views": 5471103,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/lndsIgAwbY8/hq720.jpg"
+            },
+            {
+              "videoId": "4Sv66qB4YwU",
+              "title": "Vitor Kley & Bruno Martini - Morena (Videoclipe Oficial)",
+              "views": 135261062,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/4Sv66qB4YwU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Wesley Safadao",
+          "channel": {
+            "id": "UCciJLMuECsXuOyhA4FO48Sg",
+            "name": "Wesley Safadão",
+            "image": "https://yt3.googleusercontent.com/OlTyUptzqzft7Oe5VBWbS4mdcYPAKdBta7IKgbtpZ620_tEV0DufAEGrD1sGHDKibcjOS14y=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 14700000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "clLsm7cAx5Q",
+              "title": "Wesley Safadão e Xand Avião - O Rei das Vaquejadas/Não Sou Vaqueiro/ÉoBoi, o Cavalo e o Vaqueiro/...",
+              "views": 36899587,
+              "duration": "8:09",
+              "thumbnail": "https://i.ytimg.com/vi/clLsm7cAx5Q/hq720.jpg"
+            },
+            {
+              "videoId": "yvsIGghXBNI",
+              "title": "Wesley Safadão and Silvânia Aquino (Silvânia and Berg) - Total Eclipse - My Forró Is the World",
+              "views": 5371132,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/yvsIGghXBNI/hq720.jpg"
+            },
+            {
+              "videoId": "6clv0h4SwO8",
+              "title": "Wesley Safadão e Natanzinho Lima - Mentira Estampada - Arrocha Safadão",
+              "views": 86048723,
+              "duration": "2:53",
+              "thumbnail": "https://i.ytimg.com/vi/6clv0h4SwO8/hq720.jpg"
+            },
+            {
+              "videoId": "6CI8FE15AlU",
+              "title": "Wesley Safadão - Ressaca de Saudade [DVD WS In Miami Beach]",
+              "views": 108581835,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/6CI8FE15AlU/hq720.jpg"
+            },
+            {
+              "videoId": "PvM_YAabhkk",
+              "title": "Wesley Safadão - Seis Cordas - Baião de Dois - Cavalo Lampião - Forró e Vaquejada",
+              "views": 71419591,
+              "duration": "5:15",
+              "thumbnail": "https://i.ytimg.com/vi/PvM_YAabhkk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Xand Aviao",
+          "channel": {
+            "id": "UCfuRRJ76VluLiHW2pqwZNwg",
+            "name": "Xand Avião",
+            "image": "https://yt3.googleusercontent.com/XkOQOPHT22h2URowYz0GdSZLlZhxnw8u3kKwDLzfm5vyWgr9pOjeTqG-ftKCEVV8zAqz8Gl38Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tvPSPkugS7A",
+              "title": "Xand Avião e @TalitaMelll - Melzinho (Vídeo Oficial)",
+              "views": 126866157,
+              "duration": "2:27",
+              "thumbnail": "https://i.ytimg.com/vi/tvPSPkugS7A/hq720.jpg"
+            },
+            {
+              "videoId": "A4iEEYvETe8",
+              "title": "Xand Avião Ao Vivo ( DVD - Xand's Bar ) João Pessoa / PB",
+              "views": 67055,
+              "duration": "1:26:31",
+              "thumbnail": "https://i.ytimg.com/vi/A4iEEYvETe8/hq720.jpg"
+            },
+            {
+              "videoId": "vAM1xXdRnH0",
+              "title": "Matheus Fernandes e Xand Avião - Balanço da Rede (Clipe Oficial)",
+              "views": 292203367,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/vAM1xXdRnH0/hq720.jpg"
+            },
+            {
+              "videoId": "9-ZXTYKAeUI",
+              "title": "Xand Avião - Aviões - Inquilina (Álbum Xperience) [Vídeo Oficial]",
+              "views": 385407091,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/9-ZXTYKAeUI/hq720.jpg"
+            },
+            {
+              "videoId": "6Bc5gLGeI20",
+              "title": "Xand Avião feat. Gusttavo Lima - Algo Mais (Amante) (DVD: Errejota) [Clipe Oficial]",
+              "views": 425995465,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/6Bc5gLGeI20/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ze Neto e Cristiano",
+          "channel": {
+            "id": "UCRRu9OXVYd5clj2Bs29gUVQ",
+            "name": "Zé Neto e Cristiano",
+            "image": "https://yt3.googleusercontent.com/vAAQJPlw4Q-hla9eZOPwTOBGmLg3rC-43MWAFRQsror0WXeTPxJ5CcCiAKFxd_br0S1ETfLgUg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 16200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "rYKOuKaWEjg",
+              "title": "Zé Neto e Cristiano - NOTIFICAÇÃO PREFERIDA - #EsqueceOMundoLaFora",
+              "views": 985339373,
+              "duration": "3:09",
+              "thumbnail": "https://i.ytimg.com/vi/rYKOuKaWEjg/hq720.jpg"
+            },
+            {
+              "videoId": "vWO2Ui3vHbQ",
+              "title": "Zé Neto e Cristiano - Oi, tudo bem? (Vocês e Deus)",
+              "views": 27775149,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/vWO2Ui3vHbQ/hq720.jpg"
+            },
+            {
+              "videoId": "lBDDMrUCz1A",
+              "title": "Zé Neto and Cristiano - Reserved Seat (You and God)",
+              "views": 26747437,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/lBDDMrUCz1A/hq720.jpg"
+            },
+            {
+              "videoId": "WcTRQXtXJPs",
+              "title": "Zé Neto e Cristiano - LARGADO ÀS TRAÇAS - Zé Neto e Cristiano Acústico",
+              "views": 1039487948,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/WcTRQXtXJPs/hq720.jpg"
+            },
+            {
+              "videoId": "0Xat2Vfk7p0",
+              "title": "Zé Neto e Cristiano - BEBIDA NA FERIDA - #EsqueceOMundoLaFora",
+              "views": 386214058,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/0Xat2Vfk7p0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    },
+    "gospel": {
+      "count": 25,
+      "artists": [
+        {
+          "name": "Aline Barros",
+          "channel": {
+            "id": "UCK_FvuzJN7rP4k2Ppwnvj5g",
+            "name": "Aline Barros",
+            "image": "https://yt3.googleusercontent.com/AfzZmnDs6DwZ6yrh7ErvFzbrtqCv_pApkpRAuyR_mRP5kBJv8PSxkztplVfcZVnN8hVU5mWD-A=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dc6oADkbQSw",
+              "title": "Aline Barros - Ressuscita-me (Clipe Oficial MK Music HD)",
+              "views": 132073741,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/dc6oADkbQSw/hq720.jpg"
+            },
+            {
+              "videoId": "1YXCbXj0V6o",
+              "title": "Aline Barros - AS MELHORES (Músicas Mais Tocadas) Atualizada 2024",
+              "views": 8370582,
+              "duration": "1:58:42",
+              "thumbnail": "https://i.ytimg.com/vi/1YXCbXj0V6o/hq720.jpg"
+            },
+            {
+              "videoId": "YyFd_dXy494",
+              "title": "Aline Barros - Jeová Jireh (Clipe Oficial)",
+              "views": 202949400,
+              "duration": "8:44",
+              "thumbnail": "https://i.ytimg.com/vi/YyFd_dXy494/hq720.jpg"
+            },
+            {
+              "videoId": "eAkTwFUSHx8",
+              "title": "ALINE BARROS As melhores musicas gospel para abençoar sua vida 2025🙏 #gospel #1",
+              "views": 125613,
+              "duration": "1:51:22",
+              "thumbnail": "https://i.ytimg.com/vi/eAkTwFUSHx8/hq720.jpg"
+            },
+            {
+              "videoId": "-liljRfI-UQ",
+              "title": "Aline Barros - Recomeçar (Vídeo Ao Vivo)",
+              "views": 20371561,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/-liljRfI-UQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ana Paula Valadao",
+          "channel": {
+            "id": "UCmofVw_WgKPDy3pEiXLskug",
+            "name": "Diante do Trono",
+            "image": "https://yt3.googleusercontent.com/SNnnfPQAgMJsbPUuqW8kRgW1OeREJ2sWqgCTm2fdHHCfs8sFtcT3nZldWfTek1L6uSMTegyD5g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1860000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "XRB1MZVgGnE",
+              "title": "Preciso de Ti (Ao Vivo) - Diante do Trono, Ana Paula Valadão",
+              "views": 16416467,
+              "duration": "6:25",
+              "thumbnail": "https://i.ytimg.com/vi/XRB1MZVgGnE/hq720.jpg"
+            },
+            {
+              "videoId": "D0X9Y0FIn-A",
+              "title": "From the family of origin of Ana Paula Valadão Bessa",
+              "views": 10572,
+              "duration": "40:37",
+              "thumbnail": "https://i.ytimg.com/vi/D0X9Y0FIn-A/hq720.jpg"
+            },
+            {
+              "videoId": "D4hIbkHg7ZY",
+              "title": "Diante do Trono | As Mais Tocadas",
+              "views": 2987542,
+              "duration": "1:34:24",
+              "thumbnail": "https://i.ytimg.com/vi/D4hIbkHg7ZY/hq720.jpg"
+            },
+            {
+              "videoId": "lSwiHA8gymg",
+              "title": "Me Ama | DVD Sol da Justiça | Diante do Trono",
+              "views": 41863580,
+              "duration": "14:28",
+              "thumbnail": "https://i.ytimg.com/vi/lSwiHA8gymg/hq720.jpg"
+            },
+            {
+              "videoId": "JFaQqLQjVx0",
+              "title": "Ana Paula Valadão is outraged by a news report linking her to Lagoinha, and André Valadão reacts.",
+              "views": 153108,
+              "duration": "9:22",
+              "thumbnail": "https://i.ytimg.com/vi/JFaQqLQjVx0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Anderson Freire",
+          "channel": {
+            "id": "UCWuRgwQ5WhZOYkq_gA-aMjQ",
+            "name": "Anderson Freire",
+            "image": "https://yt3.googleusercontent.com/GRHmk5CULdNmn6Vm_0263oLaLvQ5lhJBNJBBeMDzOq-p4haAm7OAf6dHTj7if8iA-l1q-m_xSg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1540000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Tqdi6BZUWr4",
+              "title": "Anderson Freire - Rarity (Live)",
+              "views": 355175862,
+              "duration": "5:00",
+              "thumbnail": "https://i.ytimg.com/vi/Tqdi6BZUWr4/hq720.jpg"
+            },
+            {
+              "videoId": "8-NENGO7R1c",
+              "title": "Anderson Freire feat. Gisele - The Treasure Map (Live)",
+              "views": 219065621,
+              "duration": "5:12",
+              "thumbnail": "https://i.ytimg.com/vi/8-NENGO7R1c/hq720.jpg"
+            },
+            {
+              "videoId": "WdYO0JtOm0A",
+              "title": "Anderson Freire - Raridade - COM LETRA VideoLETRA®",
+              "views": 66866749,
+              "duration": "4:55",
+              "thumbnail": "https://i.ytimg.com/vi/WdYO0JtOm0A/hq720.jpg"
+            },
+            {
+              "videoId": "Hi9y53ymQO4",
+              "title": "Anderson Freire - Coração Valente (Clipe Oficial MK Music em HD)",
+              "views": 15281354,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/Hi9y53ymQO4/hq720.jpg"
+            },
+            {
+              "videoId": "9ndSkDQCtaU",
+              "title": "Anderson Freire e Banda Giom - Primeira Essência (Ao Vivo) - DVD Essência",
+              "views": 74936895,
+              "duration": "5:25",
+              "thumbnail": "https://i.ytimg.com/vi/9ndSkDQCtaU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Andre Valadao",
+          "channel": {
+            "id": "UCNNy0H6nBf9MNu889VvsCUw",
+            "name": "Andre Valadao",
+            "image": "https://yt3.googleusercontent.com/9lO-GCgOhzR0ucs99-u7rdh7VDuPHvVo7G46vqR4OkWq9lf3MijbkMk6HaKsCJeOPXPJafhdZg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 933000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "6PWUbDhHfqs",
+              "title": "André Valadão  Abraça-me",
+              "views": 80143374,
+              "duration": "5:33",
+              "thumbnail": "https://i.ytimg.com/vi/6PWUbDhHfqs/hqdefault.jpg"
+            },
+            {
+              "videoId": "gwUYIKtejiI",
+              "title": "Andre Valadão | Muralhas com Espontâneo [clipe oficial]",
+              "views": 9317216,
+              "duration": "10:46",
+              "thumbnail": "https://i.ytimg.com/vi/gwUYIKtejiI/hq720.jpg"
+            },
+            {
+              "videoId": "UGGAwiJm4C4",
+              "title": "Andre Valadao - Quero Agradecer (Vídeo Letras)",
+              "views": 7171597,
+              "duration": "4:21",
+              "thumbnail": "https://i.ytimg.com/vi/UGGAwiJm4C4/hq720.jpg"
+            },
+            {
+              "videoId": "qIOHZ1ZOXAw",
+              "title": "André Valadão -  Pela Fé (Ao vivo)",
+              "views": 6317807,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/qIOHZ1ZOXAw/hqdefault.jpg"
+            },
+            {
+              "videoId": "iH1k1zTw4Ug",
+              "title": "NEM TODA VERSÃO É VERDADE | TUDO AV PODCAST #EP01",
+              "views": 11651,
+              "duration": "47:10",
+              "thumbnail": "https://i.ytimg.com/vi/iH1k1zTw4Ug/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bruna Karla",
+          "channel": {
+            "id": "UCGswK3GNF3Yeet6CnGnIv8g",
+            "name": "Bruna Karla",
+            "image": "https://yt3.googleusercontent.com/cVMS8Q6UC7hdems7exGRE0BR_-AyQURfxe4ifUGnYYA9g2g5VxfbHzzFMbq-wU6VvWlWOeVFFQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2930000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "RZtHLSL9WsI",
+              "title": "Bruna Karla - Exodus (Full Album)",
+              "views": 45637,
+              "duration": "1:07:52",
+              "thumbnail": "https://i.ytimg.com/vi/RZtHLSL9WsI/hq720.jpg"
+            },
+            {
+              "videoId": "cQDcVSyhvaY",
+              "title": "Sou Humano | DVD Advogado Fiel | Bruna Karla",
+              "views": 208115137,
+              "duration": "5:00",
+              "thumbnail": "https://i.ytimg.com/vi/cQDcVSyhvaY/hq720.jpg"
+            },
+            {
+              "videoId": "yzAr0XIWN1o",
+              "title": "Eu Sei Que Não Estou Só - Bruna Karla e Anderson Freire | DVD Advogado Fiel",
+              "views": 21726055,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/yzAr0XIWN1o/hq720.jpg"
+            },
+            {
+              "videoId": "vMjfCelw5CA",
+              "title": "Bruna Karla - Everything is Possible (Live) - Full Version with Ministração",
+              "views": 62999899,
+              "duration": "10:27",
+              "thumbnail": "https://i.ytimg.com/vi/vMjfCelw5CA/hq720.jpg"
+            },
+            {
+              "videoId": "te8tOyon9e4",
+              "title": "Que Bom Que Você Chegou  | CD Advogado Fiel | Bruna Karla",
+              "views": 9421025,
+              "duration": "4:29",
+              "thumbnail": "https://i.ytimg.com/vi/te8tOyon9e4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Cassiane",
+          "channel": {
+            "id": "UC1wcNQ6F3neY4JNqo5pS-PQ",
+            "name": "Cassiane",
+            "image": "https://yt3.googleusercontent.com/5dsT-beLxfdrg0h22s01glezXsURCOAI6SyQDfEwOzb8YomWzE2GOQ19KfYmirinLMc8YVkuSA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1280000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "lHEW2BATYgY",
+              "title": "Cassiane - AS MELHORES (Músicas Mais Tocadas) Atualizada 2023",
+              "views": 2847674,
+              "duration": "2:07:34",
+              "thumbnail": "https://i.ytimg.com/vi/lHEW2BATYgY/hq720.jpg"
+            },
+            {
+              "videoId": "cWA81k-7kp0",
+              "title": "Cassiane - Hino da Vitória (Clipe Oficial MK Music)",
+              "views": 62384572,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/cWA81k-7kp0/hq720.jpg"
+            },
+            {
+              "videoId": "-qp_HcBPwCc",
+              "title": "Cassiane - DVD 40 anos  (Ao Vivo) - Deluxe com Documentário",
+              "views": 2734772,
+              "duration": "2:42:14",
+              "thumbnail": "https://i.ytimg.com/vi/-qp_HcBPwCc/hq720.jpg"
+            },
+            {
+              "videoId": "uuOIiyATSCc",
+              "title": "Cassiane - Amigo Espírito Santo (Ao Vivo)",
+              "views": 62818392,
+              "duration": "4:42",
+              "thumbnail": "https://i.ytimg.com/vi/uuOIiyATSCc/hq720.jpg"
+            },
+            {
+              "videoId": "cEs9cbzGFYA",
+              "title": "Cassiane and Jairinho Teaser 2026 - Ocean of Love",
+              "views": 8859,
+              "duration": "3:09",
+              "thumbnail": "https://i.ytimg.com/vi/cEs9cbzGFYA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Damares",
+          "channel": {
+            "id": "UCj0LhRmp7stN1XdAEKs4uyw",
+            "name": "Damares Oficial",
+            "image": "https://yt3.googleusercontent.com/uZPR7DsF9CM6qLUgKmCqsXxxV1sIu8RX8JfbHoPF-_AYH67jEFjgB2f135Mo6GBEgexvn2N7P14=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4510000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "M6mro7JV4fw",
+              "title": "Damares - O Maior Troféu (Videoclip)",
+              "views": 325276310,
+              "duration": "5:19",
+              "thumbnail": "https://i.ytimg.com/vi/M6mro7JV4fw/hq720.jpg"
+            },
+            {
+              "videoId": "yKykMHwsRHI",
+              "title": "Damares - Um novo Vencedor (VideoClipe)",
+              "views": 351959331,
+              "duration": "6:09",
+              "thumbnail": "https://i.ytimg.com/vi/yKykMHwsRHI/hq720.jpg"
+            },
+            {
+              "videoId": "2O22pbHuVdk",
+              "title": "Damares - Sacrifício e Adoração (Ao Vivo)",
+              "views": 178891184,
+              "duration": "5:48",
+              "thumbnail": "https://i.ytimg.com/vi/2O22pbHuVdk/hq720.jpg"
+            },
+            {
+              "videoId": "dsSfVcZB0jw",
+              "title": "Damares 2024 - 10 Maiores Sucessos - Um Novo Vencedor, O Maior Troféu, Na Mesa Do Rei, Sabor De Mel",
+              "views": 3108278,
+              "duration": "1:01:42",
+              "thumbnail": "https://i.ytimg.com/vi/dsSfVcZB0jw/hq720.jpg"
+            },
+            {
+              "videoId": "2XbsxCEa_hc",
+              "title": "Damares - Sabor de Mel (Ao Vivo)",
+              "views": 136002819,
+              "duration": "5:19",
+              "thumbnail": "https://i.ytimg.com/vi/2XbsxCEa_hc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Davi Sacer",
+          "channel": {
+            "id": "UC2FI1x1figZ3k4NHQShBQLQ",
+            "name": "DAVI SACER ",
+            "image": "https://yt3.googleusercontent.com/2k5DUS1OgydVdxibhkQdwD5h5_N2215_IwPTw3uDiLctJKzRNeBYr_6dSlUE2eafmhWzGFNd=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 654000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "4y0_rOSnb_g",
+              "title": "Davi Sacer feat. Verônica Sacer - Tua Graça me Basta (DVD No Caminho do Milagre)",
+              "views": 194018199,
+              "duration": "7:15",
+              "thumbnail": "https://i.ytimg.com/vi/4y0_rOSnb_g/hqdefault.jpg"
+            },
+            {
+              "videoId": "meiqsELWxNs",
+              "title": "Davi Sacer - Deus de Promessas part. Simone Mendes (15 Anos) [Vídeo Oficial]",
+              "views": 564236955,
+              "duration": "5:36",
+              "thumbnail": "https://i.ytimg.com/vi/meiqsELWxNs/hq720.jpg"
+            },
+            {
+              "videoId": "He59MJJgtiw",
+              "title": "Davi Sacer - Deus Não Falhará (DVD No Caminho do Milagre)",
+              "views": 13075946,
+              "duration": "7:03",
+              "thumbnail": "https://i.ytimg.com/vi/He59MJJgtiw/hqdefault.jpg"
+            },
+            {
+              "videoId": "4XgpZLRVnW4",
+              "title": "Davi Sacer e Ton Carfi - Restitui (15 Anos) [Vídeo Oficial]",
+              "views": 46322082,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/4XgpZLRVnW4/hq720.jpg"
+            },
+            {
+              "videoId": "1x_a0tO7Esg",
+              "title": "Davi Sacer e Trazendo a Arca – Leva-me Além (O Encontro) [Clipe Oficial]",
+              "views": 26916640,
+              "duration": "7:50",
+              "thumbnail": "https://i.ytimg.com/vi/1x_a0tO7Esg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "David Quinlan",
+          "channel": {
+            "id": "UCLU6yeXTYNTaNOq7LUGzDcw",
+            "name": "David Quinlan",
+            "image": "https://yt3.googleusercontent.com/51I1EEvsoxuQu_R7sAuZ_F1cbn3KIFuUP5W8GWDp0hjkWX8AnYVTYfPkzaAhhN6tzkXNPuihxA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 429000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "keBReHEDyOI",
+              "title": "Nada Mais - David Quinlan",
+              "views": 3330645,
+              "duration": "7:37",
+              "thumbnail": "https://i.ytimg.com/vi/keBReHEDyOI/hq720.jpg"
+            },
+            {
+              "videoId": "b9NNLiHKLrU",
+              "title": "Uma Hora de Adoração | David Quinlan - Vol. 01",
+              "views": 2588729,
+              "duration": "1:04:02",
+              "thumbnail": "https://i.ytimg.com/vi/b9NNLiHKLrU/hq720.jpg"
+            },
+            {
+              "videoId": "eDuUmmDuNB0",
+              "title": "No Infinito deste Amor - David Quinlan (DVD)",
+              "views": 3350907,
+              "duration": "1:46:53",
+              "thumbnail": "https://i.ytimg.com/vi/eDuUmmDuNB0/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZfOpeP2SMx8",
+              "title": "Essência da Adoração - David Quinlan e Mari Rocha | Lyric Vídeo",
+              "views": 13927955,
+              "duration": "6:41",
+              "thumbnail": "https://i.ytimg.com/vi/ZfOpeP2SMx8/hq720.jpg"
+            },
+            {
+              "videoId": "0-2jIv9W3Zw",
+              "title": "David Quinlan CD COMPLETO - SÓ AS ANTIGAS AS MELHORES MÚSICAS GOSPEL 2022",
+              "views": 7234,
+              "duration": "2:15:12",
+              "thumbnail": "https://i.ytimg.com/vi/0-2jIv9W3Zw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Diante do Trono",
+          "channel": {
+            "id": "UCmofVw_WgKPDy3pEiXLskug",
+            "name": "Diante do Trono",
+            "image": "https://yt3.googleusercontent.com/SNnnfPQAgMJsbPUuqW8kRgW1OeREJ2sWqgCTm2fdHHCfs8sFtcT3nZldWfTek1L6uSMTegyD5g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1860000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "eHF8z0FmnEI",
+              "title": "Faith in the Midst of the Storm | Diante do Trono | Full Playlist",
+              "views": 2736,
+              "duration": "1:07:19",
+              "thumbnail": "https://i.ytimg.com/vi/eHF8z0FmnEI/hq720.jpg"
+            },
+            {
+              "videoId": "D4hIbkHg7ZY",
+              "title": "Diante do Trono | As Mais Tocadas",
+              "views": 2978407,
+              "duration": "1:34:24",
+              "thumbnail": "https://i.ytimg.com/vi/D4hIbkHg7ZY/hq720.jpg"
+            },
+            {
+              "videoId": "RR9bNOOK5IQ",
+              "title": "Diante do Trono | Preciso de Ti (DVD 4 Completo)",
+              "views": 569471,
+              "duration": "1:35:45",
+              "thumbnail": "https://i.ytimg.com/vi/RR9bNOOK5IQ/hq720.jpg"
+            },
+            {
+              "videoId": "GB34FoJMw9Y",
+              "title": "Diante do Trono | Memórias do Coração (DVD 25 Anos Completo)",
+              "views": 523414,
+              "duration": "1:35:05",
+              "thumbnail": "https://i.ytimg.com/vi/GB34FoJMw9Y/hq720.jpg"
+            },
+            {
+              "videoId": "YKOU5lqwxHc",
+              "title": "Coração Igual ao Teu | DVD Preciso de Ti | Diante do Trono",
+              "views": 11743376,
+              "duration": "5:35",
+              "thumbnail": "https://i.ytimg.com/vi/YKOU5lqwxHc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Eli Soares",
+          "channel": {
+            "id": "UCCsU3AzChW5IixKLtgnqgUA",
+            "name": "Eli Soares",
+            "image": "https://yt3.googleusercontent.com/NUqhxBelq3QAFdKtxfmdqK7Z_6-SS_Apq_Br2oY9Vpz3nkGoprX41YHxtcfHAlx5VUqxCS-K=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1770000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "nl62W3rnXR8",
+              "title": "Eli Soares - Os Anjos Te Louvam",
+              "views": 9761973,
+              "duration": "5:12",
+              "thumbnail": "https://i.ytimg.com/vi/nl62W3rnXR8/hq720.jpg"
+            },
+            {
+              "videoId": "0mJSNgnl8y8",
+              "title": "Eli Soares - Se Eu Cair",
+              "views": 49803753,
+              "duration": "5:35",
+              "thumbnail": "https://i.ytimg.com/vi/0mJSNgnl8y8/hq720.jpg"
+            },
+            {
+              "videoId": "IQxlO9qYyjA",
+              "title": "Dvd Vida | Eli Soares (Ao Vivo Em Belo Horizonte / 2023)",
+              "views": 1888665,
+              "duration": "1:14:10",
+              "thumbnail": "https://i.ytimg.com/vi/IQxlO9qYyjA/hq720.jpg"
+            },
+            {
+              "videoId": "gxsgZaI0SR0",
+              "title": "Eli Soares - Nós (Multiclipe). Ao Vivo Em Belo Horizonte / 2022",
+              "views": 3044248,
+              "duration": "1:09:15",
+              "thumbnail": "https://i.ytimg.com/vi/gxsgZaI0SR0/hq720.jpg"
+            },
+            {
+              "videoId": "xGydfMNbvQI",
+              "title": "As Melhores Músicas de Eli Soares | Gospel Nacional #Gospel2025 #EliSoares​​ #1hora",
+              "views": 796117,
+              "duration": "1:12:25",
+              "thumbnail": "https://i.ytimg.com/vi/xGydfMNbvQI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Eyshila",
+          "channel": {
+            "id": "UC9eeaEpOFjaYG3eNE-27EfA",
+            "name": "EyshilaOficial",
+            "image": "https://yt3.googleusercontent.com/Rn61nJiFD3rQcP2Q8MgKZAjI74KO9078Cfzo0Cg3sGgPQTSEVZOSxbdmPMHr4pHNNFh7UP6MUw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 880000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "MZYEwSA3O4Y",
+              "title": "Voices - Pisa no Inimigo (Ao Vivo na ADVEC Santo André)",
+              "views": 5674,
+              "duration": "2:19",
+              "thumbnail": "https://i.ytimg.com/vi/MZYEwSA3O4Y/hq720.jpg"
+            },
+            {
+              "videoId": "Aq_NbO_8GI0",
+              "title": "Eyshila - This Is How I Want to Worship You + Sound of a Heart (Live) (Official MK Music Video)",
+              "views": 308536,
+              "duration": "6:58",
+              "thumbnail": "https://i.ytimg.com/vi/Aq_NbO_8GI0/hq720.jpg"
+            },
+            {
+              "videoId": "5wsJmFAflfg",
+              "title": "💫 Mensagem de Fé e Esperança com Eyshila | Palavra Transformadora de Deus Hoje",
+              "views": 986221,
+              "duration": "1:23:06",
+              "thumbnail": "https://i.ytimg.com/vi/5wsJmFAflfg/hq720.jpg"
+            },
+            {
+              "videoId": "C4UYjB0vyv0",
+              "title": "Eyshila e Cassiane - Nada Pode Calar Um Adorador + Com Muito Louvor (Clipe Oficial MK Music)",
+              "views": 3087372,
+              "duration": "6:26",
+              "thumbnail": "https://i.ytimg.com/vi/C4UYjB0vyv0/hq720.jpg"
+            },
+            {
+              "videoId": "J7baXzIVmyc",
+              "title": "Eyshila,Julliany S e Léo B - Simplesmente Te Adorar+Eu Só Quero Tua Presença(Clipe Oficial MK Music)",
+              "views": 1504343,
+              "duration": "7:53",
+              "thumbnail": "https://i.ytimg.com/vi/J7baXzIVmyc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fernanda Brum",
+          "channel": {
+            "id": "UCL3PTGvC7FbWJbNqk160dtw",
+            "name": "Fernanda Brum",
+            "image": "https://yt3.googleusercontent.com/FDpouz9Ub32wu1pBWjIdbhBt6bhYTimfFbVNwXD-VHGFaElHnSyNGZ9JzQVMWHb8LULGLqko=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1130000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "hWsD-UC0of8",
+              "title": "Fernanda Brum - Onde o Fogo Não Apaga (Ao Vivo)",
+              "views": 24535788,
+              "duration": "6:48",
+              "thumbnail": "https://i.ytimg.com/vi/hWsD-UC0of8/hq720.jpg"
+            },
+            {
+              "videoId": "ILCgYdTyU1E",
+              "title": "Fernanda Brum - Apenas Um Toque (DVD COMPLETO)",
+              "views": 1322579,
+              "duration": "1:51:43",
+              "thumbnail": "https://i.ytimg.com/vi/ILCgYdTyU1E/hq720.jpg"
+            },
+            {
+              "videoId": "ozmXE7baELI",
+              "title": "Fernanda Brum Top \" 24 \" As Melhores Musicas Gospel 2022 ☘️",
+              "views": 869449,
+              "duration": "1:59:10",
+              "thumbnail": "https://i.ytimg.com/vi/ozmXE7baELI/hq720.jpg"
+            },
+            {
+              "videoId": "ya8m0vEJSjM",
+              "title": "Fernanda Brum - Suas Digitais (Ao Vivo)",
+              "views": 11326370,
+              "duration": "4:54",
+              "thumbnail": "https://i.ytimg.com/vi/ya8m0vEJSjM/hq720.jpg"
+            },
+            {
+              "videoId": "aaxfp4kQ0FY",
+              "title": "Fernanda Brum - Romanos 8:26 (Ao Vivo)",
+              "views": 14901951,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/aaxfp4kQ0FY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fernandinho",
+          "channel": {
+            "id": "UCH1U29foC-5RyAa4ZgkuQYA",
+            "name": "Fernandinho",
+            "image": "https://yt3.googleusercontent.com/6vzlxHl31iy-s8--wgQD9Ade5l5BdSOoJB7yDZwqJHMtk6XZFBXTWiTeSHLjh1QVDsQJMzhh=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6570000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "u2FOGNSJfX8",
+              "title": "Fernandinho | Santo Pra Sempre (Ao Vivo no Mineirão)",
+              "views": 113810297,
+              "duration": "6:50",
+              "thumbnail": "https://i.ytimg.com/vi/u2FOGNSJfX8/hq720.jpg"
+            },
+            {
+              "videoId": "dFbc1xSZFaI",
+              "title": "As Melhores do Fernandinho",
+              "views": 16569,
+              "duration": "54:41",
+              "thumbnail": "https://i.ytimg.com/vi/dFbc1xSZFaI/hq720.jpg"
+            },
+            {
+              "videoId": "bgUg5jgpQGQ",
+              "title": "Fernandinho 2025 – Louvores Que Tocam o Coração | Todas as Coisas, Não Mais Escravos e Mais",
+              "views": 5481279,
+              "duration": "1:17:29",
+              "thumbnail": "https://i.ytimg.com/vi/bgUg5jgpQGQ/hq720.jpg"
+            },
+            {
+              "videoId": "xFN1kAW4xqk",
+              "title": "Fernandinho | Único (Álbum Único - Live)",
+              "views": 79372688,
+              "duration": "6:59",
+              "thumbnail": "https://i.ytimg.com/vi/xFN1kAW4xqk/hq720.jpg"
+            },
+            {
+              "videoId": "KJnYKOU2jD8",
+              "title": "Fernandinho | Ao Vivo no Mineirão (Completo)",
+              "views": 2041980,
+              "duration": "1:16:43",
+              "thumbnail": "https://i.ytimg.com/vi/KJnYKOU2jD8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gabriela Rocha",
+          "channel": {
+            "id": "UC4t2mdI8uAiJDJSRjiWJT1Q",
+            "name": "Gabriela Rocha",
+            "image": "https://yt3.googleusercontent.com/-gc_XxgVHVr_WtQ55ryLU7k8PPe40k4qED2bOqB1QQ0venUPeDDDhCcrPSC7A9OKfCIAezq28Lc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 9920000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Z6cONvRUFZQ",
+              "title": "GABRIELA ROCHA - ME ATRAIU (AO VIVO)",
+              "views": 392272488,
+              "duration": "8:28",
+              "thumbnail": "https://i.ytimg.com/vi/Z6cONvRUFZQ/hq720.jpg"
+            },
+            {
+              "videoId": "I1vgtswaIfE",
+              "title": "Gabriela Rocha - Toda Terra (Ao Vivo)",
+              "views": 52152022,
+              "duration": "8:43",
+              "thumbnail": "https://i.ytimg.com/vi/I1vgtswaIfE/hq720.jpg"
+            },
+            {
+              "videoId": "ha0D53HTqhY",
+              "title": "Gabriela Rocha - Lagoinha Experience 2025 | Ministração Completa (AO VIVO)",
+              "views": 198231,
+              "duration": "47:41",
+              "thumbnail": "https://i.ytimg.com/vi/ha0D53HTqhY/hq720.jpg"
+            },
+            {
+              "videoId": "kKuqCwizTGE",
+              "title": "GABRIELA ROCHA - OS SONHOS DE DEUS",
+              "views": 101025530,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/kKuqCwizTGE/hq720.jpg"
+            },
+            {
+              "videoId": "founBXufLYg",
+              "title": "Gabriela Rocha - Teu Santo Nome (Sony Music Live)",
+              "views": 226304240,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/founBXufLYg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Giselli Cristina",
+          "channel": {
+            "id": "UCTjTsnjjL6e9XFG3NGQ6hhg",
+            "name": "Giselli Cristina Oficial",
+            "image": "https://yt3.googleusercontent.com/OzFetI523qROPheZt0xq7RPEKFXAAKc-LGPsY99PYlJQQyNMm6B2tS6bJtdMNqTfKW-82bo1=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 887000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dramiA0hv4k",
+              "title": "Giselli Cristina - Tudo Entregarei (Edição Especial 20 Anos)",
+              "views": 108624,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/dramiA0hv4k/hq720.jpg"
+            },
+            {
+              "videoId": "jFPV45ARHqg",
+              "title": "Giselli Cristina Feat Nicolas Henrique - Eu Só Quero Adorar (Clipe Oficial)",
+              "views": 15790244,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/jFPV45ARHqg/hq720.jpg"
+            },
+            {
+              "videoId": "dinywV817jQ",
+              "title": "Louvores de adoração | As mais tocadas de Giselli Cristina",
+              "views": 8853148,
+              "duration": "1:03:23",
+              "thumbnail": "https://i.ytimg.com/vi/dinywV817jQ/hq720.jpg"
+            },
+            {
+              "videoId": "QlYPh2FjlEA",
+              "title": "Nicolas Henrique & Giselli Cristina - Quando Todo Mundo Foi Embora Deus Ficou (Clipe Oficial)",
+              "views": 1431635,
+              "duration": "6:39",
+              "thumbnail": "https://i.ytimg.com/vi/QlYPh2FjlEA/hq720.jpg"
+            },
+            {
+              "videoId": "QD2uO0YrYZM",
+              "title": "Que Se Abram Os Céus - Giselli Cristina e Coral UFADTB",
+              "views": 5995686,
+              "duration": "5:07",
+              "thumbnail": "https://i.ytimg.com/vi/QD2uO0YrYZM/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Isaias Saad",
+          "channel": {
+            "id": "UCxaYdMYNsCBJcFE9NicmVYg",
+            "name": "Isaias Saad",
+            "image": "https://yt3.googleusercontent.com/Lrd2omILBvv4UopkHByUu7N8og28Z5DQo-XOvnV3uKbnNzKeitf3wBBOTQlZ2DyTWUlexI46OJM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3280000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "mZ9yZYo9Mmk",
+              "title": "ISAIAS SAAD - BONDADE DE DEUS (AO VIVO)",
+              "views": 367456895,
+              "duration": "6:15",
+              "thumbnail": "https://i.ytimg.com/vi/mZ9yZYo9Mmk/hq720.jpg"
+            },
+            {
+              "videoId": "x7bKuySfJdk",
+              "title": "Adoração e Louvor: Isaias Saad em Playlist Exclusiva com IA",
+              "views": 523735,
+              "duration": "59:17",
+              "thumbnail": "https://i.ytimg.com/vi/x7bKuySfJdk/hq720.jpg"
+            },
+            {
+              "videoId": "wSKKEAnLTDw",
+              "title": "Ousado Amor (Clipe Oficial) - Isaias Saad",
+              "views": 530925061,
+              "duration": "5:37",
+              "thumbnail": "https://i.ytimg.com/vi/wSKKEAnLTDw/hq720.jpg"
+            },
+            {
+              "videoId": "cetVsAbaP3o",
+              "title": "ISAIAS SAAD, JULLIANY SOUZA & LÉO BRANDÃO - FIEL É DEUS",
+              "views": 3188535,
+              "duration": "8:24",
+              "thumbnail": "https://i.ytimg.com/vi/cetVsAbaP3o/hq720.jpg"
+            },
+            {
+              "videoId": "iUwnfyd2CpY",
+              "title": "ISAIAS SAAD & MARSENA - GOD OF DETAILS",
+              "views": 515772,
+              "duration": "6:24",
+              "thumbnail": "https://i.ytimg.com/vi/iUwnfyd2CpY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jozyanne",
+          "channel": {
+            "id": "UC2qF53m4IPNAWHXkWtb3jng",
+            "name": "Canal Jozyanne",
+            "image": "https://yt3.googleusercontent.com/YygNh083c8rssr_90I8aMre3D96IYDcFd8Y7F5DbM88B2v8bKAZ-XIudcuQGu8JZknrw2I_I=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 197000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "NLxBSOqzEOY",
+              "title": "Jozyanne - Teu Silêncio (Ao Vivo) (Clipe Oficial MK Music)",
+              "views": 236899,
+              "duration": "6:08",
+              "thumbnail": "https://i.ytimg.com/vi/NLxBSOqzEOY/hq720.jpg"
+            },
+            {
+              "videoId": "Oir_MMxP0MY",
+              "title": "Jozyanne e Cassiane - Tome Posse da Vitória (Ao Vivo) (Clipe Oficial MK Music)",
+              "views": 1252717,
+              "duration": "4:33",
+              "thumbnail": "https://i.ytimg.com/vi/Oir_MMxP0MY/hq720.jpg"
+            },
+            {
+              "videoId": "YzENKxTo06o",
+              "title": "Ouço Deus me Chamar (Alta Madrugada) | Jozyanne feat. Thyago Fersil (Cover Ludmila Ferber)",
+              "views": 4386840,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/YzENKxTo06o/hq720.jpg"
+            },
+            {
+              "videoId": "gIU4pfy-kY8",
+              "title": "Jozyanne and Fernanda Brum - Yahweh (Official Lyric Video®)",
+              "views": 3886,
+              "duration": "5:22",
+              "thumbnail": "https://i.ytimg.com/vi/gIU4pfy-kY8/hq720.jpg"
+            },
+            {
+              "videoId": "Bgps8Nir8xg",
+              "title": "Jozyanne - Tu És Adorado (Ao Vivo) (Clipe Oficial MK Music)",
+              "views": 524556,
+              "duration": "6:06",
+              "thumbnail": "https://i.ytimg.com/vi/Bgps8Nir8xg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Marquinhos Gomes",
+          "channel": {
+            "id": "UC8mM6rDIbTsbSp_B9vUezYA",
+            "name": "Marquinhos Gomes",
+            "image": "https://yt3.googleusercontent.com/i5viwR2wXfD8Al2wyKY7zQGCZwd6FYyN9-dWnn0jt0RYEdPuCaSCW5KC_ITZTLK8Fbax7IKdLQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 852000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1yabCCwEQx8",
+              "title": "Marquinhos Gomes | Não Morrerei (Clipe Oficial)",
+              "views": 209568350,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/1yabCCwEQx8/hq720.jpg"
+            },
+            {
+              "videoId": "KVXhRduZE-o",
+              "title": "Marquinhos Gomes CD Tudo Posso (1997/98) Completo",
+              "views": 1719145,
+              "duration": "50:32",
+              "thumbnail": "https://i.ytimg.com/vi/KVXhRduZE-o/hq720.jpg"
+            },
+            {
+              "videoId": "XBmxroz63qY",
+              "title": "Marquinhos Gomes - Lágrimas no olhar (Ao Vivo)",
+              "views": 7167908,
+              "duration": "6:31",
+              "thumbnail": "https://i.ytimg.com/vi/XBmxroz63qY/hqdefault.jpg"
+            },
+            {
+              "videoId": "dgurMdAknTw",
+              "title": "Marquinhos Gomes | Quarto Secreto (Clipe Oficial)",
+              "views": 36257837,
+              "duration": "5:11",
+              "thumbnail": "https://i.ytimg.com/vi/dgurMdAknTw/hq720.jpg"
+            },
+            {
+              "videoId": "6asbQwzOEUU",
+              "title": "Marquinhos Gomes - O Amor Nunca Perde (Videoclipe Oficial)",
+              "views": 153911,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/6asbQwzOEUU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "PG",
+          "channel": {
+            "id": "UC77KFAidnhGrexel79nUotg",
+            "name": "PG Indonesia",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_l0s6BHuc2r8NA1fChBvz-twwbulUqDR0wLSvnXUdSw80Y=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7420,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "LJtwZOCzkNE",
+              "title": "【大号泣】家族にPGメンバーの秘密を暴露してもらったら、まさかの感動回に...",
+              "views": 121056,
+              "duration": "19:07",
+              "thumbnail": "https://i.ytimg.com/vi/LJtwZOCzkNE/hq720.jpg"
+            },
+            {
+              "videoId": "kCBvguQJONg",
+              "title": "6 Gerakan Tag Team \"Non-PG\" di WWE 2K26! #wwe2k26 #wwe #gaming",
+              "views": 7161,
+              "duration": "0:18",
+              "thumbnail": "https://i.ytimg.com/vi/kCBvguQJONg/hq720.jpg"
+            },
+            {
+              "videoId": "WGYrQv4ZjKg",
+              "title": "Mendraft Point Guard NBA Terburuk yang Bisa Didapatkan!",
+              "views": 448813,
+              "duration": "2:03",
+              "thumbnail": "https://i.ytimg.com/vi/WGYrQv4ZjKg/hq720.jpg"
+            },
+            {
+              "videoId": "sdB4Vs5TOVY",
+              "title": "Penta vs. Ethan Page | Pertandingan Gelar Intercontinental: Sorotan Saturday Night's Main Event",
+              "views": 79218,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/sdB4Vs5TOVY/hq720.jpg"
+            },
+            {
+              "videoId": "dKIgJYP70Is",
+              "title": "NEET PG 2026 Tinggal 100 Hari Lagi! Strategi & Rencana oleh Dr. Gobind Rai Garg bersama Dr. Prave...",
+              "views": 84414,
+              "duration": "33:05",
+              "thumbnail": "https://i.ytimg.com/vi/dKIgJYP70Is/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Priscila Alcantara",
+          "channel": {
+            "id": "UCTMmGaE4OQDJSlLT3EQrESQ",
+            "name": "PRISCILLA",
+            "image": "https://yt3.googleusercontent.com/rNFdHo1WG5lUBrX7UuRLzKUcBJmBwvELumUHhVUrrwhogzXeJw4MkJmjE1a_-BnkpOQs7i5b6A=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3540000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "miPSimQa1DY",
+              "title": "Way Maker (Official Live Video) [feat. Priscilla Alcantara] – Holy Ground | Jeremy Riddle",
+              "views": 14296107,
+              "duration": "7:46",
+              "thumbnail": "https://i.ytimg.com/vi/miPSimQa1DY/hq720.jpg"
+            },
+            {
+              "videoId": "_IxYVie8HiY",
+              "title": "Priscilla Alcantara - Me Refez",
+              "views": 30012130,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/_IxYVie8HiY/hq720.jpg"
+            },
+            {
+              "videoId": "fCrB5QYdiWM",
+              "title": "Priscilla Alcantara | Canta \"Quero conhecer Jesus\" com Americanos | The Send 2019",
+              "views": 1174954,
+              "duration": "13:40",
+              "thumbnail": "https://i.ytimg.com/vi/fCrB5QYdiWM/hq720.jpg"
+            },
+            {
+              "videoId": "a-8OIyBU8p8",
+              "title": "Priscilla Alcantara - Inteiro (Lyric Video)",
+              "views": 5837943,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/a-8OIyBU8p8/hq720.jpg"
+            },
+            {
+              "videoId": "MIFiVAnML04",
+              "title": "PRISCILLA, Bonde Do Tigrão - QUER DANÇAR (Clipe Oficial)",
+              "views": 5846104,
+              "duration": "2:33",
+              "thumbnail": "https://i.ytimg.com/vi/MIFiVAnML04/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Regis Danese",
+          "channel": {
+            "id": "UCu5ZIeVKmDU2M_XCTErxYAA",
+            "name": "Regis Danese",
+            "image": "https://yt3.googleusercontent.com/k9sffYuFcJGjuF1QYzNZehlZxY1ApJJIZAeHa-RRthSz9fE06vH1Q-OIgoktoe5huDK8qmB-gVg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 750000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "HS-HSWBFogs",
+              "title": "Regis Danese - Faz Um Milagre em Mim (Clipe Oficial)",
+              "views": 92836496,
+              "duration": "5:21",
+              "thumbnail": "https://i.ytimg.com/vi/HS-HSWBFogs/hq720.jpg"
+            },
+            {
+              "videoId": "xX5dt27-N5A",
+              "title": "Regis Danese - Tu Podes (Clipe Oficial MK Music)",
+              "views": 15401845,
+              "duration": "6:38",
+              "thumbnail": "https://i.ytimg.com/vi/xX5dt27-N5A/hq720.jpg"
+            },
+            {
+              "videoId": "6N4H0vPTwqQ",
+              "title": "Regis Danese  - Faz Um Milagre em Mim (DVD COMPLETO)",
+              "views": 2829279,
+              "duration": "1:50:36",
+              "thumbnail": "https://i.ytimg.com/vi/6N4H0vPTwqQ/hq720.jpg"
+            },
+            {
+              "videoId": "as00Xu9EgYY",
+              "title": "Regis Danese - Faz Um Milagre em Mim (DVD 10 Anos) [Vídeo Oficial]",
+              "views": 10247786,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/as00Xu9EgYY/hq720.jpg"
+            },
+            {
+              "videoId": "0s1OAApSEUk",
+              "title": "Tu podes - Regis Danese - Como Bartimeu eu preciso de um milagre - cura cego jericó",
+              "views": 31896909,
+              "duration": "5:49",
+              "thumbnail": "https://i.ytimg.com/vi/0s1OAApSEUk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sergio Lopes",
+          "channel": {
+            "id": "UC5GskiiRScuC9uhh-_L49Iw",
+            "name": "Sergio Lopes Oficial",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_mog6XDLRhWu5ZAJy_YIbtUaVsQA2Jf5di8VzD_JfmYJrU=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 412000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "IU2Ujm3sm-U",
+              "title": "Sérgio Lopes - Sergio Lopes - As melhores de Sério Lopes - Especial Sérgio Lopes",
+              "views": 5377565,
+              "duration": "1:24:55",
+              "thumbnail": "https://i.ytimg.com/vi/IU2Ujm3sm-U/hq720.jpg"
+            },
+            {
+              "videoId": "GpX8KV_KIX4",
+              "title": "Sérgio Lopes - Te Amo, O Amigo | Troféu Gerando Salvação",
+              "views": 2465747,
+              "duration": "6:59",
+              "thumbnail": "https://i.ytimg.com/vi/GpX8KV_KIX4/hq720.jpg"
+            },
+            {
+              "videoId": "ggUZ9CfNO3U",
+              "title": "Seleção Sérgio Lopes - Vol 1 (Hinos que marcaram a minha vida)",
+              "views": 3271835,
+              "duration": "2:03:54",
+              "thumbnail": "https://i.ytimg.com/vi/ggUZ9CfNO3U/hqdefault.jpg"
+            },
+            {
+              "videoId": "YNK_-tnpsBE",
+              "title": "Você nunca Ouviu SÉRGIO LOPES Assim – Impossível Não se Emocionar!",
+              "views": 132724,
+              "duration": "45:18",
+              "thumbnail": "https://i.ytimg.com/vi/YNK_-tnpsBE/hq720.jpg"
+            },
+            {
+              "videoId": "65dF6YSyk-M",
+              "title": "Provações",
+              "views": 52804,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/65dF6YSyk-M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Som Do Reino",
+          "channel": {
+            "id": "UCqGHoVTXn8YlaUVwEhmkT3Q",
+            "name": "Som do Reino",
+            "image": "https://yt3.ggpht.com/X8_yj33xzDmmDL9G0yWy8gNyvUEwRoou7e8aZDpWDQDglRnPiIhLM4lWIFTnWUErkpcefn0vWbo=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1990000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "X3FnCgiTwv8",
+              "title": "Sempre Que me Olhares (Clip Oficial) - Americas | Som do Reino + TOMATULUGAR",
+              "views": 714610,
+              "duration": "12:48",
+              "thumbnail": "https://i.ytimg.com/vi/X3FnCgiTwv8/hq720.jpg"
+            },
+            {
+              "videoId": "bs8vMwAEI9I",
+              "title": "SOM DO SECRETO VOL.2: DIA | OH! SE FENDESSES - ALESSANDRO VILAS BOAS + BRUNÃO MORADA | SOM DO REINO",
+              "views": 4959418,
+              "duration": "10:02",
+              "thumbnail": "https://i.ytimg.com/vi/bs8vMwAEI9I/hq720.jpg"
+            },
+            {
+              "videoId": "VzLqFuwL5AI",
+              "title": "Voltemos Ao Início - Tribo e Nação - (Clipe Inicial) | Laura Souguellis | Marcos Brunet",
+              "views": 6925444,
+              "duration": "6:06",
+              "thumbnail": "https://i.ytimg.com/vi/VzLqFuwL5AI/hq720.jpg"
+            },
+            {
+              "videoId": "HduKZ26IUv4",
+              "title": "Som do Secreto Vol.3 - Yeshua - (Clipe Oficial) – José Jr | Alessandro Vilas Boas",
+              "views": 7922064,
+              "duration": "17:24",
+              "thumbnail": "https://i.ytimg.com/vi/HduKZ26IUv4/hq720.jpg"
+            },
+            {
+              "videoId": "nGQPfKvBGD4",
+              "title": "Som do Secreto Vol.2 | Som do Reino | 02 | Ser Mudado | Alessandro Vilas Boas Feat. André Aquino",
+              "views": 8025262,
+              "duration": "10:52",
+              "thumbnail": "https://i.ytimg.com/vi/nGQPfKvBGD4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Thalles Roberto",
+          "channel": {
+            "id": "UCR7Hv2kJrfSeoNYYgf8mrVg",
+            "name": "Thalles Roberto",
+            "image": "https://yt3.googleusercontent.com/y7X-_7WGoJsyJ0Y2phU6l_ZtrvYTn31gUFxRhwjp5TN25ERD9y38LEEDD51wwCqsZauW-y2GMQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2440000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "_pnAJPnp_Jw",
+              "title": "Thalles Roberto - Arde Outra Vez (Saudade - Clipe Oficial)",
+              "views": 69095580,
+              "duration": "9:39",
+              "thumbnail": "https://i.ytimg.com/vi/_pnAJPnp_Jw/hq720.jpg"
+            },
+            {
+              "videoId": "mJJmHaitgVc",
+              "title": "Thalles Roberto - Filho Meu",
+              "views": 29188615,
+              "duration": "5:44",
+              "thumbnail": "https://i.ytimg.com/vi/mJJmHaitgVc/hq720.jpg"
+            },
+            {
+              "videoId": "o6bSuclgy5w",
+              "title": "Arde Outra Vez",
+              "views": 42785170,
+              "duration": "7:11",
+              "thumbnail": "https://i.ytimg.com/vi/o6bSuclgy5w/hq720.jpg"
+            },
+            {
+              "videoId": "sHsGuiAQW9I",
+              "title": "Me arde outra vez DVD Thalles Roberto ALTA DEFINIÇÃO LEGENDADO",
+              "views": 1584952,
+              "duration": "17:01",
+              "thumbnail": "https://i.ytimg.com/vi/sHsGuiAQW9I/hq720.jpg"
+            },
+            {
+              "videoId": "El13Zpb3wxo",
+              "title": "Eu Sou Blindado",
+              "views": 4668221,
+              "duration": "4:42",
+              "thumbnail": "https://i.ytimg.com/vi/El13Zpb3wxo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "similar_by_genre": {
+    "Afrobeats": ["Burna Boy", "Wizkid", "Davido", "Tiwa Savage", "Yemi Alade", "Fireboy", "Asake"],
+    "Bongo Flava": ["Diamond Platnumz", "Harmonize", "Rayvanny", "Nandy", "Zuchu", "Mbosso"],
+    "Gengetone": ["Bien", "Nyashinski", "Khaligraph Jones", "Wakadinali", "Mbuzi Gang"],
+    "Amapiano": ["Kabza De Small", "DJ Maphorisa", "Focalistic", "Daliwonga", "Sir Trill"],
+    "K-Pop": ["BTS", "Blackpink", "Twice", "Stray Kids", "NewJeans"],
+    "Gospel": ["Sinach", "Frank Edwards", "Nathaniel Bassey", "Mercy Chinwo"]
+  },
+  "similar_by_region": {
+    "East Africa": ["Sauti Sol", "Diamond Platnumz", "Eddy Kenzo", "The Ben", "Khadja Nin"],
+    "West Africa": ["Burna Boy", "Davido", "Sarkodie", "Youssou N'Dour", "Salif Keita"],
+    "Southern Africa": ["Master KG", "Nasty C", "Black Coffee", "Cassper Nyovest"]
+  }
+}

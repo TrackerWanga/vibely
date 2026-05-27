@@ -1,0 +1,1896 @@
+{
+  "country": "Colombia",
+  "flag": "🇨🇴",
+  "code": "CO",
+  "continent": "South America",
+  "categories": {
+    "secular": {
+      "count": 25,
+      "artists": [
+        {
+          "name": "Andrea Echeverri",
+          "channel": {
+            "id": "UC8f3L_puU3yJFh4853yhLvw",
+            "name": "Andrea Echeverri",
+            "image": "https://yt3.googleusercontent.com/RQRuTxWN0IcRhEnQ0wRJdTw1es2_ErVyOuDfXYcVW2kPmAimdo4JBg0VOj3lwiEi6LqSuTGLZA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 18000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "kaJ-FQ0_ksg",
+              "title": "Aterciopelados: Tiny Desk Concert",
+              "views": 765211,
+              "duration": "24:39",
+              "thumbnail": "https://i.ytimg.com/vi/kaJ-FQ0_ksg/hq720.jpg"
+            },
+            {
+              "videoId": "mqOCHYhRaGY",
+              "title": "Aterciopelados - Baracunátana",
+              "views": 34822615,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/mqOCHYhRaGY/hq720.jpg"
+            },
+            {
+              "videoId": "nP15T5vQMlw",
+              "title": "Andrea Echeverri - De Carne y Hueso (Acoustic Live Stream)",
+              "views": 10434,
+              "duration": "4:43",
+              "thumbnail": "https://i.ytimg.com/vi/nP15T5vQMlw/hq720.jpg"
+            },
+            {
+              "videoId": "sUlsTs2ljaE",
+              "title": "Aterciopelados - Bolero Falaz",
+              "views": 43517095,
+              "duration": "4:45",
+              "thumbnail": "https://i.ytimg.com/vi/sUlsTs2ljaE/hq720.jpg"
+            },
+            {
+              "videoId": "gVRyRIaRqls",
+              "title": "Andrea Echeverri - Ruiseñora (Official Music Video)",
+              "views": 153817,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/gVRyRIaRqls/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Andres Cepeda",
+          "channel": {
+            "id": "UCHkLu9m9qA7uu5jwMefB2dA",
+            "name": "Andrés Cepeda",
+            "image": "https://yt3.googleusercontent.com/tqqHY4kd5W7rFAg8LjL_HJSvJCVJuWbthR_uK0qaI_Kjni7XvMkYQsg2oY3diWnyUy_cbCbv=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2110000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "S0Ps_5ABIbE",
+              "title": "Tengo Ganas - Andrés Cepeda (Cover Audio)",
+              "views": 21934825,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/S0Ps_5ABIbE/hqdefault.jpg"
+            },
+            {
+              "videoId": "y-iIJieXUgQ",
+              "title": "Andrés Cepeda 2025 MIX - Mejores canciones de Andrés Cepeda 2025 - Álbum Completo - [1 HORA]",
+              "views": 219949,
+              "duration": "1:34:18",
+              "thumbnail": "https://i.ytimg.com/vi/y-iIJieXUgQ/hq720.jpg"
+            },
+            {
+              "videoId": "MvITnIylaQ8",
+              "title": "Andrés Cepeda - Lo mejor que hay en mi vida (Video Oficial)",
+              "views": 171792890,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/MvITnIylaQ8/hq720.jpg"
+            },
+            {
+              "videoId": "p2-sOq_mlMg",
+              "title": "Fonseca -Juanes - Santiago Cruz y Andres Cepeda Mix Lo Mejor - Top 20 mejores canciones",
+              "views": 306189,
+              "duration": "2:22:24",
+              "thumbnail": "https://i.ytimg.com/vi/p2-sOq_mlMg/hq720.jpg"
+            },
+            {
+              "videoId": "wamQCeMTeHU",
+              "title": "Besos Usados",
+              "views": 18904910,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/wamQCeMTeHU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Aterciopelados",
+          "channel": {
+            "id": "UCGaqHkWSf7izAZDX5mVTowg",
+            "name": "Aterciopelados",
+            "image": "https://yt3.googleusercontent.com/6uNHTXTCWcEhyJOb0Om-SDLIomDaXzUxkXmB5g19DBDMc7nORQdve8MZJI1OKv0eXsi4BLQhzw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 360000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "sUlsTs2ljaE",
+              "title": "Aterciopelados - Bolero Falaz",
+              "views": 43517095,
+              "duration": "4:45",
+              "thumbnail": "https://i.ytimg.com/vi/sUlsTs2ljaE/hq720.jpg"
+            },
+            {
+              "videoId": "mqOCHYhRaGY",
+              "title": "Aterciopelados - Baracunátana",
+              "views": 34822615,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/mqOCHYhRaGY/hq720.jpg"
+            },
+            {
+              "videoId": "kaJ-FQ0_ksg",
+              "title": "Aterciopelados: Tiny Desk Concert",
+              "views": 765211,
+              "duration": "24:39",
+              "thumbnail": "https://i.ytimg.com/vi/kaJ-FQ0_ksg/hq720.jpg"
+            },
+            {
+              "videoId": "bttFOOzcIHc",
+              "title": "Aterciopelados - Baracunatana",
+              "views": 16900412,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/bttFOOzcIHc/hq720.jpg"
+            },
+            {
+              "videoId": "H6i5J8Cjkqc",
+              "title": "Aterciopelados - El Album (Video)",
+              "views": 12291802,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/H6i5J8Cjkqc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Blessd",
+          "channel": {
+            "id": "UCb164jMdHd94O34bASFbI3Q",
+            "name": "SIEMPRE BLESSD 💙",
+            "image": "https://yt3.googleusercontent.com/pd8jbEWRbVSSqBaaOHWWvpR5kMSyNP35Gs6zUHPbTxkN0RtSIMFl1SNUjrFHorij_iid5oBCjg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4890000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "rJnRIX9j-T4",
+              "title": "Q Hubo Amor (Medellín) - Ovy On The Drums, Jere Klein, Bleesd (Vizualizer)",
+              "views": 1311293,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/rJnRIX9j-T4/hq720.jpg"
+            },
+            {
+              "videoId": "ugH5JY2dRRQ",
+              "title": "⭐ SUPERSTAR | BLESSD ( E.M.H.D.M )",
+              "views": 17695949,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/ugH5JY2dRRQ/hq720.jpg"
+            },
+            {
+              "videoId": "YkBrEfFpnBs",
+              "title": "BLESSD - CONDENADO AL ÉXITO II 💙🤑 (VIDEO OFICIAL)",
+              "views": 85505144,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/YkBrEfFpnBs/hq720.jpg"
+            },
+            {
+              "videoId": "Lf566pMNCOw",
+              "title": "AMISTA 💔 (VIDEO OFICIAL) | BLESSD ❌ OVY ON THE DRUMS",
+              "views": 126504535,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/Lf566pMNCOw/hq720.jpg"
+            },
+            {
+              "videoId": "hMhR6T7EEfQ",
+              "title": "BLESSD ❌ JUSTIN QUILES ❌ LENNY TAVAREZ | 💥 MEDALLO ( OFFICIAL VIDEO )",
+              "views": 552191216,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/hMhR6T7EEfQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bomba Estereo",
+          "channel": {
+            "id": "UCp6B4S_hKDBia-SLV2Lhvtg",
+            "name": "Bomba Estéreo",
+            "image": "https://yt3.googleusercontent.com/PC735DjjIlB9MIvNyp4rYglO8yuNtUObmTPnDfJPESjSCOp9gFiSSgKSxcrCb9_aBujfrPRr=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2020000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "H6SZuAcqeW8",
+              "title": "Bomba Estéreo - El Alma y el Cuerpo (Live on KEXP)",
+              "views": 73386072,
+              "duration": "7:09",
+              "thumbnail": "https://i.ytimg.com/vi/H6SZuAcqeW8/hq720.jpg"
+            },
+            {
+              "videoId": "THBP1tq49wk",
+              "title": "Bomba Estéreo - To My Love (Tainy Remix)",
+              "views": 382360835,
+              "duration": "5:22",
+              "thumbnail": "https://i.ytimg.com/vi/THBP1tq49wk/hq720.jpg"
+            },
+            {
+              "videoId": "qU50MDtbkEk",
+              "title": "Bomba Estéreo - Full Performance (Live on KEXP)",
+              "views": 3577181,
+              "duration": "28:19",
+              "thumbnail": "https://i.ytimg.com/vi/qU50MDtbkEk/hq720.jpg"
+            },
+            {
+              "videoId": "g-_9Bld7JYc",
+              "title": "Bomba Estéreo - Somos Dos (Official Video)",
+              "views": 76428388,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/g-_9Bld7JYc/hq720.jpg"
+            },
+            {
+              "videoId": "a42lMLKItUc",
+              "title": "Bomba Estéreo, Rawayana, ASTROPICAL - Me Pasa (Piscis) (Official Video)",
+              "views": 14518243,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/a42lMLKItUc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Camilo",
+          "channel": {
+            "id": "UCw0aKHSGFGyrnMeVnHeYMyw",
+            "name": "Camilo",
+            "image": "https://yt3.googleusercontent.com/K0Hekx8AvFBJ-S790-dmgcNw7BF9rxnY121yt2uJR3FiD9oB2vyfsEAvmRVfD6xuVSRJ7ENp9Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 16900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "qKp1f7Vn9dM",
+              "title": "Camilo - Vida de Rico (Official Video)",
+              "views": 990185545,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/qKp1f7Vn9dM/hq720.jpg"
+            },
+            {
+              "videoId": "lx6t1zS-bC8",
+              "title": "Camilo, Carin Leon - Una Vida Pasada (Official Video)",
+              "views": 222664948,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/lx6t1zS-bC8/hq720.jpg"
+            },
+            {
+              "videoId": "FlZuFh0KUvc",
+              "title": "Camilo: Tiny Desk (Home) Concert",
+              "views": 12262278,
+              "duration": "15:29",
+              "thumbnail": "https://i.ytimg.com/vi/FlZuFh0KUvc/hq720.jpg"
+            },
+            {
+              "videoId": "5AkDqm-cEgg",
+              "title": "Camilo, Pedro Capó - Tutu (Official Video)",
+              "views": 850894559,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/5AkDqm-cEgg/hq720.jpg"
+            },
+            {
+              "videoId": "YwodhCjFbQ8",
+              "title": "Camilo, Evaluna Montaner - Por Primera Vez (Official Video)",
+              "views": 602556170,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/YwodhCjFbQ8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Carlos Vives",
+          "channel": {
+            "id": "UCcoTDF00osWsjkiO3eC9viw",
+            "name": "Carlos Vives",
+            "image": "https://yt3.googleusercontent.com/rfnGRydMBk6Hb1x-hK80VhmEDRi16XRv8h0AmeMU72-SqM-Uv1J0C5eqlv3w2O25kMwjuC52=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6280000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Mtau4v6foHA",
+              "title": "Carlos Vives, Sebastián Yatra - Robarte un Beso (Official Video)",
+              "views": 1963042453,
+              "duration": "3:18",
+              "thumbnail": "https://i.ytimg.com/vi/Mtau4v6foHA/hq720.jpg"
+            },
+            {
+              "videoId": "k9rSfEjtlYA",
+              "title": "Carlos Vives, Sergio George - If I Were Born Again (Official Video)",
+              "views": 12155,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/k9rSfEjtlYA/hq720.jpg"
+            },
+            {
+              "videoId": "-UV0QGLmYys",
+              "title": "Carlos Vives, Shakira - La Bicicleta",
+              "views": 1802554698,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/-UV0QGLmYys/hq720.jpg"
+            },
+            {
+              "videoId": "ghNBNtPFTDE",
+              "title": "Lo mejor de Carlos Vives colección – Fruta Fresca, La Tierra del Olvido, Déjame Entrar top hits",
+              "views": 1116611,
+              "duration": "28:02",
+              "thumbnail": "https://i.ytimg.com/vi/ghNBNtPFTDE/hq720.jpg"
+            },
+            {
+              "videoId": "wZRWpr1G1Qw",
+              "title": "Wisin, Carlos Vives - Nota de Amor (Official Video) ft. Daddy Yankee",
+              "views": 873436952,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/wZRWpr1G1Qw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "ChocQuibTown",
+          "channel": {
+            "id": "UCFQLtgkemuWw0R_ztEk2VgQ",
+            "name": "ChocQuibTown",
+            "image": "https://yt3.googleusercontent.com/-kWByXz9KoKZQB2wIzI0HSg5uqJDa_TgGYkt5HzoG3jVhs7zYNqtSBx0wZLXgFLrydu6QYRbfg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1170000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "yMS4J6Gp6e4",
+              "title": "ChocQuibTown - De Donde Vengo Yo (Official Music Video)",
+              "views": 48510802,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/yMS4J6Gp6e4/hq720.jpg"
+            },
+            {
+              "videoId": "EzbzWerC9AM",
+              "title": "ChocQuibTown - Nuqui (Te Quiero Para Mi) [Official Video]",
+              "views": 103030359,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/EzbzWerC9AM/hq720.jpg"
+            },
+            {
+              "videoId": "ZMmpJHFEPus",
+              "title": "ChocQuibTown - Desde el Día en Que Te Fuiste (Official Video)",
+              "views": 66382014,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/ZMmpJHFEPus/hq720.jpg"
+            },
+            {
+              "videoId": "QfhqUgC2nM0",
+              "title": "ChocQuibTown - Pa Olvidarte (Official Video)",
+              "views": 71290512,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/QfhqUgC2nM0/hq720.jpg"
+            },
+            {
+              "videoId": "XKhJKQcTUYM",
+              "title": "ChocQuibTown, Becky G - Que Me Baile (Official Video)",
+              "views": 68668151,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/XKhJKQcTUYM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Feid",
+          "channel": {
+            "id": "UCoMlNw7o21I7LqL4OsjSYAg",
+            "name": "Feid",
+            "image": "https://yt3.googleusercontent.com/uChaYLkePT3Gba82aSxumjqYC-AgQNRTTiZOk6VTtZQ4PrjGrbxXkHXRKcFbqBLutguE6SBF=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7170000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "oD5f55ohsc4",
+              "title": "Feid - Normal (Official Video)",
+              "views": 522310712,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/oD5f55ohsc4/hq720.jpg"
+            },
+            {
+              "videoId": "XLGKH6L93F0",
+              "title": "Maisak, Feid, Maluma - Te Entiendo (Remix)",
+              "views": 15237177,
+              "duration": "5:36",
+              "thumbnail": "https://i.ytimg.com/vi/XLGKH6L93F0/hq720.jpg"
+            },
+            {
+              "videoId": "ww7UQTDsPEc",
+              "title": "Feid, ICON - FERXXO 151 (Official Video)",
+              "views": 120027088,
+              "duration": "3:48",
+              "thumbnail": "https://i.ytimg.com/vi/ww7UQTDsPEc/hq720.jpg"
+            },
+            {
+              "videoId": "WHejvUhX6rk",
+              "title": "Yandel, Feid  - Yandel 150 (Video Oficial)",
+              "views": 640415554,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/WHejvUhX6rk/hq720.jpg"
+            },
+            {
+              "videoId": "cD5T1Y4b7wA",
+              "title": "Feid, Young Miko - Classy 101 (Official Video)",
+              "views": 641774937,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/cD5T1Y4b7wA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fonseca",
+          "channel": {
+            "id": "UCTqb7oZzCYpzOhPenq6AOyQ",
+            "name": "Solo Fonseca",
+            "image": "https://yt3.ggpht.com/znrqePLt3aio7Q4-V6wI9O-FxV2wVOKJGKsbKMy3kiC1uv6UOiujh1WAGGDjRol_r12A5vy3=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1310000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "Ehuc-M_Ht8E",
+              "title": "Joao Fonseca vs Luka Pavlovic | Round 1 Highlights | Roland-Garros 2026",
+              "views": 18218,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/Ehuc-M_Ht8E/hq720.jpg"
+            },
+            {
+              "videoId": "MMjG1pb3RiY",
+              "title": "Fonseca, Juanes - Antes que el tiempo se vaya (Official Video)",
+              "views": 2685147,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/MMjG1pb3RiY/hq720.jpg"
+            },
+            {
+              "videoId": "zFbw94onYbM",
+              "title": "Fonseca, Manuel Medrano - Enamorarte Mil Veces (Official Video)",
+              "views": 18411178,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/zFbw94onYbM/hq720.jpg"
+            },
+            {
+              "videoId": "DsslpiN-0dM",
+              "title": "Fonseca - Simples Corazones | Colombia, Land of  Sabrosura",
+              "views": 167656641,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/DsslpiN-0dM/hq720.jpg"
+            },
+            {
+              "videoId": "7fqeesQVS4U",
+              "title": "Fonseca - Pedacito de Playa (Official Video)",
+              "views": 15741063,
+              "duration": "4:03",
+              "thumbnail": "https://i.ytimg.com/vi/7fqeesQVS4U/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Greeicy",
+          "channel": {
+            "id": "UCbGxDgCTFR58n3zmvJibhcw",
+            "name": "Greeicy",
+            "image": "https://yt3.googleusercontent.com/7sLyJZ7FCnPyvDoGCaH7VyPAzGrWD2mjQBeWAE-eDrQjQ3wZl778S0MPRuH1OxVchTOWgioE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5970000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "AJnIK0IHt2g",
+              "title": "Greeicy - Mal o Bien (Official Video)",
+              "views": 266436,
+              "duration": "2:19",
+              "thumbnail": "https://i.ytimg.com/vi/AJnIK0IHt2g/hq720.jpg"
+            },
+            {
+              "videoId": "PfyRCvEOsBU",
+              "title": "Greeicy - Quiero + (Official Video)",
+              "views": 62738430,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/PfyRCvEOsBU/hq720.jpg"
+            },
+            {
+              "videoId": "smBqmZEcmUA",
+              "title": "Greeicy - Discúlpeme Señor (Official Video)",
+              "views": 2945004,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/smBqmZEcmUA/hq720.jpg"
+            },
+            {
+              "videoId": "qvZ22LtPWU0",
+              "title": "Greeicy, Rawayana - Solecito Vení (Visualizer)",
+              "views": 89444,
+              "duration": "2:31",
+              "thumbnail": "https://i.ytimg.com/vi/qvZ22LtPWU0/hq720.jpg"
+            },
+            {
+              "videoId": "uyLKx9VhoTE",
+              "title": "Greeicy, LA GURU - No Era Mío (Visualizer)",
+              "views": 47315,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/uyLKx9VhoTE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Herencia de Timbiqui",
+          "channel": {
+            "id": "UCXFKZDNkTCADOfGRO9FuRIQ",
+            "name": "Herencia De Timbiqui",
+            "image": "https://yt3.googleusercontent.com/L072FTprzH_EKcIb2qW4zRK11IXtzjfM2xiCOb1VDwuuhpc5_qq-XpxYqU-bG9BAU-Jbu-NhoA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 486000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "srE7nr4xuGI",
+              "title": "Sabrás, Herencia de Timbiquí - Video Oficial",
+              "views": 193069683,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/srE7nr4xuGI/hq720.jpg"
+            },
+            {
+              "videoId": "GZZKSrG5uTU",
+              "title": "De Rappi en Colombia a Manager de Herencia de Timbiqui | ¿Cuál es tu Herencia? EP 003 Ender Semprun",
+              "views": 4014,
+              "duration": "43:04",
+              "thumbnail": "https://i.ytimg.com/vi/GZZKSrG5uTU/hq720.jpg"
+            },
+            {
+              "videoId": "eaKG17XoQ48",
+              "title": "Te invito - Herencia de Timbiquí (video oficial)",
+              "views": 58046732,
+              "duration": "5:17",
+              "thumbnail": "https://i.ytimg.com/vi/eaKG17XoQ48/hq720.jpg"
+            },
+            {
+              "videoId": "r2-N4hh2DWM",
+              "title": "Maite Hontelé - Nochecita ft. Herencia de Timbiquí (Video Oficial)",
+              "views": 34531168,
+              "duration": "5:56",
+              "thumbnail": "https://i.ytimg.com/vi/r2-N4hh2DWM/hq720.jpg"
+            },
+            {
+              "videoId": "vQkOTwwdyxw",
+              "title": "Herencia de Timbiqui - Mas que Amor (Video Concepto)",
+              "views": 2425142,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/vQkOTwwdyxw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "J Balvin",
+          "channel": {
+            "id": "UCt-k6JwNWHMXDBGm9IYHdsg",
+            "name": "J Balvin",
+            "image": "https://yt3.googleusercontent.com/UqJr0qGvZ5xpw2BMCjPEl8_oOp7Y3ttA6ZG2fJspi8jLx6e2GRLiqLjM5dtPB6Gxkc1JFTRXS3Y=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 35200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "wnJ6LuUFpMo",
+              "title": "J Balvin, Willy William - Mi Gente (Official Video)",
+              "views": 3652773575,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/wnJ6LuUFpMo/hq720.jpg"
+            },
+            {
+              "videoId": "bcaLBKH-Yfc",
+              "title": "J Balvin - Azul (Official Animated Video)",
+              "views": 286251521,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/bcaLBKH-Yfc/hq720.jpg"
+            },
+            {
+              "videoId": "zNl00mOSnJI",
+              "title": "DJ Snake, J Balvin, Tyga - Loco Contigo",
+              "views": 538776119,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/zNl00mOSnJI/hq720.jpg"
+            },
+            {
+              "videoId": "nZ0zbsZOdwg",
+              "title": "J Balvin - Sigo Extrañándote (Official Video)",
+              "views": 533446910,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/nZ0zbsZOdwg/hq720.jpg"
+            },
+            {
+              "videoId": "_I_D_8Z4sJE",
+              "title": "X (EQUIS) - Nicky Jam x J. Balvin | Video Oficial  (Prod. Afro Bros & Jeon)",
+              "views": 2341731616,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/_I_D_8Z4sJE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Juanes",
+          "channel": {
+            "id": "UC5sQe-dDsoobC6TRokL7SMQ",
+            "name": "Juanes",
+            "image": "https://yt3.googleusercontent.com/czeCPpi8sMqwbJlYs6FqgPUYUevMubxv37CkbhYNv3p4t13TwZI6NzA8KqEpFW_oH4l6Q_2i=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3270000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "kMIaYXxLnUA",
+              "title": "Juanes - A Dios Le Pido",
+              "views": 267988966,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/kMIaYXxLnUA/hq720.jpg"
+            },
+            {
+              "videoId": "kRt2sRyup6A",
+              "title": "Juanes - La Camisa Negra",
+              "views": 305683938,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/kRt2sRyup6A/hq720.jpg"
+            },
+            {
+              "videoId": "-9l5t3MWss8",
+              "title": "Juanes - Es Por Ti",
+              "views": 463201047,
+              "duration": "4:03",
+              "thumbnail": "https://i.ytimg.com/vi/-9l5t3MWss8/hq720.jpg"
+            },
+            {
+              "videoId": "ihE74nG8ioc",
+              "title": "Juanes - Volverte A Ver",
+              "views": 159606422,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/ihE74nG8ioc/hq720.jpg"
+            },
+            {
+              "videoId": "voxgN3Dhjuo",
+              "title": "Juanes - Me Enamora (Official Music Video)",
+              "views": 156326266,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/voxgN3Dhjuo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Karol G",
+          "channel": {
+            "id": "UCZuPJZ2kGFdlbQu1qotZaHw",
+            "name": "KAROL G",
+            "image": "https://yt3.googleusercontent.com/7HJ-eHVw5sBCXQWKpAg4-o7PcpOuDYVcpFj9ontfbQU_4F_jCL1xaQeAb9Uv2IFhjk-i_xBQhbc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 41100000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "BgMU9Vuj17Y",
+              "title": "KAROL G - LATINA FOREVA (Official Video)",
+              "views": 89921095,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/BgMU9Vuj17Y/hq720.jpg"
+            },
+            {
+              "videoId": "UCaUZQEyKaU",
+              "title": "🎧 Karol G Mix 2026 ~ Best Hits & Reggaeton Playlist 2026 🔥",
+              "views": 146275,
+              "duration": "1:51:13",
+              "thumbnail": "https://i.ytimg.com/vi/UCaUZQEyKaU/hq720.jpg"
+            },
+            {
+              "videoId": "QCZZwZQ4qNs",
+              "title": "KAROL G - Si Antes Te Hubiera Conocido | Coke Studio",
+              "views": 1330743203,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/QCZZwZQ4qNs/hq720.jpg"
+            },
+            {
+              "videoId": "taSubkjZUA4",
+              "title": "Tiësto & Karol G - Don't Be Shy (Official Music Video)",
+              "views": 541891549,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/taSubkjZUA4/hq720.jpg"
+            },
+            {
+              "videoId": "jZGpkLElSu8",
+              "title": "KAROL G, Shakira - TQG (Official Video)",
+              "views": 1512997751,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/jZGpkLElSu8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Maluma",
+          "channel": {
+            "id": "UClZuKq2m0Qu-HkopkSBLpEw",
+            "name": "Maluma",
+            "image": "https://yt3.googleusercontent.com/ZaSSNr-nDSOACgMiMgxp3lNkoMVRzzp9c7jD4nnaLJ0c0b4S8Is7sY4Lh-_oPYPldu1AxgzYqA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 30900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "t_jHrUE5IOk",
+              "title": "Maluma - Felices los 4 (Official Video)",
+              "views": 1978163478,
+              "duration": "4:51",
+              "thumbnail": "https://i.ytimg.com/vi/t_jHrUE5IOk/hq720.jpg"
+            },
+            {
+              "videoId": "GmHrjFIWl6U",
+              "title": "Maluma - Corazón (Official Video) ft. Nego do Borel",
+              "views": 1767077104,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/GmHrjFIWl6U/hq720.jpg"
+            },
+            {
+              "videoId": "mmLvboly0Ow",
+              "title": "Maluma: Loco x Volver | The Tonight Show Starring Jimmy Fallon",
+              "views": 94635,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/mmLvboly0Ow/hq720.jpg"
+            },
+            {
+              "videoId": "pK060iUFWXg",
+              "title": "Maluma - Hawái (Official Video)",
+              "views": 1210936938,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/pK060iUFWXg/hq720.jpg"
+            },
+            {
+              "videoId": "4WU-dpB7L-s",
+              "title": "Maluma - El Vallenato (Official Lyric Video)",
+              "views": 134978,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/4WU-dpB7L-s/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Manuel Turizo",
+          "channel": {
+            "id": "UC5Jn-9jqrVvKm9Hx0WW8Pgw",
+            "name": "Manuel Turizo",
+            "image": "https://yt3.googleusercontent.com/jfPZjt4SbVMCgMWe4SsBOxyL6wUt1kc-kTOAFiNK7Giql18ddpPYB_hfgINCQZgi3M6on2Td=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "TiM_TFpT_DE",
+              "title": "La Bachata - MTZ Manuel Turizo | Video Oficial",
+              "views": 969496125,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/TiM_TFpT_DE/hq720.jpg"
+            },
+            {
+              "videoId": "VYtJAuoZxcc",
+              "title": "Una Lady Como Tú - MTZ Manuel Turizo | Video Oficial",
+              "views": 2083352584,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/VYtJAuoZxcc/hq720.jpg"
+            },
+            {
+              "videoId": "25vNYV0qdgA",
+              "title": "Marshmello, Manuel Turizo - El Merengue (Official Video)",
+              "views": 415628514,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/25vNYV0qdgA/hq720.jpg"
+            },
+            {
+              "videoId": "wNSStovZqSw",
+              "title": "Manuel Turizo Mix 2024 - Mejor Canción Manuel Turizo - album Más Popular - Lo Mas Nuevo Estrenos.",
+              "views": 27105,
+              "duration": "2:02:29",
+              "thumbnail": "https://i.ytimg.com/vi/wNSStovZqSw/hq720.jpg"
+            },
+            {
+              "videoId": "kE1-O0tU-UU",
+              "title": "Xavi, Manuel Turizo - En Privado (Official Video)",
+              "views": 547202354,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/kE1-O0tU-UU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Morat",
+          "channel": {
+            "id": "UCvQwfdlOR55OO82gFWJCnWQ",
+            "name": "Morat",
+            "image": "https://yt3.googleusercontent.com/m-weyk9h7uYMf7nPhtkOO5uGIwo4293Mpa8_n1k5v4XCV4tLOKuPET7PanknVltvO5r1q4vUJw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7800000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "szeA9tvItJY",
+              "title": "Morat - Cuando Nadie Ve (Video Oficial)",
+              "views": 830957776,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/szeA9tvItJY/hq720.jpg"
+            },
+            {
+              "videoId": "1oeD2m2UQAI",
+              "title": "Morat, Juanes - Besos En Guerra (Video Oficial)",
+              "views": 731685662,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/1oeD2m2UQAI/hq720.jpg"
+            },
+            {
+              "videoId": "YbBeQiJmsrg",
+              "title": "Morat - No Hay Más Que Hablar",
+              "views": 126634981,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/YbBeQiJmsrg/hq720.jpg"
+            },
+            {
+              "videoId": "ZLqq8aL1O5U",
+              "title": "Morat, Silvestre Dangond - The Little That I Want (Official Video)",
+              "views": 773648,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/ZLqq8aL1O5U/hq720.jpg"
+            },
+            {
+              "videoId": "USDX0X-d588",
+              "title": "Morat - No Se Va (Video Oficial)",
+              "views": 384736923,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/USDX0X-d588/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ovy On The Drums",
+          "channel": {
+            "id": "UC9vR20I0Qp-FRZvF4iXjcfQ",
+            "name": "Ovy On The Drums",
+            "image": "https://yt3.googleusercontent.com/Cquf1vjZvNIj1IzF_sVGC6dr7j5fT6ODtzSwb8kocGagiCJw104mKBMw1efeZ2T5rFYiGKWccQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1530000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "rJnRIX9j-T4",
+              "title": "Q Hubo Amor (Medellín) - Ovy On The Drums, Jere Klein, Bleesd (Vizualizer)",
+              "views": 1311293,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/rJnRIX9j-T4/hq720.jpg"
+            },
+            {
+              "videoId": "LPnNeR2UKFo",
+              "title": "Beéle, Quevedo, Ovy On the Drums - Yo y Tú (Lyric Video) | CantoYo",
+              "views": 10778601,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/LPnNeR2UKFo/hq720.jpg"
+            },
+            {
+              "videoId": "b719yBVKlCk",
+              "title": "Ovy On The Drums, Myke Towers, Blessd, Ryan Castro  - GODIVA (Official Video)",
+              "views": 79539292,
+              "duration": "3:43",
+              "thumbnail": "https://i.ytimg.com/vi/b719yBVKlCk/hq720.jpg"
+            },
+            {
+              "videoId": "t5b4wHEX37Q",
+              "title": "Beéle & Ovy On The Drums - Inolvidable (Official Video)",
+              "views": 520788170,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/t5b4wHEX37Q/hq720.jpg"
+            },
+            {
+              "videoId": "kdaoYcf5mXQ",
+              "title": "BLESSD ❌ MYKE TOWERS ❌ OVY ON THE DRUMS | TENDENCIA GLOBAL 🌎 ( OFFICIAL VIDEO )",
+              "views": 196877975,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/kdaoYcf5mXQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Piso 21",
+          "channel": {
+            "id": "UCEFNzT2RoVqGkV4e3Osyx4A",
+            "name": "Piso 21",
+            "image": "https://yt3.googleusercontent.com/KOgLK8WGVV6X0t5HuzWjtySbinKXGWSdKkRb_OCTQcs5iPSX1mIphKiJesmay8mdTUFZrhrSWy0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7880000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "y7d9VLRO3vc",
+              "title": "Piso 21 & Manuel Turizo - Déjala Que Vuelva (Video Oficial)",
+              "views": 2277692962,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/y7d9VLRO3vc/hq720.jpg"
+            },
+            {
+              "videoId": "F3uzNaw-uhE",
+              "title": "Piso 21 - Me Llamas (feat. Maluma) [Remix] | Video Oficial",
+              "views": 1050132819,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/F3uzNaw-uhE/hq720.jpg"
+            },
+            {
+              "videoId": "D-bYv33e6N0",
+              "title": "Piso 21 - Puntos Suspensivos (Video Oficial)",
+              "views": 819987347,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/D-bYv33e6N0/hq720.jpg"
+            },
+            {
+              "videoId": "0yruvXjYoUo",
+              "title": "Piso 21 & Micro TDH - Te Vi (Video Oficial)",
+              "views": 603982040,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/0yruvXjYoUo/hq720.jpg"
+            },
+            {
+              "videoId": "X325aqIVlGg",
+              "title": "Piso 21 2025 MIX Top Hits - Me Llamas, Te Amo, Puntos Suspensivos, Te Vi",
+              "views": 12396,
+              "duration": "50:55",
+              "thumbnail": "https://i.ytimg.com/vi/X325aqIVlGg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ryan Castro",
+          "channel": {
+            "id": "UCU4Zw6BTodIqGYUpvlaLD5A",
+            "name": "Ryan Castro",
+            "image": "https://yt3.googleusercontent.com/y2j74DxRNGsYz9nG9A_ahsTgL6ieqGzuknUYlHwBeuBOGo2BEiHIJK8q15plX2mLVd_cImmj=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4570000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "EochZ-iyrqQ",
+              "title": "Ryan Castro, Kapo, Gangsta - LA VILLA (Video Oficial) | HOPI SENDÉ",
+              "views": 82923681,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/EochZ-iyrqQ/hq720.jpg"
+            },
+            {
+              "videoId": "dn3d8awSA0c",
+              "title": "Kybba, Ryan Castro, Sean Paul & Busy Signal - BA BA BAD REMIX (Video Oficial)",
+              "views": 217889871,
+              "duration": "2:30",
+              "thumbnail": "https://i.ytimg.com/vi/dn3d8awSA0c/hq720.jpg"
+            },
+            {
+              "videoId": "6Y1dtxb-2lE",
+              "title": "Ryan Castro, SOG, Selección Colombia - EL RITMO QUE NOS UNE (Video Oficial)",
+              "views": 165348720,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/6Y1dtxb-2lE/hq720.jpg"
+            },
+            {
+              "videoId": "EOkCOYrPEsU",
+              "title": "Ryan Castro, Feid - Monastery (Vídeo Oficial)",
+              "views": 553461226,
+              "duration": "3:54",
+              "thumbnail": "https://i.ytimg.com/vi/EOkCOYrPEsU/hqdefault.jpg"
+            },
+            {
+              "videoId": "H3tEZUTzzHI",
+              "title": "CASAPARLANTE: RYAN CASTRO",
+              "views": 1971360,
+              "duration": "19:46",
+              "thumbnail": "https://i.ytimg.com/vi/H3tEZUTzzHI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Santiago Cruz",
+          "channel": {
+            "id": "UCf-0dUqvIhOJdJ2FoaKMRlg",
+            "name": "Santiago Cruz ",
+            "image": "https://yt3.googleusercontent.com/i0ObYqpwPohVoPclUiJC-pS_ocrE3Q2aYGzKX6zB6xu9acWLFP4LalHi5O3V-kcoX-XlbtiPtw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1100000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "S8RmXvxlIzc",
+              "title": "Santiago Cruz - Desde Lejos (Video Versión)",
+              "views": 207209346,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/S8RmXvxlIzc/hq720.jpg"
+            },
+            {
+              "videoId": "gTFTYilOjzk",
+              "title": "Santiago Cruz Solo Exitos - Las mejores canciones Romanticas de Santiago Cruz",
+              "views": 284634,
+              "duration": "1:03:48",
+              "thumbnail": "https://i.ytimg.com/vi/gTFTYilOjzk/hq720.jpg"
+            },
+            {
+              "videoId": "l-bQKxvW9jU",
+              "title": "Santiago Cruz - Baja La Guardia (Official Video)",
+              "views": 56504036,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/l-bQKxvW9jU/hq720.jpg"
+            },
+            {
+              "videoId": "geFJZW9vpSM",
+              "title": "Santiago Cruz - Y Si Te Quedas, ¿qué? (Official Video)",
+              "views": 72833986,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/geFJZW9vpSM/hq720.jpg"
+            },
+            {
+              "videoId": "HqW7Q-ibcNE",
+              "title": "Santiago Cruz - Un Amor De Verdad (Video Oficial)",
+              "views": 8797157,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/HqW7Q-ibcNE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sebastian Yatra",
+          "channel": {
+            "id": "UCssFxr-IdIa-wpG3jUXYrmw",
+            "name": "Sebastián Yatra",
+            "image": "https://yt3.googleusercontent.com/l8gYMzAS1xKG-8hvARpQASuO5G8uR1fQS56lxxJhGfXYxdPMhnw7LA6tFqm28Xq8e-P5cVZr=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 18900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "sD9_l3oDOag",
+              "title": "Sebastián Yatra - No Hay Nadie Más (Official Video)",
+              "views": 1099078411,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/sD9_l3oDOag/hq720.jpg"
+            },
+            {
+              "videoId": "Qz9gmiLBVFA",
+              "title": "Sebastián Yatra - Tacones Rojos (Official Video)",
+              "views": 613911529,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/Qz9gmiLBVFA/hq720.jpg"
+            },
+            {
+              "videoId": "SRm2Ch4oFWs",
+              "title": "Sebastián Yatra, Myke Towers - Pareja Del Año",
+              "views": 608300670,
+              "duration": "3:28",
+              "thumbnail": "https://i.ytimg.com/vi/SRm2Ch4oFWs/hq720.jpg"
+            },
+            {
+              "videoId": "NE3IkFadCHM",
+              "title": "Sebastián Yatra - Traicionera (Official Video)",
+              "views": 735426256,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/NE3IkFadCHM/hq720.jpg"
+            },
+            {
+              "videoId": "VnNfLTg-tx4",
+              "title": "Sebastián Yatra, Augusto Alonso - Lo Que Me Pasa Con Vos",
+              "views": 1907688,
+              "duration": "5:21",
+              "thumbnail": "https://i.ytimg.com/vi/VnNfLTg-tx4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Shakira",
+          "channel": {
+            "id": "UCYLNGLIzMhRTi6ZOLjAPSmw",
+            "name": "Shakira",
+            "image": "https://yt3.googleusercontent.com/FhrbXrCCkXlRFrTlJR6uZMzZO0PvnUoQdqK2b920BF6IjDsScsYwixMcLQHtwDy-CnWAWB0yiD4=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 50400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "fcnDmrtj6Sk",
+              "title": "Shakira, Burna Boy - Dai Dai (Official Video)",
+              "views": 10993180,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hq720.jpg"
+            },
+            {
+              "videoId": "DUT5rEU6pqM",
+              "title": "Shakira - Hips Don't Lie (featuring Wyclef Jean) (Official 4K Video) ft. Wyclef Jean",
+              "views": 1809975938,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/DUT5rEU6pqM/hq720.jpg"
+            },
+            {
+              "videoId": "pRpeEdMmmQ0",
+              "title": "Shakira - Waka Waka (This Time for Africa) (The Official 2010 FIFA World Cup™ Song)",
+              "views": 4536606836,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/pRpeEdMmmQ0/hq720.jpg"
+            },
+            {
+              "videoId": "41ZY18JqI2A",
+              "title": "Shakira, Ed Sheeran, Beéle - Hips Don't Lie (Anniversary Version)",
+              "views": 70530652,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/41ZY18JqI2A/hq720.jpg"
+            },
+            {
+              "videoId": "X9CsK_nuqdE",
+              "title": "Shakira, Burna Boy - Dai Dai (Official Audio)",
+              "views": 5582839,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/X9CsK_nuqdE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Systema Solar",
+          "channel": {
+            "id": "UCPJBruhI9QZrWZ3UUL71zkA",
+            "name": "Systema Solar",
+            "image": "https://yt3.googleusercontent.com/ZOQsIj6_AXLeo71jx5lVH-sA0TI6d1OrRiFjobBpVbC5U0tlOkqvggXgFYj8ulIh4Gptx1msdw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 96900,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "I9t4XTOwtEo",
+              "title": "Systema Solar - Yo Voy Ganao (Video Oficial)",
+              "views": 21514373,
+              "duration": "5:08",
+              "thumbnail": "https://i.ytimg.com/vi/I9t4XTOwtEo/hqdefault.jpg"
+            },
+            {
+              "videoId": "rLJSMn5Mc2U",
+              "title": "El Botón del Pantalón - Systema Solar",
+              "views": 9854845,
+              "duration": "7:01",
+              "thumbnail": "https://i.ytimg.com/vi/rLJSMn5Mc2U/hq720.jpg"
+            },
+            {
+              "videoId": "wPrl6NrHP8U",
+              "title": "¿Quién es el patrón? - Systema Solar (Audio Oficial)",
+              "views": 1399402,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/wPrl6NrHP8U/hqdefault.jpg"
+            },
+            {
+              "videoId": "CjoOBLrSfdw",
+              "title": "Systema Solar - \"Bienvenidos\" | Music 2010 | SXSW",
+              "views": 2480548,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/CjoOBLrSfdw/hq720.jpg"
+            },
+            {
+              "videoId": "GsG5zscpG7w",
+              "title": "Systema Solar - Sin Oficio (Lyric Video)",
+              "views": 263164,
+              "duration": "5:41",
+              "thumbnail": "https://i.ytimg.com/vi/GsG5zscpG7w/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    },
+    "gospel": {
+      "count": 15,
+      "artists": [
+        {
+          "name": "Alex Campos",
+          "channel": {
+            "id": "UCL6-hd65P6a4cFQfupSsyHA",
+            "name": "Alex Campos",
+            "image": "https://yt3.googleusercontent.com/TymdcMA1uRpHC00fPBEeTqyTF3Wjhwxgv_ijNqUUxWjBOD3vWn0q2aQxuoemNzB5eaY6Wxwk1A=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2830000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "DTWyZ5w6XJY",
+              "title": "In The Secret with Jesus – An Intimate Encounter | LIVE with Alex Campos",
+              "views": 22694,
+              "duration": "23:55",
+              "thumbnail": "https://i.ytimg.com/vi/DTWyZ5w6XJY/hq720.jpg"
+            },
+            {
+              "videoId": "S_XBSt5jkGU",
+              "title": "LA MEJOR MUSICA CRISTIANA 2021 - ALEX CAMPOS SUS MEJORES EXITOS MIX - 30 GRANDES ÉXITOS",
+              "views": 6379895,
+              "duration": "2:29:13",
+              "thumbnail": "https://i.ytimg.com/vi/S_XBSt5jkGU/hq720.jpg"
+            },
+            {
+              "videoId": "AZMhEXEG9Jk",
+              "title": "Alex Campos | El Sonido del Silencio (Letra)",
+              "views": 209106765,
+              "duration": "5:21",
+              "thumbnail": "https://i.ytimg.com/vi/AZMhEXEG9Jk/hqdefault.jpg"
+            },
+            {
+              "videoId": "EZhq9ITz20c",
+              "title": "SI ESTOY CONTIGO I Alex Campos & Barak I El Concierto Derroche de Amor (HD)",
+              "views": 138614714,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/EZhq9ITz20c/hq720.jpg"
+            },
+            {
+              "videoId": "HGM_4phCNyo",
+              "title": "Derroche de amor - Música Cristiana - Alex Campos",
+              "views": 25125238,
+              "duration": "27:21",
+              "thumbnail": "https://i.ytimg.com/vi/HGM_4phCNyo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Alex Zurdo",
+          "channel": {
+            "id": "UChqXktKJ1-f_FMY2FmEZnlQ",
+            "name": "ALEX ZURDO MUSIC",
+            "image": "https://yt3.googleusercontent.com/h-d65MD-Sp22pKUTM8J4VXPtMR77RRWbjfOXqov5s_kYg9KOzMrs1HpFYv6ZIwHmdUABAcySzK8=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4010000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "b9AHzHHMfwY",
+              "title": "Alex Zurdo - Te Busco (Video Oficial 4K)",
+              "views": 246901295,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/b9AHzHHMfwY/hq720.jpg"
+            },
+            {
+              "videoId": "rSBUf5H26ug",
+              "title": "Daddy Yankee Feat. Alex Zurdo (Official Video)",
+              "views": 26191919,
+              "duration": "3:02",
+              "thumbnail": "https://i.ytimg.com/vi/rSBUf5H26ug/hq720.jpg"
+            },
+            {
+              "videoId": "s_2ELWx04t0",
+              "title": "Alex Zurdo x Jay Kalyl - Con Dio' (Video Oficial)",
+              "views": 11583988,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/s_2ELWx04t0/hq720.jpg"
+            },
+            {
+              "videoId": "PsDghdJperY",
+              "title": "Cuando Yo Te Conocí - Alex Zurdo ft AZ Family (Video Oficial)",
+              "views": 141064507,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/PsDghdJperY/hq720.jpg"
+            },
+            {
+              "videoId": "8vbgAYYoy-I",
+              "title": "Alex Zurdo - En Hora Buena (Video Oficial)",
+              "views": 23314939,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/8vbgAYYoy-I/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Barak",
+          "channel": {
+            "id": "UC65lJmDrCqX1ndzWWPSu--w",
+            "name": "Grupo Barak",
+            "image": "https://yt3.googleusercontent.com/VZkGOnP_l_AJabjpT5aSjssM-vVWHwhZBwIB7onyLVZyYtC_GhX4Li3yC_ZnxMHhHOpm9lnZ8w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3320000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "LlEBtKmplPw",
+              "title": "Barak - Dios Háblame (Video Lyric)",
+              "views": 77255464,
+              "duration": "5:40",
+              "thumbnail": "https://i.ytimg.com/vi/LlEBtKmplPw/hq720.jpg"
+            },
+            {
+              "videoId": "sPI8MO1ENbM",
+              "title": "Lo Mejor De Barak - Música Cristiana 2021",
+              "views": 25042134,
+              "duration": "1:57:56",
+              "thumbnail": "https://i.ytimg.com/vi/sPI8MO1ENbM/hq720.jpg"
+            },
+            {
+              "videoId": "pCtHNZEC3Vs",
+              "title": "La Tierra Canta | Barak |  Video Oficial | Radical Live",
+              "views": 409281051,
+              "duration": "7:22",
+              "thumbnail": "https://i.ytimg.com/vi/pCtHNZEC3Vs/hq720.jpg"
+            },
+            {
+              "videoId": "4rh2fh7NrAg",
+              "title": "Barak - Todo Va Estar Bien (DVD Live Generación Sedienta)",
+              "views": 267846112,
+              "duration": "5:17",
+              "thumbnail": "https://i.ytimg.com/vi/4rh2fh7NrAg/hq720.jpg"
+            },
+            {
+              "videoId": "IxD3JiOo9DY",
+              "title": "Barak - Mi Gozo (Video Oficial)",
+              "views": 48300193,
+              "duration": "6:05",
+              "thumbnail": "https://i.ytimg.com/vi/IxD3JiOo9DY/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Christine D'Clario",
+          "channel": {},
+          "topSongs": [],
+          "songCount": 0
+        },
+        {
+          "name": "Danilo Montero",
+          "channel": {
+            "id": "UCpLn1y1GI2FFEZy-UuwEWpA",
+            "name": "Danilo Montero",
+            "image": "https://yt3.googleusercontent.com/_QmZQwCvQKx7TIZLg9TVWdPI2qnk_u4yeqSsrc6Z7H3h7xTS9OtxKwTHi-wOx6sbArHt4kZm-KQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1580000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "LwlSeZVHBXE",
+              "title": "These 3 reflections will change your week - Gloriana Montero I Christian Reflections 2026",
+              "views": 20990,
+              "duration": "27:30",
+              "thumbnail": "https://i.ytimg.com/vi/LwlSeZVHBXE/hq720.jpg"
+            },
+            {
+              "videoId": "dmB73zcd-g4",
+              "title": "LO MEJOR DE DANILO MONTERO EN ADORACIÓN - DANILO MONTERO SUS MEJORES EXITOS MIX - 20 GRANDES EXITOS",
+              "views": 10842551,
+              "duration": "1:35:15",
+              "thumbnail": "https://i.ytimg.com/vi/dmB73zcd-g4/hq720.jpg"
+            },
+            {
+              "videoId": "TJZC5dBGho0",
+              "title": "Hermosa Música Cristiana, Pupurri Danilo Montero, Sus Mejores Exitos, MIX 30 GRANDES ÉXITOS",
+              "views": 856396,
+              "duration": "1:55:41",
+              "thumbnail": "https://i.ytimg.com/vi/TJZC5dBGho0/hq720.jpg"
+            },
+            {
+              "videoId": "lqC1tjrxYrE",
+              "title": "1 Hora Con Lo Mejor De Danilo Montero",
+              "views": 313742,
+              "duration": "47:50",
+              "thumbnail": "https://i.ytimg.com/vi/lqC1tjrxYrE/hq720.jpg"
+            },
+            {
+              "videoId": "xC95AP6kPJA",
+              "title": "Wisdom for Facing Crises - Danilo Montero | Christian Sermons 2026",
+              "views": 105419,
+              "duration": "34:54",
+              "thumbnail": "https://i.ytimg.com/vi/xC95AP6kPJA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Funky",
+          "channel": {
+            "id": "UCRGY7L_DMyJeKah_jGu14fQ",
+            "name": "Funky",
+            "image": "https://yt3.googleusercontent.com/tIY70Cb7axElcD2_kdZR5V-g4du0q1JGW_f-woub55x0ALqOmnGQ8p4AbQ1YaRv5tCGDLN15=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "z5PATyME8tY",
+              "title": "Smooth Funky City Pop on vinyl, シティ・ポップ, Clássicos da MPB with Bobby Ghanoush",
+              "views": 3968780,
+              "duration": "1:11:21",
+              "thumbnail": "https://i.ytimg.com/vi/z5PATyME8tY/hq720.jpg"
+            },
+            {
+              "videoId": "YTx8y0kWbtw",
+              "title": "Funky Soul & Hiphop Grooves – A Groovy Mix with a Retro Twist",
+              "views": 1671018,
+              "duration": "1:02:27",
+              "thumbnail": "https://i.ytimg.com/vi/YTx8y0kWbtw/hq720.jpg"
+            },
+            {
+              "videoId": "eRErtHjd1wg",
+              "title": "🔥 Vintage Soul Funk Groove You’ve Been Looking For | Raw & Minimal Dry Groove",
+              "views": 432746,
+              "duration": "3:35:55",
+              "thumbnail": "https://i.ytimg.com/vi/eRErtHjd1wg/hq720.jpg"
+            },
+            {
+              "videoId": "qf2V3mNzTjw",
+              "title": "FUNK SOUL - ANALOG GROOVES | Smooth Funk, Soul & Jazz for Chill / Deep Work #music #playlist #funk",
+              "views": 193485,
+              "duration": "3:00:16",
+              "thumbnail": "https://i.ytimg.com/vi/qf2V3mNzTjw/hq720.jpg"
+            },
+            {
+              "videoId": "ZI67SMEhYCw",
+              "title": "Soulful Funk & Boogie Grooves  70s – The Coolest Playlist to Vibe All Day",
+              "views": 370109,
+              "duration": "2:22:29",
+              "thumbnail": "https://i.ytimg.com/vi/ZI67SMEhYCw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ingrid Rosario",
+          "channel": {
+            "id": "UCTdok6nPPUzmstw7RdcqzuA",
+            "name": "Ingrid Rosario",
+            "image": "https://yt3.googleusercontent.com/5Lk6AnjZTZNYEFtDsvDM-i4CMkX_ac4qzGQuX30Mu1W2D3ZmnurseaMQe6jKgCI2lIOCBeXK=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 376000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Tssk5UWxvuw",
+              "title": "Ingrid Rosario - El Poder De Tu Amor",
+              "views": 125709943,
+              "duration": "9:43",
+              "thumbnail": "https://i.ytimg.com/vi/Tssk5UWxvuw/hq720.jpg"
+            },
+            {
+              "videoId": "WRgy3klcqb8",
+              "title": "Lo Mejor de Ingrid Rosario - Musica Cristiana - Adoracion",
+              "views": 5135401,
+              "duration": "1:28:08",
+              "thumbnail": "https://i.ytimg.com/vi/WRgy3klcqb8/hq720.jpg"
+            },
+            {
+              "videoId": "-vGoecgnN5Q",
+              "title": "1 Hora De Música Cristiana - Ingrid Rosario",
+              "views": 8218605,
+              "duration": "1:28:08",
+              "thumbnail": "https://i.ytimg.com/vi/-vGoecgnN5Q/hq720.jpg"
+            },
+            {
+              "videoId": "-ljdfTBq07w",
+              "title": "Ingrid Rosario - Te Bendeciré",
+              "views": 19933530,
+              "duration": "6:27",
+              "thumbnail": "https://i.ytimg.com/vi/-ljdfTBq07w/hq720.jpg"
+            },
+            {
+              "videoId": "Oi80X4aDhxw",
+              "title": "Ingrid Rosario - Digno Y Santo",
+              "views": 26505298,
+              "duration": "8:06",
+              "thumbnail": "https://i.ytimg.com/vi/Oi80X4aDhxw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jesed",
+          "channel": {
+            "id": "UCSWSaqzkULuPyhCx3NJNMfw",
+            "name": "Jésed",
+            "image": "https://yt3.googleusercontent.com/BXvQqUoaIFMl2uT1u7eiKNH8gH_yKfzsrEQMegoRQwhgIebyiQrCF7t5KT8yh3bvBgAWZ6blBw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 283000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "9HwWNKDH9P8",
+              "title": "Ora con Jésed: 23 de mayo de 2026",
+              "views": 320,
+              "duration": "39:46",
+              "thumbnail": "https://i.ytimg.com/vi/9HwWNKDH9P8/hq720.jpg"
+            },
+            {
+              "videoId": "uyrUbzxGmNw",
+              "title": "Cantos a Espíritu Santo - Jésed",
+              "views": 377279,
+              "duration": "24:54",
+              "thumbnail": "https://i.ytimg.com/vi/uyrUbzxGmNw/hq720.jpg"
+            },
+            {
+              "videoId": "BUG5ZCfd-28",
+              "title": "Silence of Love",
+              "views": 8362,
+              "duration": "44:19",
+              "thumbnail": "https://i.ytimg.com/vi/BUG5ZCfd-28/hq720.jpg"
+            },
+            {
+              "videoId": "7cF0xUHdXKQ",
+              "title": "Cantos para Orar - Música Católica | Jésed",
+              "views": 82368,
+              "duration": "1:11:32",
+              "thumbnail": "https://i.ytimg.com/vi/7cF0xUHdXKQ/hq720.jpg"
+            },
+            {
+              "videoId": "Stp25uXzsEo",
+              "title": "Solo Dios (Lyric Video) - Jésed",
+              "views": 9042296,
+              "duration": "5:24",
+              "thumbnail": "https://i.ytimg.com/vi/Stp25uXzsEo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Julio Melgar",
+          "channel": {
+            "id": "UC6glcaM_pOT0Af9BsbRPMWg",
+            "name": "Julio Melgar",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_l3xKwnhJnFYunVu2suaaa4agPSRwZD37ZlzmohVO6gvw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 723000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "yDdyDDAWRcM",
+              "title": "Julio Melgar - Tus Cuerdas De Amor feat. Lowsan Melgar - Versión Extendida (Lyric Video Oficial)",
+              "views": 177982072,
+              "duration": "7:24",
+              "thumbnail": "https://i.ytimg.com/vi/yDdyDDAWRcM/hq720.jpg"
+            },
+            {
+              "videoId": "mq_1aTYFzqM",
+              "title": "Christine D'Clario (Ft. Julio Melgar & Bethel Music) - Ya No Soy Esclavo",
+              "views": 108482923,
+              "duration": "12:46",
+              "thumbnail": "https://i.ytimg.com/vi/mq_1aTYFzqM/hq720.jpg"
+            },
+            {
+              "videoId": "6gO9rCFJ1wk",
+              "title": "Preciosa Sangre - Marco Barrientos (feat. Julio Melgar) - El Encuentro",
+              "views": 288792243,
+              "duration": "7:26",
+              "thumbnail": "https://i.ytimg.com/vi/6gO9rCFJ1wk/hq720.jpg"
+            },
+            {
+              "videoId": "ES3JPalVZvo",
+              "title": "Concierto Julio Melgar en Bogotá. (Completo)",
+              "views": 622480,
+              "duration": "1:08:16",
+              "thumbnail": "https://i.ytimg.com/vi/ES3JPalVZvo/hq720.jpg"
+            },
+            {
+              "videoId": "xJ_ZZkM5fGY",
+              "title": "Creo En Ti",
+              "views": 13720503,
+              "duration": "7:04",
+              "thumbnail": "https://i.ytimg.com/vi/xJ_ZZkM5fGY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kike Pavon",
+          "channel": {
+            "id": "UCnijJTIo2-N73v-7B7Js4VQ",
+            "name": "Kike Pavón",
+            "image": "https://yt3.googleusercontent.com/GHRj-ShprOzgqMsoRAFVHyq5HO-r2lPSsvZ0sp6rt-sRbi_qX3aa-1lEPIUKv9RjNX7Md98gpA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 889000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "luVCFyytVTE",
+              "title": "Kike Pavón ft. Funky - Empezar de Nuevo (Video Oficial)",
+              "views": 136117779,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/luVCFyytVTE/hq720.jpg"
+            },
+            {
+              "videoId": "6XrYCO8DkS0",
+              "title": "Kike Pavón ft. Ulises Eyherabide ( RESCATE ) - Clama (Video Oficial)",
+              "views": 22569018,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/6XrYCO8DkS0/hq720.jpg"
+            },
+            {
+              "videoId": "GPkDnzO0d_Q",
+              "title": "Kike Pavon Ganas de vivir Album Completo",
+              "views": 1480297,
+              "duration": "50:21",
+              "thumbnail": "https://i.ytimg.com/vi/GPkDnzO0d_Q/hqdefault.jpg"
+            },
+            {
+              "videoId": "WPLGNKQGi5s",
+              "title": "Kike Pavón - Perfecto Corazón | Playlist",
+              "views": 289957,
+              "duration": "35:04",
+              "thumbnail": "https://i.ytimg.com/vi/WPLGNKQGi5s/hq720.jpg"
+            },
+            {
+              "videoId": "hywd9XmnJ_4",
+              "title": "Lo Mejor de Kike Pavón Mix Cristiano - Videos Oficiales | Mejor Música Cristiana - Gospel Músic",
+              "views": 660862,
+              "duration": "1:43:55",
+              "thumbnail": "https://i.ytimg.com/vi/hywd9XmnJ_4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lilly Goodman",
+          "channel": {
+            "id": "UC5-gdMo8C4YM9MePXbYnpHg",
+            "name": "Lilly Goodman",
+            "image": "https://yt3.googleusercontent.com/yAvuFG8TOb-LSgYvpZZ3i3ym-YUNz2IWCySjOq5kNPH2uGk-RhSUU4s_WG2evEUZJhcomgjDIw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1980000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "sesss3X4a1w",
+              "title": "Al Final (Video Oficial) - Lilly Goodman",
+              "views": 752691218,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/sesss3X4a1w/hq720.jpg"
+            },
+            {
+              "videoId": "-fafzgzGkDY",
+              "title": "2 Hora con Lo Mejor de Lilly Goodman en Adoracion Lilly Goodman Sus Mejores Éxitos",
+              "views": 2936245,
+              "duration": "2:00:01",
+              "thumbnail": "https://i.ytimg.com/vi/-fafzgzGkDY/hqdefault.jpg"
+            },
+            {
+              "videoId": "cPurbb75z-g",
+              "title": "Lilly Goodman - Me Siento Libre (Álbum Completo)",
+              "views": 776280,
+              "duration": "40:16",
+              "thumbnail": "https://i.ytimg.com/vi/cPurbb75z-g/hq720.jpg"
+            },
+            {
+              "videoId": "xHZDGLcMcxs",
+              "title": "Lilly Goodman - Iglesia  (LETRA)",
+              "views": 166237243,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/xHZDGLcMcxs/hqdefault.jpg"
+            },
+            {
+              "videoId": "zxMM4pZZbjc",
+              "title": "Iglesia",
+              "views": 10319518,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/zxMM4pZZbjc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Marco Barrientos",
+          "channel": {
+            "id": "UCsS3FSQkwOR_eMSdF9VIHpQ",
+            "name": "Marco Barrientos",
+            "image": "https://yt3.googleusercontent.com/0je09vk5eMqAvo3nHtzC0oA_4I1thIZTDY5GSgN9LZkG74VXHkHcB2z_vhIHo6wrvB09cLQT=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1670000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "y3in67C5RX8",
+              "title": "Solo De Jesús / Todo Debo A Él - Marco Barrientos [Eterno] (Visualizer)",
+              "views": 37581,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/y3in67C5RX8/hq720.jpg"
+            },
+            {
+              "videoId": "ykxzVXqNU9o",
+              "title": "Marco Barrientos | Exaltado - Álbum en vivo desde CDMX",
+              "views": 2916518,
+              "duration": "1:55:31",
+              "thumbnail": "https://i.ytimg.com/vi/ykxzVXqNU9o/hq720.jpg"
+            },
+            {
+              "videoId": "sSEWouMPPC0",
+              "title": "Marco Barrientos   Encuentros con Dios 2017 CD Completo",
+              "views": 487099,
+              "duration": "56:08",
+              "thumbnail": "https://i.ytimg.com/vi/sSEWouMPPC0/hq720.jpg"
+            },
+            {
+              "videoId": "t0wgWTuccn0",
+              "title": "Ven, Espíritu Ven - Medley - Marco Barrientos (Video Oficial)",
+              "views": 157430,
+              "duration": "27:47",
+              "thumbnail": "https://i.ytimg.com/vi/t0wgWTuccn0/hq720.jpg"
+            },
+            {
+              "videoId": "DPyPSnjDdlM",
+              "title": "Intimidad con dios  - A Cada Instante, no hay nadie como tu, dame de beber (MARCO BARRIENTOS)",
+              "views": 13937251,
+              "duration": "34:56",
+              "thumbnail": "https://i.ytimg.com/vi/DPyPSnjDdlM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Marcos Witt",
+          "channel": {
+            "id": "UCD_gOHOuDqEbZfwzrk18pxQ",
+            "name": "Marcos Witt Oficial",
+            "image": "https://yt3.googleusercontent.com/PZm5W59Cv5KEpC6OyNYkDlHe6ObajSjRNWY6BLBn6ba_oqrv2zjqN2uxx6XaW90kSow9hIs2qA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1670000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "7EKXmNlDfYo",
+              "title": "LO MEJOR DE MARCOS WITT EN ADORACIÓN - MARCOS WITT SUS MEJORES ÉXITOS",
+              "views": 4016203,
+              "duration": "3:57:41",
+              "thumbnail": "https://i.ytimg.com/vi/7EKXmNlDfYo/hq720.jpg"
+            },
+            {
+              "videoId": "_zhBv6JjLxQ",
+              "title": "Marcos Witt | Al Estar Aquí feat. @TAYAGaukrodger  (Video Oficial)",
+              "views": 12446232,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/_zhBv6JjLxQ/hq720.jpg"
+            },
+            {
+              "videoId": "_JavQ5Iv5WU",
+              "title": "Eternal - Marcos Witt, Marcos Vidal & Marco Barrientos (Album Visualizer)",
+              "views": 237799,
+              "duration": "40:07",
+              "thumbnail": "https://i.ytimg.com/vi/_JavQ5Iv5WU/hq720.jpg"
+            },
+            {
+              "videoId": "79Zu2d_yGf0",
+              "title": "LO MEJOR DE MARCOS WITT EN ADORACIÓN - MARCOS WITT SUS MEJORES ÉXITOS",
+              "views": 778480,
+              "duration": "2:14:10",
+              "thumbnail": "https://i.ytimg.com/vi/79Zu2d_yGf0/hq720.jpg"
+            },
+            {
+              "videoId": "JDyP-cFxF4k",
+              "title": "God of Covenants - Marcos Witt [Eternal] (Visualizer)",
+              "views": 82693,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/JDyP-cFxF4k/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Miel San Marcos",
+          "channel": {
+            "id": "UC0KvzOWr83tdsdQWUsuf3Hw",
+            "name": "MIEL SAN MARCOS",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nOgiFZCGb1E7dBlAGgLTV0kBAKoMKpZcT8oSZfR5aOp3w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3060000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "IvU2q0YSNNs",
+              "title": "REVIVAL Miel San Marcos & MonteSanto Live from Guatemala - Official Video",
+              "views": 3835,
+              "duration": "5:28",
+              "thumbnail": "https://i.ytimg.com/vi/IvU2q0YSNNs/hq720.jpg"
+            },
+            {
+              "videoId": "Ofq9bxEVwPU",
+              "title": "PENTECOSTÉS  CONCIERTO COMPLETO | VIDEO OFICIAL |  MIEL SAN MARCOS | AÑO 2017",
+              "views": 46230279,
+              "duration": "1:46:43",
+              "thumbnail": "https://i.ytimg.com/vi/Ofq9bxEVwPU/hq720.jpg"
+            },
+            {
+              "videoId": "YKQKmzo4qH4",
+              "title": "EVANGELIO - CONCIERTO COMPLETO - MIEL SAN MARCOS - VIDEO OFICIAL - En vivo desde Los Angeles CA -",
+              "views": 5580714,
+              "duration": "2:34:39",
+              "thumbnail": "https://i.ytimg.com/vi/YKQKmzo4qH4/hq720.jpg"
+            },
+            {
+              "videoId": "L600CKAVctE",
+              "title": "PROEZAS Miel San Marcos  DVD Oficial",
+              "views": 23332112,
+              "duration": "1:31:00",
+              "thumbnail": "https://i.ytimg.com/vi/L600CKAVctE/hqdefault.jpg"
+            },
+            {
+              "videoId": "xHPd8VEiYQs",
+              "title": "Increíble feat Evan Craft Videoclip Oficial Miel San Marcos",
+              "views": 214985107,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/xHPd8VEiYQs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tercer Cielo",
+          "channel": {
+            "id": "UCBFJlZru7CEtu38EUnbAtBQ",
+            "name": "tercercielotv",
+            "image": "https://yt3.googleusercontent.com/i5R5o131SSGLY5oAUP0dWSJU-7jKzEja78hdZZXYJ3Fjkf0BJ9vvAwCwA2GiBbkWvMqEZqM3=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3780000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "bHNMITvB9Ws",
+              "title": "Tercer Cielo - En Honor A Mamá Vol.1  - Álbum Completo",
+              "views": 10108,
+              "duration": "17:25",
+              "thumbnail": "https://i.ytimg.com/vi/bHNMITvB9Ws/hq720.jpg"
+            },
+            {
+              "videoId": "-5dmC-WZT8s",
+              "title": "Tercer Cielo - Creere - Video Oficial",
+              "views": 295813759,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/-5dmC-WZT8s/hq720.jpg"
+            },
+            {
+              "videoId": "jYy-rTxpcTY",
+              "title": "Tercer Cielo - Tercer Cielo sus mejores canciones mix nuevo album 20 grandes exitos",
+              "views": 1864490,
+              "duration": "2:01:26",
+              "thumbnail": "https://i.ytimg.com/vi/jYy-rTxpcTY/hq720.jpg"
+            },
+            {
+              "videoId": "z8ZxGAf9g2M",
+              "title": "Tercer Cielo - Yo Te Extrañare (Video Oficial)",
+              "views": 161938860,
+              "duration": "5:49",
+              "thumbnail": "https://i.ytimg.com/vi/z8ZxGAf9g2M/hq720.jpg"
+            },
+            {
+              "videoId": "eNz8vcn4RUA",
+              "title": "Tercer Cielo- Lindo Viaje (Audio)",
+              "views": 7015759,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/eNz8vcn4RUA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    }
+  }
+}

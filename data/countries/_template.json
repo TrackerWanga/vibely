@@ -1,0 +1,21 @@
+{
+  "country": "",
+  "flag": "",
+  "code": "",
+  "continent": "",
+  "population": "",
+  "languages": [],
+  "musicCategories": {
+    "secular": [],
+    "religious": {
+      "christian": [],
+      "islamic": [],
+      "traditional": [],
+      "other": []
+    }
+  },
+  "totalArtists": 0,
+  "topGenres": [],
+  "featuredPlaylists": [],
+  "artists": []
+}

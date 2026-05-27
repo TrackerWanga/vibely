@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --bg-deepest: #06060e;
+  --bg-primary: #0a0a18;
+  --bg-elevated: #111128;
+  --purple-dark: #5b21b6;
+  --purple-main: #7c3aed;
+  --purple-glow: #a78bfa;
+  --purple-neon: #c084fc;
+  --gold: #f59e0b;
+  --rose: #f43f5e;
+  --cyan: #06b6d4;
+  --emerald: #10b981;
+  --amber: #f97316;
+  --glass-bg: rgba(255,255,255,0.02);
+  --glass-border: rgba(255,255,255,0.06);
+  --glass-hover: rgba(124,58,237,0.1);
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { background: var(--bg-deepest); scroll-behavior: smooth; }
+
+body {
+  background: var(--bg-deepest);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.glass-card:hover {
+  border-color: rgba(124,58,237,0.3);
+  background: var(--glass-hover);
+  transform: translateY(-2px);
+}
+
+.scroll-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 16px 0;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.scroll-row::-webkit-scrollbar { height: 3px; }
+.scroll-row::-webkit-scrollbar-thumb { background: rgba(124,58,237,0.3); border-radius: 3px; }
+.scroll-row > * { scroll-snap-align: start; }
+
+.btn-primary {
+  padding: 10px 24px;
+  background: var(--purple-main);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.btn-primary:hover { background: #6d28d9; box-shadow: 0 4px 20px rgba(124,58,237,0.4); }
+
+.btn-glass {
+  padding: 8px 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.btn-glass:hover { background: rgba(255,255,255,0.08); color: var(--text-primary); }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-up { animation: fadeUp 0.5s ease-out forwards; }
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, rgba(255,255,255,0.03) 25%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0.03) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}

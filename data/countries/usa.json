@@ -1,0 +1,3084 @@
+{
+  "country": "United States",
+  "flag": "🇺🇸",
+  "code": "US",
+  "continent": "North America",
+  "categories": {
+    "secular": {
+      "count": 39,
+      "artists": [
+        {
+          "name": "21 Savage",
+          "channel": {
+            "id": "UCOjEHmBKwdS7joWpW0VrXkg",
+            "name": "21 Savage",
+            "image": "https://yt3.googleusercontent.com/e-gA1XW4o4-50VKhlldj-dKoUA1o0kXiFzZ172JDm_U9KO1FckZQ831hZNsjiGOSRyr3Da_L=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10100000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "DmWWqogr_r8",
+              "title": "21 Savage - a lot (Official Video) ft. J. Cole",
+              "views": 830243009,
+              "duration": "6:32",
+              "thumbnail": "https://i.ytimg.com/vi/DmWWqogr_r8/hq720.jpg"
+            },
+            {
+              "videoId": "U4mADkt6o-M",
+              "title": "21 Savage - redrum (Official Music Video)",
+              "views": 163059069,
+              "duration": "4:27",
+              "thumbnail": "https://i.ytimg.com/vi/U4mADkt6o-M/hq720.jpg"
+            },
+            {
+              "videoId": "sV2t3tW_JTQ",
+              "title": "21 Savage - Bank Account (Official Audio)",
+              "views": 494860862,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/sV2t3tW_JTQ/hq720.jpg"
+            },
+            {
+              "videoId": "acYUqMd9k2I",
+              "title": "21 Savage & Metro Boomin - Glock In My Lap (Official Music Video)",
+              "views": 105734537,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/acYUqMd9k2I/hq720.jpg"
+            },
+            {
+              "videoId": "ZZ6VhTBcc-c",
+              "title": "21 Savage x Metro Boomin - Runnin (Official Music Video)",
+              "views": 105185135,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/ZZ6VhTBcc-c/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ariana Grande",
+          "channel": {
+            "id": "UC9CoOnJkIBMdeijd9qYoT_g",
+            "name": "Ariana Grande",
+            "image": "https://yt3.googleusercontent.com/hK5f1t-mCu2WrNg3WPSrS5rySMl-wT0z3wNZuIWvC3gPtM4glWNszP0LthUxBcZVxgWVs6rq=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 57200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tcYodQoapMg",
+              "title": "Ariana Grande - positions (official video)",
+              "views": 695386263,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/tcYodQoapMg/hq720.jpg"
+            },
+            {
+              "videoId": "Wg92RrNhB8s",
+              "title": "Ariana Grande - One Last Time (Official Lyric Video)",
+              "views": 630662601,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/Wg92RrNhB8s/hq720.jpg"
+            },
+            {
+              "videoId": "SXiSVQZLje8",
+              "title": "Ariana Grande ft. Nicki Minaj - Side To Side (Official Video) ft. Nicki Minaj",
+              "views": 2430716192,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/SXiSVQZLje8/hq720.jpg"
+            },
+            {
+              "videoId": "agneRtEe-t8",
+              "title": "Ariana Grande - bye [Altare Remix]",
+              "views": 41596245,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/agneRtEe-t8/hq720.jpg"
+            },
+            {
+              "videoId": "4bwnO0FQp1s",
+              "title": "Ariana Grande - supernatural (lyric visualizer)",
+              "views": 90332911,
+              "duration": "2:44",
+              "thumbnail": "https://i.ytimg.com/vi/4bwnO0FQp1s/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bad Bunny",
+          "channel": {
+            "id": "UCmBA_wu8xGg1OfOkfW13Q0Q",
+            "name": "Bad Bunny",
+            "image": "https://yt3.googleusercontent.com/Ys37SrZ6B7RUW8_X3YvQet7VCFNnWa5C5PXe09OgIoY9UkTt1GpP_zap1-w2VF5gZcyS5xQmbJs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 52800000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "KU5V5WZVcVE",
+              "title": "BAD BUNNY - NUEVAYoL (Video Oficial) | DeBÍ TiRAR MáS FOToS",
+              "views": 127040987,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/KU5V5WZVcVE/hq720.jpg"
+            },
+            {
+              "videoId": "Cr8K88UcO0s",
+              "title": "Bad Bunny - Tití Me Preguntó (Official Video) | Un Verano Sin Ti",
+              "views": 1074962533,
+              "duration": "4:51",
+              "thumbnail": "https://i.ytimg.com/vi/Cr8K88UcO0s/hq720.jpg"
+            },
+            {
+              "videoId": "G6FuWd4wNd8",
+              "title": "Bad Bunny's Apple Music Super Bowl Halftime Show",
+              "views": 142171372,
+              "duration": "13:42",
+              "thumbnail": "https://i.ytimg.com/vi/G6FuWd4wNd8/hq720.jpg"
+            },
+            {
+              "videoId": "4X4uckVyk9o",
+              "title": "Bad Bunny - DtMF (Letra)",
+              "views": 230499533,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/4X4uckVyk9o/hq720.jpg"
+            },
+            {
+              "videoId": "ES60TsyqrAA",
+              "title": "Bad Bunny - DtMF (Video Lyrics)",
+              "views": 96606470,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/ES60TsyqrAA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Beyonce",
+          "channel": {
+            "id": "UCuHzBCaKmtaLcRAOoazhCPA",
+            "name": "Beyoncé",
+            "image": "https://yt3.googleusercontent.com/4UxYRy4fJ0Fo54TRPkw19_W6uCCnzTBSkzm75vGIiEObg4IgY5Ie1BIsNcflFNqofAjxEpTRcQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 29000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "bnVUHWCynig",
+              "title": "Beyoncé - Halo",
+              "views": 1805745354,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/bnVUHWCynig/hq720.jpg"
+            },
+            {
+              "videoId": "cN0-uj_2yDI",
+              "title": "Drunk In Love - Beyonce (Feat. Jay Z) (Lyrics) 🎵",
+              "views": 11061694,
+              "duration": "5:24",
+              "thumbnail": "https://i.ytimg.com/vi/cN0-uj_2yDI/hq720.jpg"
+            },
+            {
+              "videoId": "Ob7vObnFUJc",
+              "title": "Beyoncé - Love On Top (Official Video)",
+              "views": 591367048,
+              "duration": "3:17",
+              "thumbnail": "https://i.ytimg.com/vi/Ob7vObnFUJc/hq720.jpg"
+            },
+            {
+              "videoId": "2EwViQxSJJQ",
+              "title": "Beyoncé - Irreplaceable",
+              "views": 606508148,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/2EwViQxSJJQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "QrOe2h9RtWI",
+              "title": "Beyoncé, Shakira - Beautiful Liar",
+              "views": 658890358,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/QrOe2h9RtWI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Billie Eilish",
+          "channel": {
+            "id": "UCiGm_E4ZwYSHV3bcW1pnSeQ",
+            "name": "Billie Eilish",
+            "image": "https://yt3.googleusercontent.com/dirvtoDAmx-u0UR76-pxfhYL6Wxj2vfL2geUcxDwk62tTWWhGG6QDGc63RG3NdOz38-yBwRHDQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 58200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "l08Zw-RY__Q",
+              "title": "Billie Eilish - WILDFLOWER (Official Lyric Video)",
+              "views": 352818217,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/l08Zw-RY__Q/hq720.jpg"
+            },
+            {
+              "videoId": "V9PVRfjEBTI",
+              "title": "Billie Eilish - BIRDS OF A FEATHER (Official Music Video)",
+              "views": 829158717,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/V9PVRfjEBTI/hq720.jpg"
+            },
+            {
+              "videoId": "5GJWxDKyk3A",
+              "title": "Billie Eilish - Happier Than Ever (Official Music Video)",
+              "views": 465020548,
+              "duration": "5:16",
+              "thumbnail": "https://i.ytimg.com/vi/5GJWxDKyk3A/hq720.jpg"
+            },
+            {
+              "videoId": "xAWDqdpOlu8",
+              "title": "Billie Eilish – WILDFLOWER (Live Performance from Amazon Music’s Songline)",
+              "views": 213594866,
+              "duration": "4:48",
+              "thumbnail": "https://i.ytimg.com/vi/xAWDqdpOlu8/hqdefault.jpg"
+            },
+            {
+              "videoId": "V1Pl8CzNzCw",
+              "title": "Billie Eilish, Khalid - lovely",
+              "views": 2426944152,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/V1Pl8CzNzCw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bruno Mars",
+          "channel": {
+            "id": "UCoUM-UJ7rirJYP8CQ0EIaHA",
+            "name": "Bruno Mars",
+            "image": "https://yt3.googleusercontent.com/dxwzp4IYsNJKDcwNYgF0UGdw9vCWSMqkHaLtC08VVKg8eybNs69pbdTaGdoaKQYHVQjFyeybzA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 43700000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "GGf1PmVuya0",
+              "title": "Bruno Mars - Risk It All Lyrics Translation Music Video",
+              "views": 1613747,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/GGf1PmVuya0/hq720.jpg"
+            },
+            {
+              "videoId": "oF7FquycOaw",
+              "title": "Bruno Mars - Risk It All (Lyrics)",
+              "views": 126532,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/oF7FquycOaw/hq720.jpg"
+            },
+            {
+              "videoId": "lY5V4hSLWY8",
+              "title": "Bruno Mars - Risk It All [Official Music Video]",
+              "views": 96865012,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/lY5V4hSLWY8/hq720.jpg"
+            },
+            {
+              "videoId": "fLexgOxsZu0",
+              "title": "Bruno Mars - The Lazy Song (Official Music Video)",
+              "views": 3217975794,
+              "duration": "3:20",
+              "thumbnail": "https://i.ytimg.com/vi/fLexgOxsZu0/hq720.jpg"
+            },
+            {
+              "videoId": "kPa7bsKwL-c",
+              "title": "Lady Gaga, Bruno Mars - Die With A Smile (Official Music Video)",
+              "views": 1690758067,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/kPa7bsKwL-c/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Cardi B",
+          "channel": {
+            "id": "UCxMAbVFmxKUVGAll0WVGpFw",
+            "name": "Cardi B",
+            "image": "https://yt3.googleusercontent.com/UVierx2tWh30gATrJ0Q3hC6-mTwTwZwfVcQTiBY74yOb1--jaGBen6OzT1XlIOrV7FzRO4WpIw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 20400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "hsm4poTWjMs",
+              "title": "Cardi B - WAP feat. Megan Thee Stallion [Official Music Video]",
+              "views": 577852752,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/hsm4poTWjMs/hqdefault.jpg"
+            },
+            {
+              "videoId": "xTlNMmZKwpA",
+              "title": "Cardi B, Bad Bunny & J Balvin - I Like It [Official Music Video]",
+              "views": 1738708264,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/xTlNMmZKwpA/hqdefault.jpg"
+            },
+            {
+              "videoId": "3y-O-4IL-PU",
+              "title": "Cardi B & Bruno Mars - Please Me (Official Video)",
+              "views": 567523053,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/3y-O-4IL-PU/hqdefault.jpg"
+            },
+            {
+              "videoId": "GcNC7YnlhKc",
+              "title": "Cardi B - Like What (Freestyle)  [Official Music Video]",
+              "views": 46821129,
+              "duration": "2:41",
+              "thumbnail": "https://i.ytimg.com/vi/GcNC7YnlhKc/hq720.jpg"
+            },
+            {
+              "videoId": "PEGccV-NOm8",
+              "title": "Cardi B - Bodak Yellow [OFFICIAL MUSIC VIDEO]",
+              "views": 1201844410,
+              "duration": "3:54",
+              "thumbnail": "https://i.ytimg.com/vi/PEGccV-NOm8/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Chris Brown",
+          "channel": {
+            "id": "UCcYrdFJF7hmPXRNaWdrko4w",
+            "name": "Chris Brown",
+            "image": "https://yt3.googleusercontent.com/LQZxBlTRHDjVmcGbzUZqwwRmZ9ebU-XU8frGW6SEgcllooaoqnvL4bd_dTrraTZirHtuT1epKg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 30000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "pfxyk1glEq4",
+              "title": "Chris Brown - Under The Influence (Official Video)",
+              "views": 536593452,
+              "duration": "2:57",
+              "thumbnail": "https://i.ytimg.com/vi/pfxyk1glEq4/hq720.jpg"
+            },
+            {
+              "videoId": "nmjdaBaZe8Y",
+              "title": "Chris Brown - With You (Official HD Video)",
+              "views": 834957845,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/nmjdaBaZe8Y/hq720.jpg"
+            },
+            {
+              "videoId": "JXRN_LkCa_o",
+              "title": "Chris Brown - Loyal (Official Video) ft. Lil Wayne, Tyga",
+              "views": 1559626828,
+              "duration": "4:31",
+              "thumbnail": "https://i.ytimg.com/vi/JXRN_LkCa_o/hq720.jpg"
+            },
+            {
+              "videoId": "46p-IxAVJ74",
+              "title": "Chris Brown - Residuals (Official Video)",
+              "views": 193870387,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/46p-IxAVJ74/hq720.jpg"
+            },
+            {
+              "videoId": "dPhwbZBvW2o",
+              "title": "Chris Brown, Young Thug - Go Crazy (Official Video)",
+              "views": 253601906,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/dPhwbZBvW2o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "DaBaby",
+          "channel": {
+            "id": "UC2CCXzC56k0b8L49R_iW-Yw",
+            "name": "DaBaby",
+            "image": "https://yt3.googleusercontent.com/pWZn5e46SPZSZ7cN-bxGghxD4DF8tF6PDoAzvbWIB4u6YvIkKse2reV-PIjn2Ulwfaz8mS1i=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 11300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "28hYUZMufDg",
+              "title": "DaBaby - BOP on Broadway (Hip Hop Musical)",
+              "views": 595481622,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/28hYUZMufDg/hq720.jpg"
+            },
+            {
+              "videoId": "KvuQNNVrbtM",
+              "title": "Dababy - Suge (Yea Yea) Official Music Video",
+              "views": 365991556,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/KvuQNNVrbtM/hq720.jpg"
+            },
+            {
+              "videoId": "syc4SzrubKY",
+              "title": "DABABY - POP DAT THANG (Official Video)",
+              "views": 7981215,
+              "duration": "2:19",
+              "thumbnail": "https://i.ytimg.com/vi/syc4SzrubKY/hq720.jpg"
+            },
+            {
+              "videoId": "4PDpVNKZgKg",
+              "title": "DaBaby - ROCKSTAR (Live From The BET Awards/2020) ft. Roddy Ricch",
+              "views": 294808744,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/4PDpVNKZgKg/hq720.jpg"
+            },
+            {
+              "videoId": "p6IIWuwdNIc",
+              "title": "DaBaby - Red Light Green Light [Official Music Video]",
+              "views": 69850129,
+              "duration": "2:43",
+              "thumbnail": "https://i.ytimg.com/vi/p6IIWuwdNIc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Doja Cat",
+          "channel": {
+            "id": "UCzpl23pGTHVYqvKsgY0A-_w",
+            "name": "Doja Cat",
+            "image": "https://yt3.googleusercontent.com/oO7HPiWp3RytTNMhQDFPIqoVKMRmjopAyY9GSmtvxuIUPI13DuLJ6AbLK4paGIz8eEoQ0lKKiw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 14000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "m4_9TFeMfJE",
+              "title": "Doja Cat - Paint The Town Red (Official Video)",
+              "views": 399891985,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/m4_9TFeMfJE/hq720.jpg"
+            },
+            {
+              "videoId": "dI3xkL7qUAc",
+              "title": "Doja Cat - Need to Know (Official Video)",
+              "views": 412218159,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/dI3xkL7qUAc/hq720.jpg"
+            },
+            {
+              "videoId": "0EVVKs6DQLo",
+              "title": "Doja Cat - Kiss Me More (Official Video) ft. SZA",
+              "views": 534241912,
+              "duration": "5:16",
+              "thumbnail": "https://i.ytimg.com/vi/0EVVKs6DQLo/hq720.jpg"
+            },
+            {
+              "videoId": "JXgV1rXUoME",
+              "title": "Doja Cat, The Weeknd - You Right (Official Video)",
+              "views": 393826681,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/JXgV1rXUoME/hq720.jpg"
+            },
+            {
+              "videoId": "jJdlgKzVsnI",
+              "title": "Doja Cat - Streets (Official Video)",
+              "views": 421916177,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/jJdlgKzVsnI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Drake",
+          "channel": {
+            "id": "UCByOQJjav0CUDwxCk-jVNRQ",
+            "name": "Drake",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lCPp6jFXJWIVHM0fIK5HofL3nyLOsmhu1Ek2OwyppYlOM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 32600000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "_tlMz8sTFMs",
+              "title": "Drake - High Fives",
+              "views": 1094502,
+              "duration": "2:07",
+              "thumbnail": "https://i.ytimg.com/vi/_tlMz8sTFMs/hq720.jpg"
+            },
+            {
+              "videoId": "JffHTWti1es",
+              "title": "Drake - National Treasures",
+              "views": 9522704,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/JffHTWti1es/hq720.jpg"
+            },
+            {
+              "videoId": "SD4yRDY9mek",
+              "title": "Drake - Janice STFU",
+              "views": 10778072,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/SD4yRDY9mek/hq720.jpg"
+            },
+            {
+              "videoId": "ZX_mvoY_Hg0",
+              "title": "Drake - Not You Too (Audio) ft. Chris Brown",
+              "views": 104477081,
+              "duration": "4:31",
+              "thumbnail": "https://i.ytimg.com/vi/ZX_mvoY_Hg0/hq720.jpg"
+            },
+            {
+              "videoId": "weU76DGHKU0",
+              "title": "DRAKE - WHAT DID I MISS",
+              "views": 32877105,
+              "duration": "4:03",
+              "thumbnail": "https://i.ytimg.com/vi/weU76DGHKU0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Eminem",
+          "channel": {
+            "id": "UCfM3zsQsOnfWNUppiycmBuw",
+            "name": "EminemMusic",
+            "image": "https://yt3.googleusercontent.com/fYB3KuH8P5jyoReOqbDRyHQJjfKsPj-BYDcJb1XANiEpo6bhCf6LXpsNxE9_fvefub9S1hCkldU=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 66800000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "xFYQQPAOz7Y",
+              "title": "Eminem - Lose Yourself",
+              "views": 467556128,
+              "duration": "5:28",
+              "thumbnail": "https://i.ytimg.com/vi/xFYQQPAOz7Y/hqdefault.jpg"
+            },
+            {
+              "videoId": "G1Xjzd97d_E",
+              "title": "Eminem & Dr. Dre - \"Forgot About Dre\" [Live Performance]",
+              "views": 8370950,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/G1Xjzd97d_E/hq720.jpg"
+            },
+            {
+              "videoId": "S9bCLPwzSC0",
+              "title": "Eminem - Mockingbird [Official Music Video]",
+              "views": 1510701062,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/S9bCLPwzSC0/hq720.jpg"
+            },
+            {
+              "videoId": "0NnlUocr5gM",
+              "title": "Eminem Still Dominates Every Stage 👑🔥",
+              "views": 117733,
+              "duration": "1:01",
+              "thumbnail": "https://i.ytimg.com/vi/0NnlUocr5gM/hq720_2.jpg"
+            },
+            {
+              "videoId": "X9JDhU_7LdE",
+              "title": "Eminem Breaks down he’s Proud of his Daughter Hailie Jade",
+              "views": 47933,
+              "duration": "1:00",
+              "thumbnail": "https://i.ytimg.com/vi/X9JDhU_7LdE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Frank Ocean",
+          "channel": {
+            "id": "UCqf-kTp9ERV5T1rPayno7LA",
+            "name": "Blonded",
+            "image": "https://yt3.googleusercontent.com/h2Z14HrbzuHSEAOkuGPYzzW9RnXWzr_8xH_xZnoK9s5XQmqa_khQEvpdFeDoMbLL5iP8a6Vi2w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2360000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Dlz_XHeUUis",
+              "title": "Frank Ocean - White Ferrari",
+              "views": 75991508,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/Dlz_XHeUUis/hq720.jpg"
+            },
+            {
+              "videoId": "P6E5mLWj61Y",
+              "title": "[𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕] Frank Ocean",
+              "views": 783680,
+              "duration": "29:44",
+              "thumbnail": "https://i.ytimg.com/vi/P6E5mLWj61Y/hq720.jpg"
+            },
+            {
+              "videoId": "uzS3WG6__G4",
+              "title": "Frank Ocean - Pink + White",
+              "views": 135967416,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/uzS3WG6__G4/hq720.jpg"
+            },
+            {
+              "videoId": "D_NJ9etfYCw",
+              "title": "Frank Ocean - Wiseman (lyrics)",
+              "views": 7736991,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/D_NJ9etfYCw/hq720.jpg"
+            },
+            {
+              "videoId": "P18g4rKns6Q",
+              "title": "Frank Ocean - Godspeed",
+              "views": 32531819,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/P18g4rKns6Q/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Future",
+          "channel": {
+            "id": "UCSDvKdIQOwTfcyOimSi9oYA",
+            "name": "Future",
+            "image": "https://yt3.googleusercontent.com/9ecT0240ElOpQZZzbQdk-lc72xh7O4hgE-PH2AiDKmkZqiyd0SBvm1ISfPJv79hsA7XiFrx_=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 14900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "I0fgkcTbBoI",
+              "title": "Future, Metro Boomin, Travis Scott, Playboi Carti - Type Shit (Official Video)",
+              "views": 145168102,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/I0fgkcTbBoI/hq720.jpg"
+            },
+            {
+              "videoId": "6OxmafNPn3o",
+              "title": "Future - LIL DEMON (Official Music Video)",
+              "views": 18936583,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/6OxmafNPn3o/hq720.jpg"
+            },
+            {
+              "videoId": "K_9tX4eHztY",
+              "title": "Future - Low Life (Official Music Video) ft. The Weeknd",
+              "views": 953380820,
+              "duration": "5:24",
+              "thumbnail": "https://i.ytimg.com/vi/K_9tX4eHztY/hq720.jpg"
+            },
+            {
+              "videoId": "l0U7SxXHkPY",
+              "title": "Future - Life Is Good (Official Music Video) ft. Drake",
+              "views": 2262745383,
+              "duration": "5:36",
+              "thumbnail": "https://i.ytimg.com/vi/l0U7SxXHkPY/hq720.jpg"
+            },
+            {
+              "videoId": "H8E0WIy_vFc",
+              "title": "Future - PUFFIN ON ZOOTIEZ (Official Music Video)",
+              "views": 72318929,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/H8E0WIy_vFc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gunna",
+          "channel": {
+            "id": "UCAkIMkEaa9sZmjcy7mfd5lQ",
+            "name": "Gunna",
+            "image": "https://yt3.googleusercontent.com/-bfX5UkNJ9x8WC8GXbzHGL1Xh9vc8NFv0w2I8Fq9_7MukS_rYeIu4_qc4NvZCAIDTKS651WN=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3620000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "HX2cgqnbk1A",
+              "title": "Gunna - forever be mine (feat. Wizkid) [Official Video]",
+              "views": 5853261,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/HX2cgqnbk1A/hq720.jpg"
+            },
+            {
+              "videoId": "mANvg9R1xeI",
+              "title": "Gunna - wgft (feat. Burna Boy) [Official Visualizer]",
+              "views": 41243851,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/mANvg9R1xeI/hq720.jpg"
+            },
+            {
+              "videoId": "l21wGxlWwPw",
+              "title": "Gunna - fukumean [Official Visualizer]",
+              "views": 129905827,
+              "duration": "2:06",
+              "thumbnail": "https://i.ytimg.com/vi/l21wGxlWwPw/hq720.jpg"
+            },
+            {
+              "videoId": "HhoA5qPEP0E",
+              "title": "Offset, Gunna - Different Species",
+              "views": 38658604,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/HhoA5qPEP0E/hq720.jpg"
+            },
+            {
+              "videoId": "w7Wf0h1Q8a4",
+              "title": "Gunna - HIM ALL ALONG [Official Video]",
+              "views": 68397057,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/w7Wf0h1Q8a4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "J. Cole",
+          "channel": {
+            "id": "UCnc6db-y3IU7CkT_yeVXdVg",
+            "name": "J. Cole",
+            "image": "https://yt3.googleusercontent.com/FFtCR-47N7cVsJ0sGv4_HHhrUCjXhaoCznciK0tMBrswegQWQn6C3o2oUYO299j8cZVABXbm=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8450000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "WILNIXZr2oc",
+              "title": "J. Cole - MIDDLE CHILD",
+              "views": 354679183,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/WILNIXZr2oc/hq720.jpg"
+            },
+            {
+              "videoId": "W5hSdGt2M8w",
+              "title": "J. Cole – Work Out (Official Music Video)",
+              "views": 202612230,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/W5hSdGt2M8w/hq720.jpg"
+            },
+            {
+              "videoId": "eCGV26aj-mM",
+              "title": "J. Cole - Wet Dreamz",
+              "views": 251342523,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/eCGV26aj-mM/hq720.jpg"
+            },
+            {
+              "videoId": "8HBcV0MtAQg",
+              "title": "No Role Modelz",
+              "views": 380787817,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/8HBcV0MtAQg/hq720.jpg"
+            },
+            {
+              "videoId": "VMeirNg87AY",
+              "title": "J. Cole - Power Trip (Lyric) ft. Miguel",
+              "views": 128335350,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/VMeirNg87AY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jay-Z",
+          "channel": {
+            "id": "UCN-sc1xJr-QQNj_uNIM9wTA",
+            "name": "JAŸ-Z",
+            "image": "https://yt3.googleusercontent.com/nIDpx-F3q96UHo0QtHsHtZh1gbs9feA1_m3PAUjobUFs9mrv_SQKLSoDePgULNl7--wnQcz-IaE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4090000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "vk6014HuxcE",
+              "title": "JAŸ-Z - Empire State Of Mind ft. Alicia Keys",
+              "views": 475686751,
+              "duration": "4:42",
+              "thumbnail": "https://i.ytimg.com/vi/vk6014HuxcE/hq720.jpg"
+            },
+            {
+              "videoId": "RotaUuUFfEQ",
+              "title": "JAŸ-Z - Who You Wit",
+              "views": 108765,
+              "duration": "4:54",
+              "thumbnail": "https://i.ytimg.com/vi/RotaUuUFfEQ/hq720.jpg"
+            },
+            {
+              "videoId": "RqkjGgFGOd4",
+              "title": "Holy Grail - Jay-Z feat. Justin Timberlake | Lirik Lagu Terjemahan",
+              "views": 1814581,
+              "duration": "5:40",
+              "thumbnail": "https://i.ytimg.com/vi/RqkjGgFGOd4/hq720.jpg"
+            },
+            {
+              "videoId": "4kc5_pfNHGk",
+              "title": "JAŸ-Z - Holy Grail ft. Justin Timberlake",
+              "views": 13533758,
+              "duration": "5:10",
+              "thumbnail": "https://i.ytimg.com/vi/4kc5_pfNHGk/hq720.jpg"
+            },
+            {
+              "videoId": "gG_dA32oH44",
+              "title": "Jay-Z & Kanye West - Ni**as In Paris (Explicit)",
+              "views": 459936231,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/gG_dA32oH44/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Justin Bieber",
+          "channel": {
+            "id": "UCIwFjwMjI0y7PDBVEO9-bkQ",
+            "name": "Justin Bieber",
+            "image": "https://yt3.googleusercontent.com/4Mz5el_eyeB5cBod2jHMV-CC3fYiuSmDuCT9A9tGyYh03KQyVdrP04KYYMttZItBCtn4kfef=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 78400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Ys7-6_t7OEQ",
+              "title": "Justin Bieber - Beauty And A Beat (Official Music Video) ft. Nicki Minaj",
+              "views": 1283763049,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/Ys7-6_t7OEQ/hq720.jpg"
+            },
+            {
+              "videoId": "oHeQtFCeGlU",
+              "title": "Justin Bieber - Favorite Girl (Lyrics)",
+              "views": 51695274,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/oHeQtFCeGlU/hq720.jpg"
+            },
+            {
+              "videoId": "2Xulk9Ahqmc",
+              "title": "That Should Be Me",
+              "views": 51246736,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/2Xulk9Ahqmc/hq720.jpg"
+            },
+            {
+              "videoId": "hwd0Cjt6UyU",
+              "title": "Justin Bieber’s Greatest Hits – One Video, All the Vibes",
+              "views": 4714643,
+              "duration": "1:09:30",
+              "thumbnail": "https://i.ytimg.com/vi/hwd0Cjt6UyU/hq720.jpg"
+            },
+            {
+              "videoId": "Pr-fGuRIk3Q",
+              "title": "Justin Bieber - That Should Be Me",
+              "views": 51200720,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/Pr-fGuRIk3Q/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kanye West",
+          "channel": {
+            "id": "UCs6eXM7s8Vl5WcECcRHc2qQ",
+            "name": "Kanye West",
+            "image": "https://yt3.googleusercontent.com/jh05JitmhiTaAuBp7AAtTETeO3Zl7bDa-KwcSnZYymMpNF984oQ4k3ZQq1KBPhoKOXHS8B761WM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 12400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Bm5iA4Zupek",
+              "title": "Kanye West - Runaway (Video Version) ft. Pusha T",
+              "views": 160487629,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/Bm5iA4Zupek/hq720.jpg"
+            },
+            {
+              "videoId": "MxEjnYdfLXU",
+              "title": "I Wonder",
+              "views": 157216900,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/MxEjnYdfLXU/hq720.jpg"
+            },
+            {
+              "videoId": "E58qLXBfLrs",
+              "title": "Kanye West - Can't Tell Me Nothing",
+              "views": 213129882,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/E58qLXBfLrs/hq720.jpg"
+            },
+            {
+              "videoId": "6CHs4x2uqcQ",
+              "title": "Kanye West - Good Morning",
+              "views": 110433568,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/6CHs4x2uqcQ/hq720.jpg"
+            },
+            {
+              "videoId": "HBMy-y2wb4I",
+              "title": "YE - FATHER (feat. TRAVIS SCOTT)",
+              "views": 19839567,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/HBMy-y2wb4I/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kendrick Lamar",
+          "channel": {
+            "id": "UC3lBXcrKFnFAFkfVk5WuKcQ",
+            "name": "Kendrick Lamar",
+            "image": "https://yt3.googleusercontent.com/j1szYhuen1uT1D1icpjxHMFyBc0xINWK1eMtSzrB0TL5jliB7t3JB_wJ6UA9twV7VelxpKEc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 20200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "H58vbez_m4E",
+              "title": "Kendrick Lamar - Not Like Us",
+              "views": 471777112,
+              "duration": "5:55",
+              "thumbnail": "https://i.ytimg.com/vi/H58vbez_m4E/hq720.jpg"
+            },
+            {
+              "videoId": "HfWLgELllZs",
+              "title": "Kendrick Lamar - luther (Official Audio)",
+              "views": 172600605,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/HfWLgELllZs/hq720.jpg"
+            },
+            {
+              "videoId": "tvTRZJ-4EyI",
+              "title": "Kendrick Lamar - HUMBLE.",
+              "views": 1106962133,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/tvTRZJ-4EyI/hq720.jpg"
+            },
+            {
+              "videoId": "JQbjS0_ZfJ0",
+              "title": "Kendrick Lamar, SZA - All The Stars",
+              "views": 694996824,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/JQbjS0_ZfJ0/hq720.jpg"
+            },
+            {
+              "videoId": "v_7_fmjRDzg",
+              "title": "KENDRICK LAMAR DROPS NEW ALBUM OFF & ICEMAN BOMB COMING VERY SOON ACCORDING TO PRODUCER...",
+              "views": 4133,
+              "duration": "20:02",
+              "thumbnail": "https://i.ytimg.com/vi/v_7_fmjRDzg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lady Gaga",
+          "channel": {
+            "id": "UCNL1ZadSjHpjm4q9j2sVtOA",
+            "name": "Lady Gaga",
+            "image": "https://yt3.googleusercontent.com/lM8HHBd5BZtP_-Dh1i3n1Z4teVW8v2KTG-hsS83yXUiK0K6krkk1XNEFbho3uwH-CS-FQpnlHw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 30600000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "XXIX2WnfbpE",
+              "title": "Lady Gaga, Doechii - RUNWAY (Official Music Video)",
+              "views": 17882918,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/XXIX2WnfbpE/hq720.jpg"
+            },
+            {
+              "videoId": "qrO4YZeyl0I",
+              "title": "Lady Gaga - Bad Romance (Official Music Video)",
+              "views": 2050056253,
+              "duration": "5:09",
+              "thumbnail": "https://i.ytimg.com/vi/qrO4YZeyl0I/hq720.jpg"
+            },
+            {
+              "videoId": "5vheNbQlsyU",
+              "title": "Lady Gaga - Always Remember Us This Way (from A Star Is Born) (Official Music Video)",
+              "views": 727531907,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/5vheNbQlsyU/hq720.jpg"
+            },
+            {
+              "videoId": "2Abk1jAONjw",
+              "title": "Lady Gaga - Just Dance (Official Music Video) ft. Colby O'Donis",
+              "views": 527554329,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/2Abk1jAONjw/hq720.jpg"
+            },
+            {
+              "videoId": "vBynw9Isr28",
+              "title": "Lady Gaga - Abracadabra (Official Music Video)",
+              "views": 248197759,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/vBynw9Isr28/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lil Baby",
+          "channel": {
+            "id": "UCVS88tG_NYgxF6Udnx2815Q",
+            "name": "Lil Baby Official ",
+            "image": "https://yt3.googleusercontent.com/zx05i7Wp3l8UoZCAxx6mhQSAJFO4C0H0URMi-YL232hkMuklgfZj6peiYCLVpWwFwccy1YFZMWg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "MHryuYVyHhk",
+              "title": "Lil Baby \"Freestyle\" Official Music Video",
+              "views": 728005683,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/MHryuYVyHhk/hq720.jpg"
+            },
+            {
+              "videoId": "sFIXA0zALWU",
+              "title": "Lil Baby - Pure Cocaine (Audio)",
+              "views": 200081419,
+              "duration": "2:36",
+              "thumbnail": "https://i.ytimg.com/vi/sFIXA0zALWU/hq720.jpg"
+            },
+            {
+              "videoId": "nUEqPtVGIpE",
+              "title": "Lil Baby - Woah (Official Music Video)",
+              "views": 319331639,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/nUEqPtVGIpE/hq720.jpg"
+            },
+            {
+              "videoId": "GErG9femMQk",
+              "title": "Lil Baby x 42 Dugg - We Paid (Official Video)",
+              "views": 451584790,
+              "duration": "2:55",
+              "thumbnail": "https://i.ytimg.com/vi/GErG9femMQk/hq720.jpg"
+            },
+            {
+              "videoId": "pDddlvCfTiw",
+              "title": "CENTRAL CEE FT. LIL BABY - BAND4BAND (MUSIC VIDEO)",
+              "views": 323756336,
+              "duration": "2:32",
+              "thumbnail": "https://i.ytimg.com/vi/pDddlvCfTiw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lil Nas X",
+          "channel": {
+            "id": "UC_uMv3bNXwapHl8Dzf2p01Q",
+            "name": "Lil Nas X",
+            "image": "https://yt3.googleusercontent.com/Kbw1IwhTEX2iqefUoxsH0xJN6ScV2DlZFE80_bhQO9Y39pSDXCbQQycXy5A0iVMqMJDiEifbl6U=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 19500000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "r7qovpFAGrQ",
+              "title": "Lil Nas X - Old Town Road (Official Video) ft. Billy Ray Cyrus",
+              "views": 1498289923,
+              "duration": "2:38",
+              "thumbnail": "https://i.ytimg.com/vi/r7qovpFAGrQ/hq720.jpg"
+            },
+            {
+              "videoId": "UTHLKHL_whs",
+              "title": "Lil Nas X, Jack Harlow - INDUSTRY BABY (Official Video)",
+              "views": 520530667,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/UTHLKHL_whs/hq720.jpg"
+            },
+            {
+              "videoId": "QDYDRA5JPLE",
+              "title": "Lil Nas X - THATS WHAT I WANT (Official Video)",
+              "views": 171530947,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/QDYDRA5JPLE/hq720.jpg"
+            },
+            {
+              "videoId": "6swmTBVI83k",
+              "title": "Lil Nas X - MONTERO (Call Me By Your Name) (Official Video)",
+              "views": 631380440,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/6swmTBVI83k/hq720.jpg"
+            },
+            {
+              "videoId": "9vMLTcftlyI",
+              "title": "Lil Nas X - HOLIDAY (Official Video)",
+              "views": 277949901,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/9vMLTcftlyI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lil Uzi Vert",
+          "channel": {
+            "id": "UCqwxMqUcL-XC3D9-fTP93Mg",
+            "name": "LIL UZI VERT",
+            "image": "https://yt3.googleusercontent.com/hJe_wwN_nBTKxOdjzOpWNmOml8C6BRmzYnfR-Py2bZn6bklTS7woejm5rMSMDJSwOSZJu1U65z4=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "bnFa4Mq5PAM",
+              "title": "Lil Uzi Vert - 20 Min",
+              "views": 256022879,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/bnFa4Mq5PAM/hq720.jpg"
+            },
+            {
+              "videoId": "WrsFXgQk5UI",
+              "title": "Lil Uzi Vert - XO Tour Llif3 (Official Music Video)",
+              "views": 595783380,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/WrsFXgQk5UI/hqdefault.jpg"
+            },
+            {
+              "videoId": "s_TUESTU7_4",
+              "title": "Lil Uzi Vert - What You Saying - [Official Music Video]",
+              "views": 31706688,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/s_TUESTU7_4/hq720.jpg"
+            },
+            {
+              "videoId": "Vi2XaiKhgiU",
+              "title": "Lil Uzi Vert - The Way Life Goes [Official Visualizer]",
+              "views": 173969925,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/Vi2XaiKhgiU/hq720.jpg"
+            },
+            {
+              "videoId": "UhbixyxgsiU",
+              "title": "Lil Uzi Vert - Just Wanna Rock [Official Music Video]",
+              "views": 206167221,
+              "duration": "2:25",
+              "thumbnail": "https://i.ytimg.com/vi/UhbixyxgsiU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Megan Thee Stallion",
+          "channel": {
+            "id": "UCKrdjiuS66yXOdEZ_cOD_TA",
+            "name": "Megan Thee Stallion",
+            "image": "https://yt3.googleusercontent.com/vPYu5M7-HgfQe5OUiHHs4C1uCps9DNcql1Xnx7Ssbro_BquGAnn8XG4ngmmxnoL8_JlqzltIfw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7380000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OdxSbc0ap-s",
+              "title": "Megan Thee Stallion - Mamushi (feat. Yuki Chiba) [Official Video]",
+              "views": 98679307,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/OdxSbc0ap-s/hq720.jpg"
+            },
+            {
+              "videoId": "QxTkZTLWdo4",
+              "title": "Megan Thee Stallion - Bigger In Texas [Official Video]",
+              "views": 29215382,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/QxTkZTLWdo4/hq720.jpg"
+            },
+            {
+              "videoId": "K7JrX7PHGBE",
+              "title": "Megan Thee Stallion & Dua Lipa - Sweetest Pie [Official Video]",
+              "views": 97200222,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/K7JrX7PHGBE/hq720.jpg"
+            },
+            {
+              "videoId": "KynkMn5Hv3Q",
+              "title": "Megan Thee Stallion - Thot Shit [Official Video]",
+              "views": 78484676,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/KynkMn5Hv3Q/hq720.jpg"
+            },
+            {
+              "videoId": "HozPPyqW0dY",
+              "title": "Megan Thee Stallion - Roc Steady (feat. Flo Milli) [Official Video]",
+              "views": 12060422,
+              "duration": "2:39",
+              "thumbnail": "https://i.ytimg.com/vi/HozPPyqW0dY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Metro Boomin",
+          "channel": {
+            "id": "UCKC11MOR51CLg4JpYj8jb4g",
+            "name": "Metro Boomin",
+            "image": "https://yt3.googleusercontent.com/K3VTXT-b8S-B4G-aqWTHhehGM8z7qJbMIIUGpsbkLbIChdj_-uXKhmNZdP0mfj4fwHoIQw5hYA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3580000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ZEGpWo7ethQ",
+              "title": "Metro Boomin - Red Bull Symphonic (Full Performance)",
+              "views": 22536989,
+              "duration": "1:26:38",
+              "thumbnail": "https://i.ytimg.com/vi/ZEGpWo7ethQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "3q_ijl-aaTI",
+              "title": "Metro Boomin, Future - Too Many Nights (Visualizer) ft. Don Toliver",
+              "views": 134964296,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/3q_ijl-aaTI/hq720.jpg"
+            },
+            {
+              "videoId": "NyTkaQHdySM",
+              "title": "Metro Boomin, Don Toliver, Future - Too Many Nights (Official Video)",
+              "views": 126316657,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/NyTkaQHdySM/hqdefault.jpg"
+            },
+            {
+              "videoId": "7aUZtDaxS60",
+              "title": "Metro Boomin, A$AP Rocky, Roisee - Am I Dreaming (Visualizer)",
+              "views": 54116062,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/7aUZtDaxS60/hq720.jpg"
+            },
+            {
+              "videoId": "_WCD3Z9UmJ4",
+              "title": "Metro Boomin & Future - Superhero (Heroes & Villains) [Official Music Video]",
+              "views": 165003469,
+              "duration": "3:09",
+              "thumbnail": "https://i.ytimg.com/vi/_WCD3Z9UmJ4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Migos",
+          "channel": {
+            "id": "UC9YcTIQuhwgoOQqYMKYqW9A",
+            "name": "Migos ATL",
+            "image": "https://yt3.googleusercontent.com/cJZUVaT1TlQVxB45fpHbXcB7sabtfUQXwv-GgT6FSU9veMTd7ZkwxfrULQDJIcQEIuvQCiJ7=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 13100000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "S-sJp1FfG7Q",
+              "title": "Migos - Bad and Boujee ft Lil Uzi Vert [Official Video]",
+              "views": 1373837068,
+              "duration": "5:35",
+              "thumbnail": "https://i.ytimg.com/vi/S-sJp1FfG7Q/hq720.jpg"
+            },
+            {
+              "videoId": "Hm1YFszJWbQ",
+              "title": "Migos - Slippery feat. Gucci Mane [Official Video]",
+              "views": 590996073,
+              "duration": "5:07",
+              "thumbnail": "https://i.ytimg.com/vi/Hm1YFszJWbQ/hq720.jpg"
+            },
+            {
+              "videoId": "x9yop0nYR9g",
+              "title": "Quavo & Takeoff - HOTEL LOBBY | A COLORS SHOW",
+              "views": 106976235,
+              "duration": "2:47",
+              "thumbnail": "https://i.ytimg.com/vi/x9yop0nYR9g/hq720.jpg"
+            },
+            {
+              "videoId": "fGqdIPer-ms",
+              "title": "Migos - Walk It Talk It ft. Drake (Official Video)",
+              "views": 453874055,
+              "duration": "5:28",
+              "thumbnail": "https://i.ytimg.com/vi/fGqdIPer-ms/hq720.jpg"
+            },
+            {
+              "videoId": "u0LaoQks5mY",
+              "title": "Migos - Need It (Official Video) ft. YoungBoy Never Broke Again",
+              "views": 168191784,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/u0LaoQks5mY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Nicki Minaj",
+          "channel": {
+            "id": "UC3jOd7GUMhpgJRBhiLzuLsg",
+            "name": "Nicki Minaj",
+            "image": "https://yt3.googleusercontent.com/50YeejQslEmP9_pNJHm3SGYRHRuVMuGafgsyrm2AjRNOE8P0bcIsDMA371xebxsd2zMQedm0TA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 28200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "EmZvOhHF85I",
+              "title": "Nicki Minaj - Beez In The Trap (Explicit) ft. 2 Chainz",
+              "views": 254656345,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/EmZvOhHF85I/hq720.jpg"
+            },
+            {
+              "videoId": "SXiSVQZLje8",
+              "title": "Ariana Grande ft. Nicki Minaj - Side To Side (Official Video) ft. Nicki Minaj",
+              "views": 2430717333,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/SXiSVQZLje8/hq720.jpg"
+            },
+            {
+              "videoId": "C3a1sz2Bp_E",
+              "title": "Nicki Minaj - MEGATRON",
+              "views": 167557897,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/C3a1sz2Bp_E/hq720.jpg"
+            },
+            {
+              "videoId": "4JipHEz53sU",
+              "title": "Nicki Minaj - Super Bass (Official Video)",
+              "views": 1101316021,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/4JipHEz53sU/hq720.jpg"
+            },
+            {
+              "videoId": "SeIJmciN8mo",
+              "title": "Nicki Minaj - Starships (Explicit) (Official Video)",
+              "views": 511066562,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/SeIJmciN8mo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Olivia Rodrigo",
+          "channel": {
+            "id": "UCy3zgWom-5AGypGX_FVTKpg",
+            "name": "Olivia Rodrigo",
+            "image": "https://yt3.googleusercontent.com/mbeWP8WeRfmG0WFCIk3PDfVYdGaTthp_JjLrYCdRG-20DdfjHka2jhHUBmO6ATXSUmnaUuZiDQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 16000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "B402rKl4bUg",
+              "title": "Olivia Rodrigo - the cure (Official Music Video)",
+              "views": 5956753,
+              "duration": "5:15",
+              "thumbnail": "https://i.ytimg.com/vi/B402rKl4bUg/hq720.jpg"
+            },
+            {
+              "videoId": "UbbrZTfjkdk",
+              "title": "Olivia Rodrigo - the cure (Lyric Video)",
+              "views": 738679,
+              "duration": "4:57",
+              "thumbnail": "https://i.ytimg.com/vi/UbbrZTfjkdk/hq720.jpg"
+            },
+            {
+              "videoId": "78wrful9cVU",
+              "title": "Olivia Rodrigo - drop dead (Official Music Video)",
+              "views": 30830794,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/78wrful9cVU/hq720.jpg"
+            },
+            {
+              "videoId": "ZmDBbnmKpqQ",
+              "title": "Olivia Rodrigo - drivers license (Official Video)",
+              "views": 622685724,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/ZmDBbnmKpqQ/hq720.jpg"
+            },
+            {
+              "videoId": "ZQFmRXgeR-s",
+              "title": "Olivia Rodrigo - happier (Lyric Video)",
+              "views": 255558998,
+              "duration": "2:57",
+              "thumbnail": "https://i.ytimg.com/vi/ZQFmRXgeR-s/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Playboi Carti",
+          "channel": {
+            "id": "UC652oRUvX1onwrrZ8ADJRPw",
+            "name": "Playboi Carti",
+            "image": "https://yt3.googleusercontent.com/_kV6e9Y-5cFZAYJMyEKvo7sTRLOR1yuyvE7v61nmnu8DifdEWVH3CcTgCykyZ3WWwwGY_ecp=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4910000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "W3fAdzPjv-g",
+              "title": "Fatt Smaxk - Smaxk or Die (feat. Playboi Carti) [Official Music Video]",
+              "views": 2215651,
+              "duration": "2:29",
+              "thumbnail": "https://i.ytimg.com/vi/W3fAdzPjv-g/hq720.jpg"
+            },
+            {
+              "videoId": "KnumAWWWgUE",
+              "title": "Playboi Carti - Sky [Official Video]",
+              "views": 111602172,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/KnumAWWWgUE/hq720.jpg"
+            },
+            {
+              "videoId": "5EpyN_6dqyk",
+              "title": "The Weeknd, Playboi Carti - Timeless",
+              "views": 242252464,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/5EpyN_6dqyk/hq720.jpg"
+            },
+            {
+              "videoId": "VcRc2DHHhoM",
+              "title": "Playboi Carti - EVIL J0RDAN (Official Visualizer)",
+              "views": 22847362,
+              "duration": "2:05",
+              "thumbnail": "https://i.ytimg.com/vi/VcRc2DHHhoM/hq720.jpg"
+            },
+            {
+              "videoId": "fYD7YsSRHOY",
+              "title": "Playboi Carti & The Weeknd - RATHER LIE (Official Audio)",
+              "views": 22589870,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/fYD7YsSRHOY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Post Malone",
+          "channel": {
+            "id": "UCeLHszkByNZtPKcaVXOCOQQ",
+            "name": "Post Malone",
+            "image": "https://yt3.googleusercontent.com/CYKmEPOqcWMzKWbANlT9ok3-mkYxdiAMCh-YaXW8a19qfuT4ZQEar0OkIa8Rkd1tFSQO1Yq3bDA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 28800000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "wXhTHyIgQ_U",
+              "title": "Post Malone - Circles",
+              "views": 797775066,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/wXhTHyIgQ_U/hq720.jpg"
+            },
+            {
+              "videoId": "au2n7VVGv_c",
+              "title": "Post Malone - Psycho (Official Music Video) ft. Ty Dolla $ign",
+              "views": 1176791640,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/au2n7VVGv_c/hq720.jpg"
+            },
+            {
+              "videoId": "ApXoWvfEYVU",
+              "title": "Post Malone, Swae Lee - Sunflower (Spider-Man: Into the Spider-Verse)",
+              "views": 2972645181,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/ApXoWvfEYVU/hq720.jpg"
+            },
+            {
+              "videoId": "SC4xMk98Pdc",
+              "title": "Post Malone - Congratulations (Official Music Video) ft. Quavo",
+              "views": 1715430381,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/SC4xMk98Pdc/hq720.jpg"
+            },
+            {
+              "videoId": "393C3pr2ioY",
+              "title": "Post Malone - \"Wow.\" (Official Music Video)",
+              "views": 365699639,
+              "duration": "2:38",
+              "thumbnail": "https://i.ytimg.com/vi/393C3pr2ioY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Rihanna",
+          "channel": {
+            "id": "UCcgqSM4YEo5vVQpqwN-MaNw",
+            "name": "Rihanna",
+            "image": "https://yt3.googleusercontent.com/qMCGjRaKKRar82KzcIWdUoLbJ03aW2K2sEf-m4GaB7JwLshoHOZHvkxLRXsZVgpKvqCXVhKCWg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 45900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "J3UjJ4wKLkg",
+              "title": "Rihanna - Take A Bow",
+              "views": 844697061,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/J3UjJ4wKLkg/hq720.jpg"
+            },
+            {
+              "videoId": "49lY0HqqUVc",
+              "title": "Rihanna - Kiss It Better (Explicit)",
+              "views": 260950742,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/49lY0HqqUVc/hq720.jpg"
+            },
+            {
+              "videoId": "HBxt_v0WF6Y",
+              "title": "Rihanna - Where Have You Been",
+              "views": 837601398,
+              "duration": "4:29",
+              "thumbnail": "https://i.ytimg.com/vi/HBxt_v0WF6Y/hq720.jpg"
+            },
+            {
+              "videoId": "kOkQ4T5WO9E",
+              "title": "Calvin Harris, Rihanna - This Is What You Came For (Official Video)",
+              "views": 2938911333,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/kOkQ4T5WO9E/hq720.jpg"
+            },
+            {
+              "videoId": "U0CGsw6h60k",
+              "title": "Rihanna - What's My Name? ft. Drake",
+              "views": 1134091367,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/U0CGsw6h60k/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "SZA",
+          "channel": {
+            "id": "UCO5IQ70V7l-XpHW40HwaGsw",
+            "name": "SZA",
+            "image": "https://yt3.googleusercontent.com/yLBjfGExL_iEyNmOd5VjEVt6tQWg8Upr1mpafHQfsv-MU3875DnCI74VsslG0lZtiGjg0lf1wTk=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6690000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "JLd09jmEAYA",
+              "title": "SZA - Open Arms (Official Audio) ft. Travis Scott",
+              "views": 109525933,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/JLd09jmEAYA/hq720.jpg"
+            },
+            {
+              "videoId": "Sv5yCzPCkv8",
+              "title": "SZA - Snooze (Audio)",
+              "views": 339763794,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/Sv5yCzPCkv8/hq720.jpg"
+            },
+            {
+              "videoId": "87rZsryiyhc",
+              "title": "SZA - Snooze | Nobody Get me | Chill Vibes Playlist 2025 - 2026",
+              "views": 1081501,
+              "duration": "23:59",
+              "thumbnail": "https://i.ytimg.com/vi/87rZsryiyhc/hqdefault.jpg"
+            },
+            {
+              "videoId": "Oxf8ULSB8yU",
+              "title": "SZA - Nobody Gets Me (Lyric Video)",
+              "views": 78865769,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/Oxf8ULSB8yU/hq720.jpg"
+            },
+            {
+              "videoId": "V2G8ESoDXm8",
+              "title": "SZA - Saturn",
+              "views": 111184683,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/V2G8ESoDXm8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Taylor Swift",
+          "channel": {
+            "id": "UCqECaJ8Gagnn7YCbPEzWH6g",
+            "name": "Taylor Swift",
+            "image": "https://yt3.googleusercontent.com/HFEgZENJw23LuRb0ldBpDrQKscFUWSf4n2jqrNh-1EqpE3Uiy_IYwacuUXCjCruNUP3Ttq9N=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 63200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ko70cExuzZM",
+              "title": "Taylor Swift - The Fate of Ophelia (Official Music Video)",
+              "views": 405811326,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/ko70cExuzZM/hq720.jpg"
+            },
+            {
+              "videoId": "-CmadmM5cOk",
+              "title": "Taylor Swift - Style",
+              "views": 954167977,
+              "duration": "4:03",
+              "thumbnail": "https://i.ytimg.com/vi/-CmadmM5cOk/hq720.jpg"
+            },
+            {
+              "videoId": "OOYlWF6V8t8",
+              "title": "Taylor Swift - Guilty as Sin (Official Lyric Video)",
+              "views": 62503732,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/OOYlWF6V8t8/hq720.jpg"
+            },
+            {
+              "videoId": "nn_0zPAfyo8",
+              "title": "Taylor Swift – august (Official Lyric Video)",
+              "views": 137454904,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/nn_0zPAfyo8/hq720.jpg"
+            },
+            {
+              "videoId": "IdneKLhsWOQ",
+              "title": "Taylor Swift - Wildest Dreams",
+              "views": 1014047766,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/IdneKLhsWOQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "The Weeknd",
+          "channel": {
+            "id": "UC0WP5P-ufpRfjbNrmOWwLBQ",
+            "name": "The Weeknd",
+            "image": "https://yt3.googleusercontent.com/WHvw1ak1FcJaHeEiTmG2iN0dqEjjPxAtT_tA8ruJ3MlNr9I-RHsAur1iAenYeQN_d6LNPH2Z8Ic=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 39600000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "YQ-qToZUybM",
+              "title": "The Weeknd, Ariana Grande - Die For You (Remix / Lyric Video)",
+              "views": 617095079,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/YQ-qToZUybM/hq720.jpg"
+            },
+            {
+              "videoId": "XXYlFuWEuKI",
+              "title": "The Weeknd - Save Your Tears (Official Music Video)",
+              "views": 2146125591,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/XXYlFuWEuKI/hq720.jpg"
+            },
+            {
+              "videoId": "u9n7Cw-4_HQ",
+              "title": "Swedish House Mafia and The Weeknd - Moth To A Flame (Official Video)",
+              "views": 195593315,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/u9n7Cw-4_HQ/hq720.jpg"
+            },
+            {
+              "videoId": "Mx92lTYxrJQ",
+              "title": "The Weeknd, JENNIE, Lily-Rose Depp - One Of The Girls (Official Video)",
+              "views": 330230952,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/Mx92lTYxrJQ/hq720.jpg"
+            },
+            {
+              "videoId": "5EpyN_6dqyk",
+              "title": "The Weeknd, Playboi Carti - Timeless",
+              "views": 242252464,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/5EpyN_6dqyk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Travis Scott",
+          "channel": {
+            "id": "UCtxdfwb9wfkoGocVUAJ-Bmg",
+            "name": "Travis Scott",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lYT_V7ztsYEvILayV7Ey_fgzx2VYpeLJxFXf1TO0rjPH8=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 20700000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "6ONRf7h3Mdk",
+              "title": "Travis Scott - SICKO MODE (Official Video) ft. Drake",
+              "views": 1387997135,
+              "duration": "5:23",
+              "thumbnail": "https://i.ytimg.com/vi/6ONRf7h3Mdk/hq720.jpg"
+            },
+            {
+              "videoId": "B9synWjqBn8",
+              "title": "Travis Scott - FE!N ft. Playboi Carti",
+              "views": 251405778,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/B9synWjqBn8/hq720.jpg"
+            },
+            {
+              "videoId": "Dst9gZkq1a8",
+              "title": "Travis Scott - goosebumps (Official Video) ft. Kendrick Lamar",
+              "views": 1137162356,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/Dst9gZkq1a8/hq720.jpg"
+            },
+            {
+              "videoId": "mUJ3dVIjsYo",
+              "title": "Travis Scott, Drake – Astral Throne  (feat. Travis Scott) | 2026 [1 Hours]",
+              "views": 108670,
+              "duration": "2:20:10",
+              "thumbnail": "https://i.ytimg.com/vi/mUJ3dVIjsYo/hq720.jpg"
+            },
+            {
+              "videoId": "_EyZUTDAH0U",
+              "title": "Travis Scott - BUTTERFLY EFFECT (Official Video)",
+              "views": 545422997,
+              "duration": "3:33",
+              "thumbnail": "https://i.ytimg.com/vi/_EyZUTDAH0U/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tyler the Creator",
+          "channel": {
+            "id": "UCsQBsZJltmLzlsJNG7HevBg",
+            "name": "Tyler, The Creator",
+            "image": "https://yt3.googleusercontent.com/El0opMo40Ehl8KcuFwzdQPP7BJsSh3p_w9xJKWQ4Eo6tynFE6Mo0a05nKWBCL5dlun-sx6Ejkg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8199999.999999999,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "NmvVhovjJI0",
+              "title": "Tyler, The Creator - SEE YOU AGAIN (ft. Kali Uchis)",
+              "views": 55248513,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/NmvVhovjJI0/hq720.jpg"
+            },
+            {
+              "videoId": "TGgcC5xg9YI",
+              "title": "SEE YOU AGAIN featuring Kali Uchis",
+              "views": 235551088,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/TGgcC5xg9YI/hqdefault.jpg"
+            },
+            {
+              "videoId": "pmlqEKklWqs",
+              "title": "STOP PLAYING WITH ME (Official Video)",
+              "views": 12419418,
+              "duration": "2:29",
+              "thumbnail": "https://i.ytimg.com/vi/pmlqEKklWqs/hq720.jpg"
+            },
+            {
+              "videoId": "N1w-hDiJ4dM",
+              "title": "Tyler, The Creator: NPR Music Tiny Desk Concert",
+              "views": 41286134,
+              "duration": "24:44",
+              "thumbnail": "https://i.ytimg.com/vi/N1w-hDiJ4dM/hq720.jpg"
+            },
+            {
+              "videoId": "ZKjIHQxG_3Q",
+              "title": "SWEET / I THOUGHT YOU WANTED TO DANCE (Audio)",
+              "views": 36035313,
+              "duration": "9:49",
+              "thumbnail": "https://i.ytimg.com/vi/ZKjIHQxG_3Q/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Usher",
+          "channel": {
+            "id": "UCaNrhBiXsXIM2epDl_kEzgQ",
+            "name": "Usher",
+            "image": "https://yt3.googleusercontent.com/QPlXRtzY8qQtePXQAZXvMlwSLdvxEA6yyY8iwnZ2EahjqUmypc_BOfbcFIduJ6sdWLrM2u4b=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8990000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "pD8mxge6kek",
+              "title": "Usher - Hey Daddy (Daddy's Home) (Official Video)",
+              "views": 242140304,
+              "duration": "3:48",
+              "thumbnail": "https://i.ytimg.com/vi/pD8mxge6kek/hq720.jpg"
+            },
+            {
+              "videoId": "GxBSyx85Kp8",
+              "title": "Usher - Yeah! (Official Video) ft. Lil Jon, Ludacris",
+              "views": 1238032732,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/GxBSyx85Kp8/hq720.jpg"
+            },
+            {
+              "videoId": "C-dvTjK_07c",
+              "title": "Usher - DJ Got Us Fallin' In Love (Official Video) ft. Pitbull",
+              "views": 450990746,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/C-dvTjK_07c/hq720.jpg"
+            },
+            {
+              "videoId": "oCfK46252To",
+              "title": "Best of Usher Video Mix - DJ Shinski (Love in Club, Nice & Slow, Yeah,  U Dont Have To Call, My Boo)",
+              "views": 342621,
+              "duration": "1:01:38",
+              "thumbnail": "https://i.ytimg.com/vi/oCfK46252To/hq720.jpg"
+            },
+            {
+              "videoId": "up8ODGFWgFg",
+              "title": "Usher: Tiny Desk Concert",
+              "views": 32384644,
+              "duration": "24:47",
+              "thumbnail": "https://i.ytimg.com/vi/up8ODGFWgFg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Young Thug",
+          "channel": {
+            "id": "UCuwdplPbuTFZj_64d03tSBA",
+            "name": "Young Thug",
+            "image": "https://yt3.googleusercontent.com/aDNK7Ot5mqdrLQjlavDCRuFeTglGkEHBIu2pXZhgYMV-eyk1u3az2igH7m3yG_qw9U3nvb12vrs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7210000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dwWs7ZnGekc",
+              "title": "Young Thug - Relationship (feat. Future) [Official Music Video]",
+              "views": 146476834,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/dwWs7ZnGekc/hq720.jpg"
+            },
+            {
+              "videoId": "leJNDpm_G10",
+              "title": "Young Thug - Hot ft. Gunna & Travis Scott [Official Music Video]",
+              "views": 276085475,
+              "duration": "5:09",
+              "thumbnail": "https://i.ytimg.com/vi/leJNDpm_G10/hq720.jpg"
+            },
+            {
+              "videoId": "p0x6FEDV-ig",
+              "title": "Young Thug - Check (Official Music Video)",
+              "views": 208452717,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/p0x6FEDV-ig/hq720.jpg"
+            },
+            {
+              "videoId": "cTGQrA5HHIU",
+              "title": "Young Thug \"With That\" featuring Duke",
+              "views": 229167071,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/cTGQrA5HHIU/hq720.jpg"
+            },
+            {
+              "videoId": "nGt_JGHYEO4",
+              "title": "Rich Gang - Lifestyle (Official Music Video) ft. Young Thug, Rich Homie Quan",
+              "views": 733758176,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/nGt_JGHYEO4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    },
+    "gospel": {
+      "count": 25,
+      "artists": [
+        {
+          "name": "Bethel Music",
+          "channel": {
+            "id": "UCbertc-gMbkkHuSmg0qwnxw",
+            "name": "Bethel Music",
+            "image": "https://yt3.googleusercontent.com/tMwfT9RnBTv2Z7MEg-oVO2K05nYkTxMnCe85qz5vnHtE_rQgJ38vj-9RLQ-m64vyoitEsb_l8g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6020000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Bbzihey8Bfo",
+              "title": "Feet Of Jesus - Bethel Music, Zahriya Zachary",
+              "views": 29604,
+              "duration": "9:05",
+              "thumbnail": "https://i.ytimg.com/vi/Bbzihey8Bfo/hq720.jpg"
+            },
+            {
+              "videoId": "HmP2SQ2LqxY",
+              "title": "Top 100 Bethel Music Goodness Of God  - Best Ultimate Bethel Music Songs Playlist",
+              "views": 3757460,
+              "duration": "1:44:18",
+              "thumbnail": "https://i.ytimg.com/vi/HmP2SQ2LqxY/hq720.jpg"
+            },
+            {
+              "videoId": "L0u0hKWbmX8",
+              "title": "Worthy / You Are Holy / We Fall Down (Live) - @JohnWilds , Bethel Music",
+              "views": 20845031,
+              "duration": "14:53",
+              "thumbnail": "https://i.ytimg.com/vi/L0u0hKWbmX8/hq720.jpg"
+            },
+            {
+              "videoId": "n0FBb6hnwTo",
+              "title": "Goodness Of God (LIVE) - Jenn Johnson | VICTORY",
+              "views": 207179725,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/n0FBb6hnwTo/hq720.jpg"
+            },
+            {
+              "videoId": "m8f2j8Dp448",
+              "title": "Bethel Church Service | Missions Sunday Sermon | Worship with Leah Valenzuela, Peter Mattis",
+              "views": 7077,
+              "duration": "2:35:01",
+              "thumbnail": "https://i.ytimg.com/vi/m8f2j8Dp448/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "CeCe Winans",
+          "channel": {
+            "id": "UC86Zlc-v_kkZ-yKG2cJZkxQ",
+            "name": "CeCe Winans",
+            "image": "https://yt3.googleusercontent.com/hwKUVrJKXw4J_Bi_7bTrNtqVqnjSf7MewPVJ622CDbKf7jfJgDIe6_W9G7pfw0In1UWdtzlT=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2560000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "2xcFM9CBiOE",
+              "title": "CeCe Winans - Holy Forever (Official Music Video)",
+              "views": 171457427,
+              "duration": "5:10",
+              "thumbnail": "https://i.ytimg.com/vi/2xcFM9CBiOE/hq720.jpg"
+            },
+            {
+              "videoId": "pS0oj2p77sE",
+              "title": "CeCe Winans - Be Still and Know (Official Video)",
+              "views": 12910143,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/pS0oj2p77sE/hq720.jpg"
+            },
+            {
+              "videoId": "0GI_qr2BrC4",
+              "title": "CeCe Winans - What A Friend We Have In Jesus (Official Music Video)",
+              "views": 306421,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/0GI_qr2BrC4/hq720.jpg"
+            },
+            {
+              "videoId": "9sE5kEnitqE",
+              "title": "CeCe Winans - Goodness of God (Official Video)",
+              "views": 257194883,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/9sE5kEnitqE/hq720.jpg"
+            },
+            {
+              "videoId": "VhdAZ2aQtBk",
+              "title": "Holy Forever (Live) - Bethel Music, Jenn Johnson, feat. CeCe Winans",
+              "views": 40252667,
+              "duration": "10:44",
+              "thumbnail": "https://i.ytimg.com/vi/VhdAZ2aQtBk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Donnie McClurkin",
+          "channel": {
+            "id": "UC6jEzPuYxOYOd_GikZHwwHw",
+            "name": "DonnieMcClurkinShow",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_l86HtupWiwfQKsg4HxO14iJD3iPt50g_3MynSaVPlGtSw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 312000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tzdQgjKUTwM",
+              "title": "Donnie McClurkin - I Need You (Official Video)",
+              "views": 38925580,
+              "duration": "5:14",
+              "thumbnail": "https://i.ytimg.com/vi/tzdQgjKUTwM/hq720.jpg"
+            },
+            {
+              "videoId": "S0tX_ctp0Gs",
+              "title": "Donnie McClurkin - We Fall Down (Stereo)",
+              "views": 14153547,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/S0tX_ctp0Gs/hq720.jpg"
+            },
+            {
+              "videoId": "WZMEd-eyaaQ",
+              "title": "Only You Are Holy",
+              "views": 4365881,
+              "duration": "6:55",
+              "thumbnail": "https://i.ytimg.com/vi/WZMEd-eyaaQ/hq720.jpg"
+            },
+            {
+              "videoId": "NUZZnauAjqw",
+              "title": "Lord I Lift Your Name On High",
+              "views": 3330703,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/NUZZnauAjqw/hq720.jpg"
+            },
+            {
+              "videoId": "BNiKt_5WH-8",
+              "title": "Great Is Thy Faithfulness / Great Is Your Mercy - Donnie McClurkin & CeCe Winans",
+              "views": 5503216,
+              "duration": "13:12",
+              "thumbnail": "https://i.ytimg.com/vi/BNiKt_5WH-8/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Elevation Worship",
+          "channel": {
+            "id": "UCSf-NCzjwcnXErUBW_qeFvA",
+            "name": "Elevation Worship",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_kgIBe7jMCxz6gH__pAfsEHd2L_aMoomgVbm-icx1WENEU=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8380000.000000001,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "QS04WbSnxok",
+              "title": "Trust In God (feat. Chris Brown & Isaiah Templeton) | Elevation Worship",
+              "views": 110649514,
+              "duration": "9:26",
+              "thumbnail": "https://i.ytimg.com/vi/QS04WbSnxok/hq720.jpg"
+            },
+            {
+              "videoId": "J3EEwPZiSgE",
+              "title": "Anywhere Sessions | From The Record Shop | Elevation Worship",
+              "views": 198159,
+              "duration": "24:41",
+              "thumbnail": "https://i.ytimg.com/vi/J3EEwPZiSgE/hq720.jpg"
+            },
+            {
+              "videoId": "D3yMC_qoAes",
+              "title": "Been So Good (feat. Tiffany Hudson) | Elevation Worship",
+              "views": 70990846,
+              "duration": "7:45",
+              "thumbnail": "https://i.ytimg.com/vi/D3yMC_qoAes/hq720.jpg"
+            },
+            {
+              "videoId": "cej4vn4sWtE",
+              "title": "Jesus Be The Name | Elevation Worship (feat. Tiffany Hudson)",
+              "views": 17711229,
+              "duration": "9:00",
+              "thumbnail": "https://i.ytimg.com/vi/cej4vn4sWtE/hq720.jpg"
+            },
+            {
+              "videoId": "7_u-XzqxjKY",
+              "title": "Top Elevation Worship Songs ✝️ O Come to the Altar Elevation Worship - Elevation Playlist 2026 Mix",
+              "views": 827785,
+              "duration": "1:57:54",
+              "thumbnail": "https://i.ytimg.com/vi/7_u-XzqxjKY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fred Hammond",
+          "channel": {
+            "id": "UCvP-zy6ObS1SyxMKEIWmwUA",
+            "name": "Fred Hammond",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_l-vJROXMoXPAt1ybL30sVhMAHGwoaSX5p9i0i-kYJrKg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 328000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OyTYEeZdhK8",
+              "title": "Fred Hammond & RFC - You Are the Living Word",
+              "views": 23913647,
+              "duration": "5:16",
+              "thumbnail": "https://i.ytimg.com/vi/OyTYEeZdhK8/hqdefault.jpg"
+            },
+            {
+              "videoId": "AJ2P_xssl5c",
+              "title": "Fred Hammond, Radical For Christ - You Are The Living Word (Live) [Lyrics]",
+              "views": 1242447,
+              "duration": "5:26",
+              "thumbnail": "https://i.ytimg.com/vi/AJ2P_xssl5c/hq720.jpg"
+            },
+            {
+              "videoId": "yc-kdfZ6DBk",
+              "title": "Encouraging Message For This Week",
+              "views": 2562,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/yc-kdfZ6DBk/hqdefault.jpg"
+            },
+            {
+              "videoId": "BEXdpmnyPJM",
+              "title": "The Choir Room & Fred Hammond - \"Love Never Fails\" (Official Live Performance)",
+              "views": 1060656,
+              "duration": "6:33",
+              "thumbnail": "https://i.ytimg.com/vi/BEXdpmnyPJM/hq720.jpg"
+            },
+            {
+              "videoId": "S_NaVTpWIOI",
+              "title": "Give Me A Clean Heart",
+              "views": 6852368,
+              "duration": "7:29",
+              "thumbnail": "https://i.ytimg.com/vi/S_NaVTpWIOI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Hezekiah Walker",
+          "channel": {
+            "id": "UCE3pWEQeiZp0ZneAUmpnk_g",
+            "name": "Hezekiah Walker",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_l8gvpmOXz15z_jWNmtNChJpfmFFdXBRdy8gJKM0-s=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 605000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "UuuZMg6NVeA",
+              "title": "Hezekiah Walker New Video \"Every Praise\"",
+              "views": 160346376,
+              "duration": "5:29",
+              "thumbnail": "https://i.ytimg.com/vi/UuuZMg6NVeA/hq720.jpg"
+            },
+            {
+              "videoId": "-UEdv9v_xYw",
+              "title": "Hezekiah Walker – Jesus Is My Help",
+              "views": 2359022,
+              "duration": "4:28",
+              "thumbnail": "https://i.ytimg.com/vi/-UEdv9v_xYw/hqdefault.jpg"
+            },
+            {
+              "videoId": "gb8YW64dL5c",
+              "title": "Hezekiah Walker, The Love Fellowship Choir - God Favored Me (Official Video)",
+              "views": 34721029,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/gb8YW64dL5c/hq720.jpg"
+            },
+            {
+              "videoId": "2XhN2m5b_3U",
+              "title": "Grateful (Reprise) - Hezekiah Walker & LFC",
+              "views": 30419064,
+              "duration": "14:41",
+              "thumbnail": "https://i.ytimg.com/vi/2XhN2m5b_3U/hq720.jpg"
+            },
+            {
+              "videoId": "_28EwkWR8OQ",
+              "title": "Hezekiah Walker – Wonderful Is Your Name",
+              "views": 882431,
+              "duration": "6:41",
+              "thumbnail": "https://i.ytimg.com/vi/_28EwkWR8OQ/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Hillsong United",
+          "channel": {
+            "id": "UCsOoQeBWPnfWBYAwmO795zg",
+            "name": "Hillsong UNITED",
+            "image": "https://yt3.googleusercontent.com/YmEy7jYWhgYYZ3rAkr6saaZoiyNndooeLk1rWpkdXSap8iMcXIpkBX-yR6KHlD96OyH8NT-9=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5660000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OP-00EwLdiU",
+              "title": "Oceans (Where Feet May Fail) - Hillsong UNITED - Live in Israel",
+              "views": 364336865,
+              "duration": "9:37",
+              "thumbnail": "https://i.ytimg.com/vi/OP-00EwLdiU/hq720.jpg"
+            },
+            {
+              "videoId": "2YXtlS8snno",
+              "title": "Oceans - Top 100 Best Hillsong United Songs 2022 Collection - Nonstop Christian Worship Songs",
+              "views": 2107097,
+              "duration": "1:41:58",
+              "thumbnail": "https://i.ytimg.com/vi/2YXtlS8snno/hq720.jpg"
+            },
+            {
+              "videoId": "ibVDol1CPxM",
+              "title": "The People Tour: Live from Madison Square Garden (Act IV) – Hillsong UNITED",
+              "views": 7046320,
+              "duration": "37:30",
+              "thumbnail": "https://i.ytimg.com/vi/ibVDol1CPxM/hq720.jpg"
+            },
+            {
+              "videoId": "nQWFzMvCfLE",
+              "title": "What A Beautiful Name - Hillsong Worship",
+              "views": 656604498,
+              "duration": "5:43",
+              "thumbnail": "https://i.ytimg.com/vi/nQWFzMvCfLE/hq720.jpg"
+            },
+            {
+              "videoId": "s7jXASBWwwI",
+              "title": "I Surrender - Hillsong Worship",
+              "views": 334962280,
+              "duration": "11:16",
+              "thumbnail": "https://i.ytimg.com/vi/s7jXASBWwwI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Israel Houghton",
+          "channel": {
+            "id": "UCIl3H4ut9HZrET6_FHobeaA",
+            "name": "Israel Houghton",
+            "image": "https://yt3.googleusercontent.com/jMCabmH5V6n-YW9UOYSKA8flWTxfwKN1BnT7OomEbVY50_KslqCkMzSS-Jz6A_WQUrxN4N1U1vg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 718000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "5KiQDoWo5t4",
+              "title": "You Are Good - Israel & New Breed",
+              "views": 8501178,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/5KiQDoWo5t4/hqdefault.jpg"
+            },
+            {
+              "videoId": "v6YaFHYydj4",
+              "title": "Israel Houghton | Best of Israel Houghton 2024 | Sign's Playlist",
+              "views": 1349024,
+              "duration": "1:26:08",
+              "thumbnail": "https://i.ytimg.com/vi/v6YaFHYydj4/hq720.jpg"
+            },
+            {
+              "videoId": "iaK-GOOZYQk",
+              "title": "Feels Like Home: A Live Worship Experience",
+              "views": 2849561,
+              "duration": "2:32:02",
+              "thumbnail": "https://i.ytimg.com/vi/iaK-GOOZYQk/hq720.jpg"
+            },
+            {
+              "videoId": "9GQlJbUd_LE",
+              "title": "Goodness of God - Israel & New Breed",
+              "views": 7701381,
+              "duration": "11:27",
+              "thumbnail": "https://i.ytimg.com/vi/9GQlJbUd_LE/hq720.jpg"
+            },
+            {
+              "videoId": "02a-Rc5nhX8",
+              "title": "Israel Houghton x Warehouse Worship / Holy Forever, Alpha & Omega, Firm Foundation, Broken People",
+              "views": 656142,
+              "duration": "58:47",
+              "thumbnail": "https://i.ytimg.com/vi/02a-Rc5nhX8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jonathan McReynolds",
+          "channel": {
+            "id": "UCIk_5MIPkEA8HMjljJCyohA",
+            "name": "Jonathan McReynolds",
+            "image": "https://yt3.googleusercontent.com/Zbv5pMSihm5bThi8krri5MRgnfr68OUdhIqa6kHN6ufxyGbZr21KT-RF4IHt4wPCoFApvMaGmw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 568000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "-f9uGdJYPeA",
+              "title": "Jonathan McReynolds - God Is Good (Live)",
+              "views": 16694462,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/-f9uGdJYPeA/hq720.jpg"
+            },
+            {
+              "videoId": "dSBr3Gqs6tQ",
+              "title": "Travis Greene 2017 Stellar Award Performance feat: Israel Houghton, Jonathan McReynolds...",
+              "views": 14794757,
+              "duration": "5:37",
+              "thumbnail": "https://i.ytimg.com/vi/dSBr3Gqs6tQ/hq720.jpg"
+            },
+            {
+              "videoId": "iXEl7A-VcV4",
+              "title": "Jonathan McReynolds - Grace (Music Video)",
+              "views": 3511942,
+              "duration": "2:44",
+              "thumbnail": "https://i.ytimg.com/vi/iXEl7A-VcV4/hq720.jpg"
+            },
+            {
+              "videoId": "SiycqP-kCKE",
+              "title": "Jonathan McReynolds - Make Room",
+              "views": 19177272,
+              "duration": "10:12",
+              "thumbnail": "https://i.ytimg.com/vi/SiycqP-kCKE/hq720.jpg"
+            },
+            {
+              "videoId": "mfyVeJ2OdQg",
+              "title": "Jonathan McReynolds - Lovin' Me (Official Video)",
+              "views": 10652704,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/mfyVeJ2OdQg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kanye West",
+          "channel": {
+            "id": "UCs6eXM7s8Vl5WcECcRHc2qQ",
+            "name": "Kanye West",
+            "image": "https://yt3.googleusercontent.com/jh05JitmhiTaAuBp7AAtTETeO3Zl7bDa-KwcSnZYymMpNF984oQ4k3ZQq1KBPhoKOXHS8B761WM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 12400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Bm5iA4Zupek",
+              "title": "Kanye West - Runaway (Video Version) ft. Pusha T",
+              "views": 160487811,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/Bm5iA4Zupek/hq720.jpg"
+            },
+            {
+              "videoId": "MxEjnYdfLXU",
+              "title": "I Wonder",
+              "views": 157217458,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/MxEjnYdfLXU/hq720.jpg"
+            },
+            {
+              "videoId": "HBMy-y2wb4I",
+              "title": "YE - FATHER (feat. TRAVIS SCOTT)",
+              "views": 19839845,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/HBMy-y2wb4I/hq720.jpg"
+            },
+            {
+              "videoId": "6CHs4x2uqcQ",
+              "title": "Kanye West - Good Morning",
+              "views": 110433619,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/6CHs4x2uqcQ/hq720.jpg"
+            },
+            {
+              "videoId": "Co0tTeuUVhU",
+              "title": "Kanye West - Heartless",
+              "views": 251656807,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/Co0tTeuUVhU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kierra Sheard",
+          "channel": {
+            "id": "UCefS9IwyKjZB-13b1h66Bdg",
+            "name": "Kierra Sheard-Kelly",
+            "image": "https://yt3.googleusercontent.com/gwkSN5M7roG6bVRMufppylMkMAf7VPcboFn64I3d_7v7Vb8Ap43EAONSaA0GlnokgVeUac1M0Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 426000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "cd998ztpv0c",
+              "title": "Prayer Against Depression",
+              "views": 9957,
+              "duration": "20:09",
+              "thumbnail": "https://i.ytimg.com/vi/cd998ztpv0c/hq720.jpg"
+            },
+            {
+              "videoId": "MYDLtADxq2A",
+              "title": "Rain | Kierra Sheard | (Official Music Video)",
+              "views": 2258713,
+              "duration": "4:27",
+              "thumbnail": "https://i.ytimg.com/vi/MYDLtADxq2A/hq720.jpg"
+            },
+            {
+              "videoId": "m7qeacE6tEo",
+              "title": "Red Rocks Worship, Kierra Sheard-Kelly - Something Has To Break (Live)",
+              "views": 2296807,
+              "duration": "9:13",
+              "thumbnail": "https://i.ytimg.com/vi/m7qeacE6tEo/hq720.jpg"
+            },
+            {
+              "videoId": "BZT8jqsc8lQ",
+              "title": "Tasha Cobbs Leonard - Your Spirit ft. Kierra Sheard",
+              "views": 222104629,
+              "duration": "7:41",
+              "thumbnail": "https://i.ytimg.com/vi/BZT8jqsc8lQ/hq720.jpg"
+            },
+            {
+              "videoId": "qGLbUpsXv1M",
+              "title": "You Don't Know",
+              "views": 1534943,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/qGLbUpsXv1M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kirk Franklin",
+          "channel": {
+            "id": "UCTbSDtpElugjahw088Nnubg",
+            "name": "Kirk Franklin",
+            "image": "https://yt3.googleusercontent.com/DUSY3C9l7a0R-4Wg3KsRuG_O7Z_aPgC0sX6jLA_mjrU1iq-MA2eDYcvxOfDAwGrAtqc-Hcb4yeI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2190000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "wRwId2RfmfA",
+              "title": "Kirk Franklin: Tiny Desk (Home) Concert",
+              "views": 20530932,
+              "duration": "15:33",
+              "thumbnail": "https://i.ytimg.com/vi/wRwId2RfmfA/hq720.jpg"
+            },
+            {
+              "videoId": "3aD8OK07iIY",
+              "title": "Kirk Franklin - Love Theory (Official Video)",
+              "views": 67931493,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/3aD8OK07iIY/hq720.jpg"
+            },
+            {
+              "videoId": "Z8SPwT3nQZ8",
+              "title": "Kirk Franklin - I Smile (Official Video)",
+              "views": 171281592,
+              "duration": "5:00",
+              "thumbnail": "https://i.ytimg.com/vi/Z8SPwT3nQZ8/hq720.jpg"
+            },
+            {
+              "videoId": "nVXJdz0FgyA",
+              "title": "The Rebirth Kirk Franklin \"Full Concert\"",
+              "views": 2785376,
+              "duration": "1:18:45",
+              "thumbnail": "https://i.ytimg.com/vi/nVXJdz0FgyA/hq720.jpg"
+            },
+            {
+              "videoId": "UAfkqWBPx5o",
+              "title": "Kirk Franklin - A God Like You (Lyric Video)",
+              "views": 18642370,
+              "duration": "6:21",
+              "thumbnail": "https://i.ytimg.com/vi/UAfkqWBPx5o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Marvin Sapp",
+          "channel": {
+            "id": "UC7M9afaCP6r8QtCpHHaxVxQ",
+            "name": "Marvin Sapp",
+            "image": "https://yt3.googleusercontent.com/SeL0vuicLc5zU-Q45aAeyhbVc9_6oeCX3ldMI2o2S6J1HKRO3tKjejF-n9IcdNhNlie18hcs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 667000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "wVbZzgybaJ4",
+              "title": "Marvin Sapp: Tiny Desk Concert",
+              "views": 2006045,
+              "duration": "18:28",
+              "thumbnail": "https://i.ytimg.com/vi/wVbZzgybaJ4/hq720.jpg"
+            },
+            {
+              "videoId": "mV6LsR2jCjs",
+              "title": "Marvin Sapp - The Best In Me (Official Music Video)",
+              "views": 23582957,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/mV6LsR2jCjs/hq720.jpg"
+            },
+            {
+              "videoId": "TWrGjzBheno",
+              "title": "Marvin Sapp - Never Would Have Made It (Video)",
+              "views": 41194497,
+              "duration": "3:54",
+              "thumbnail": "https://i.ytimg.com/vi/TWrGjzBheno/hq720.jpg"
+            },
+            {
+              "videoId": "AFJUkfbn_Wo",
+              "title": "Marvin Sapp - Praise Him In Advance (from Thirsty)",
+              "views": 8663280,
+              "duration": "5:28",
+              "thumbnail": "https://i.ytimg.com/vi/AFJUkfbn_Wo/hq720.jpg"
+            },
+            {
+              "videoId": "4kJwxxFL6Ak",
+              "title": "Best Gospel Songs Praise And Worship | Greatest Black Gospel Songs",
+              "views": 285878,
+              "duration": "2:03:21",
+              "thumbnail": "https://i.ytimg.com/vi/4kJwxxFL6Ak/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mary Mary",
+          "channel": {
+            "id": "UCk_OKWTCyen7Yr4gideyfkw",
+            "name": "Mary Mary TV",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nsdYQ5LPZQkrLnoNMffO0v-y_bi7GOgdV205JismGoqQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 504000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "i1L2lToMlB4",
+              "title": "Mary Mary - Shackles (Praise You)",
+              "views": 11217092,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/i1L2lToMlB4/hqdefault.jpg"
+            },
+            {
+              "videoId": "Asvi-ZKAr6k",
+              "title": "Mary, Mary, Quite Contrary - S1EP95 THE BEST Songs for Children  | LooLoo Kids Songs for Kids",
+              "views": 18153926,
+              "duration": "1:45",
+              "thumbnail": "https://i.ytimg.com/vi/Asvi-ZKAr6k/hq720.jpg"
+            },
+            {
+              "videoId": "36eSuc7fdEw",
+              "title": "Mary, Mary (Original Stereo Version) (2006 Remaster)",
+              "views": 736588,
+              "duration": "2:18",
+              "thumbnail": "https://i.ytimg.com/vi/36eSuc7fdEw/hq720.jpg"
+            },
+            {
+              "videoId": "_G84MxRDOw4",
+              "title": "Mary Mary -- Thankful  (Full Album)",
+              "views": 364423,
+              "duration": "53:42",
+              "thumbnail": "https://i.ytimg.com/vi/_G84MxRDOw4/hq720.jpg"
+            },
+            {
+              "videoId": "p-baoSWy8jY",
+              "title": "Mary Mary - Walking (Official Video)",
+              "views": 16927398,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/p-baoSWy8jY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Maverick City Music",
+          "channel": {
+            "id": "UCcQaSpIMPptu9RLgqIbviqw",
+            "name": "Maverick City Music - Topic",
+            "image": "https://yt3.ggpht.com/yvarsET-n-zFMiTy7yrjlPjs74gIReOvQbZx7wMVrqxu0oVvZ81t_7kTh1FWP-CD9tr7BP_Xzg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 421000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "q5m09rqOoxE",
+              "title": "Promises (feat. Joe L Barnes & Naomi Raine) | Maverick City Music | TRIBL",
+              "views": 214575930,
+              "duration": "10:50",
+              "thumbnail": "https://i.ytimg.com/vi/q5m09rqOoxE/hq720.jpg"
+            },
+            {
+              "videoId": "RXVtqCtBP0I",
+              "title": "Best Maverick City Music Songs of All Time | Nonstop Christian Music Playlist",
+              "views": 328590,
+              "duration": "2:03:39",
+              "thumbnail": "https://i.ytimg.com/vi/RXVtqCtBP0I/hq720.jpg"
+            },
+            {
+              "videoId": "mC-zw0zCCtg",
+              "title": "Jireh | Elevation Worship & Maverick City",
+              "views": 312098689,
+              "duration": "9:59",
+              "thumbnail": "https://i.ytimg.com/vi/mC-zw0zCCtg/hq720.jpg"
+            },
+            {
+              "videoId": "bv-RKMFi1K4",
+              "title": "🙏Jireh, Most Beautiful, Firm Foundation...| Chandler Moore | Elevation Worship & Maverick City Music",
+              "views": 1224844,
+              "duration": "1:03:29",
+              "thumbnail": "https://i.ytimg.com/vi/bv-RKMFi1K4/hq720.jpg"
+            },
+            {
+              "videoId": "QKFjQbCKEgA",
+              "title": "Maverick City Music: Tiny Desk Concert",
+              "views": 4497068,
+              "duration": "19:02",
+              "thumbnail": "https://i.ytimg.com/vi/QKFjQbCKEgA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Shirley Caesar",
+          "channel": {
+            "id": "UC5s9aaQuCH-hP-TjVTsfnmw",
+            "name": "PASTOR SHIRLEY CAESAR",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lLEPEiEUkz4zyTFgj_5vWHC-2ClCylPApj-OlZTMD4Tg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 155000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "0BxvQB7Aqsk",
+              "title": "Shirley Caesar | Best Songs Of Shirley Caesar | Gospel Playlist",
+              "views": 1868093,
+              "duration": "1:18:52",
+              "thumbnail": "https://i.ytimg.com/vi/0BxvQB7Aqsk/hq720.jpg"
+            },
+            {
+              "videoId": "p3wLRo9zE5w",
+              "title": "Shirley Caesar: Tiny Desk (Home) Concert",
+              "views": 227463,
+              "duration": "13:12",
+              "thumbnail": "https://i.ytimg.com/vi/p3wLRo9zE5w/hq720.jpg"
+            },
+            {
+              "videoId": "Cbsyfs0gvYk",
+              "title": "Jesus, I Love Calling Your Name",
+              "views": 19028500,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/Cbsyfs0gvYk/hq720.jpg"
+            },
+            {
+              "videoId": "TS8CFyxn1NY",
+              "title": "He's Working It Out for You",
+              "views": 5810070,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/TS8CFyxn1NY/hq720.jpg"
+            },
+            {
+              "videoId": "k9Wq-8fshqo",
+              "title": "Shirley Caesar | Shirley Caesar Best Songs Hits Playlist",
+              "views": 381985,
+              "duration": "1:18:52",
+              "thumbnail": "https://i.ytimg.com/vi/k9Wq-8fshqo/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Smokie Norful",
+          "channel": {
+            "id": "UC4EVjrm0PDTLCx-ZywlbqoA",
+            "name": "OfficialSmokieNorful",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_kIVQs_-P3hRF874cf8MV7lp_En_JjbUoFApslbQs11ze0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 285000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "oJpWjv7UGqE",
+              "title": "Smokie Norful - I Need You Now",
+              "views": 29626793,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/oJpWjv7UGqE/hq720.jpg"
+            },
+            {
+              "videoId": "2v3F6S7NXLc",
+              "title": "Sunday Worship Experience | 10:00 AM CT",
+              "views": 2927,
+              "duration": "1:58:21",
+              "thumbnail": "https://i.ytimg.com/vi/2v3F6S7NXLc/hq720.jpg"
+            },
+            {
+              "videoId": "tJQSrr2Tl88",
+              "title": "Sunday Worship Experience | 2:00 PM CT",
+              "views": 310,
+              "duration": "2:16:24",
+              "thumbnail": "https://i.ytimg.com/vi/tJQSrr2Tl88/hq720.jpg"
+            },
+            {
+              "videoId": "rnWbYqSJ3_w",
+              "title": "Smokie Norful - Dear God (Live)",
+              "views": 8882204,
+              "duration": "5:41",
+              "thumbnail": "https://i.ytimg.com/vi/rnWbYqSJ3_w/hq720.jpg"
+            },
+            {
+              "videoId": "mMwRDtTVSLY",
+              "title": "Old School Prayer and Praise",
+              "views": 6985910,
+              "duration": "19:18",
+              "thumbnail": "https://i.ytimg.com/vi/mMwRDtTVSLY/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sunday Service Choir",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "hpcRv47cNnA",
+              "title": "Kanye West, Marvin Sapp, Sunday Service Choir - Sunday Service Alt. (Egnever Amapiano Edit)",
+              "views": 1566415,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/hpcRv47cNnA/hq720.jpg"
+            },
+            {
+              "videoId": "TfpiHv1kP5E",
+              "title": "Sunday Service - Lord You're Holy Ballin' (Live From Paris, France)",
+              "views": 38271926,
+              "duration": "5:44",
+              "thumbnail": "https://i.ytimg.com/vi/TfpiHv1kP5E/hq720.jpg"
+            },
+            {
+              "videoId": "06xMWNXTeSE",
+              "title": "Kanye West & Sunday Service Collective @ Théâtre des Bouffes du Nord, Paris, France (03/01/2020)",
+              "views": 5782405,
+              "duration": "1:24:06",
+              "thumbnail": "https://i.ytimg.com/vi/06xMWNXTeSE/hq720.jpg"
+            },
+            {
+              "videoId": "ni8RtUY5h50",
+              "title": "Kanye West, Marvin Sapp, Sunday Service Choir - Sunday Service Alt. (Egnever Amapiano Edit)",
+              "views": 199758,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/ni8RtUY5h50/hq720.jpg"
+            },
+            {
+              "videoId": "ulq14QrjBn0",
+              "title": "Sunday Service - \"Every Hour\" (Live from LA)",
+              "views": 3287993,
+              "duration": "6:58",
+              "thumbnail": "https://i.ytimg.com/vi/ulq14QrjBn0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tamela Mann",
+          "channel": {
+            "id": "UCc99m_j116DFKCkFYy7n6yg",
+            "name": "Tamela Mann Official",
+            "image": "https://yt3.googleusercontent.com/4CQGBRyh-q_p-YsUtDi9RF9mcsWWhxOsK3kOx1tFP28x79uhDzIG71_R577wvILWdmZ71ug71w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 335000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "rSM96kWKg1s",
+              "title": "Tamela Mann - Change Me",
+              "views": 18118504,
+              "duration": "7:21",
+              "thumbnail": "https://i.ytimg.com/vi/rSM96kWKg1s/hq720.jpg"
+            },
+            {
+              "videoId": "wU3qgPn3bGA",
+              "title": "Tamela Mann - Take Me To The King",
+              "views": 169870509,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/wU3qgPn3bGA/hq720.jpg"
+            },
+            {
+              "videoId": "XvV9p-wU4hk",
+              "title": "Take Me to the King (feat. Kirk Franklin)",
+              "views": 46677726,
+              "duration": "4:48",
+              "thumbnail": "https://i.ytimg.com/vi/XvV9p-wU4hk/hq720.jpg"
+            },
+            {
+              "videoId": "BQ2iFZPapZs",
+              "title": "Tamela Mann - Help Me ft. The Fellas",
+              "views": 6002630,
+              "duration": "5:22",
+              "thumbnail": "https://i.ytimg.com/vi/BQ2iFZPapZs/hq720.jpg"
+            },
+            {
+              "videoId": "t_RRyGxvAh0",
+              "title": "Tamela Mann - God Provides",
+              "views": 3262017,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/t_RRyGxvAh0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tasha Cobbs Leonard",
+          "channel": {
+            "id": "UC8aCcbdR6hWfeynEmrguPyg",
+            "name": "Tasha Cobbs Leonard",
+            "image": "https://yt3.googleusercontent.com/OxZ28xt1C9VjVp-JVQwFmN93XlSv3bd_ekrx0bA_Rd7so8Kf_ScEPGJt-Vhe8PsE31KeVylIdg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3170000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OKWkYxikygQ",
+              "title": "Tasha Cobbs - Fill Me Up / Overflow (Medley/Live)",
+              "views": 254749829,
+              "duration": "9:38",
+              "thumbnail": "https://i.ytimg.com/vi/OKWkYxikygQ/hq720.jpg"
+            },
+            {
+              "videoId": "BZT8jqsc8lQ",
+              "title": "Tasha Cobbs Leonard - Your Spirit ft. Kierra Sheard",
+              "views": 222104629,
+              "duration": "7:41",
+              "thumbnail": "https://i.ytimg.com/vi/BZT8jqsc8lQ/hq720.jpg"
+            },
+            {
+              "videoId": "t7owFiihXgg",
+              "title": "Tasha Cobbs Leonard - You Know My Name ft. Jimi Cravity ft. Jimi Cravity",
+              "views": 247378296,
+              "duration": "8:02",
+              "thumbnail": "https://i.ytimg.com/vi/t7owFiihXgg/hq720.jpg"
+            },
+            {
+              "videoId": "AzZC3EbH6iE",
+              "title": "Tasha Cobbs Leonard - Gracefully Broken",
+              "views": 135849789,
+              "duration": "5:37",
+              "thumbnail": "https://i.ytimg.com/vi/AzZC3EbH6iE/hq720.jpg"
+            },
+            {
+              "videoId": "og6_QlfBHpo",
+              "title": "T a s h a C o b b s Greatest Hits ~ Top Praise And Worship Songs",
+              "views": 745689,
+              "duration": "1:09:00",
+              "thumbnail": "https://i.ytimg.com/vi/og6_QlfBHpo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Todd Dulaney",
+          "channel": {
+            "id": "UCKhOk9Kr5X_Jn_XheAP5Z0Q",
+            "name": "Todd Dulaney ",
+            "image": "https://yt3.googleusercontent.com/wl1_RGRCCuJSMNm85aTHPyip_gqKxfshSrvJPPrbR7ATbaTfY7subT6qdciIc3uRzzyLMphCr1s=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 213000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "wa78qxQCKgo",
+              "title": "Todd Dulaney - Victory Belongs To Jesus (LIVE)",
+              "views": 117548133,
+              "duration": "11:26",
+              "thumbnail": "https://i.ytimg.com/vi/wa78qxQCKgo/hq720.jpg"
+            },
+            {
+              "videoId": "_WdUIWfMDeU",
+              "title": "Todd Dulaney - No Weapon (Live)",
+              "views": 9266869,
+              "duration": "14:16",
+              "thumbnail": "https://i.ytimg.com/vi/_WdUIWfMDeU/hq720.jpg"
+            },
+            {
+              "videoId": "mYjdVQX2cJQ",
+              "title": "Conquered All - Todd Dulaney (Official Music Video)",
+              "views": 882168,
+              "duration": "9:37",
+              "thumbnail": "https://i.ytimg.com/vi/mYjdVQX2cJQ/hq720.jpg"
+            },
+            {
+              "videoId": "xbOHbRxRaDI",
+              "title": "Todd Dulaney - The Anthem",
+              "views": 6056218,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/xbOHbRxRaDI/hq720.jpg"
+            },
+            {
+              "videoId": "8v_KFHnPImY",
+              "title": "Todd Dulaney - Your Great Name (Extended Version) - Live in Orlando",
+              "views": 11854428,
+              "duration": "8:35",
+              "thumbnail": "https://i.ytimg.com/vi/8v_KFHnPImY/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Travis Greene",
+          "channel": {
+            "id": "UC4jufEFPiBuZhH2QDul-mHw",
+            "name": "Travis Greene",
+            "image": "https://yt3.googleusercontent.com/C6zDhs63GszJopZ1isOGKrK5wJyDlfO_x-tI9-0Tz4Kdkip0ZBMFgwLI-N8bmWunAXRcfQNV=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1160000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "qnN9Zz6BBzs",
+              "title": "Travis Greene - You Waited (Official Video)",
+              "views": 91547835,
+              "duration": "5:51",
+              "thumbnail": "https://i.ytimg.com/vi/qnN9Zz6BBzs/hq720.jpg"
+            },
+            {
+              "videoId": "VH3f0ellNv8",
+              "title": "Travis Greene - Intentional (Official Music Video)",
+              "views": 84512946,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/VH3f0ellNv8/hq720.jpg"
+            },
+            {
+              "videoId": "MimVg0OMGvA",
+              "title": "Travis Greene - Made A Way (Official Music Video)",
+              "views": 43287187,
+              "duration": "4:31",
+              "thumbnail": "https://i.ytimg.com/vi/MimVg0OMGvA/hq720.jpg"
+            },
+            {
+              "videoId": "DefL-oJpjo8",
+              "title": "Good And Loved - Travis Greene & Steffany Gretzinger (Official Music Video)",
+              "views": 12985854,
+              "duration": "9:38",
+              "thumbnail": "https://i.ytimg.com/vi/DefL-oJpjo8/hq720.jpg"
+            },
+            {
+              "videoId": "ILK2vNeMwQI",
+              "title": "Travis Greene - Be Still (Live Music Video)",
+              "views": 36446224,
+              "duration": "5:57",
+              "thumbnail": "https://i.ytimg.com/vi/ILK2vNeMwQI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tye Tribbett",
+          "channel": {
+            "id": "UCVo9Vl4FlCQXUOdqVdAWqug",
+            "name": "Tye Tribbett",
+            "image": "https://yt3.googleusercontent.com/XE_GOeV9lUpcCfP0tp-s8zkaSIkOGH8v2Avk1smOBtj-TQC1nGWOZfvjS0PBaw-ZyBhnJCbj9Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 513000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tZWZ82Em-Q8",
+              "title": "Tye Tribbett: Tiny Desk Concert",
+              "views": 2385046,
+              "duration": "18:44",
+              "thumbnail": "https://i.ytimg.com/vi/tZWZ82Em-Q8/hq720.jpg"
+            },
+            {
+              "videoId": "VrT-gM3PW64",
+              "title": "Tye Tribbett - “Everything (Bless The Lord)” [Performance Video]",
+              "views": 13909061,
+              "duration": "6:10",
+              "thumbnail": "https://i.ytimg.com/vi/VrT-gM3PW64/hq720.jpg"
+            },
+            {
+              "videoId": "gWbaywwVSi0",
+              "title": "Yahweh Flow (Live In San Francisco) ft. Jocelyn Bowman, D’Nar Young, Jewell Jones, & Jalisa Faye",
+              "views": 4267132,
+              "duration": "9:41",
+              "thumbnail": "https://i.ytimg.com/vi/gWbaywwVSi0/hq720.jpg"
+            },
+            {
+              "videoId": "kOa10F8YkgI",
+              "title": "Tye Tribbett - He Turned It (Live)",
+              "views": 11867839,
+              "duration": "5:14",
+              "thumbnail": "https://i.ytimg.com/vi/kOa10F8YkgI/hq720.jpg"
+            },
+            {
+              "videoId": "AxBvP87Q7AY",
+              "title": "Tye Tribbett - Holy You (FrĒligious) (Official Audio)",
+              "views": 120125,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/AxBvP87Q7AY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "William McDowell",
+          "channel": {
+            "id": "UC2DG1coLhDhGucGc05JX-0A",
+            "name": "William McDowell Music",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lo1DGiwnMzDAU6wYSJIWol8PY9F1VvUpHahgqd13qqCQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 834000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "2KiUPP0KO5A",
+              "title": "Stay - William McDowell - Official Live Video",
+              "views": 39745075,
+              "duration": "6:31",
+              "thumbnail": "https://i.ytimg.com/vi/2KiUPP0KO5A/hq720.jpg"
+            },
+            {
+              "videoId": "g8CYNEGnf-Y",
+              "title": "William McDowell - Sounds Of Revival (OFFICIAL FILM)",
+              "views": 5220523,
+              "duration": "1:45:46",
+              "thumbnail": "https://i.ytimg.com/vi/g8CYNEGnf-Y/hq720.jpg"
+            },
+            {
+              "videoId": "oXIcVEH5zuM",
+              "title": "William McDowell Night Of Worship | Knoxville, TN",
+              "views": 7448219,
+              "duration": "2:05:33",
+              "thumbnail": "https://i.ytimg.com/vi/oXIcVEH5zuM/hqdefault.jpg"
+            },
+            {
+              "videoId": "8DhO5YOhTx4",
+              "title": "Withholding Nothing Medley",
+              "views": 64981938,
+              "duration": "13:27",
+              "thumbnail": "https://i.ytimg.com/vi/8DhO5YOhTx4/hq720.jpg"
+            },
+            {
+              "videoId": "dRsRmtxw8VM",
+              "title": "William McDowell - Falling on My Knees (OFFICIAL VIDEO)",
+              "views": 14654367,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/dRsRmtxw8VM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Yolanda Adams",
+          "channel": {
+            "id": "UCte8J4B8ycyxIkCEthsllnw",
+            "name": "Yolanda Adams Lifestyles",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_k3qDnfVxR94ima9LcEpglp7uRnnMEiVE8MfQP1LLI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 348000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "2aYzc0Z0Z8Q",
+              "title": "Yolanda Adams - Open My Heart",
+              "views": 73679428,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/2aYzc0Z0Z8Q/hqdefault.jpg"
+            },
+            {
+              "videoId": "TPJ5kqjEQlc",
+              "title": "Yolanda Adams - I Believe I Can Fly",
+              "views": 9289832,
+              "duration": "5:05",
+              "thumbnail": "https://i.ytimg.com/vi/TPJ5kqjEQlc/hqdefault.jpg"
+            },
+            {
+              "videoId": "BeOheEP0Sb0",
+              "title": "Yolanda Adams Best Songs Of Yolanda Adams Music Yolanda Adams Hits Playlist",
+              "views": 106357,
+              "duration": "1:30:17",
+              "thumbnail": "https://i.ytimg.com/vi/BeOheEP0Sb0/hq720.jpg"
+            },
+            {
+              "videoId": "hmHWiUv4wyM",
+              "title": "I'm Gonna Be Ready",
+              "views": 83180650,
+              "duration": "5:38",
+              "thumbnail": "https://i.ytimg.com/vi/hmHWiUv4wyM/hq720.jpg"
+            },
+            {
+              "videoId": "TulOY7XlF8A",
+              "title": "The Battle Is the Lord's",
+              "views": 34461452,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/TulOY7XlF8A/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    }
+  }
+}

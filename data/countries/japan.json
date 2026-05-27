@@ -1,0 +1,2609 @@
+{
+  "country": "Japan",
+  "flag": "🇯🇵",
+  "code": "JP",
+  "continent": "Asia",
+  "categories": {
+    "secular": {
+      "count": 40,
+      "artists": [
+        {
+          "name": "AKB48",
+          "channel": {
+            "id": "UCxjXU89x6owat9dA8Z-bzdw",
+            "name": "AKB48",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_mUkncCKgR0mIDqeVZMACdxQM-QYUTb5zVX3voKzZgo-Ms=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2750000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Aw2NpveLOFs",
+              "title": "名残り桜 Music Video / AKB48 67th Single【公式】",
+              "views": 1632166,
+              "duration": "3:20",
+              "thumbnail": "https://i.ytimg.com/vi/Aw2NpveLOFs/hq720.jpg"
+            },
+            {
+              "videoId": "e6B0fUEljMg",
+              "title": "Behind The Scenes - JKT48 at AKB48 67th Single Tokyo Handshake Event",
+              "views": 7424,
+              "duration": "12:38",
+              "thumbnail": "https://i.ytimg.com/vi/e6B0fUEljMg/hq720.jpg"
+            },
+            {
+              "videoId": "F4vHO3ldsv4",
+              "title": "[Behind the Scenes] Showing you everything from the AKB48 3rd Generation concert!",
+              "views": 28449,
+              "duration": "12:09",
+              "thumbnail": "https://i.ytimg.com/vi/F4vHO3ldsv4/hq720.jpg"
+            },
+            {
+              "videoId": "dFf4AgBNR1E",
+              "title": "【MV full】 恋するフォーチュンクッキー / AKB48[公式]",
+              "views": 267344295,
+              "duration": "5:23",
+              "thumbnail": "https://i.ytimg.com/vi/dFf4AgBNR1E/hqdefault.jpg"
+            },
+            {
+              "videoId": "QpkQ7pTgswM",
+              "title": "Oh my pumpkin! Music Video / AKB48 66th Single【公式】",
+              "views": 1523716,
+              "duration": "5:01",
+              "thumbnail": "https://i.ytimg.com/vi/QpkQ7pTgswM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ado",
+          "channel": {
+            "id": "UCln9P4Qm3-EAY4aiEPmRwEA",
+            "name": "Ado",
+            "image": "https://yt3.googleusercontent.com/BKpE74RwbPJ8zLaad9Y2XoX7SmIEsoma1KB8dNzwtWwiOqgTNnYI_guEP1iAaTBrdk4nHakx=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 9240000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "xIYfDbkq-SM",
+              "title": "【Ado】春に舞う",
+              "views": 77982,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/xIYfDbkq-SM/hq720.jpg"
+            },
+            {
+              "videoId": "YvYii6dluM8",
+              "title": "【Ado】ビバリウム (Vivarium)",
+              "views": 14350151,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/YvYii6dluM8/hq720.jpg"
+            },
+            {
+              "videoId": "KaHu4xcQxAk",
+              "title": "Ado Greatest Hits, The Ultimate J-Pop Compilation BGM | Usseewa, Odo, Tot Musica & More!",
+              "views": 288861,
+              "duration": "57:35",
+              "thumbnail": "https://i.ytimg.com/vi/KaHu4xcQxAk/hq720.jpg"
+            },
+            {
+              "videoId": "_8CNByAq1n4",
+              "title": "【Ado】AiAiA",
+              "views": 8504853,
+              "duration": "4:20",
+              "thumbnail": "https://i.ytimg.com/vi/_8CNByAq1n4/hq720.jpg"
+            },
+            {
+              "videoId": "5Duje_sZko8",
+              "title": "Imagine Dragons - Take Me To The Beach (feat. Ado) (Official Lyric Video)",
+              "views": 42080083,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/5Duje_sZko8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Aimyon",
+          "channel": {
+            "id": "UCQVhrypJhw1HxuRV4gX6hoQ",
+            "name": "あいみょん",
+            "image": "https://yt3.googleusercontent.com/z1ZF-bVIxOVhl2IJUIKFASRGWWBEnibtqFcP_XnVcIqNp_w4fF2o95kKYpbSzecjJ5twIZlm=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2290000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "0xSiBpUdW4E",
+              "title": "Aimyon - Marigold [OFFICIAL MUSIC VIDEO]",
+              "views": 382367914,
+              "duration": "5:22",
+              "thumbnail": "https://i.ytimg.com/vi/0xSiBpUdW4E/hqdefault.jpg"
+            },
+            {
+              "videoId": "3ve2xQxfhbE",
+              "title": "Aimyon - Belt of Venus",
+              "views": 2488284,
+              "duration": "5:42",
+              "thumbnail": "https://i.ytimg.com/vi/3ve2xQxfhbE/hq720.jpg"
+            },
+            {
+              "videoId": "cuWon2_WOwc",
+              "title": "Aimyon - My First Love is Crying [OFFICIAL MUSIC VIDEO]",
+              "views": 11720145,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/cuWon2_WOwc/hq720.jpg"
+            },
+            {
+              "videoId": "cJnO-Y_YnFg",
+              "title": "あいみょん – 君はロックを聴かない 【AIMYON TOUR 2019 -SIXTH SENSE STORY- IN YOKOHAMA ARENA】",
+              "views": 51118206,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/cJnO-Y_YnFg/hq720.jpg"
+            },
+            {
+              "videoId": "pfGI91CFtRg",
+              "title": "Aimyon - Harunohi [OFFICIAL MUSIC VIDEO]",
+              "views": 129175717,
+              "duration": "5:37",
+              "thumbnail": "https://i.ytimg.com/vi/pfGI91CFtRg/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Arashi",
+          "channel": {
+            "id": "UCP7Gw_YZAuh4Yg2fcdcuumQ",
+            "name": "ARASHI",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nwfA6b6hS8tSsBmiqylv_LpxGCxqr1PvliPSt6ulNJNyI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3710000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "kT0LpsI1Lzo",
+              "title": "ARASHI LIVE TOUR 2026 'We are ARASHI' TOUR FINAL 5/31(Sun) Tokyo Dome show livestream!!",
+              "views": 786764,
+              "duration": "1:01",
+              "thumbnail": "https://i.ytimg.com/vi/kT0LpsI1Lzo/hq720.jpg"
+            },
+            {
+              "videoId": "EAgACSowE5k",
+              "title": "ARASHI - Love so sweet [Official Music Video]",
+              "views": 84153253,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/EAgACSowE5k/hq720.jpg"
+            },
+            {
+              "videoId": "evCrxxtslVU",
+              "title": "ARASHI - A･RA･SHI [Official Music Video]",
+              "views": 47700798,
+              "duration": "4:29",
+              "thumbnail": "https://i.ytimg.com/vi/evCrxxtslVU/hq720.jpg"
+            },
+            {
+              "videoId": "HeXVJvEYynw",
+              "title": "ARASHI - Happiness [Official Music Video]",
+              "views": 58682980,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/HeXVJvEYynw/hq720.jpg"
+            },
+            {
+              "videoId": "xIiiGJNlnaI",
+              "title": "ARASHI - ARAFES NATIONAL STADIUM 2012",
+              "views": 61184631,
+              "duration": "2:26:04",
+              "thumbnail": "https://i.ytimg.com/vi/xIiiGJNlnaI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "BTS",
+          "channel": {
+            "id": "UCLkAepWjdylmXSltofFvsYQ",
+            "name": "BANGTANTV",
+            "image": "https://yt3.googleusercontent.com/lFkJ8u633H3Cdk_vs9Oio2gqTDYqsjU-Oj-G62uzVEjONaF4webUp-H_5gDbkKHw3OUUEGMHig=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 84400000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ZOj-K8-_PIc",
+              "title": "BTS WORLD TOUR ‘ARIRANG’ IN GOYANG Sketch",
+              "views": 1406131,
+              "duration": "21:56",
+              "thumbnail": "https://i.ytimg.com/vi/ZOj-K8-_PIc/hq720.jpg"
+            },
+            {
+              "videoId": "_gyultVTesk",
+              "title": "BTS (방탄소년단) '2.0' Official MV",
+              "views": 98700215,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/_gyultVTesk/hq720.jpg"
+            },
+            {
+              "videoId": "efq6IGC331Q",
+              "title": "BTS Arirang World Tour SETLIST",
+              "views": 1960564,
+              "duration": "1:15:09",
+              "thumbnail": "https://i.ytimg.com/vi/efq6IGC331Q/hq720.jpg"
+            },
+            {
+              "videoId": "9jI2CZ0bMuM",
+              "title": "BTS 'ARIRANG' North America Promotions Sketch",
+              "views": 2074784,
+              "duration": "19:53",
+              "thumbnail": "https://i.ytimg.com/vi/9jI2CZ0bMuM/hq720.jpg"
+            },
+            {
+              "videoId": "b4iVv91Z6lY",
+              "title": "BTS (방탄소년단) ‘SWIM’ Official MV",
+              "views": 123172346,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/b4iVv91Z6lY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Babymetal",
+          "channel": {
+            "id": "UC33_tIj4m1_XaqfFcomShvw",
+            "name": "BABYMETAL",
+            "image": "https://yt3.googleusercontent.com/MMA9n48WFsi5kgHIjY3njgTq5FORyGqLHXFSqg9JLQqO7533uXnwWlYi46bUYd7aPUPD6lD3Rxg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "WIKqgE4BwAY",
+              "title": "BABYMETAL - ギミチョコ！！- Gimme chocolate!! (OFFICIAL)",
+              "views": 219041313,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/WIKqgE4BwAY/hq720.jpg"
+            },
+            {
+              "videoId": "EDnIEWyVIlE",
+              "title": "BABYMETAL x @ElectricCallboy - RATATATA (OFFICIAL VIDEO)",
+              "views": 60220527,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/EDnIEWyVIlE/hq720.jpg"
+            },
+            {
+              "videoId": "cK3NMZAUKGw",
+              "title": "BABYMETAL - メギツネ - MEGITSUNE (OFFICIAL)",
+              "views": 98820266,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/cK3NMZAUKGw/hqdefault.jpg"
+            },
+            {
+              "videoId": "KEMVgy51kPE",
+              "title": "BABYMETAL x Slaughter To Prevail - Song 3 (OFFICIAL MUSIC VIDEO)",
+              "views": 11545146,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/KEMVgy51kPE/hq720.jpg"
+            },
+            {
+              "videoId": "fKyXvNkGQKc",
+              "title": "Bring Me The Horizon - Kingslayer (Lyric Video) ft. BABYMETAL",
+              "views": 74574774,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/fKyXvNkGQKc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bump of Chicken",
+          "channel": {
+            "id": "UCOfESRUR5duQ2hMnTQ4oqhA",
+            "name": "BUMP OF CHICKEN",
+            "image": "https://yt3.googleusercontent.com/5Uo_vADnDCIP2tgPB5Kwyy1uxH3RxFwocR1GpVVWR7K9rXC1pFrfDVrwaW-y8G7Dg-EV3Yav-Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1660000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "a2V5Jaz4vtE",
+              "title": "BUMP OF CHICKEN「I」（Official Audio）",
+              "views": 4278688,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/a2V5Jaz4vtE/hq720.jpg"
+            },
+            {
+              "videoId": "_4BLiOP1aaY",
+              "title": "BUMP OF CHICKEN「ray」",
+              "views": 69880560,
+              "duration": "5:06",
+              "thumbnail": "https://i.ytimg.com/vi/_4BLiOP1aaY/hq720.jpg"
+            },
+            {
+              "videoId": "KsV38Vytozo",
+              "title": "BUMP OF CHICKEN 「ray」 from BUMP OF CHICKEN TOUR 2024 Sphery Rendezvous",
+              "views": 1530385,
+              "duration": "5:47",
+              "thumbnail": "https://i.ytimg.com/vi/KsV38Vytozo/hq720.jpg"
+            },
+            {
+              "videoId": "4dnT-kKIO6Y",
+              "title": "Acacia",
+              "views": 96218034,
+              "duration": "4:23",
+              "thumbnail": "https://i.ytimg.com/vi/4dnT-kKIO6Y/hq720.jpg"
+            },
+            {
+              "videoId": "BoZ0Zwab6Oc",
+              "title": "【Official】Pokémon Special Music Video 「GOTCHA！」 | BUMP OF CHICKEN - Acacia",
+              "views": 97269515,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/BoZ0Zwab6Oc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Eve",
+          "channel": {
+            "id": "UCUXfRsEIJ9xO1DT7TbEWksw",
+            "name": "Eve",
+            "image": "https://yt3.googleusercontent.com/xa-X79VJeydvn8QKb-bhkfoO0ZZ-ClwExN4LR6A_z5i3hPNdG3Q5OoC5dk8OGJHejag1_rjT4g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5580000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ySpIrrCmiCU",
+              "title": "風のアンセム feat. suis from ヨルシカ  (Wind's Anthem) - Eve Music Video",
+              "views": 3134547,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/ySpIrrCmiCU/hq720.jpg"
+            },
+            {
+              "videoId": "jJzw1h5CR-I",
+              "title": "Dramaturgy - Eve MV",
+              "views": 217964998,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/jJzw1h5CR-I/hq720.jpg"
+            },
+            {
+              "videoId": "1tk1pqwrOys",
+              "title": "廻廻奇譚 - Eve MV",
+              "views": 464510985,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/1tk1pqwrOys/hqdefault.jpg"
+            },
+            {
+              "videoId": "vRPCAAUBMms",
+              "title": "心海 - Eve MV",
+              "views": 36820900,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/vRPCAAUBMms/hq720.jpg"
+            },
+            {
+              "videoId": "B3vsRXOSBqc",
+              "title": "This World to You - Eve MV",
+              "views": 12114522,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/B3vsRXOSBqc/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fujii Kaze",
+          "channel": {
+            "id": "UCNIy6zQyP7SuLEIaiwymfUA",
+            "name": "Fujii Kaze",
+            "image": "https://yt3.googleusercontent.com/VSJBk4QVzFUWNKryDVvVfWosYeg0NNHf1dlEJqgF65MslOdDAbIN2CVPHxV51bnTYARDWyMMewo=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5430000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dawrQnvwMTY",
+              "title": "Fujii Kaze - Shinunoga E-Wa (Not a MV)",
+              "views": 143399435,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/dawrQnvwMTY/hq720.jpg"
+            },
+            {
+              "videoId": "rGyQHyDMZZI",
+              "title": "Fujii Kaze: Tiny Desk Concerts JAPAN",
+              "views": 27655820,
+              "duration": "29:23",
+              "thumbnail": "https://i.ytimg.com/vi/rGyQHyDMZZI/hq720.jpg"
+            },
+            {
+              "videoId": "NwOvu-j_WjY",
+              "title": "Fujii Kaze -  Matsuri (Official Video)",
+              "views": 118265783,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/NwOvu-j_WjY/hq720.jpg"
+            },
+            {
+              "videoId": "HA3WzXw8vM8",
+              "title": "Fujii Kaze - It's Alright [Official Video]",
+              "views": 4083379,
+              "duration": "3:20",
+              "thumbnail": "https://i.ytimg.com/vi/HA3WzXw8vM8/hq720.jpg"
+            },
+            {
+              "videoId": "vkPfKnUaq5k",
+              "title": "Fujii Kaze - Garden (Not a MV)",
+              "views": 61258096,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/vkPfKnUaq5k/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Glay",
+          "channel": {
+            "id": "UC1DqlLj1onQhBfxW81OgQTw",
+            "name": "GLAY",
+            "image": "https://yt3.googleusercontent.com/g1232q5osH-7Yt2DVSYSuKBBKVgiDSyl2_MVsueLFSIi7gQ_jjFIYVOoBb5pDk7QC78wSB7LUA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 558000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "gPcPseeICjs",
+              "title": "GLAY / HOWEVER",
+              "views": 82507536,
+              "duration": "5:42",
+              "thumbnail": "https://i.ytimg.com/vi/gPcPseeICjs/hq720.jpg"
+            },
+            {
+              "videoId": "fGlDHwlq5SQ",
+              "title": "GLAY / 誘惑",
+              "views": 40577654,
+              "duration": "4:23",
+              "thumbnail": "https://i.ytimg.com/vi/fGlDHwlq5SQ/hq720.jpg"
+            },
+            {
+              "videoId": "C2OIyZ2AG7Q",
+              "title": "LUNA SEA | GLAY / The Millennium Eve 2025 in Tokyo Dome Teaser 01",
+              "views": 28208,
+              "duration": "1:09",
+              "thumbnail": "https://i.ytimg.com/vi/C2OIyZ2AG7Q/hq720.jpg"
+            },
+            {
+              "videoId": "2RY39bE8X78",
+              "title": "GLAY / BELOVED",
+              "views": 27345132,
+              "duration": "5:16",
+              "thumbnail": "https://i.ytimg.com/vi/2RY39bE8X78/hq720.jpg"
+            },
+            {
+              "videoId": "IzqLX_KVK0Q",
+              "title": "GLAY / Winter, again",
+              "views": 70463652,
+              "duration": "5:27",
+              "thumbnail": "https://i.ytimg.com/vi/IzqLX_KVK0Q/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Hinatazaka46",
+          "channel": {
+            "id": "UCR0V48DJyWbwEAdxLL5FjxA",
+            "name": "日向坂46 OFFICIAL YouTube CHANNEL",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_mP2MPTPMpo6xr-7ZnbHOrJzzuIvBePdH5k10JDEn35bbo=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 759000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "5lBX4kt4eUI",
+              "title": "日向坂46『円周率』MUSIC VIDEO",
+              "views": 565719,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/5lBX4kt4eUI/hq720.jpg"
+            },
+            {
+              "videoId": "W5AGk8Cc7zg",
+              "title": "日向坂46『Kind of love』MUSIC VIDEO",
+              "views": 1348456,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/W5AGk8Cc7zg/hq720.jpg"
+            },
+            {
+              "videoId": "1QDWU8leVQw",
+              "title": "日向坂46『クリフハンガー』MUSIC VIDEO",
+              "views": 4643363,
+              "duration": "4:33",
+              "thumbnail": "https://i.ytimg.com/vi/1QDWU8leVQw/hq720.jpg"
+            },
+            {
+              "videoId": "1i_SwwFDO-Y",
+              "title": "Hinatazaka46 - Cage (Full ver.)",
+              "views": 1188,
+              "duration": "4:51",
+              "thumbnail": "https://i.ytimg.com/vi/1i_SwwFDO-Y/hqdefault.jpg"
+            },
+            {
+              "videoId": "MlNNxI0MNDI",
+              "title": "日向坂46『好きになるクレッシェンド』MUSIC VIDEO",
+              "views": 2729606,
+              "duration": "4:28",
+              "thumbnail": "https://i.ytimg.com/vi/MlNNxI0MNDI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Hoshino Gen",
+          "channel": {
+            "id": "UCPKlrgZXnnb89nSeITvTdGA",
+            "name": "星野源 Gen Hoshino",
+            "image": "https://yt3.googleusercontent.com/-VWSeEPw96gcVG14L4oYfuq-0veCaNz5RdTGeJV3vs9cDvvjNBCYwnXXMAdki5Exne9gMUZFUA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1750000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "jhOVibLEDhA",
+              "title": "Gen Hoshino - Koi (Official Video)",
+              "views": 279076321,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/jhOVibLEDhA/hq720.jpg"
+            },
+            {
+              "videoId": "D_Oyplmhhv0",
+              "title": "Gen Hoshino – Comedy (Official Video)",
+              "views": 36904600,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/D_Oyplmhhv0/hq720.jpg"
+            },
+            {
+              "videoId": "24guYuKNuAs",
+              "title": "4 Hours Healing Piano Hoshino Gen Works For Sleeping",
+              "views": 77187,
+              "duration": "4:06:42",
+              "thumbnail": "https://i.ytimg.com/vi/24guYuKNuAs/hq720.jpg"
+            },
+            {
+              "videoId": "lfqOg699tUE",
+              "title": "Gen Hoshino Slow Piano Music Collection For Quiet Mornings (No Mid-roll Ads)",
+              "views": 403405,
+              "duration": "6:26:50",
+              "thumbnail": "https://i.ytimg.com/vi/lfqOg699tUE/hq720.jpg"
+            },
+            {
+              "videoId": "ilnLczvLGAY",
+              "title": "Gen Hoshino – FUSHIGI (Official Video)",
+              "views": 48006713,
+              "duration": "5:54",
+              "thumbnail": "https://i.ytimg.com/vi/ilnLczvLGAY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ikimono-gakari",
+          "channel": {
+            "id": "UCflAJoghlGeSkdz5eNIl-sg",
+            "name": "いきものがかり Official YouTube Channel",
+            "image": "https://yt3.googleusercontent.com/x0HqSevckVPwxXIFwtCm-mzwO_jpx7NQc8OJjJxZHOUj7SFRGCDXODfJTid_pSrBYa_pvMaHCg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 837000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "KpsJWFuVTdI",
+              "title": "Ikimonogakari – Blue Bird",
+              "views": 93667539,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/KpsJWFuVTdI/hq720.jpg"
+            },
+            {
+              "videoId": "lz8frtP6_kk",
+              "title": "いきものがかり 『YELL』Music Video",
+              "views": 49413662,
+              "duration": "6:13",
+              "thumbnail": "https://i.ytimg.com/vi/lz8frtP6_kk/hq720.jpg"
+            },
+            {
+              "videoId": "qxY5WFJGvUk",
+              "title": "いきものがかり 『ラストシーン』Music Video",
+              "views": 2118616,
+              "duration": "7:35",
+              "thumbnail": "https://i.ytimg.com/vi/qxY5WFJGvUk/hq720.jpg"
+            },
+            {
+              "videoId": "4uOHQ7mO-Kk",
+              "title": "Ikimono Gakari - Last Scene (OST Your Lie in April)",
+              "views": 10554343,
+              "duration": "6:02",
+              "thumbnail": "https://i.ytimg.com/vi/4uOHQ7mO-Kk/hq720.jpg"
+            },
+            {
+              "videoId": "mnWTgLNFePU",
+              "title": "Ikimonogakari - Futari",
+              "views": 2629510,
+              "duration": "7:29",
+              "thumbnail": "https://i.ytimg.com/vi/mnWTgLNFePU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kenshi Yonezu",
+          "channel": {
+            "id": "UCUCeZaZeJbEYAAzvMgrKOPQ",
+            "name": "Kenshi Yonezu  米津玄師",
+            "image": "https://yt3.googleusercontent.com/KxdCea1UfP3_mqg0YpOfK2ucrK7G0aDGEvn1i1VFmbp_aMk6Ftn46_DK6RfrYvi3f6rOajr9=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "LmZD-TU96q4",
+              "title": "Kenshi Yonezu - IRIS OUT",
+              "views": 198081549,
+              "duration": "2:34",
+              "thumbnail": "https://i.ytimg.com/vi/LmZD-TU96q4/hq720.jpg"
+            },
+            {
+              "videoId": "SX_ViT4Ra7k",
+              "title": "米津玄師  Kenshi Yonezu  - Lemon",
+              "views": 975649657,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/SX_ViT4Ra7k/hq720.jpg"
+            },
+            {
+              "videoId": "sPLqsLsooJY",
+              "title": "KENSHI YONEZU, HIKARU UTADA　- JANE DOE",
+              "views": 82631376,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/sPLqsLsooJY/hq720.jpg"
+            },
+            {
+              "videoId": "EnfuDqHZeaU",
+              "title": "Kenshi Yonezu  - Live from 2019 Tour / When The Spine Becomes Opal",
+              "views": 26113105,
+              "duration": "33:13",
+              "thumbnail": "https://i.ytimg.com/vi/EnfuDqHZeaU/hq720.jpg"
+            },
+            {
+              "videoId": "-wb2PAx6aEs",
+              "title": "米津玄師 - さよーならまたいつか！ Kenshi Yonezu - Sayonara, Mata Itsuka !",
+              "views": 125047785,
+              "duration": "3:28",
+              "thumbnail": "https://i.ytimg.com/vi/-wb2PAx6aEs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "King & Prince",
+          "channel": {
+            "id": "UCGu9-9FqQtXAitxkOnHzz6Q",
+            "name": "King Games",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_l_rHQeNtaFEaV5HX8FJOKvKUkI1f9ccIpfx9wzPROrsrE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5640000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "X2SJu8md50Y",
+              "title": "KING | KANARIA - EON OF STARS COVER",
+              "views": 3467293,
+              "duration": "2:17",
+              "thumbnail": "https://i.ytimg.com/vi/X2SJu8md50Y/hq720.jpg"
+            },
+            {
+              "videoId": "g_uoH6hJilc",
+              "title": "Years & Years - King (Official Video)",
+              "views": 342904866,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/g_uoH6hJilc/hq720.jpg"
+            },
+            {
+              "videoId": "cm-l2h6GB8Q",
+              "title": "【GUMI】KING【Kanaria】",
+              "views": 103979686,
+              "duration": "2:15",
+              "thumbnail": "https://i.ytimg.com/vi/cm-l2h6GB8Q/hq720.jpg"
+            },
+            {
+              "videoId": "BaBGtsw_si4",
+              "title": "King",
+              "views": 4739436,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/BaBGtsw_si4/hq720.jpg"
+            },
+            {
+              "videoId": "dS5GfL9F7L4",
+              "title": "Lauren Aquilina - King (Lyrics)",
+              "views": 12784344,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/dS5GfL9F7L4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "King Gnu",
+          "channel": {
+            "id": "UCkB8HnJSDSJ2hkLQFUc-YrQ",
+            "name": "King Gnu official YouTube channel  ",
+            "image": "https://yt3.googleusercontent.com/4AHghFBQs4RfJ16vtgceDtOCVbAn61Xzr4U7EJhljHYSSWAOx2M4u6nsn0yRaQX5GeADifcigA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2950000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ony539T074w",
+              "title": "King Gnu - 白日",
+              "views": 551127444,
+              "duration": "4:40",
+              "thumbnail": "https://i.ytimg.com/vi/ony539T074w/hq720.jpg"
+            },
+            {
+              "videoId": "M6gcoDN9jBc",
+              "title": "King Gnu - 逆夢",
+              "views": 168156220,
+              "duration": "5:20",
+              "thumbnail": "https://i.ytimg.com/vi/M6gcoDN9jBc/hq720.jpg"
+            },
+            {
+              "videoId": "zz2a9Q2Wru0",
+              "title": "King Gnu - AIZO",
+              "views": 58605907,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/zz2a9Q2Wru0/hq720.jpg"
+            },
+            {
+              "videoId": "hm1na9R2uYA",
+              "title": "King Gnu - 一途",
+              "views": 141887391,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/hm1na9R2uYA/hq720.jpg"
+            },
+            {
+              "videoId": "fhzKLBZJC3w",
+              "title": "King Gnu - SPECIALZ",
+              "views": 193892275,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/fhzKLBZJC3w/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kobukuro",
+          "channel": {
+            "id": "UC73Cla79COot99ltD8wuH0w",
+            "name": "コブクロ 公式チャンネル",
+            "image": "https://yt3.googleusercontent.com/JRuViFpYHAVFCyRzJFNzpKN--V5UIW_vpmiJzDT4PZtvDDckW-ykZ2F8kngWvvGjnFsCEDnQL1g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 413000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "P-RCdTonSmg",
+              "title": "【第２３７回：小渕と黒田】コブクロ黒田の堺東グルメ 和彩弥 嶋川",
+              "views": 12416,
+              "duration": "10:50",
+              "thumbnail": "https://i.ytimg.com/vi/P-RCdTonSmg/hq720.jpg"
+            },
+            {
+              "videoId": "WPH1BLHKOJE",
+              "title": "コブクロ - 蕾",
+              "views": 113478049,
+              "duration": "6:12",
+              "thumbnail": "https://i.ytimg.com/vi/WPH1BLHKOJE/hq720.jpg"
+            },
+            {
+              "videoId": "95uFWS2ayvA",
+              "title": "コブクロ - 蒼く 優しく",
+              "views": 6870830,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/95uFWS2ayvA/hq720.jpg"
+            },
+            {
+              "videoId": "B-NsP16XHXA",
+              "title": "Kobukuro - Tsubomi [Lyrics/Romaji/Terjemahan]",
+              "views": 27830,
+              "duration": "6:12",
+              "thumbnail": "https://i.ytimg.com/vi/B-NsP16XHXA/hq720.jpg"
+            },
+            {
+              "videoId": "GCx-zSwQNb4",
+              "title": "コブクロ「ここにしか咲かない花」",
+              "views": 13399075,
+              "duration": "6:49",
+              "thumbnail": "https://i.ytimg.com/vi/GCx-zSwQNb4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kyary Pamyu Pamyu",
+          "channel": {
+            "id": "UCMMEwnArQWFNU1VrRlbIDtg",
+            "name": "Kyary Pamyu Pamyu",
+            "image": "https://yt3.googleusercontent.com/VlS25VWzaxGGot8vttVfOEJqe2jpI_Ah2VbvDIMOsiXqY9vaCIyEk7aNnONqasPCYSaO-Ci2rQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 786000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "yzC4hFK5P3g",
+              "title": "きゃりーぱみゅぱみゅ - PONPONPON , Kyary Pamyu Pamyu - PONPONPON",
+              "views": 212372526,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/yzC4hFK5P3g/hqdefault.jpg"
+            },
+            {
+              "videoId": "teMdjJ3w9iM",
+              "title": "きゃりーぱみゅぱみゅ - にんじゃりばんばん,Kyary Pamyu Pamyu - Ninja Re Bang Bang",
+              "views": 82233626,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/teMdjJ3w9iM/hqdefault.jpg"
+            },
+            {
+              "videoId": "UoK8DaJRDaM",
+              "title": "きゃりーぱみゅぱみゅ - CANDY CANDY , Kyary Pamyu Pamyu - CANDY CANDY",
+              "views": 52464542,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/UoK8DaJRDaM/hqdefault.jpg"
+            },
+            {
+              "videoId": "nwWm3om-gSw",
+              "title": "kyary pamyu pamyu - Yumeno Hajima Ring Ring(きゃりーぱみゅぱみゅ - ゆめのはじまりんりん) Official Music Video",
+              "views": 31997812,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/nwWm3om-gSw/hqdefault.jpg"
+            },
+            {
+              "videoId": "mAGyQ5Rmz7o",
+              "title": "Kyary Pamyu Pamyu - HARAJUKU IYAHOI(きゃりーぱみゅぱみゅ - 原宿いやほい) Official Music Video",
+              "views": 30072429,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/mAGyQ5Rmz7o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "L'Arc-en-Ciel",
+          "channel": {},
+          "topSongs": [],
+          "songCount": 0
+        },
+        {
+          "name": "Lisa",
+          "channel": {
+            "id": "UC6-BgjsBa5R3PZQ_kZ8hKPg",
+            "name": "LLOUD Official",
+            "image": "https://yt3.googleusercontent.com/ZT8_CI_nisRYWvEybMR-EJavrqwZPqcSKmhOpAYJDA7K3HVQpRIRxqijl5dZPTHHFRIk274f8w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "safzyuZNCGI",
+              "title": "LISA, Anitta, Rema, FIFA Sound - Goals (FIFA World Cup 2026™) [Official Music Video]",
+              "views": 8390095,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/safzyuZNCGI/hq720.jpg"
+            },
+            {
+              "videoId": "dKmPEhJ4wjY",
+              "title": "Anyma, LISA - Bad Angel (with LISA) (Official Music Video)",
+              "views": 21143015,
+              "duration": "2:30",
+              "thumbnail": "https://i.ytimg.com/vi/dKmPEhJ4wjY/hq720.jpg"
+            },
+            {
+              "videoId": "dNCWe_6HAM8",
+              "title": "LISA - 'MONEY' EXCLUSIVE PERFORMANCE VIDEO",
+              "views": 1213354320,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/dNCWe_6HAM8/hq720.jpg"
+            },
+            {
+              "videoId": "kbEC-AGr9n0",
+              "title": "LISA - BORN AGAIN feat. Doja Cat & RAYE (Official Music Video)",
+              "views": 144575822,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/kbEC-AGr9n0/hq720.jpg"
+            },
+            {
+              "videoId": "UxXY_hR_wzo",
+              "title": "LISA - NEW WOMAN feat. Rosalía (Official Music Video)",
+              "views": 197284148,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/UxXY_hR_wzo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Misia",
+          "channel": {
+            "id": "UCzPBIyFM_VyXgG9At-1Il4Q",
+            "name": "MISIA",
+            "image": "https://yt3.googleusercontent.com/JEEMOeYLa9_S1lVHiqZRyAt3oxL7D6O4CruuqHP0fIbiw9kGn3J7Lqcf11RSNNyAbC-VNwGU=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 720000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "MYo5alIaUOk",
+              "title": "MISIA - 逢いたくていま（Official HD Music Video）",
+              "views": 98451638,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/MYo5alIaUOk/hq720.jpg"
+            },
+            {
+              "videoId": "Iintu_NTwk8",
+              "title": "【纯享版】Misia米希亚《现在好想见你》请你听 如果想念会有声音 | 歌手2020·当打之年 | Singer 2020 | Mango TV",
+              "views": 626515,
+              "duration": "6:37",
+              "thumbnail": "https://i.ytimg.com/vi/Iintu_NTwk8/hq720.jpg"
+            },
+            {
+              "videoId": "aHIR33pOUv0",
+              "title": "MISIA - Everything （Official HD Music Video）",
+              "views": 96554280,
+              "duration": "7:09",
+              "thumbnail": "https://i.ytimg.com/vi/aHIR33pOUv0/hq720.jpg"
+            },
+            {
+              "videoId": "IX87le_EokM",
+              "title": "MISIA - アイノカタチ feat.HIDE(GReeeeN) （Official Music Video）",
+              "views": 81519429,
+              "duration": "2:39",
+              "thumbnail": "https://i.ytimg.com/vi/IX87le_EokM/hq720.jpg"
+            },
+            {
+              "videoId": "m4UuJWVt4Zc",
+              "title": "MISIA - ラストダンスあなたと (Official Music Video)",
+              "views": 5262305,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/m4UuJWVt4Zc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mr. Children",
+          "channel": {
+            "id": "UCXteDRy5qB0IjA8WPusCJ7w",
+            "name": "Mr.Children Official Channel",
+            "image": "https://yt3.googleusercontent.com/fDwjHimFgFNdTBidY_3h8wsVpE2lzSLDQ1j0g-EOiJZfnLalz1QQFHQXEJQM4dbpaw-hdilckQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1740000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Nxwt_s1lM04",
+              "title": "Mr.Children 「Tomorrow never knows」 MUSIC VIDEO",
+              "views": 96451688,
+              "duration": "5:22",
+              "thumbnail": "https://i.ytimg.com/vi/Nxwt_s1lM04/hqdefault.jpg"
+            },
+            {
+              "videoId": "4twnVpzvZF4",
+              "title": "【DJ MIX】【BestMix】Mr.Children Best Mix Greatest Hits 2024 #MrChildren #DJMix",
+              "views": 413739,
+              "duration": "1:00:28",
+              "thumbnail": "https://i.ytimg.com/vi/4twnVpzvZF4/hq720.jpg"
+            },
+            {
+              "videoId": "3Um_xMmE8OA",
+              "title": "Mr.Children 「くるみ」 MUSIC VIDEO",
+              "views": 41690346,
+              "duration": "5:48",
+              "thumbnail": "https://i.ytimg.com/vi/3Um_xMmE8OA/hqdefault.jpg"
+            },
+            {
+              "videoId": "EXxaBXKjl6Q",
+              "title": "Mr.Children 「HANABI」 MUSIC VIDEO",
+              "views": 119356740,
+              "duration": "5:58",
+              "thumbnail": "https://i.ytimg.com/vi/EXxaBXKjl6Q/hqdefault.jpg"
+            },
+            {
+              "videoId": "xXA5StMti8c",
+              "title": "Mr.Children 「しるし」 MUSIC VIDEO",
+              "views": 94782366,
+              "duration": "7:18",
+              "thumbnail": "https://i.ytimg.com/vi/xXA5StMti8c/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Naniwa Danshi",
+          "channel": {
+            "id": "UCDtVdj7sm41Ysg3XSiSUH3w",
+            "name": "Naniwa Danshi",
+            "image": "https://yt3.googleusercontent.com/fR8rppBH-Bh5WbTHHDqy9hA8bGNELcovksmD7exMb1qK50xSghoSnMk9Pf-j03thAsMOYGJe6w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1900000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Fcr-XRhGyZY",
+              "title": "「乗り越しラブストーリー」 from アイドル音楽フェス The ONE ～一音一生～ Day1",
+              "views": 262445,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/Fcr-XRhGyZY/hq720.jpg"
+            },
+            {
+              "videoId": "qNrRnnG8glY",
+              "title": "Naniwa Danshi (dengan Subtitle Bahasa Indonesia!) Cinta Pemula - Ubu LOVE [Music Video Dance ver.]",
+              "views": 120941691,
+              "duration": "3:48",
+              "thumbnail": "https://i.ytimg.com/vi/qNrRnnG8glY/hq720.jpg"
+            },
+            {
+              "videoId": "Ac5UW-JfJt8",
+              "title": "なにわ男子 - ビーマイベイベー [Dance Practice]",
+              "views": 628141,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/Ac5UW-JfJt8/hq720.jpg"
+            },
+            {
+              "videoId": "78aFPj1CAxg",
+              "title": "Naniwa Danshi (w/English Subtitles!) I Wish [Official Music Video] YouTube ver.",
+              "views": 27137659,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/78aFPj1CAxg/hq720.jpg"
+            },
+            {
+              "videoId": "X6qwcqtvPXk",
+              "title": "Naniwa Danshi (w/English Subtitles!) Special Kiss [Official Music Video] YouTube ver.",
+              "views": 29734797,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/X6qwcqtvPXk/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "NiziU",
+          "channel": {
+            "id": "UCHp2q2i85qt_9nn2H7AvGOw",
+            "name": "NiziU Official",
+            "image": "https://yt3.googleusercontent.com/upFDm_ucOI7JqL0oezIZt3LcKf0HLSAIgj7VmPh1cfHXE-9_Tsp8UX3txTMgB5yba6qq35imFZY=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "24y_-3Rv3jo",
+              "title": "NiziU Live with U 2026 “NiziU : THE CINEMA” Teaser",
+              "views": 41376,
+              "duration": "0:45",
+              "thumbnail": "https://i.ytimg.com/vi/24y_-3Rv3jo/hqdefault.jpg"
+            },
+            {
+              "videoId": "QW28YKqdxe0",
+              "title": "NiziU  『Make you happy』 M/V",
+              "views": 328944228,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/QW28YKqdxe0/hq720.jpg"
+            },
+            {
+              "videoId": "AgqTpVY_T_k",
+              "title": "Kana Nishino feat. NiziU \"LOVE BEAT\" MV Full",
+              "views": 14725442,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/AgqTpVY_T_k/hq720.jpg"
+            },
+            {
+              "videoId": "b_GqrwmptWo",
+              "title": "NiziU(니쥬) \"Too Bad\" M/V",
+              "views": 20476586,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/b_GqrwmptWo/hq720.jpg"
+            },
+            {
+              "videoId": "Mzx0UXSO-EA",
+              "title": "NiziU - Too Bad | ARTIST STAGE | KCON JAPAN 2026",
+              "views": 126364,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/Mzx0UXSO-EA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Nogizaka46",
+          "channel": {
+            "id": "UCUzpZpX2wRYOk3J8QTFGxDg",
+            "name": "乃木坂46 OFFICIAL YouTube CHANNEL",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_k0F3f9ohbblV6xtcd9m4MOzGFj7XzelTEwGhLOdYmvHA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1740000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "GuKqBjTvTCw",
+              "title": "乃木坂46『最後に階段を駆け上がったのはいつだ？』MUSIC VIDEO",
+              "views": 2111157,
+              "duration": "5:13",
+              "thumbnail": "https://i.ytimg.com/vi/GuKqBjTvTCw/hq720.jpg"
+            },
+            {
+              "videoId": "zrVg31LSLio",
+              "title": "乃木坂46『君ばかり』MUSIC VIDEO",
+              "views": 1806450,
+              "duration": "5:46",
+              "thumbnail": "https://i.ytimg.com/vi/zrVg31LSLio/hq720.jpg"
+            },
+            {
+              "videoId": "TNHVgK7HLfY",
+              "title": "乃木坂46 『桜橋を教えてくれた』MUSIC VIDEO",
+              "views": 1148742,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/TNHVgK7HLfY/hq720.jpg"
+            },
+            {
+              "videoId": "rhTBOwEnK-Y",
+              "title": "Nogizaka46 - Girls' Rule",
+              "views": 1010125,
+              "duration": "6:58",
+              "thumbnail": "https://i.ytimg.com/vi/rhTBOwEnK-Y/hq720.jpg"
+            },
+            {
+              "videoId": "11pfb44LYlU",
+              "title": "乃木坂46『愛って羨ましい』MUSIC VIDEO",
+              "views": 632191,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/11pfb44LYlU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Official HIGE DANdism",
+          "channel": {
+            "id": "UC3vg17IZ1IV73xx069jG44w",
+            "name": "Official髭男dism",
+            "image": "https://yt3.googleusercontent.com/b0RQfyQaYZma1L-uNgcFBGuzLDRLhwACV27QeQtkALMskR4j411pl36Gheso5y11_036xiYl=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3640000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "GuwkB_UutVE",
+              "title": "[Behind The Scenes] Official髭男dism - スターダスト",
+              "views": 123018,
+              "duration": "9:08",
+              "thumbnail": "https://i.ytimg.com/vi/GuwkB_UutVE/hq720.jpg"
+            },
+            {
+              "videoId": "TQ8WlA2GXbk",
+              "title": "Official髭男dism - Pretender［Official Video］",
+              "views": 630785583,
+              "duration": "5:36",
+              "thumbnail": "https://i.ytimg.com/vi/TQ8WlA2GXbk/hq720.jpg"
+            },
+            {
+              "videoId": "upLTD7DFtng",
+              "title": "OFFICIAL HIGE DANDISM - Elder Flower [Official Video]",
+              "views": 5851105,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/upLTD7DFtng/hq720.jpg"
+            },
+            {
+              "videoId": "O1bhZgkC4Gw",
+              "title": "OFFICIAL HIGE DANDISM - \"Cry Baby\"  [TV Anime \"Tokyo Revengers\"]",
+              "views": 180767992,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/O1bhZgkC4Gw/hq720.jpg"
+            },
+            {
+              "videoId": "keOnleW2eak",
+              "title": "OFFICIAL HIGE DANDISM - Rashisa [Official Video]",
+              "views": 13284130,
+              "duration": "5:13",
+              "thumbnail": "https://i.ytimg.com/vi/keOnleW2eak/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "One Ok Rock",
+          "channel": {
+            "id": "UCzycs8MqvIY4nXWwS-v4J9g",
+            "name": "ONE OK ROCK",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nt-X-XmWcQxxCuapyOo9t67TWvGchiH_BxPod0SNnIZxU=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5020000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Hh9yZWeTmVM",
+              "title": "ONE OK ROCK - The Beginning [Official Music Video]",
+              "views": 238412707,
+              "duration": "5:14",
+              "thumbnail": "https://i.ytimg.com/vi/Hh9yZWeTmVM/hq720.jpg"
+            },
+            {
+              "videoId": "XrIfrvZ5d0k",
+              "title": "ONE OK ROCK | Top Songs 2025 Playlist | We Are, Stand Out Fit It, Wasted Nights, DETOX FULL ALBUM",
+              "views": 1667449,
+              "duration": "7:30:49",
+              "thumbnail": "https://i.ytimg.com/vi/XrIfrvZ5d0k/hq720.jpg"
+            },
+            {
+              "videoId": "HmzfQ5tXlKw",
+              "title": "ONE OK ROCK - Party's Over [DETOX JAPAN TOUR 2025 AT NISSAN STADIUM]",
+              "views": 857930,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/HmzfQ5tXlKw/hq720.jpg"
+            },
+            {
+              "videoId": "3kpSAn2uIq4",
+              "title": "ONE OK ROCK - Tropical Therapy [OFFICIAL MUSIC VIDEO]",
+              "views": 8714370,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/3kpSAn2uIq4/hq720.jpg"
+            },
+            {
+              "videoId": "x9v8aNl6Aps",
+              "title": "ONE OK ROCK - Heartache [Studio Jam Session]",
+              "views": 79007833,
+              "duration": "5:10",
+              "thumbnail": "https://i.ytimg.com/vi/x9v8aNl6Aps/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Perfume",
+          "channel": {
+            "id": "UCxOjoraUPd0Dq9PAyIhC6tQ",
+            "name": "Perfume",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nORiN9cWGy9-DgCc3L_CPSlUBHYtPRaUY80hS26Sg1Nw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1140000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "8xDqWR1rilM",
+              "title": "watch this before choosing a wedding perfume",
+              "views": 4160,
+              "duration": "28:38",
+              "thumbnail": "https://i.ytimg.com/vi/8xDqWR1rilM/hq720.jpg"
+            },
+            {
+              "videoId": "zMAgUP51HwU",
+              "title": "[Official Music Video] Perfume 『巡ループ』",
+              "views": 3383016,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/zMAgUP51HwU/hq720.jpg"
+            },
+            {
+              "videoId": "9oEahHDOMTs",
+              "title": "Building The Best $500 Fragrance Collection (Dupes vs Designer vs Niche)",
+              "views": 7782,
+              "duration": "17:43",
+              "thumbnail": "https://i.ytimg.com/vi/9oEahHDOMTs/hq720.jpg"
+            },
+            {
+              "videoId": "ZlnabTp05h8",
+              "title": "NCT DOJAEJUNG 엔시티 도재정 'Perfume' Performance Video",
+              "views": 18914922,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/ZlnabTp05h8/hq720.jpg"
+            },
+            {
+              "videoId": "aIfTuy1SDng",
+              "title": "I Tested 20+ Fragrances At School. Here's What Happened...",
+              "views": 387756,
+              "duration": "22:25",
+              "thumbnail": "https://i.ytimg.com/vi/aIfTuy1SDng/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Radwimps",
+          "channel": {
+            "id": "UCIVqvhyo8ttjYOmMJuhq_YQ",
+            "name": "RADWIMPS",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_n4GC58glgZGzJn9wPo0vGCySHDAc1U4JGtY0fSwM52pqg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3530000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Xs0Lxif1u9E",
+              "title": "RADWIMPS - Suzume feat. Toaka [Official Lyric Video]",
+              "views": 121998425,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/Xs0Lxif1u9E/hq720.jpg"
+            },
+            {
+              "videoId": "a2GujJZfXpg",
+              "title": "スパークル [original ver.] -Your name. Music Video edition- 予告編 from new album「人間開花」初回盤DVD",
+              "views": 277230159,
+              "duration": "3:02",
+              "thumbnail": "https://i.ytimg.com/vi/a2GujJZfXpg/hq720.jpg"
+            },
+            {
+              "videoId": "OwbT1kIzvsM",
+              "title": "RADWIMPS playlist 📼 with. 신카이 마코토",
+              "views": 337292,
+              "duration": "44:29",
+              "thumbnail": "https://i.ytimg.com/vi/OwbT1kIzvsM/hq720.jpg"
+            },
+            {
+              "videoId": "EQ94zflNqn4",
+              "title": "RADWIMPS - 愛にできることはまだあるかい [Official Music Video]",
+              "views": 148554251,
+              "duration": "7:29",
+              "thumbnail": "https://i.ytimg.com/vi/EQ94zflNqn4/hq720.jpg"
+            },
+            {
+              "videoId": "Utzc3Uum9-g",
+              "title": "RADWIMPS - 筆舌 / Hitsu Zetsu [Official Music Video]",
+              "views": 4018524,
+              "duration": "6:06",
+              "thumbnail": "https://i.ytimg.com/vi/Utzc3Uum9-g/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sakurazaka46",
+          "channel": {
+            "id": "UCmr9bYmymcBmQ1p2tLBRvwg",
+            "name": "櫻坂46 OFFICIAL YouTube CHANNEL",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nlzILzCOxyb5q2WnPeNuY3liY66YUWCJPgcpHuD1jGpdA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "4HfAH746QJo",
+              "title": "Sakurazaka46 \"Lonesome rabbit\"",
+              "views": 1175163,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/4HfAH746QJo/hq720.jpg"
+            },
+            {
+              "videoId": "Rk54JNn7Qw4",
+              "title": "Sakurazaka46 \"The growing up train\" MUSIC VIDEO",
+              "views": 2381323,
+              "duration": "5:25",
+              "thumbnail": "https://i.ytimg.com/vi/Rk54JNn7Qw4/hq720.jpg"
+            },
+            {
+              "videoId": "M8gzNd5UrvE",
+              "title": "櫻坂46 目黒陽色 『陽の色』",
+              "views": 33927,
+              "duration": "1:50",
+              "thumbnail": "https://i.ytimg.com/vi/M8gzNd5UrvE/hq720.jpg"
+            },
+            {
+              "videoId": "7pusekGNE-o",
+              "title": "Sakurazaka46 \"Kougen\" MUSIC VIDEO",
+              "views": 1176149,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/7pusekGNE-o/hq720.jpg"
+            },
+            {
+              "videoId": "aQ1iXj4oXfI",
+              "title": "Sakurazaka46 - Kogarashi wa nakanai",
+              "views": 1116100,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/aQ1iXj4oXfI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sekai no Owari",
+          "channel": {
+            "id": "UCKudwfXQgNM7Gkjv95qRI9w",
+            "name": "SEKAI NO OWARI",
+            "image": "https://yt3.googleusercontent.com/d3D-Hou6mXs3sIFu7ff6zGytf1ZRRoN09Y8_oSLhRGJYItDKTuv0XCFg0pZa2jXDHLcdHDQI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2130000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "5_lHYWpPgig",
+              "title": "SEKAI NO OWARI「深い森」from「The Dinner」",
+              "views": 45843,
+              "duration": "9:51",
+              "thumbnail": "https://i.ytimg.com/vi/5_lHYWpPgig/hq720.jpg"
+            },
+            {
+              "videoId": "PnFxzx9PXEM",
+              "title": "SEKAI NO OWARI – Nemurihime (Happy Ending Version) / THE FIRST TAKE",
+              "views": 2669413,
+              "duration": "5:54",
+              "thumbnail": "https://i.ytimg.com/vi/PnFxzx9PXEM/hq720.jpg"
+            },
+            {
+              "videoId": "wF5NG7naVXA",
+              "title": "SEKAI NO OWARI ASIA TOUR 2025 「Phoenix」 ダイジェスト映像",
+              "views": 43911,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/wF5NG7naVXA/hq720.jpg"
+            },
+            {
+              "videoId": "SR89b0qqRAg",
+              "title": "SEKAI NO OWARI ”The Peak\" ONE PIECE Lyrics MV",
+              "views": 95288558,
+              "duration": "3:43",
+              "thumbnail": "https://i.ytimg.com/vi/SR89b0qqRAg/hq720.jpg"
+            },
+            {
+              "videoId": "Mi9uNu35Gmk",
+              "title": "SEKAI NO OWARI「RPG」",
+              "views": 272663436,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/Mi9uNu35Gmk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sexy Zone",
+          "channel": {
+            "id": "UCgXJMvOBqHk5wJFRKZfIgWQ",
+            "name": "timelesz",
+            "image": "https://yt3.googleusercontent.com/Uacl2y-SlWxgNVpQnvXfU8gKY-YyqePtXNbLetmq8CsJ0cWasmQOCozRJSExjkEPYw2YV2VaCQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1230000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Irf_rZv1v-8",
+              "title": "Sexy Zone \"Sexy Zone\"（short ver）",
+              "views": 7577470,
+              "duration": "2:20",
+              "thumbnail": "https://i.ytimg.com/vi/Irf_rZv1v-8/hq720.jpg"
+            },
+            {
+              "videoId": "957iJbQZxeY",
+              "title": "Sexy Zone\"Colorful Eyes\"（short ver）",
+              "views": 1000568,
+              "duration": "1:46",
+              "thumbnail": "https://i.ytimg.com/vi/957iJbQZxeY/hq720.jpg"
+            },
+            {
+              "videoId": "5nzGL2pzCpE",
+              "title": "Sexy Zone “SEXY ZONE LIVE TOUR 2023 ChapterⅡ in DOME” Disc1 Digest of all songs",
+              "views": 923342,
+              "duration": "5:58",
+              "thumbnail": "https://i.ytimg.com/vi/5nzGL2pzCpE/hq720.jpg"
+            },
+            {
+              "videoId": "CLfQoaHgnVs",
+              "title": "Sexy Zone (w/English Subtitles!) \"Jinsei Yugi\" Music Video (YouTube Ver.)",
+              "views": 21487262,
+              "duration": "2:20",
+              "thumbnail": "https://i.ytimg.com/vi/CLfQoaHgnVs/hq720.jpg"
+            },
+            {
+              "videoId": "1z-_XtdtMwk",
+              "title": "Sexy Zone 'Honne to Tatemae' Music Video",
+              "views": 16261621,
+              "duration": "2:26",
+              "thumbnail": "https://i.ytimg.com/vi/1z-_XtdtMwk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "SixTONES",
+          "channel": {
+            "id": "UCwjAKjycHHT1QzHrQN5Stww",
+            "name": "SixTONES",
+            "image": "https://yt3.googleusercontent.com/IhR_njEkXS20PHF5aw5XyPeF7ou-QvuY6Eu0tpXup5Q1vZktNvgE_pisQUR9grjZGXrLYhD2=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "fZDShCN5fxM",
+              "title": "SixTONES【緊急でカメラ回してます 笑】アリーナツアー打ち上げin札幌",
+              "views": 781325,
+              "duration": "25:47",
+              "thumbnail": "https://i.ytimg.com/vi/fZDShCN5fxM/hq720.jpg"
+            },
+            {
+              "videoId": "M7eMIbx_CCY",
+              "title": "SixTONESのオールナイトニッポンサタデースペシャル 2026年05月23日",
+              "views": 39785,
+              "duration": "1:30:47",
+              "thumbnail": "https://i.ytimg.com/vi/M7eMIbx_CCY/hqdefault.jpg"
+            },
+            {
+              "videoId": "-YP_I9C7i4o",
+              "title": "SixTONES (w/English Subtitles!) Strawberry Breakfast",
+              "views": 48078501,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/-YP_I9C7i4o/hq720.jpg"
+            },
+            {
+              "videoId": "VpepzSDVkHs",
+              "title": "SixTONES [Driving Skills Showdown🚗] No-license (yet) Jesse takes the wheel for the first time!",
+              "views": 1400930,
+              "duration": "25:31",
+              "thumbnail": "https://i.ytimg.com/vi/VpepzSDVkHs/hq720.jpg"
+            },
+            {
+              "videoId": "3dky0VRhY8A",
+              "title": "SixTONES \"Call me\" from MTV Unplugged: SixTONES",
+              "views": 3772912,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/3dky0VRhY8A/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Snow Man",
+          "channel": {
+            "id": "UCuFPaemAaMR8R5cHzjy23dQ",
+            "name": "Snow Man",
+            "image": "https://yt3.googleusercontent.com/_FtdBOubjHRvcDHPPPn3K8dagvhpImDAimPnf63s7HdcFhXw0w3sVp-PPvPETMyehhz9Ho5E-w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4420000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "gset79KMmt0",
+              "title": "Sia - Snowman [Official Video]",
+              "views": 415212939,
+              "duration": "2:53",
+              "thumbnail": "https://i.ytimg.com/vi/gset79KMmt0/hq720.jpg"
+            },
+            {
+              "videoId": "jzv-VC9kcXA",
+              "title": "Sia - Snowman",
+              "views": 53110266,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/jzv-VC9kcXA/hq720.jpg"
+            },
+            {
+              "videoId": "M-KI3GV3beQ",
+              "title": "Snow Man 'SAVE YOUR HEART' Dance Practice",
+              "views": 4393946,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/M-KI3GV3beQ/hq720.jpg"
+            },
+            {
+              "videoId": "JF8i0T_DSkA",
+              "title": "Snow Man [Let's Make Slime!] Just a bunch of kids here!?",
+              "views": 888466,
+              "duration": "16:14",
+              "thumbnail": "https://i.ytimg.com/vi/JF8i0T_DSkA/hq720.jpg"
+            },
+            {
+              "videoId": "p4gDz-rva-8",
+              "title": "Snow Man [A Relaxing Drive with Ad Lib!] Who on earth is Date-sama!?",
+              "views": 940220,
+              "duration": "13:24",
+              "thumbnail": "https://i.ytimg.com/vi/p4gDz-rva-8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Twice",
+          "channel": {
+            "id": "UCzgxx_DM2Dcb9Y1spb9mUJA",
+            "name": "TWICE",
+            "image": "https://yt3.googleusercontent.com/rj-m7CQIV8hIHx_lB8cjs0NxrDFJaUkVwZ5tCnZTNSVEr2IqXGF-2e7nr7og1IGeRXtHikce=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 19300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "i0p1bmr0EmE",
+              "title": "TWICE \"What is Love?\" M/V",
+              "views": 920229983,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/i0p1bmr0EmE/hqdefault.jpg"
+            },
+            {
+              "videoId": "eHHQaoEW30Q",
+              "title": "TWICE \"THIS IS FOR\" M/V",
+              "views": 124739650,
+              "duration": "2:14",
+              "thumbnail": "https://i.ytimg.com/vi/eHHQaoEW30Q/hq720.jpg"
+            },
+            {
+              "videoId": "SVr_oxrizxI",
+              "title": "TWICE’s Killing Voice, live! | dingo philippines",
+              "views": 2861302,
+              "duration": "31:33",
+              "thumbnail": "https://i.ytimg.com/vi/SVr_oxrizxI/hq720.jpg"
+            },
+            {
+              "videoId": "V2hlQkVJZhE",
+              "title": "TWICE \"LIKEY\" M/V",
+              "views": 660557238,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/V2hlQkVJZhE/hqdefault.jpg"
+            },
+            {
+              "videoId": "kOHB85vDuow",
+              "title": "TWICE \"FANCY\" M/V",
+              "views": 694513435,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/kOHB85vDuow/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Utada Hikaru",
+          "channel": {
+            "id": "UChcgcbX3zMBwd0wTJyy2JlA",
+            "name": "Hikaru Utada",
+            "image": "https://yt3.googleusercontent.com/c3frljbmG9lCBP-T5QOdgvbidQj9wVYqRfwCa5TbTrwb0XgKTPglXmbNJlz81jvBZG5PIhzkxQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2500000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "oZTYhOMgLQM",
+              "title": "Hikaru Utada \"Pappa Paradise\" from TBS系『CDTVライブ！ライブ！』",
+              "views": 257574,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/oZTYhOMgLQM/hq720.jpg"
+            },
+            {
+              "videoId": "HiJKzQgp32A",
+              "title": "Utada Hikaru - First Love | Lirik Terjemahan",
+              "views": 2392519,
+              "duration": "4:10",
+              "thumbnail": "https://i.ytimg.com/vi/HiJKzQgp32A/hq720.jpg"
+            },
+            {
+              "videoId": "IThNQeE4cUc",
+              "title": "【DJ MIX】宇多田ヒカル Only Mix 1時間 / Utada Hikaru DJ Mix",
+              "views": 468495,
+              "duration": "59:23",
+              "thumbnail": "https://i.ytimg.com/vi/IThNQeE4cUc/hq720.jpg"
+            },
+            {
+              "videoId": "o1sUaVJUeB0",
+              "title": "宇多田ヒカル - First Love",
+              "views": 124914302,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/o1sUaVJUeB0/hq720.jpg"
+            },
+            {
+              "videoId": "O5JN8l4pgOo",
+              "title": "Hikaru Utada - PAPPAPARADISE",
+              "views": 3410459,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/O5JN8l4pgOo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Vaundy",
+          "channel": {
+            "id": "UC1FQWQ3y3-e8l1pCtWhJt5A",
+            "name": "Vaundy",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nTwxUjSSHQMH4T1pp9IrLA3B90i06s82g4DFx_CnefXsM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2510000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "7HgJIAUtICU",
+              "title": "【第75回NHK紅白歌合戦 歌唱曲】踊り子 / Vaundy：MUSIC VIDEO",
+              "views": 147349240,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/7HgJIAUtICU/hq720.jpg"
+            },
+            {
+              "videoId": "LVCwdZoUFQ8",
+              "title": "飛ぶ時",
+              "views": 6396729,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/LVCwdZoUFQ8/hq720.jpg"
+            },
+            {
+              "videoId": "FT0GKCuSaW0",
+              "title": "Hadaka No Yusha / Vaundy：MUSIC VIDEO",
+              "views": 64262600,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/FT0GKCuSaW0/hqdefault.jpg"
+            },
+            {
+              "videoId": "0u_zA8BJG6A",
+              "title": "イデアが溢れて眠れない / Vaundy：MUSIC VIDEO",
+              "views": 531824,
+              "duration": "5:01",
+              "thumbnail": "https://i.ytimg.com/vi/0u_zA8BJG6A/hq720.jpg"
+            },
+            {
+              "videoId": "Gbz2C2gQREI",
+              "title": "不可幸力 / Vaundy ：MUSIC VIDEO",
+              "views": 145266398,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/Gbz2C2gQREI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "X Japan",
+          "channel": {
+            "id": "UCHjImcYWpXU7lMLX0gt3qfw",
+            "name": "X Japan Official",
+            "image": "https://yt3.googleusercontent.com/XfliVsBSMUGi2ouogC4DoI-SdJdKhVfPLYF143yg-9N3povIRzSxqt3V2ddQdakgOvM1o-g42Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 351000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "QhOFg_3RV5Q",
+              "title": "X JAPAN 『ENDLESS RAIN』（HD）",
+              "views": 36634521,
+              "duration": "7:02",
+              "thumbnail": "https://i.ytimg.com/vi/QhOFg_3RV5Q/hq720.jpg"
+            },
+            {
+              "videoId": "qlI7GAHnMfM",
+              "title": "X JAPAN - TEARS - composed by YOSHIKI",
+              "views": 17952848,
+              "duration": "6:36",
+              "thumbnail": "https://i.ytimg.com/vi/qlI7GAHnMfM/hq720.jpg"
+            },
+            {
+              "videoId": "_me2yfR7Jfk",
+              "title": "X Japan Rusty Nail from \"The Last Live\" HD",
+              "views": 34065004,
+              "duration": "5:43",
+              "thumbnail": "https://i.ytimg.com/vi/_me2yfR7Jfk/hq720.jpg"
+            },
+            {
+              "videoId": "qPKw_V_4pJI",
+              "title": "ART OF LIFE - X JAPAN (Full ver 30 min)",
+              "views": 6491117,
+              "duration": "30:44",
+              "thumbnail": "https://i.ytimg.com/vi/qPKw_V_4pJI/hq720.jpg"
+            },
+            {
+              "videoId": "5fqnfiwBfIo",
+              "title": "X Japan - Forever Love",
+              "views": 21292643,
+              "duration": "8:44",
+              "thumbnail": "https://i.ytimg.com/vi/5fqnfiwBfIo/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "YOASOBI",
+          "channel": {
+            "id": "UCvpredjG93ifbCP1Y77JyFA",
+            "name": "Ayase / YOASOBI",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lbjuXAtjd7W2D3asm-jdcRpTbARVYvu1Dl7q3GdXmFP9k=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7390000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "8iuLXODzL04",
+              "title": "YOASOBI \"Probably\" Official Music Video",
+              "views": 165511964,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/8iuLXODzL04/hq720.jpg"
+            },
+            {
+              "videoId": "sAuEeM_6zpk",
+              "title": "YOASOBI「あの夢をなぞって・Tracing that Dream」 Official Music Video",
+              "views": 151068932,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/sAuEeM_6zpk/hq720.jpg"
+            },
+            {
+              "videoId": "k7FPllNig3o",
+              "title": "【YOASOBI🌷】全有名曲メドレー ｜Study with me｜Work with me｜リラックスタイム｜安眠・癒し・作業用BGM｜勉強用BGM｜AnnieChan_playlist ⑤",
+              "views": 876010,
+              "duration": "1:24:31",
+              "thumbnail": "https://i.ytimg.com/vi/k7FPllNig3o/hq720.jpg"
+            },
+            {
+              "videoId": "ZyfRUPPdNUg",
+              "title": "YOASOBI PLAYLIST All Yoasobi updated song - Japanese+English version",
+              "views": 686012,
+              "duration": "1:25:05",
+              "thumbnail": "https://i.ytimg.com/vi/ZyfRUPPdNUg/hq720.jpg"
+            },
+            {
+              "videoId": "by4SYYWlhEs",
+              "title": "夜に駆ける",
+              "views": 292347055,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/by4SYYWlhEs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Yazima Beauty Salon",
+          "channel": {
+            "id": "UCQ9wTSxXWyEgbRWClUigAZg",
+            "name": "YAZIMA BEATUY SALON - Topic",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nGcme0aUep4oXTMEZ96rOe2QLR4MfLi_qc3FWKofrzZxyQTLkT6aO53ObuurhWH70Sgg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2120,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "1sjy3coYyUg",
+              "title": "矢島美容室 / はまぐりボンバー",
+              "views": 7757375,
+              "duration": "4:03",
+              "thumbnail": "https://i.ytimg.com/vi/1sjy3coYyUg/hqdefault.jpg"
+            },
+            {
+              "videoId": "-tYi4cNhQZw",
+              "title": "矢島美容室 / ニホンノミカタ －ネバダカラキマシタ－",
+              "views": 52241810,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/-tYi4cNhQZw/hqdefault.jpg"
+            },
+            {
+              "videoId": "YHRUSy2B_Zg",
+              "title": "矢島美容室 feat.プリンセス･セイコ / アイドルみたいに歌わせて",
+              "views": 1538646,
+              "duration": "4:54",
+              "thumbnail": "https://i.ytimg.com/vi/YHRUSy2B_Zg/hqdefault.jpg"
+            },
+            {
+              "videoId": "Bq4wIVAYwoA",
+              "title": "矢島美容室 / SAKURA －ハルヲウタワネバダ－",
+              "views": 3480238,
+              "duration": "5:07",
+              "thumbnail": "https://i.ytimg.com/vi/Bq4wIVAYwoA/hqdefault.jpg"
+            },
+            {
+              "videoId": "OBJIYs-wpsk",
+              "title": "はまぐりボンバー",
+              "views": 253879,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/OBJIYs-wpsk/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    },
+    "gospel": {
+      "count": 15,
+      "artists": [
+        {
+          "name": "Bethel Japan",
+          "channel": {
+            "id": "UCznKl1hNpbMpx_eti13RY_A",
+            "name": "betelsfoodfeast",
+            "image": "https://yt3.ggpht.com/Qfoy7EcmomYAhsUkIQ2SPhKPxSGlYwHQr3PJiqZ9tn4BXwRbYQB_errcv5hhnXJI6Ft2LPpwMg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 186000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "6-19zWFgrHU",
+              "title": "Japan Bethel Tour",
+              "views": 2795,
+              "duration": "2:09",
+              "thumbnail": "https://i.ytimg.com/vi/6-19zWFgrHU/hq720.jpg"
+            },
+            {
+              "videoId": "m8f2j8Dp448",
+              "title": "Bethel Church Service | Missions Sunday Sermon | Worship with Leah Valenzuela, Peter Mattis",
+              "views": 7252,
+              "duration": "2:35:01",
+              "thumbnail": "https://i.ytimg.com/vi/m8f2j8Dp448/hq720.jpg"
+            },
+            {
+              "videoId": "3iPYbUJhnL4",
+              "title": "King Of My Heart - Bethel - Japanese Cover | 「キング オブ マイ ハート」ベテルチャーチ 日本語カバー",
+              "views": 566714,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/3iPYbUJhnL4/hq720.jpg"
+            },
+            {
+              "videoId": "GN3tBrhC8NU",
+              "title": "Welcome Convention Delegates to Japan Bethel Home, Ebina",
+              "views": 68621,
+              "duration": "14:54",
+              "thumbnail": "https://i.ytimg.com/vi/GN3tBrhC8NU/hq720.jpg"
+            },
+            {
+              "videoId": "QcxdXIz74YI",
+              "title": "Reckless Love - Japanese Translation 日本語 - Bethel Music",
+              "views": 630906,
+              "duration": "5:30",
+              "thumbnail": "https://i.ytimg.com/vi/QcxdXIz74YI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Canaan Worship",
+          "channel": {
+            "id": "UCvbYBFdReuTzgCr0R07k8MQ",
+            "name": "Canaan Worship Center - Kansas City, MO",
+            "image": "https://yt3.ggpht.com/hAEp9eNtbxyxkL80VAyBsxfPyCZGnQQnT-LFLza9VahLgaebfm_vVsGDHiekVvCH_5dCYbB6ZNE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2100,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "s9Ua4Gsdlno",
+              "title": "Worship Session 006 // feat. Canaan Baca",
+              "views": 121890,
+              "duration": "42:28",
+              "thumbnail": "https://i.ytimg.com/vi/s9Ua4Gsdlno/hq720.jpg"
+            },
+            {
+              "videoId": "IcFwwZ6qSPY",
+              "title": "NEW CANAAN WORSHIP",
+              "views": 8165,
+              "duration": "44:13",
+              "thumbnail": "https://i.ytimg.com/vi/IcFwwZ6qSPY/hqdefault.jpg"
+            },
+            {
+              "videoId": "_4eMYAVO_NQ",
+              "title": "Who Else |  Canaan Baca | Worship Together Session",
+              "views": 89757,
+              "duration": "6:03",
+              "thumbnail": "https://i.ytimg.com/vi/_4eMYAVO_NQ/hq720.jpg"
+            },
+            {
+              "videoId": "hNGQ2AQWZ6Q",
+              "title": "More Like Jesus (feat. Canaan Baca) by One Voice Worship | Official Music Video",
+              "views": 10035353,
+              "duration": "9:17",
+              "thumbnail": "https://i.ytimg.com/vi/hNGQ2AQWZ6Q/hq720.jpg"
+            },
+            {
+              "videoId": "lVY--ewaSIU",
+              "title": "YESHUA // Not in a hurry // Our God reigns // (feat Kiki Edwards, Canaan Baca and Gospel Chidi )",
+              "views": 10094735,
+              "duration": "18:47",
+              "thumbnail": "https://i.ytimg.com/vi/lVY--ewaSIU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Grace Tokyo",
+          "channel": {
+            "id": "UCoIsOvQrS1UamjtOG77Qh-Q",
+            "name": "Grace",
+            "image": "https://yt3.ggpht.com/MAfYcnzWetTF6r68vIKIw8_SU9cCJbjjDN6w0tKWrasi845zIjkdplSuY6RIHB1AxxBJ_YNpaA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 203000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "TDJXGnyZ0r8",
+              "title": "japan travel vlog 🇯🇵 | tokyo, nakameguro, day trip to lake kawaguchiko, mt. fuji, cafes, food spots",
+              "views": 4670,
+              "duration": "12:54",
+              "thumbnail": "https://i.ytimg.com/vi/TDJXGnyZ0r8/hq720.jpg"
+            },
+            {
+              "videoId": "Yzo4EpJmEkA",
+              "title": "japan travel vlog 🇯🇵 | 3 days in tokyo, shibuya sky, tsukiji, asakusa, matcha, cafes, food spots",
+              "views": 66183,
+              "duration": "26:26",
+              "thumbnail": "https://i.ytimg.com/vi/Yzo4EpJmEkA/hq720.jpg"
+            },
+            {
+              "videoId": "zmA-zOAbdMA",
+              "title": "Tokyo Prose - Saving Grace",
+              "views": 109430,
+              "duration": "6:01",
+              "thumbnail": "https://i.ytimg.com/vi/zmA-zOAbdMA/hqdefault.jpg"
+            },
+            {
+              "videoId": "7g_NP5CV_WM",
+              "title": "TOKYO GRACE - Oumagadoki 逢魔ヶ時 -  Music Video",
+              "views": 1222,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/7g_NP5CV_WM/hq720.jpg"
+            }
+          ],
+          "songCount": 4
+        },
+        {
+          "name": "Hillsong Japan",
+          "channel": {
+            "id": "UCe2Xq2AYvpwrl2AjC5Annrg",
+            "name": "Hillsong 日本語 - Topic",
+            "image": "https://yt3.ggpht.com/u8rqzdoMud6bDsHpbnGc-2E5lTm0QHkvL_fP39HpbZdOuI6xWmNWZcqA3FaKFQVLq-5-VZqOVQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1970,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "sF-lpfqlyVA",
+              "title": "What A Beautiful Name (Japanese cover) - Hillsong 日本語 - 「なんて麗しい名」カバー",
+              "views": 2581079,
+              "duration": "4:51",
+              "thumbnail": "https://i.ytimg.com/vi/sF-lpfqlyVA/hq720.jpg"
+            },
+            {
+              "videoId": "MC2Jpprv3Ic",
+              "title": "あなたが言う通り(Who You Say I Am / Hillsong Worship)  ヒルソング 日本語",
+              "views": 230565,
+              "duration": "5:34",
+              "thumbnail": "https://i.ytimg.com/vi/MC2Jpprv3Ic/hq720.jpg"
+            },
+            {
+              "videoId": "7L-pT7v9vOg",
+              "title": "あなたが言う通り",
+              "views": 58017,
+              "duration": "5:35",
+              "thumbnail": "https://i.ytimg.com/vi/7L-pT7v9vOg/hq720.jpg"
+            },
+            {
+              "videoId": "uyXiUG77H8E",
+              "title": "God Is Able - Hillsong (Official Japanese) / Live Church Worship",
+              "views": 38126,
+              "duration": "5:44",
+              "thumbnail": "https://i.ytimg.com/vi/uyXiUG77H8E/hq720.jpg"
+            },
+            {
+              "videoId": "o-UxWE6Wc_s",
+              "title": "Lead Me to the Cross - Hillsong - Japanese - lyrics",
+              "views": 176215,
+              "duration": "5:41",
+              "thumbnail": "https://i.ytimg.com/vi/o-UxWE6Wc_s/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "J-Gospel",
+          "channel": {
+            "id": "UC-1M7vaE0qQP3lig_knZU5g",
+            "name": "J. AI Gospel",
+            "image": "https://yt3.ggpht.com/4DEpn1azTeoY2Gv_tP3cJS_xAIx2XujtlZeZeZFz9zJ36aA3tyIi8_XxNC0h9KHC13BW9qfJdA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 782,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "BFO7Yc7QCr8",
+              "title": "70 Minutes 🍎 Gospel Jazz Music 🍎 Saxophone & Instrumental Music 🍎 Plus Scriptures on Staying Strong.",
+              "views": 3464637,
+              "duration": "1:13:14",
+              "thumbnail": "https://i.ytimg.com/vi/BFO7Yc7QCr8/hq720.jpg"
+            },
+            {
+              "videoId": "LXkpWY5Y02Q",
+              "title": "alt-J - The Gospel Of John Hurt (Official Audio)",
+              "views": 13618962,
+              "duration": "5:16",
+              "thumbnail": "https://i.ytimg.com/vi/LXkpWY5Y02Q/hq720.jpg"
+            },
+            {
+              "videoId": "s1CY9AYUa7U",
+              "title": "Rich Brian x Keith Ape x XXXTentacion - Gospel (Prod. RONNYJ)",
+              "views": 49996037,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/s1CY9AYUa7U/hq720.jpg"
+            },
+            {
+              "videoId": "41M2q_U8oIk",
+              "title": "JP Cooper - Call My Name (Gospel / Live)",
+              "views": 8389515,
+              "duration": "5:02",
+              "thumbnail": "https://i.ytimg.com/vi/41M2q_U8oIk/hq720.jpg"
+            },
+            {
+              "videoId": "gaS59ddVkao",
+              "title": "Casey J - If God / Nothing But The Blood (Official Live Video)",
+              "views": 20773946,
+              "duration": "8:25",
+              "thumbnail": "https://i.ytimg.com/vi/gaS59ddVkao/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jesus Lifehouse",
+          "channel": {
+            "id": "UCKkDXxHVytvvXFWP4CyBS9g",
+            "name": "Lifehouse Tokyo",
+            "image": "https://yt3.ggpht.com/ZctlQW4JvjGD4K96T6ibQTg8vK09ndLIYizLNZMoh-OOMLXlFlgskSqbxGVmuXgtKb2dGFa-Mw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 8060.000000000001,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "uFRYdGihOl4",
+              "title": "[HQ] Lifehouse - Everything Skit Remastered High Quality",
+              "views": 8476733,
+              "duration": "5:54",
+              "thumbnail": "https://i.ytimg.com/vi/uFRYdGihOl4/hqdefault.jpg"
+            },
+            {
+              "videoId": "XU0E-bEtR1s",
+              "title": "Lifehouse - Everything (Videoclipe Oficial)",
+              "views": 8494388,
+              "duration": "5:53",
+              "thumbnail": "https://i.ytimg.com/vi/XU0E-bEtR1s/hqdefault.jpg"
+            },
+            {
+              "videoId": "crZ6OHwp1m4",
+              "title": "JESUS LIFE HOUSE TOKYO.mp4",
+              "views": 1257,
+              "duration": "7:37",
+              "thumbnail": "https://i.ytimg.com/vi/crZ6OHwp1m4/hqdefault.jpg"
+            },
+            {
+              "videoId": "cyheJ480LYA",
+              "title": "Lifehouse's Everything Skit",
+              "views": 38219067,
+              "duration": "5:33",
+              "thumbnail": "https://i.ytimg.com/vi/cyheJ480LYA/hqdefault.jpg"
+            },
+            {
+              "videoId": "lSwCOs-uXzU",
+              "title": "Lifehouse Everything - Drama",
+              "views": 5091660,
+              "duration": "6:08",
+              "thumbnail": "https://i.ytimg.com/vi/lSwCOs-uXzU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Living Water Japan",
+          "channel": {
+            "id": "UCdjiG7VVyDXfLxbRAWwKO8w",
+            "name": "Living Water Japan",
+            "image": "https://yt3.ggpht.com/QfDC_bzqKcFxEIfObi8ro_4kXPc9hfwQIgV71kLxTSCovBzI4_G1npmF4Lk1cQNVv9yGtfZPjw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 16,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "3XZtzlML9oA",
+              "title": "Hidden Water Town in Rural Japan | Local Train Trip to Gujo Hachiman, Gifu | JAPAN TRAVEL VLOG",
+              "views": 798327,
+              "duration": "28:04",
+              "thumbnail": "https://i.ytimg.com/vi/3XZtzlML9oA/hq720.jpg"
+            },
+            {
+              "videoId": "Q2WshkiSFpE",
+              "title": "[HD] Satoyama II Japans Secret Watergarden",
+              "views": 1749780,
+              "duration": "52:05",
+              "thumbnail": "https://i.ytimg.com/vi/Q2WshkiSFpE/hq720.jpg"
+            },
+            {
+              "videoId": "BWkTmIoHEjQ",
+              "title": "10 Years Living in Japan 🇯🇵 | Things That Still Surprise Me | Shopping & Daily Life",
+              "views": 21435,
+              "duration": "31:03",
+              "thumbnail": "https://i.ytimg.com/vi/BWkTmIoHEjQ/hq720.jpg"
+            },
+            {
+              "videoId": "THcKJpXwqVM",
+              "title": "Unusual Kitchen Helpers | Wild Japan",
+              "views": 3331781,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/THcKJpXwqVM/hq720.jpg"
+            },
+            {
+              "videoId": "vmUk-gDfZA0",
+              "title": "Water Is ALIVE & RESPONDS to Human Emotion",
+              "views": 324610,
+              "duration": "10:09",
+              "thumbnail": "https://i.ytimg.com/vi/vmUk-gDfZA0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Migiwa",
+          "channel": {
+            "id": "UCx8KMsag6yMVZW1wrcmMsRg",
+            "name": "Migiwa - Topic",
+            "image": "https://yt3.ggpht.com/hOjph5Y53LZY6LceX151iwNz81qqMcMHgyZJEXBO5WVwvaZRUMNVBlWn_8BRxkdTE1DGRUMHTjs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 141,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "BWEJf8nLfO4",
+              "title": "Chibi Maruko Chan #619 MIGIWA MENIRU FOTO MONALISA",
+              "views": 3716270,
+              "duration": "24:20",
+              "thumbnail": "https://i.ytimg.com/vi/BWEJf8nLfO4/hq720.jpg"
+            },
+            {
+              "videoId": "S02adyZ08qk",
+              "title": "Chibi Maruko Chan #651 MIGIWA MEMBUAT PILIHAN CINTA",
+              "views": 4157288,
+              "duration": "24:22",
+              "thumbnail": "https://i.ytimg.com/vi/S02adyZ08qk/hq720.jpg"
+            },
+            {
+              "videoId": "74B483p-X28",
+              "title": "CHIBI MARUKO-CHAN #832",
+              "views": 1381252,
+              "duration": "24:21",
+              "thumbnail": "https://i.ytimg.com/vi/74B483p-X28/hq720.jpg"
+            },
+            {
+              "videoId": "4QlE9qwI5uQ",
+              "title": "CHIBI MARUKO-CHAN #791",
+              "views": 1769006,
+              "duration": "24:21",
+              "thumbnail": "https://i.ytimg.com/vi/4QlE9qwI5uQ/hq720.jpg"
+            },
+            {
+              "videoId": "YGYtbsi5LII",
+              "title": "CHIBI MARUKO-CHAN #799",
+              "views": 1753634,
+              "duration": "24:20",
+              "thumbnail": "https://i.ytimg.com/vi/YGYtbsi5LII/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "New Hope Japan",
+          "channel": {
+            "id": "UCQ8mwkP818Y5wHMY_UdxhZw",
+            "name": "NewHopeTokyo",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_mXVWRbHU2rerKp0FZ8b4f4d-MBKeov58O1JzVFgLHELA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2130,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "GOc76fftgVE",
+              "title": "Praise 日本語カバー・ Elevation Worship",
+              "views": 69012,
+              "duration": "5:06",
+              "thumbnail": "https://i.ytimg.com/vi/GOc76fftgVE/hq720.jpg"
+            },
+            {
+              "videoId": "cu_7Sk-VG_A",
+              "title": "OHANA RETREAT 2023 RECAP | New Hope Japan",
+              "views": 457,
+              "duration": "1:22",
+              "thumbnail": "https://i.ytimg.com/vi/cu_7Sk-VG_A/hq720.jpg"
+            },
+            {
+              "videoId": "prBG1BX2INE",
+              "title": "New Hope Club - Start Over Again (Official Video)",
+              "views": 3264168,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/prBG1BX2INE/hq720.jpg"
+            },
+            {
+              "videoId": "F5lOqCpRC_o",
+              "title": "Gratitude (日本語 Japanese/English) | New Hope Yokohama Worship",
+              "views": 6277,
+              "duration": "7:50",
+              "thumbnail": "https://i.ytimg.com/vi/F5lOqCpRC_o/hq720.jpg"
+            },
+            {
+              "videoId": "wFzU-SkFyww",
+              "title": "New Hope Club - Fixed (Official Video)",
+              "views": 5373602,
+              "duration": "3:46",
+              "thumbnail": "https://i.ytimg.com/vi/wFzU-SkFyww/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Rutsuko Fujii",
+          "channel": {
+            "id": "UCXEPZedJm2-d66_u1ILRdtA",
+            "name": "Rituko Fujii",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_n7L21vvEsELuvDXkdjHycLSCiic7RziSuCf812mgbyQz8=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 14100,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "fLvwK6F-X8U",
+              "title": "Watashi No Chiisana Jinsei (Live)",
+              "views": 65,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/fLvwK6F-X8U/hq720.jpg"
+            },
+            {
+              "videoId": "aUScs1Az6iM",
+              "title": "Watashi No Kodomotachi E",
+              "views": 194,
+              "duration": "2:55",
+              "thumbnail": "https://i.ytimg.com/vi/aUScs1Az6iM/hq720.jpg"
+            },
+            {
+              "videoId": "LPUmaiG00s0",
+              "title": "Watashi No Ie",
+              "views": 1154,
+              "duration": "2:20",
+              "thumbnail": "https://i.ytimg.com/vi/LPUmaiG00s0/hq720.jpg"
+            },
+            {
+              "videoId": "kVGrk-hYqMc",
+              "title": "Pertama Kali ke Fukuoka 🇯🇵 Kota RAMEN 🍜 di JEPANG?",
+              "views": 84582,
+              "duration": "45:01",
+              "thumbnail": "https://i.ytimg.com/vi/kVGrk-hYqMc/hq720.jpg"
+            },
+            {
+              "videoId": "t3CHBTIRm40",
+              "title": "Arukinareta Michi",
+              "views": 51,
+              "duration": "3:27",
+              "thumbnail": "https://i.ytimg.com/vi/t3CHBTIRm40/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Seeds of Love",
+          "channel": {
+            "id": "UC5ORwD3dMc8uzqfesaNKdoA",
+            "name": "Sewing Seeds Of Love",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_lyVySDo3-7UHrhcXUTUcadyCI9CeYPECYfilr0w2IFKgM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 62900,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "VAtGOESO7W8",
+              "title": "Tears For Fears - Sowing The Seeds Of Love",
+              "views": 54275628,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/VAtGOESO7W8/hq720.jpg"
+            },
+            {
+              "videoId": "aEMtSPZNch8",
+              "title": "Tears for Fears - Sowing the seeds of love",
+              "views": 2082099,
+              "duration": "6:22",
+              "thumbnail": "https://i.ytimg.com/vi/aEMtSPZNch8/hqdefault.jpg"
+            },
+            {
+              "videoId": "tfB16rMNNAs",
+              "title": "Sowing The Seeds Of Love (7\" Version)",
+              "views": 256952,
+              "duration": "5:45",
+              "thumbnail": "https://i.ytimg.com/vi/tfB16rMNNAs/hq720.jpg"
+            },
+            {
+              "videoId": "dCER_ik05cE",
+              "title": "Seeds of Love",
+              "views": 23940,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/dCER_ik05cE/hq720.jpg"
+            },
+            {
+              "videoId": "drvGzJElceA",
+              "title": "Devil May Cry 5 Bonus Art with Seeds of Love Song Lyrics",
+              "views": 146008,
+              "duration": "1:28",
+              "thumbnail": "https://i.ytimg.com/vi/drvGzJElceA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Shino",
+          "channel": {
+            "id": "UCs-R_TLAj-05cZxCVI3Ve7w",
+            "name": "SHINO",
+            "image": "https://yt3.googleusercontent.com/J_-qr8EQH-xMgOouBHmYUGYYqsDZV4XaXfnh9LgaXCJ871upfUqhZZl0n9QdI9ZsoZUOuXrdJ0o=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3860,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "NHP91_lIFFE",
+              "title": "All of Shino Aburame Jutsu 油女シノ (術)",
+              "views": 64858,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/NHP91_lIFFE/hq720.jpg"
+            },
+            {
+              "videoId": "sABVNz31WA0",
+              "title": "Fujii Kaze - Shinunoga E-Wa (Lyrics)",
+              "views": 36393946,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/sABVNz31WA0/hq720.jpg"
+            },
+            {
+              "videoId": "Yb1dE4_-RYo",
+              "title": "Shino vs Kankuro | forgotten fight",
+              "views": 1008228,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/Yb1dE4_-RYo/hq720.jpg"
+            },
+            {
+              "videoId": "jg9Lw31PNPY",
+              "title": "Naruto & Shino vs Torune   Full Fight English Sub)",
+              "views": 465663,
+              "duration": "7:07",
+              "thumbnail": "https://i.ytimg.com/vi/jg9Lw31PNPY/hq720.jpg"
+            },
+            {
+              "videoId": "GZtEISIhJq0",
+              "title": "Shino's Secret | Boruto: Naruto Next Generations",
+              "views": 6231524,
+              "duration": "2:53",
+              "thumbnail": "https://i.ytimg.com/vi/GZtEISIhJq0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tokyo Antioch Church",
+          "channel": {
+            "id": "UC00e7Koyr4au2ONxBh8nDKg",
+            "name": "TLEA Tokyo Antioch Church_International",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_lIzYqi1v2qyyniAyRQAAGiYXgNKY0YLD2TtS72HaoeFPQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 238,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "tj8YADyHacU",
+              "title": "2026.5.24 Youth Service",
+              "views": 75,
+              "duration": "48:26",
+              "thumbnail": "https://i.ytimg.com/vi/tj8YADyHacU/hq720.jpg"
+            },
+            {
+              "videoId": "AaqFyihgg-8",
+              "title": "Antioch Church - Live - 11am Service - To Be Successful",
+              "views": 72,
+              "duration": "1:24:39",
+              "thumbnail": "https://i.ytimg.com/vi/AaqFyihgg-8/hq720.jpg"
+            },
+            {
+              "videoId": "aDCkRgxces4",
+              "title": "2026.5.24 TLEA Tokyo Antioch Church International Service",
+              "views": 51,
+              "duration": "47:21",
+              "thumbnail": "https://i.ytimg.com/vi/aDCkRgxces4/hq720.jpg"
+            },
+            {
+              "videoId": "H6VeyLPuGUU",
+              "title": "2026.1.25 TLEA Tokyo Antioch Church International Service",
+              "views": 28,
+              "duration": "50:45",
+              "thumbnail": "https://i.ytimg.com/vi/H6VeyLPuGUU/hq720.jpg"
+            },
+            {
+              "videoId": "hrE3CI6cbQc",
+              "title": "2026.1.25 TLEA Tokyo Antioch Church 2nd",
+              "views": 32,
+              "duration": "1:41:06",
+              "thumbnail": "https://i.ytimg.com/vi/hrE3CI6cbQc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Yuki Music",
+          "channel": {
+            "id": "UCf3i_gCIO8J21hYNtMKiEaw",
+            "name": "Yuki Music",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_kcGypOHvaDtSau-BJwShfQYMYMpZr0NGQR0_JwTsYwKSU=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5870000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "-jg4NtmqO1o",
+              "title": "खाटू ना आऊँ तो जी घबराता है | Khatu Na Aau To Jee Ghabrata Hai | Sheetal Pandey (Full Video)",
+              "views": 9095830,
+              "duration": "8:10",
+              "thumbnail": "https://i.ytimg.com/vi/-jg4NtmqO1o/hq720.jpg"
+            },
+            {
+              "videoId": "SCTiye4AvJk",
+              "title": "yuki: purity, calm, and gentle beauty | peaceful last stop with piano playlist",
+              "views": 172690,
+              "duration": "1:52:52",
+              "thumbnail": "https://i.ytimg.com/vi/SCTiye4AvJk/hq720.jpg"
+            },
+            {
+              "videoId": "CHvvIk3TuBw",
+              "title": "千葉雄喜 (Yuki Chiba) ー 重てえ (Omote)  [Official Music Video]",
+              "views": 5438113,
+              "duration": "2:00",
+              "thumbnail": "https://i.ytimg.com/vi/CHvvIk3TuBw/hq720.jpg"
+            },
+            {
+              "videoId": "Z3qMWqjLdpI",
+              "title": "YUKI NO RŌNIN — Japanese Zen Music for Solitude, Honor & Wandering Spirit (雪の浪人)",
+              "views": 7440,
+              "duration": "1:35:29",
+              "thumbnail": "https://i.ytimg.com/vi/Z3qMWqjLdpI/hq720.jpg"
+            },
+            {
+              "videoId": "q8lcgclUVSQ",
+              "title": "सबसे ज़्यादा सुनी जाने वाली आरतियां | सम्पूर्ण आरती संग्रह | जय लक्ष्मी माता | जय गणेश देवा",
+              "views": 172577679,
+              "duration": "59:48",
+              "thumbnail": "https://i.ytimg.com/vi/q8lcgclUVSQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Zion Japan",
+          "channel": {
+            "id": "UC1HKNiqU5AvjlPYE1JucIJQ",
+            "name": "ZION JAPAN 公式チャンネル",
+            "image": "https://yt3.ggpht.com/XJRHPtPgHPhq5A9mzKm9gR6YmN9t-IGFr_-CNnY2m5iJw2xV2Uxv4VNkOWhyhYkzH7P9nxKa=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 227,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "DfZOSFcQ510",
+              "title": "Zion Suzuki’s BEST Saves of the Season | Serie A 2024/25",
+              "views": 108731,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/DfZOSFcQ510/hq720.jpg"
+            },
+            {
+              "videoId": "dBOfzIs__As",
+              "title": "ZION - Furinige (Mountainphonic Session)",
+              "views": 42263,
+              "duration": "5:11",
+              "thumbnail": "https://i.ytimg.com/vi/dBOfzIs__As/hqdefault.jpg"
+            },
+            {
+              "videoId": "VvCI9I_ZiY0",
+              "title": "PARMA ROOTS | ZION SUZUKI",
+              "views": 12926,
+              "duration": "15:04",
+              "thumbnail": "https://i.ytimg.com/vi/VvCI9I_ZiY0/hq720.jpg"
+            },
+            {
+              "videoId": "TUD1gQYQ484",
+              "title": "There Is None Like You / イエスのように - Zion (feat. Samuell Soung) I 주님과 같이 Japanese cover",
+              "views": 47279,
+              "duration": "5:03",
+              "thumbnail": "https://i.ytimg.com/vi/TUD1gQYQ484/hq720.jpg"
+            },
+            {
+              "videoId": "-QjiV2jNbfE",
+              "title": "Parma's Samurai Aiming for the Top | A Chat with Suzuki | Serie A 2024/25",
+              "views": 22255,
+              "duration": "11:47",
+              "thumbnail": "https://i.ytimg.com/vi/-QjiV2jNbfE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    }
+  }
+}

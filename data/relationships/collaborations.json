@@ -1,0 +1,34 @@
+{
+  "collaborations": {
+    "Burna Boy": {
+      "collaborated_with": ["Wizkid", "Davido", "Ed Sheeran", "Stormzy", "J Hus"],
+      "featured_by": ["Sauti Sol", "Beyonce", "Sam Smith"],
+      "producer_for": ["Nissi", "Buju"]
+    },
+    "Wizkid": {
+      "collaborated_with": ["Burna Boy", "Drake", "Beyonce", "Chris Brown", "Tems"],
+      "featured_by": ["Justin Bieber", "Major Lazer"],
+      "genre_bridge": ["Afrobeats", "Dancehall", "Pop"]
+    },
+    "Diamond Platnumz": {
+      "collaborated_with": ["Burna Boy", "Davido", "Tiwa Savage", "Nandy", "Zuchu"],
+      "featured_by": ["Rayvanny", "Mbosso"],
+      "producer_for": ["Zuchu", "Lava Lava"]
+    },
+    "Bien": {
+      "collaborated_with": ["Sauti Sol", "Nyashinski", "Bensoul", "Khaligraph Jones"],
+      "featured_by": ["Nviiri The Storyteller", "Okello Max"],
+      "genre_bridge": ["Afro-pop", "Gengetone", "Kapuka"]
+    }
+  },
+  "cross_country_collabs": {
+    "africa_to_global": [
+      {"african": "Burna Boy", "global": "Ed Sheeran", "song": "For My Hand"},
+      {"african": "Wizkid", "global": "Drake", "song": "One Dance"}
+    ],
+    "east_to_west_africa": [
+      {"east": "Diamond Platnumz", "west": "Davido", "song": "Number One"},
+      {"east": "Sauti Sol", "west": "Burna Boy", "song": "Afrikan Star"}
+    ]
+  }
+}

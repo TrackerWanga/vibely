@@ -1,0 +1,2790 @@
+{
+  "country": "China",
+  "flag": "🇨🇳",
+  "code": "CN",
+  "continent": "Asia",
+  "categories": {
+    "secular": {
+      "count": 45,
+      "artists": [
+        {
+          "name": "A-Mei",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "mLk61pfiHQ0",
+              "title": "張惠妹 A-Mei - 聽海 官方MV (Official Music Video)",
+              "views": 49175517,
+              "duration": "5:17",
+              "thumbnail": "https://i.ytimg.com/vi/mLk61pfiHQ0/hqdefault.jpg"
+            },
+            {
+              "videoId": "xrUyk79DLbg",
+              "title": "張惠妹A-Mei - 如果你也聽說 Have You Heard Lately? (official官方完整版MV)",
+              "views": 48363220,
+              "duration": "5:11",
+              "thumbnail": "https://i.ytimg.com/vi/xrUyk79DLbg/hqdefault.jpg"
+            },
+            {
+              "videoId": "2ZDSJ-eO1dg",
+              "title": "【動態歌詞】aMEI張惠妹_情歌組曲串燒 #演唱會Live版 『趁早、哭不出來、掉了、藍天、如果你也聽說、勇敢、我恨我愛你、別在傷口撒鹽、真實、還有眼淚就好、人質、剪愛、聽海、我要快樂、我最親愛的』",
+              "views": 785650,
+              "duration": "41:01",
+              "thumbnail": "https://i.ytimg.com/vi/2ZDSJ-eO1dg/hq720.jpg"
+            },
+            {
+              "videoId": "qf09H2xFq2s",
+              "title": "aMEI張惠妹 [ Full Name 連名帶姓 ] Official Music Video",
+              "views": 107165131,
+              "duration": "6:00",
+              "thumbnail": "https://i.ytimg.com/vi/qf09H2xFq2s/hq720.jpg"
+            },
+            {
+              "videoId": "_VxLOj3TB5k",
+              "title": "周杰倫Jay Chou X aMEI【不該 Shouldn't Be】Official MV",
+              "views": 184711719,
+              "duration": "4:54",
+              "thumbnail": "https://i.ytimg.com/vi/_VxLOj3TB5k/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Aaron Kwok",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "dKUmyVUdkmQ",
+              "title": "Aaron Kwok 郭富城 - Wo Shi Bu Shi Gai An Jing De Zou Kai 我是不是该安静的走开 | Lyrics Pinyin sub English",
+              "views": 133870,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/dKUmyVUdkmQ/hq720.jpg"
+            },
+            {
+              "videoId": "yi7QzI3r6BY",
+              "title": "Wo Shi Bu Shi Gai An Jing De Zou Kai (我是不是該安靜的走開) | A Heavenly King Classic by FM Station",
+              "views": 766524,
+              "duration": "3:54",
+              "thumbnail": "https://i.ytimg.com/vi/yi7QzI3r6BY/hq720.jpg"
+            },
+            {
+              "videoId": "45Cc8UCK0NU",
+              "title": "Tau Ti You Sei Neng Kou Kau Su Wo - Aaron Kwok",
+              "views": 26032,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/45Cc8UCK0NU/hqdefault.jpg"
+            },
+            {
+              "videoId": "SCw3jYBI8As",
+              "title": "【郭富城 Aaron speak in English】Hello Hong Kong – Biggest welcome from Hong Kong 香港歡迎你",
+              "views": 14205,
+              "duration": "0:19",
+              "thumbnail": "https://i.ytimg.com/vi/SCw3jYBI8As/hqdefault.jpg"
+            },
+            {
+              "videoId": "5KWrhjRWxAk",
+              "title": "Beautiful Girl",
+              "views": 45408,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/5KWrhjRWxAk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Andy Lau",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "_2YuK969vtM",
+              "title": "LAI SHENG YUAN - ANDY LAU",
+              "views": 2749936,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/_2YuK969vtM/hqdefault.jpg"
+            },
+            {
+              "videoId": "Ykt5OiflZLU",
+              "title": "忘情水 - Wang Qing Shui - Andy Lau 劉德華 - Air Pelupa Cinta - Lagu Mandarin Subtitle Indonesia - Pinyin",
+              "views": 2144412,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/Ykt5OiflZLU/hq720.jpg"
+            },
+            {
+              "videoId": "NR8sMchWXDI",
+              "title": "Lian Xi",
+              "views": 3994530,
+              "duration": "4:21",
+              "thumbnail": "https://i.ytimg.com/vi/NR8sMchWXDI/hq720.jpg"
+            },
+            {
+              "videoId": "pRxosX886LM",
+              "title": "Wang Qing Shui",
+              "views": 4052206,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/pRxosX886LM/hq720.jpg"
+            },
+            {
+              "videoId": "Ygnk2r-BTFs",
+              "title": "Andy Lau 刘德华【 Practice 练习 Lian Xi 】",
+              "views": 1712345,
+              "duration": "4:21",
+              "thumbnail": "https://i.ytimg.com/vi/Ygnk2r-BTFs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bohan Phoenix",
+          "channel": {
+            "id": "UCYk0CGY38VRf32MULv8p-Vw",
+            "name": "Bohan Phoenix 冷博涵",
+            "image": "https://yt3.googleusercontent.com/cQfMmuhOp4ao4CtzJ4Gnae-RKeM9Qfl1yL43iQNKrbpvYS2X6_pVUXcX7Lz7fqTnPI3GGeVA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3520,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "IxcTH1SEf7Y",
+              "title": "Bohan Phoenix - 3 Days in Chengdu 回到成都 (Official Video)",
+              "views": 124273,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/IxcTH1SEf7Y/hq720.jpg"
+            },
+            {
+              "videoId": "uGt8ecxf3Co",
+              "title": "Bohan Phoenix ft. Higher Brothers - No Hook (OFFICIAL MUSIC VIDEO)",
+              "views": 1618380,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/uGt8ecxf3Co/hq720.jpg"
+            },
+            {
+              "videoId": "yLP8z3c76K0",
+              "title": "Bohan Phoenix - JALA 加辣 (Official Video)",
+              "views": 208289,
+              "duration": "3:09",
+              "thumbnail": "https://i.ytimg.com/vi/yLP8z3c76K0/hq720.jpg"
+            },
+            {
+              "videoId": "gsgdKlLJD58",
+              "title": "Bohan Phoenix - IUNNO (prod. Jachary)",
+              "views": 65650,
+              "duration": "2:46",
+              "thumbnail": "https://i.ytimg.com/vi/gsgdKlLJD58/hq720.jpg"
+            },
+            {
+              "videoId": "xWJ4Lt1xeng",
+              "title": "Bohan Phoenix - FOREIGN (Prod. Howie Lee)",
+              "views": 100324,
+              "duration": "2:57",
+              "thumbnail": "https://i.ytimg.com/vi/xWJ4Lt1xeng/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Diamond Zhang",
+          "channel": {
+            "id": "UCkxTMlZkje8t_ZRC78V1A4w",
+            "name": "Zhang Bichen - Topic",
+            "image": "https://yt3.ggpht.com/ZuG8clqb14xw_Wa01Kda23c_pmPhGjYxBgD85pP6Uw9a4Rxi-3V82tQzgFyePj483uOB5qZnBAc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 46700,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "ODiNrFnsp5c",
+              "title": "笼 - 张碧晨 | Cage - Zhang Bichen (Diamond Zhang) - Lost in the Stars / 消失的她 OST (Chi/Pinyin/Eng)",
+              "views": 128844,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/ODiNrFnsp5c/hq720.jpg"
+            },
+            {
+              "videoId": "_OE77YjeW1Y",
+              "title": "Diamond Zhang 30 Must-Listen Stages #zhangbichen #天赐的声音 #thetreasuredvoice",
+              "views": 19581,
+              "duration": "2:13:19",
+              "thumbnail": "https://i.ytimg.com/vi/_OE77YjeW1Y/hq720.jpg"
+            },
+            {
+              "videoId": "u4t5upnmGSQ",
+              "title": "【张碧晨2025音乐集】实力唱将张碧晨爆炸好听的个人SOLO歌单  安静听歌 | 张碧晨资讯站",
+              "views": 197188,
+              "duration": "1:10:32",
+              "thumbnail": "https://i.ytimg.com/vi/u4t5upnmGSQ/hq720.jpg"
+            },
+            {
+              "videoId": "iR2SNfJjXZE",
+              "title": "众里寻他千百度 (Among Thousands, I Seek Him) - 张碧晨 (Zhang Bichen)《逐玉 Pursuit of Jade》Chi/Eng/Pinyin lyrics",
+              "views": 904485,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/iR2SNfJjXZE/hq720.jpg"
+            },
+            {
+              "videoId": "UkxQt5IbwW8",
+              "title": "【单曲纯享】张碧晨 《暮色回响》  一句神啊心都碎了！#天赐的声音5  |  张碧晨资讯站",
+              "views": 16553730,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/UkxQt5IbwW8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Eason Chan",
+          "channel": {
+            "id": "UCnafe6M9Itwt08RFI51L6mw",
+            "name": "Eason Chan",
+            "image": "https://yt3.googleusercontent.com/epd4qdRJ3EG_oOeogMIp6FqSoxE8GCFcDNM5-09zkW9haaX0zZhEr5a6xznGVG-oio1Wa5n9UA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 556000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Hlp8XD0R5qo",
+              "title": "《孤勇者》（《英雄聯盟：雙城之戰》動畫劇集中文主題曲）陳奕迅 Eason Chan [Official MV]",
+              "views": 85027393,
+              "duration": "4:33",
+              "thumbnail": "https://i.ytimg.com/vi/Hlp8XD0R5qo/hq720.jpg"
+            },
+            {
+              "videoId": "9elvYViwP4g",
+              "title": "《K歌之王 AIR (Day Version)》陳奕迅 Eason Chan with The Heritage Orchestra【Official MV】",
+              "views": 5697191,
+              "duration": "4:42",
+              "thumbnail": "https://i.ytimg.com/vi/9elvYViwP4g/hq720.jpg"
+            },
+            {
+              "videoId": "87IBWKcPa1w",
+              "title": "【Eason陈奕迅-精选好歌34首】Top Songs of Eason Chen",
+              "views": 3822940,
+              "duration": "2:23:08",
+              "thumbnail": "https://i.ytimg.com/vi/87IBWKcPa1w/hq720.jpg"
+            },
+            {
+              "videoId": "dhjomo8W6Lc",
+              "title": "陳奕迅 Eason Chan 《我們》Us [Official MV]",
+              "views": 38068898,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/dhjomo8W6Lc/hq720.jpg"
+            },
+            {
+              "videoId": "O8bTDWz8T8c",
+              "title": "淘汰",
+              "views": 17680619,
+              "duration": "4:45",
+              "thumbnail": "https://i.ytimg.com/vi/O8bTDWz8T8c/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Emil Chau",
+          "channel": {
+            "id": "UCi5MbwC6ZuWzr_-45CuumDA",
+            "name": "周華健 Wakin Chau",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_kW-BrKj7DkPGr3W9X_od2-pHGPITL4MIoOEp6ctnpWMQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 65099.99999999999,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ymDTR22Zerw",
+              "title": "周華健 Wakin Chau【愛相隨 Love follows us】Official Music Video",
+              "views": 20802582,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/ymDTR22Zerw/hq720.jpg"
+            },
+            {
+              "videoId": "6lbPgfKK7m4",
+              "title": "Emil Chau Wakin Chau friend Friends [Official Music Video]",
+              "views": 48548016,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/6lbPgfKK7m4/hq720.jpg"
+            },
+            {
+              "videoId": "3t82nOt-XgY",
+              "title": "【周華健 Wakin】精選好聽國語30首",
+              "views": 2783863,
+              "duration": "2:06:43",
+              "thumbnail": "https://i.ytimg.com/vi/3t82nOt-XgY/hq720.jpg"
+            },
+            {
+              "videoId": "WiYBBmBzD0c",
+              "title": "周华健( Wakin Chau ) 周华健经典歌曲 - 周华健全部经典歌曲大全 - 精选华语歌坛巨星 周华健 经典歌曲50首 「朋友 Friends- 其实不想走- 花心- 亲亲我的宝贝- 风雨无阻",
+              "views": 19717,
+              "duration": "2:44:36",
+              "thumbnail": "https://i.ytimg.com/vi/WiYBBmBzD0c/hq720.jpg"
+            },
+            {
+              "videoId": "vqTXMw9zdto",
+              "title": "周華健 Wakin Chau【讓我歡喜讓我憂 You make me happy and sad】Official Music Video",
+              "views": 34212171,
+              "duration": "4:40",
+              "thumbnail": "https://i.ytimg.com/vi/vqTXMw9zdto/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Faye Wong",
+          "channel": {
+            "id": "UCos8gkwQivJ_hHeoCcs6yXg",
+            "name": "Faye Wong Official Channel 王菲 官方頻道",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lAHND2trPOwZt7grMgPw8yUq9r-gJWf9046V3rm9Y6TGE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 201000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "hN2jOHeI5tc",
+              "title": "王菲 Faye Wong -《夢中人》(Official Music Video) [HD]",
+              "views": 1177880,
+              "duration": "4:23",
+              "thumbnail": "https://i.ytimg.com/vi/hN2jOHeI5tc/hq720.jpg"
+            },
+            {
+              "videoId": "ysObDhmM_84",
+              "title": "如愿--As wished--王菲--Faye Wong--Pinyin Lyrics",
+              "views": 5460273,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/ysObDhmM_84/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZoJCN0pV7Qs",
+              "title": "如愿",
+              "views": 9053596,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/ZoJCN0pV7Qs/hq720.jpg"
+            },
+            {
+              "videoId": "LffTkRuB7z0",
+              "title": "王菲时隔七年再登春晚 新歌《世界赠予我的》太好听了！「2025央视春晚」| CCTV春晚",
+              "views": 5014799,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/LffTkRuB7z0/hq720.jpg"
+            },
+            {
+              "videoId": "adsrNFdIxLg",
+              "title": "王菲 Faye Wong《主角》電視劇同名主題曲 (Official MV)",
+              "views": 351459,
+              "duration": "4:45",
+              "thumbnail": "https://i.ytimg.com/vi/adsrNFdIxLg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "G.E.M.",
+          "channel": {
+            "id": "UCsLWG2t7n9LFsvH0wR2rtpw",
+            "name": "GEM鄧紫棋",
+            "image": "https://yt3.googleusercontent.com/nT0wIs4avNo10I0qY1vtZkaOl4DtiJBQ2fCHJCea4_2WyxBcWk0CvbKIYiyjFxZk67_PUVmh9g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2920000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "GHXr4bBxHCo",
+              "title": "G.E.M. - 泡沫",
+              "views": 84035357,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/GHXr4bBxHCo/hq720.jpg"
+            },
+            {
+              "videoId": "T4SimnaiktU",
+              "title": "G.E.M.【光年之外 LIGHT YEARS AWAY 】MV (電影《太空潛航者 Passengers》中文主題曲) [HD] 鄧紫棋",
+              "views": 304317002,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/T4SimnaiktU/hq720.jpg"
+            },
+            {
+              "videoId": "QN_Sdb6uvQM",
+              "title": "G.E.M. 鄧紫棋 20 首經典金曲串燒｜Best Hits｜1 小時完整播放",
+              "views": 551974,
+              "duration": "1:20:56",
+              "thumbnail": "https://i.ytimg.com/vi/QN_Sdb6uvQM/hq720.jpg"
+            },
+            {
+              "videoId": "FWtbGkpdoP4",
+              "title": "G.E.M.【來自天堂的魔鬼 AWAY】Official MV [HD] 鄧紫棋",
+              "views": 143460704,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/FWtbGkpdoP4/hq720.jpg"
+            },
+            {
+              "videoId": "OfIFA-V6Zec",
+              "title": "G.E.M.鄧紫棋【海闊天空 Infinite】LIVE現場版 (時光音樂會 · 老友記 EP.12)",
+              "views": 18219441,
+              "duration": "4:28",
+              "thumbnail": "https://i.ytimg.com/vi/OfIFA-V6Zec/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Han Hong",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "NBdAcLrtUb4",
+              "title": "林俊傑 JJ Lin  /  韓紅 Han Hong -《飛雲之下》 Under The Cloud - JJ20 現場版 Live in Beijing",
+              "views": 3259802,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/NBdAcLrtUb4/hq720.jpg"
+            },
+            {
+              "videoId": "A768vb_F88g",
+              "title": "【纯享】#韩红 深情演绎《#天亮了 》 用生命呐喊，歌声里藏满震撼人心的力量！| 我是歌手3 | I AM A SINGER 3 | MangoTV",
+              "views": 8613243,
+              "duration": "4:47",
+              "thumbnail": "https://i.ytimg.com/vi/A768vb_F88g/hq720.jpg"
+            },
+            {
+              "videoId": "YHaqSFAShm4",
+              "title": "【#韩红·珍藏版纯享合辑】声如天籁的高音 国宝级歌手的惊人实力｜全明星舞台回顾｜#声生不息家年华｜MangoTV",
+              "views": 132967,
+              "duration": "53:04",
+              "thumbnail": "https://i.ytimg.com/vi/YHaqSFAShm4/hq720.jpg"
+            },
+            {
+              "videoId": "5rZAGKlYeH8",
+              "title": "【黑胶无损】#孙楠 #韩红《#美丽的神话》万世沧桑  穿越岁月 | #声生不息家年华 #InfinityAndBeyond | MangoTV",
+              "views": 784699,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/5rZAGKlYeH8/hq720.jpg"
+            },
+            {
+              "videoId": "zvvYvVnoK3U",
+              "title": "韓紅 Han Hong - 一個人 MV [Official] [官方]",
+              "views": 3653711,
+              "duration": "4:58",
+              "thumbnail": "https://i.ytimg.com/vi/zvvYvVnoK3U/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Higher Brothers",
+          "channel": {
+            "id": "UCwHabsMb9taoyx05ft5a4NQ",
+            "name": "HIGHER BROTHERS",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_n1RN5-eokaJq9bVmO57szZiwsWcIJ3asYNNTOI70J7h9o=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 49900,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "rILKm-DC06A",
+              "title": "Higher Brothers x Famous Dex - Made In China (Prod. Richie Souf)",
+              "views": 27306915,
+              "duration": "4:54",
+              "thumbnail": "https://i.ytimg.com/vi/rILKm-DC06A/hq720.jpg"
+            },
+            {
+              "videoId": "31tpqyCJ0lI",
+              "title": "Phum Viphurit & Higher Brothers - Lover Boy 88 (Official Video)",
+              "views": 10143081,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/31tpqyCJ0lI/hq720.jpg"
+            },
+            {
+              "videoId": "h8lhZWPWhZw",
+              "title": "Higher Brothers - Flexing So Hard (Official Music Video)",
+              "views": 5279942,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/h8lhZWPWhZw/hq720.jpg"
+            },
+            {
+              "videoId": "VPSoNx1gyQ4",
+              "title": "88RISING - Midsummer Madness ft. Joji, Rich Brian, Higher Brothers, AUGUST 08 (Official Music Video)",
+              "views": 126668983,
+              "duration": "5:07",
+              "thumbnail": "https://i.ytimg.com/vi/VPSoNx1gyQ4/hq720.jpg"
+            },
+            {
+              "videoId": "grO-f46KSrg",
+              "title": "Higher Brothers - Empire (Official Music Video)",
+              "views": 2227031,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/grO-f46KSrg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Hua Chenyu",
+          "channel": {
+            "id": "UC_xNswUDY4VcKoXI21f5y5Q",
+            "name": "HuaChenyu",
+            "image": "https://yt3.googleusercontent.com/x3nVMzH5WUSgxEW6fGA226WVE8seNWLLSldJBGj66T7I4LrIndpbhnX18Cah14uKwNLGR763qA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 80900,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "RLLOqUGfTCA",
+              "title": "Hua Chenyu《平凡之路》Ordinary Path \"Singer 2018\" Episode 11【Singer Official Channel】",
+              "views": 31880986,
+              "duration": "6:52",
+              "thumbnail": "https://i.ytimg.com/vi/RLLOqUGfTCA/hq720.jpg"
+            },
+            {
+              "videoId": "tb2NMFnbfoY",
+              "title": "《歌手2018》华晨宇 演唱串烧 - 音乐疯子 燃炸音符- Singer 2018【歌手官方音乐频道】",
+              "views": 5703127,
+              "duration": "1:04:56",
+              "thumbnail": "https://i.ytimg.com/vi/tb2NMFnbfoY/hq720.jpg"
+            },
+            {
+              "videoId": "qAiDhmuwT2M",
+              "title": "『向阳而生 』- 2024华晨宇火星演唱会日出live版",
+              "views": 826834,
+              "duration": "15:47",
+              "thumbnail": "https://i.ytimg.com/vi/qAiDhmuwT2M/hqdefault.jpg"
+            },
+            {
+              "videoId": "qLNEUfDVaXE",
+              "title": "Hua Chenyu《我管你》I Don't Care \"Singer 2018\" Episode 6【Singer Official Channel】",
+              "views": 13664825,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/qLNEUfDVaXE/hq720.jpg"
+            },
+            {
+              "videoId": "LxUIjDdM5dQ",
+              "title": "『不重逢』- 2024华晨宇火星演唱会live版",
+              "views": 411045,
+              "duration": "5:39",
+              "thumbnail": "https://i.ytimg.com/vi/LxUIjDdM5dQ/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "JJ Lin",
+          "channel": {
+            "id": "UCd91HSXKhsIv8PIjNrDByHQ",
+            "name": "JJ Lin林俊傑",
+            "image": "https://yt3.googleusercontent.com/88A8LNYmzNpjXeuHCAN2pK496G418wTT2CR2Qv5FGFoBPV-MKaRg7B-NeNVMlF0XHoW2AgAI_g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1640000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "V79oU4KgPLc",
+              "title": "【Official MV】Pursuit of Jade《逐玉》｜《我对缘分小心翼翼》 by Lin Junjie #林俊杰 #jj #linjunjie #cdrama #ost #music",
+              "views": 1389321,
+              "duration": "4:33",
+              "thumbnail": "https://i.ytimg.com/vi/V79oU4KgPLc/hq720.jpg"
+            },
+            {
+              "videoId": "g6nXcI7miDI",
+              "title": "林俊傑 JJ Lin｜必聽經典20首情歌MV TOP20 Video #串燒 #無間斷 #完整聆聽 #那些你很冒險的夢 #修煉愛情 #學不會 #不為誰而做的歌 #偉大的渺小 #手心的薔薇 #可惜沒如果",
+              "views": 2623884,
+              "duration": "1:40:33",
+              "thumbnail": "https://i.ytimg.com/vi/g6nXcI7miDI/hq720.jpg"
+            },
+            {
+              "videoId": "j8yO0LkqA7s",
+              "title": "林俊傑 JJ Lin《我對緣分小心翼翼 Careful with Fate》Official Music Video",
+              "views": 4122648,
+              "duration": "4:33",
+              "thumbnail": "https://i.ytimg.com/vi/j8yO0LkqA7s/hq720.jpg"
+            },
+            {
+              "videoId": "GnmYR7j40W4",
+              "title": "[ 超人气！] 林俊杰 JJ Lin 《梦想的声音》全三季合辑 Sound of My Dream Music Album /浙江卫视官方HD/",
+              "views": 13740289,
+              "duration": "2:18:27",
+              "thumbnail": "https://i.ytimg.com/vi/GnmYR7j40W4/hq720.jpg"
+            },
+            {
+              "videoId": "AwOKTcelwCA",
+              "title": "林俊傑 JJ Lin - 《一千年以後》A Thousand Years Later - JJ20 太原站現場版 Live in Taiyuan",
+              "views": 4306568,
+              "duration": "6:11",
+              "thumbnail": "https://i.ytimg.com/vi/AwOKTcelwCA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jackson Wang",
+          "channel": {
+            "id": "UCJS0K01yC8BmQtSuRdqqo3w",
+            "name": "Jackson Wang",
+            "image": "https://yt3.googleusercontent.com/07fhCTdFyr8onY9f8ZXT-V1tgVJuNUh2zb6YU_8-JP47hpuYAuaS6PJkuo_b730TzTHRK5ImjQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5360000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "QIMihDOXMpY",
+              "title": "Jackson Wang - LMLY (Official Music Video)",
+              "views": 37828381,
+              "duration": "7:46",
+              "thumbnail": "https://i.ytimg.com/vi/QIMihDOXMpY/hq720.jpg"
+            },
+            {
+              "videoId": "vz-_ZtUh8P4",
+              "title": "Jackson Wang - Made Me a Man (Official Music Video)",
+              "views": 41337599,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/vz-_ZtUh8P4/hq720.jpg"
+            },
+            {
+              "videoId": "Myox_jqrGfE",
+              "title": "Main Karambol Sama Jackson Wang",
+              "views": 1692671,
+              "duration": "36:23",
+              "thumbnail": "https://i.ytimg.com/vi/Myox_jqrGfE/hq720.jpg"
+            },
+            {
+              "videoId": "nYyKiG8oazE",
+              "title": "Full video Jackson Wang GOT 7 dan Boy William datang ke marapthon #MARAPTHON2 #YB #Tierison #LYuka",
+              "views": 92868,
+              "duration": "1:07:07",
+              "thumbnail": "https://i.ytimg.com/vi/nYyKiG8oazE/hq720.jpg"
+            },
+            {
+              "videoId": "phRgjGBEIhk",
+              "title": "GULTIK TIME WITH JACKSON WANG",
+              "views": 3938732,
+              "duration": "40:48",
+              "thumbnail": "https://i.ytimg.com/vi/phRgjGBEIhk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jacky Cheung",
+          "channel": {
+            "id": "UCq4OYN0rGrBK-cJSR-6Vorw",
+            "name": "張學友 Jacky Cheung",
+            "image": "https://yt3.googleusercontent.com/6ujEFwS27q7_qt9aNfEwra5hHja7m5-TsEBFic1xhkhpUeHFtINNJWZJ5qc_RLf_kY8Vxgd4=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 196000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "r9iC4gGRAd8",
+              "title": "🎵 [好歌重現] I Chien Ke Sang Sin Te Li You -Jacky Cheung / Seribu Alasan Yang Menyedihkan 一千个伤心的理由 (张学友）",
+              "views": 6335084,
+              "duration": "5:56",
+              "thumbnail": "https://i.ytimg.com/vi/r9iC4gGRAd8/hq720.jpg"
+            },
+            {
+              "videoId": "Yl9sIjmaZP8",
+              "title": "張學友 - 一千個傷心的理由 (Official Video)",
+              "views": 5150130,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/Yl9sIjmaZP8/hq720.jpg"
+            },
+            {
+              "videoId": "tsbQvC2GjmQ",
+              "title": "【張學友 Jacky Cheung 粵語歌曲】30首精選金曲《吻別・一千個傷心的理由・分手總要在雨天・每天愛你多一些…》",
+              "views": 45542,
+              "duration": "1:54:38",
+              "thumbnail": "https://i.ytimg.com/vi/tsbQvC2GjmQ/hq720.jpg"
+            },
+            {
+              "videoId": "4ZAt3osKOXE",
+              "title": "祇想一生跟你走",
+              "views": 11822512,
+              "duration": "5:12",
+              "thumbnail": "https://i.ytimg.com/vi/4ZAt3osKOXE/hq720.jpg"
+            },
+            {
+              "videoId": "ygQlT8ZXf48",
+              "title": "【張學友 Jacky Cheung 粵語歌曲】20首精選金曲《分手總要在雨天・一千個傷心的理由・藍雨・暗戀你…》",
+              "views": 65120,
+              "duration": "1:27:37",
+              "thumbnail": "https://i.ytimg.com/vi/ygQlT8ZXf48/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jane Zhang",
+          "channel": {
+            "id": "UCqCKCd2zu1Kwi9SdPnsOBbQ",
+            "name": "張靚穎 Jane Zhang",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_m76gG4dft1rvtrtzZuypm2SDY_6O_TAxtCVRta1URvUA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 138000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "W1Ot072o450",
+              "title": "[ 超人气！] 张靓颖 Jane Zhang《梦想的声音》全三季合辑 Sound of My Dream Music Album /浙江卫视官方HD/",
+              "views": 2712043,
+              "duration": "1:32:10",
+              "thumbnail": "https://i.ytimg.com/vi/W1Ot072o450/hq720.jpg"
+            },
+            {
+              "videoId": "2AXqXIQjAHI",
+              "title": "Flashlight + You Ain't Right (Live)",
+              "views": 237014,
+              "duration": "4:54",
+              "thumbnail": "https://i.ytimg.com/vi/2AXqXIQjAHI/hq720.jpg"
+            },
+            {
+              "videoId": "fWtzfoa4Lzc",
+              "title": "[Stage] Jessie J &Jane Zhang \"Flashlight\" & \"You Ain't Right\" | Sing!Asia | iQIYI SuperShow",
+              "views": 2154094,
+              "duration": "4:55",
+              "thumbnail": "https://i.ytimg.com/vi/fWtzfoa4Lzc/hq720.jpg"
+            },
+            {
+              "videoId": "kJl2uPNsJEk",
+              "title": "[官方版]Jane Zhang-The Diva Dance(from the Fifth Element)(張靚穎演繹第五元素神曲)",
+              "views": 13225076,
+              "duration": "4:47",
+              "thumbnail": "https://i.ytimg.com/vi/kJl2uPNsJEk/hq720.jpg"
+            },
+            {
+              "videoId": "PGVo4pZIWj8",
+              "title": "王力宏 Wang Leehom & 張靚穎 Jane Zhang 「最好的地方」The Best Place《另一個天堂》現場官攝 Official Video",
+              "views": 1045856,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/PGVo4pZIWj8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jay Chou",
+          "channel": {
+            "id": "UC8CU5nVhCQIdAGrFFp4loOQ",
+            "name": "周杰倫 Jay Chou",
+            "image": "https://yt3.googleusercontent.com/FPqiPaQ9oLussTZPAGcHkQPvv6r9EsxkLjepbYCLV53ZoAq6IYRTU_ld8JflMg3rt4-NTQ9URg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3380000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "bu7nU9Mhpyo",
+              "title": "周杰倫 Jay Chou (特別演出: 派偉俊)【告白氣球 Love Confession】Official MV",
+              "views": 278661748,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/bu7nU9Mhpyo/hq720.jpg"
+            },
+            {
+              "videoId": "MVD7fhKgGzc",
+              "title": "周杰倫最好聽的20首歌曲 | 在雨天聽周杰倫－絕佳的選擇 | Listening to Jay Chou on a rainy day - An excellent choice",
+              "views": 681743,
+              "duration": "1:26:32",
+              "thumbnail": "https://i.ytimg.com/vi/MVD7fhKgGzc/hq720.jpg"
+            },
+            {
+              "videoId": "Z8Mqw0b9ADs",
+              "title": "周杰倫 Jay Chou【青花瓷 Blue and White Porcelain】-Official Music Video",
+              "views": 71882590,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/Z8Mqw0b9ADs/hqdefault.jpg"
+            },
+            {
+              "videoId": "PJyFND4-zR4",
+              "title": "Jay Chou 周杰倫【Aurora in July 七月的極光】Official Music Video",
+              "views": 3150043,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/PJyFND4-zR4/hq720.jpg"
+            },
+            {
+              "videoId": "ZLldhJXp7iw",
+              "title": "Jay Chou 周杰倫【Aegean Sea 愛琴海】Official Music Video",
+              "views": 7559921,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/ZLldhJXp7iw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Joker Xue",
+          "channel": {
+            "id": "UCrLF3ndpdxlHgtrjoDkK6lw",
+            "name": "薛之謙 JokerXue",
+            "image": "https://yt3.googleusercontent.com/u8tcXDcVOviBOzM0y5T2vZYSJe2BjV0uKG-EXH4l-wB_BFPV5SXDt2CZICji574S8BO3Hsrz=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 156000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "XaN3kUz4KSw",
+              "title": "薛之謙 Joker Xue【演員】Official Music Video",
+              "views": 10121762,
+              "duration": "4:59",
+              "thumbnail": "https://i.ytimg.com/vi/XaN3kUz4KSw/hq720.jpg"
+            },
+            {
+              "videoId": "FgienBFIEsw",
+              "title": "薛之謙 Joker Xue 1",
+              "views": 96261,
+              "duration": "1:03:47",
+              "thumbnail": "https://i.ytimg.com/vi/FgienBFIEsw/hq720.jpg"
+            },
+            {
+              "videoId": "rD2IXdpwmkc",
+              "title": "薛之謙 Joker Xue《租購》｜Official Music Video",
+              "views": 6083905,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/rD2IXdpwmkc/hq720.jpg"
+            },
+            {
+              "videoId": "SfE6cG4KfHA",
+              "title": "薛之謙 Joker Xue《天外來物》Official Music Video",
+              "views": 3188305,
+              "duration": "5:32",
+              "thumbnail": "https://i.ytimg.com/vi/SfE6cG4KfHA/hq720.jpg"
+            },
+            {
+              "videoId": "MZyXT03cKKs",
+              "title": "Stage: Joker Xue \"Mediocre\" | Crush of Music | iQIYI LifeShow",
+              "views": 857367,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/MZyXT03cKKs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jolin Tsai",
+          "channel": {
+            "id": "UCZxdOVXIBEnJUQkhZgeOTTg",
+            "name": "JOLIN 蔡依林",
+            "image": "https://yt3.googleusercontent.com/TYWlTSzOg3bE438PLfKe5QFf_DroBWY7ud9siD09Z4o84WcXCtfj6QkfI8YrJIuGXLitbMKIHpI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1110000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "cOBQgUZnceg",
+              "title": "蔡依林 Jolin Tsai - 說愛你",
+              "views": 42373629,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/cOBQgUZnceg/hq720.jpg"
+            },
+            {
+              "videoId": "Ti-rIlxY79w",
+              "title": "【一小時純享版】蔡依林 Jolin Tsai - 20首經典必聽舊歌串燒【無損高音質】",
+              "views": 117787,
+              "duration": "1:18:03",
+              "thumbnail": "https://i.ytimg.com/vi/Ti-rIlxY79w/hq720.jpg"
+            },
+            {
+              "videoId": "j1TTQREaZMg",
+              "title": "JOLIN 蔡依林《Pleasure》Official Music Video",
+              "views": 6962366,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/j1TTQREaZMg/hq720.jpg"
+            },
+            {
+              "videoId": "b7rGJMEEO2Q",
+              "title": "JOLIN 蔡依林《布拉格廣場 Prague Square (JOLIN Version)》- 星宇航空布拉格開航主題曲 Official Music Video",
+              "views": 3976937,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/b7rGJMEEO2Q/hq720.jpg"
+            },
+            {
+              "videoId": "B94n5Lbj4aw",
+              "title": "蔡依林 Jolin Tsai - 看我七十二變",
+              "views": 15459817,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/B94n5Lbj4aw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Karen Mok",
+          "channel": {
+            "id": "UC4j-tiYqQB4fNbKugcr9-gQ",
+            "name": "莫文蔚 Karen Mok",
+            "image": "https://yt3.googleusercontent.com/QGyagzcgqjWRa1ViuuYVTQheXc3b5iAE5CZc6HgoP9TXtBYmCaMJ85pB1zW6nsfMAyVNY0n_yg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 187000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "xLscpRjb8DI",
+              "title": "莫文蔚 Karen Mok《這世界那麼多人 Empty World》Official MV - 電影「我要我們在一起」主題曲",
+              "views": 27553824,
+              "duration": "5:07",
+              "thumbnail": "https://i.ytimg.com/vi/xLscpRjb8DI/hq720.jpg"
+            },
+            {
+              "videoId": "ILhbgBy688E",
+              "title": "最好的莫文蔚 Best of Karen Mok",
+              "views": 468008,
+              "duration": "4:21:21",
+              "thumbnail": "https://i.ytimg.com/vi/ILhbgBy688E/hq720.jpg"
+            },
+            {
+              "videoId": "kqqraGvoqVs",
+              "title": "莫文蔚 Karen Mok《慢慢喜歡你》Official Music Video",
+              "views": 7191017,
+              "duration": "6:08",
+              "thumbnail": "https://i.ytimg.com/vi/kqqraGvoqVs/hq720.jpg"
+            },
+            {
+              "videoId": "h1tNw1aFzSM",
+              "title": "莫文蔚 Karen Mok【忽然之間 Suddenly】Official Music Video",
+              "views": 17998564,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/h1tNw1aFzSM/hqdefault.jpg"
+            },
+            {
+              "videoId": "qs5QEcLPdYw",
+              "title": "【纯享】#莫文蔚 演唱 《#如果没有你 》极具故事感的嗓音缓缓流淌，用歌声将孤寂与眷恋，唱成穿透时光的告白 | 我想和你唱3 | Come Sing With Me S3 | MangoTV",
+              "views": 10691730,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/qs5QEcLPdYw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kris Wu",
+          "channel": {
+            "id": "UChJL-1USNhbwfZa4tj0MrmA",
+            "name": "SIMON LEE",
+            "image": "https://yt3.googleusercontent.com/zipmr2WAH1fnt09xeDtC2JKVhgXFkhIC-AfFwDgq9awu1t4v3chSHepeSOxJZyOhSr9HG5cuCA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1190000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "i4kmXoOxHnA",
+              "title": "Kasus Kris Wu Semakin Panas, Muncul Bukti Chat Baru!",
+              "views": 29780,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/i4kmXoOxHnA/hq720.jpg"
+            },
+            {
+              "videoId": "344P33N9lzc",
+              "title": "Kris Wu - July (Official Music Video)",
+              "views": 1103409,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/344P33N9lzc/hqdefault.jpg"
+            },
+            {
+              "videoId": "b92jWlx-Mcw",
+              "title": "Kris Wu - November Rain",
+              "views": 28489684,
+              "duration": "3:32",
+              "thumbnail": "https://i.ytimg.com/vi/b92jWlx-Mcw/hq720.jpg"
+            },
+            {
+              "videoId": "5CN9NEpifhw",
+              "title": "Kris Wu - Like That",
+              "views": 35535,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/5CN9NEpifhw/hq720.jpg"
+            },
+            {
+              "videoId": "Ok0hHBHH-R0",
+              "title": "Kris Wu - Coupe ft. Rich The Kid",
+              "views": 3645873,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/Ok0hHBHH-R0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kun",
+          "channel": {
+            "id": "UCDVsWAp1ohSlsLVTeSzHeLg",
+            "name": "KUN 蔡徐坤",
+            "image": "https://yt3.googleusercontent.com/APSA9-AglYL-7Nir-_nxhpzjvaAh1i_svlTHsyLbAuhNYE_UlAK4OsgIPI8siPW4PlADVXDTBg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 331000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "TPyS382hHYM",
+              "title": "KUN - Deadman (Official Video)",
+              "views": 3510679,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/TPyS382hHYM/hq720.jpg"
+            },
+            {
+              "videoId": "FNzwYJDBYqw",
+              "title": "KUN - What a Day (Official Video)",
+              "views": 1188365,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/FNzwYJDBYqw/hq720.jpg"
+            },
+            {
+              "videoId": "PUBLUpMw1pw",
+              "title": "KUN - Colder (Official Video)",
+              "views": 4590684,
+              "duration": "4:23",
+              "thumbnail": "https://i.ytimg.com/vi/PUBLUpMw1pw/hq720.jpg"
+            },
+            {
+              "videoId": "Xqny9X_PHgA",
+              "title": "Welcome to Demon School! Iruma-kun S4 - Episode 08 [Takarir Indonesia]",
+              "views": 156548,
+              "duration": "25:01",
+              "thumbnail": "https://i.ytimg.com/vi/Xqny9X_PHgA/hq720.jpg"
+            },
+            {
+              "videoId": "LMm6mCrhDt0",
+              "title": "Genos is in severe shock, Kuseno turns out to be a crazy cyborg!!! Saitama rushes to help!! (One ...",
+              "views": 13807,
+              "duration": "9:49",
+              "thumbnail": "https://i.ytimg.com/vi/LMm6mCrhDt0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lay Zhang",
+          "channel": {
+            "id": "UCROoY31pgrU66oSzkYdWWmw",
+            "name": "LAY",
+            "image": "https://yt3.googleusercontent.com/WH_68jxOoCWw8FqFIuXDQTCzvXcfdyvnr6V_Q1NXZq89NGTMaUOrak7N8ouWIuinzBkHfXONbw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1720000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "j4qVhOaRBSY",
+              "title": "LAY '莲 (Lit)' MV",
+              "views": 29303808,
+              "duration": "5:18",
+              "thumbnail": "https://i.ytimg.com/vi/j4qVhOaRBSY/hq720.jpg"
+            },
+            {
+              "videoId": "9kJdXaRbcTE",
+              "title": "LAY - 开天(Kai Tian) (Official Music Video)",
+              "views": 5390219,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/9kJdXaRbcTE/hq720.jpg"
+            },
+            {
+              "videoId": "bcUUHdHaf3k",
+              "title": "LAY, Lauv - Run Back To You (Official Music Video)",
+              "views": 16213584,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/bcUUHdHaf3k/hq720.jpg"
+            },
+            {
+              "videoId": "K4G2D6xSEMk",
+              "title": "LAY ZHANG ‘VEIL’ OFFICIAL MV",
+              "views": 12670622,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/K4G2D6xSEMk/hq720.jpg"
+            },
+            {
+              "videoId": "__xgc60PR-s",
+              "title": "LAY ZHANG - BIRD'S NEST CONCERT 2025",
+              "views": 100491,
+              "duration": "2:08:42",
+              "thumbnail": "https://i.ytimg.com/vi/__xgc60PR-s/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Leon Lai",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "GuBjERCS-3s",
+              "title": "Leon Lai-  Sausalito - English Version- Subs",
+              "views": 242379,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/GuBjERCS-3s/hqdefault.jpg"
+            },
+            {
+              "videoId": "K2O5iwJlT0A",
+              "title": "【黎明 Leon Lai 粵語歌曲】20首精選金曲《今夜妳會不會來・情深說話未曾講・夏日傾情・那有一天不想你》",
+              "views": 7249,
+              "duration": "44:23",
+              "thumbnail": "https://i.ytimg.com/vi/K2O5iwJlT0A/hq720.jpg"
+            },
+            {
+              "videoId": "y9olh0NS6oc",
+              "title": "Sausalito",
+              "views": 80652,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/y9olh0NS6oc/hq720.jpg"
+            },
+            {
+              "videoId": "NYuE8mJi1j4",
+              "title": "今夜妳會不會來",
+              "views": 2218721,
+              "duration": "4:14",
+              "thumbnail": "https://i.ytimg.com/vi/NYuE8mJi1j4/hq720.jpg"
+            },
+            {
+              "videoId": "pPs_NcTd4zI",
+              "title": "1小時音樂 | Leon Lai 黎明電音舞曲重溫 | 全日愛、Sugar In The Marmalade、越夜越有機、眼睛想旅行",
+              "views": 953933,
+              "duration": "52:58",
+              "thumbnail": "https://i.ytimg.com/vi/pPs_NcTd4zI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lexie Liu",
+          "channel": {
+            "id": "UCrWmDUvmK1LmFKjqTrfx_Kw",
+            "name": "Lexie Liu",
+            "image": "https://yt3.googleusercontent.com/zAxPqMX1rIWMjrzOlCJfM4RC7bixhlwOstG5fee_ZsDpdX6fs7E67LU1QvSgBBjVnYd041J8Vw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 280000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dpP_C_LnA1c",
+              "title": "Lexie Liu - X (Official Video)",
+              "views": 1539955,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/dpP_C_LnA1c/hq720.jpg"
+            },
+            {
+              "videoId": "4dBG1gVfEV4",
+              "title": "Lexie Liu - 佳人 (Official Video)",
+              "views": 5777651,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/4dBG1gVfEV4/hq720.jpg"
+            },
+            {
+              "videoId": "K5aF9hmnTxs",
+              "title": "Lexie Liu - POP GIRL (Official Video)",
+              "views": 1641847,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/K5aF9hmnTxs/hq720.jpg"
+            },
+            {
+              "videoId": "d_Bu_sWxQoI",
+              "title": "Lexie Liu - MAGICIAN (Official Video)",
+              "views": 5034237,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/d_Bu_sWxQoI/hq720.jpg"
+            },
+            {
+              "videoId": "4fvUnPl5_BA",
+              "title": "Lexie Liu  - Manta (Official Video)",
+              "views": 9552541,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/4fvUnPl5_BA/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Li Ronghao",
+          "channel": {
+            "id": "UCbGkxRgcnFTNNh3FDJOoJHA",
+            "name": "李榮浩 Ronghao Li",
+            "image": "https://yt3.googleusercontent.com/JQqxjz3MMwFDyLtX1E_zOPOt6-2b8uGfTvFOoNytlbv78KLlzYKbRRnHoaQG4o0bV8_YAaSL=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 373000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Dnj5Tcpev0Q",
+              "title": "李榮浩 Ronghao Li - 年少有為 If I Were Young (華納 Official HD 官方MV)",
+              "views": 166261079,
+              "duration": "4:59",
+              "thumbnail": "https://i.ytimg.com/vi/Dnj5Tcpev0Q/hqdefault.jpg"
+            },
+            {
+              "videoId": "VnylgbXWciM",
+              "title": "李榮浩 必聽經典20首 | Ronghao Li TOP20 MV 串燒 無間斷 完整聆聽 KTV必唱 經典K歌 年少有為 耳朵 不將就 爸爸媽媽 不搭 就這樣 戒菸",
+              "views": 565983,
+              "duration": "1:38:01",
+              "thumbnail": "https://i.ytimg.com/vi/VnylgbXWciM/hq720.jpg"
+            },
+            {
+              "videoId": "5RlEWndW0bE",
+              "title": "李榮浩 Ronghao Li《戀人 Lovers》Official Music Video",
+              "views": 4267777,
+              "duration": "4:37",
+              "thumbnail": "https://i.ytimg.com/vi/5RlEWndW0bE/hq720.jpg"
+            },
+            {
+              "videoId": "1g_5kANe-PE",
+              "title": "No Regret (Live)",
+              "views": 2675261,
+              "duration": "5:20",
+              "thumbnail": "https://i.ytimg.com/vi/1g_5kANe-PE/hq720.jpg"
+            },
+            {
+              "videoId": "RP09BroTCS0",
+              "title": "李荣浩 Li Rong Hao - 不遗憾 Bu Yi Han / No Regrets (你的婚礼 My Love 2021 OST Theme Song) Lyrics Pinyin 青春有你3",
+              "views": 594908,
+              "duration": "5:11",
+              "thumbnail": "https://i.ytimg.com/vi/RP09BroTCS0/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Liu Huan",
+          "channel": {
+            "id": "UCrf9aEW9Q13sMDlOSW49q1w",
+            "name": "Liu Huan - Topic",
+            "image": "https://yt3.ggpht.com/hyCy_GGCzI0A6IZfzv8rKSTP1n-XVexqwDZxWcZ8uVhnAMNBmUPhYn-oR-b9LwdohL-DqOuBAA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "7p5BgCENlzk",
+              "title": "【纯享版】刘欢《弯弯的月亮》 《歌手2019》第10期 Singer 2019 EP10【湖南卫视官方HD】",
+              "views": 1640178,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/7p5BgCENlzk/hq720.jpg"
+            },
+            {
+              "videoId": "4W03-teQ17g",
+              "title": "刘欢 - 从头再来中英文歌词/Liu Huan - Starting Over Again Chinese and English Lyrics",
+              "views": 6096,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/4W03-teQ17g/hq720.jpg"
+            },
+            {
+              "videoId": "tdOtRidXhnE",
+              "title": "Liu Huan 刘欢 - Crescent 弯弯的月亮",
+              "views": 135557,
+              "duration": "4:51",
+              "thumbnail": "https://i.ytimg.com/vi/tdOtRidXhnE/hq720.jpg"
+            },
+            {
+              "videoId": "dnFx0ekk-qc",
+              "title": "Liu Huan - Hao Han Ge (Lyrics Translation + Pinyin)  刘欢- 好汉歌【中英文歌词】",
+              "views": 77711,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/dnFx0ekk-qc/hq720.jpg"
+            },
+            {
+              "videoId": "M3zGePrqKI0",
+              "title": "Genshin Impact X Sanxingdui Museum Collaboration Event Promotional Song: \"Bronze\" (By Liu Huan)",
+              "views": 175373,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/M3zGePrqKI0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Luhan",
+          "channel": {
+            "id": "UCs8vzRkxMRGW5x7AGwPOWtQ",
+            "name": "LuHan Studio",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_nSl5UKoEwnhk9Krux9jbiqP28I7u8xDHvXT46feU1ADFE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 768000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "dAoWaqxBiWc",
+              "title": "LUHAN鹿晗‘Seasons’ LP Album Design: Behind the Scenes",
+              "views": 1414,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/dAoWaqxBiWc/hq720.jpg"
+            },
+            {
+              "videoId": "ug3D2fkqb0A",
+              "title": "LuHan鹿晗《That GoodGood》MV简体版",
+              "views": 1804409,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/ug3D2fkqb0A/hq720.jpg"
+            },
+            {
+              "videoId": "zMuYsvnLG_U",
+              "title": "諾言",
+              "views": 159051,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/zMuYsvnLG_U/hq720.jpg"
+            },
+            {
+              "videoId": "_XcvJivo-08",
+              "title": "LuHan鹿晗_Promises诺言_Music Video",
+              "views": 1135714,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/_XcvJivo-08/hq720.jpg"
+            },
+            {
+              "videoId": "unyQGzD0ti0",
+              "title": "王力宏 Wang Leehom & 鹿晗 Luhan 「最好的地方」The Best Place《春雨裡洗過的太陽》現場官攝 Official Vide",
+              "views": 435893,
+              "duration": "4:43",
+              "thumbnail": "https://i.ytimg.com/vi/unyQGzD0ti0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mao Buyi",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "9C3Nd5dRin8",
+              "title": "『MV』毛不易Mao Buyi - 消愁 官方高畫質 Official HD MV",
+              "views": 8638455,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/9C3Nd5dRin8/hq720.jpg"
+            },
+            {
+              "videoId": "SID9AIGTVso",
+              "title": "● Unsullied ● Mao Buyi (Chi/Pinyin/Eng)",
+              "views": 3470426,
+              "duration": "5:26",
+              "thumbnail": "https://i.ytimg.com/vi/SID9AIGTVso/hq720.jpg"
+            },
+            {
+              "videoId": "-EH9SUzCgms",
+              "title": "[Vietsub/Pinyin] Bất nhiễm - Mao Bất Dịch | OST Hương Mật Tựa Khói Sương",
+              "views": 17129346,
+              "duration": "5:26",
+              "thumbnail": "https://i.ytimg.com/vi/-EH9SUzCgms/hq720.jpg"
+            },
+            {
+              "videoId": "KLhVaPKRYUk",
+              "title": "毛不易|伤感歌曲合集|Sad song of Mao Buyi（完整版|full）",
+              "views": 1186614,
+              "duration": "22:15",
+              "thumbnail": "https://i.ytimg.com/vi/KLhVaPKRYUk/hq720.jpg"
+            },
+            {
+              "videoId": "P_lxZhFYohg",
+              "title": "『MV』毛不易Mao Buyi - 給妳給我 官方高畫質 Official HD MV",
+              "views": 1391163,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/P_lxZhFYohg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mayday",
+          "channel": {
+            "id": "UCeRxxz9ByOqdd8A-0iF_Idg",
+            "name": "Mayday: Air Disaster",
+            "image": "https://yt3.ggpht.com/yTgxEFKaxagjgrHPtaNf8Lti6WITmkPgOs9TD73zBwR6zU4NfSsboQEWRAlGA-r6O7AFAL7-hA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1060000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "DT61L8hbbJ4",
+              "title": "TheFatRat - MAYDAY feat. Laura Brehm",
+              "views": 57636478,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/DT61L8hbbJ4/hq720.jpg"
+            },
+            {
+              "videoId": "fwQj6UcX4F0",
+              "title": "United Flight 585 The 10 Year Investigation | Mayday: Air Disaster",
+              "views": 95694,
+              "duration": "2:27:03",
+              "thumbnail": "https://i.ytimg.com/vi/fwQj6UcX4F0/hq720.jpg"
+            },
+            {
+              "videoId": "7e2uz0nWGsg",
+              "title": "Mayday",
+              "views": 783340,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/7e2uz0nWGsg/hq720.jpg"
+            },
+            {
+              "videoId": "YcId96Zg3TQ",
+              "title": "Flight 529 Lost Its Wing and Still Landed | Mayday: Air Disaster",
+              "views": 91602,
+              "duration": "2:32:04",
+              "thumbnail": "https://i.ytimg.com/vi/YcId96Zg3TQ/hq720.jpg"
+            },
+            {
+              "videoId": "nfmkoVKXT7s",
+              "title": "Plane Crashes Into Mountain After Navigation Error | Mayday Air Disaster | S2 EP5",
+              "views": 348084,
+              "duration": "52:01",
+              "thumbnail": "https://i.ytimg.com/vi/nfmkoVKXT7s/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Na Ying",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "XJVuKRMogfE",
+              "title": "那英 Na Ying《默 Silent》MV - 電影『何以笙簫默』主題曲 1080P",
+              "views": 704483,
+              "duration": "5:08",
+              "thumbnail": "https://i.ytimg.com/vi/XJVuKRMogfE/hq720.jpg"
+            },
+            {
+              "videoId": "nfiwnKh589Q",
+              "title": "【纯享】#那英 #孙楠 《只要有你》当熟悉的声音交织,时光仿佛倒流｜《声生不息·华流季》Infinity And Beyond·Mandopop｜ MangoTV",
+              "views": 230382,
+              "duration": "5:00",
+              "thumbnail": "https://i.ytimg.com/vi/nfiwnKh589Q/hq720.jpg"
+            },
+            {
+              "videoId": "-_R4Vs3WG5k",
+              "title": "Just like a Dream",
+              "views": 5402847,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/-_R4Vs3WG5k/hq720.jpg"
+            },
+            {
+              "videoId": "oQpktYKlKXU",
+              "title": "那英 Na Ying - 夢一場 Just Like A Dream (官方完整版MV)",
+              "views": 3264470,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/oQpktYKlKXU/hqdefault.jpg"
+            },
+            {
+              "videoId": "WFKR0LVib3M",
+              "title": "【纯享】那英《掉了》以歌声抚慰失去重要之人而郁郁满怀的心｜声生不息宝岛季 EP11 Infinity and Beyond 2023 | MangoTV",
+              "views": 2262237,
+              "duration": "3:48",
+              "thumbnail": "https://i.ytimg.com/vi/WFKR0LVib3M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pu Shu",
+          "channel": {
+            "id": "UCPisO2j3xd_R1sITJeRLNvA",
+            "name": "Pu Shu - Topic",
+            "image": "https://yt3.ggpht.com/41Xo18zAAnSlJKhwZf-GZBAIaL68s1tPTxrD2qtrxE2tJpnVlSRe0i63Gm58kWFq8pvFiSyc-w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 12400,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "867jz5wd1ME",
+              "title": "PU SHU The Road to Ordinariness 朴树 平凡之路 Pinyin English",
+              "views": 2540902,
+              "duration": "5:03",
+              "thumbnail": "https://i.ytimg.com/vi/867jz5wd1ME/hq720.jpg"
+            },
+            {
+              "videoId": "ecTSlaNM0Z0",
+              "title": "朴树《平凡之路》Official MV",
+              "views": 23117607,
+              "duration": "5:06",
+              "thumbnail": "https://i.ytimg.com/vi/ecTSlaNM0Z0/hqdefault.jpg"
+            },
+            {
+              "videoId": "6q5Syk54i9U",
+              "title": "平凡之路",
+              "views": 30625431,
+              "duration": "5:01",
+              "thumbnail": "https://i.ytimg.com/vi/6q5Syk54i9U/hq720.jpg"
+            },
+            {
+              "videoId": "ExSGYFBPuu0",
+              "title": "《Ordinary Path》+ 《The brightest star in night sky》丨MangoTV",
+              "views": 54828674,
+              "duration": "5:59",
+              "thumbnail": "https://i.ytimg.com/vi/ExSGYFBPuu0/hq720.jpg"
+            },
+            {
+              "videoId": "_B5Vq61UXK0",
+              "title": "【B站夏日毕业歌会】朴树 | 生如夏花 + Forever Young + 平凡之路",
+              "views": 1562844,
+              "duration": "16:47",
+              "thumbnail": "https://i.ytimg.com/vi/_B5Vq61UXK0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "S.H.E.",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "kO5g2KEBAwY",
+              "title": "She - Selingkuh Sekali Saja (Video Clip)",
+              "views": 3664905,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/kO5g2KEBAwY/hq720.jpg"
+            },
+            {
+              "videoId": "AdA2JWrUb5k",
+              "title": "She - Slow Down Baby (VIDEO CLIP)",
+              "views": 5330791,
+              "duration": "3:43",
+              "thumbnail": "https://i.ytimg.com/vi/AdA2JWrUb5k/hq720.jpg"
+            },
+            {
+              "videoId": "O040xuq2FR0",
+              "title": "Elvis Costello 'She'",
+              "views": 38325169,
+              "duration": "3:09",
+              "thumbnail": "https://i.ytimg.com/vi/O040xuq2FR0/hqdefault.jpg"
+            },
+            {
+              "videoId": "HVfczCyimko",
+              "title": "She - Selingkuh Sekali Saja (Official Lyric Video)",
+              "views": 154391,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/HVfczCyimko/hq720.jpg"
+            },
+            {
+              "videoId": "W43b51K8P3c",
+              "title": "She - Bukan Untuk Sembarang Hati (Official Lyric Video)",
+              "views": 166576,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/W43b51K8P3c/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sandy Lam",
+          "channel": {
+            "id": "UCBnAMXi2m1Wj2KVyh9xbEaw",
+            "name": "Sandy Lam Official Channel 林憶蓮官方頻道",
+            "image": "https://yt3.googleusercontent.com/bb4i17HZx2B2YjEZkIOMHUm4YBg4dctbxjmLD3eOLhiPZX4RtOVXu6z3Lsd8XFwljcDVvk0C3A=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 45000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "zZbmvGyq-gY",
+              "title": "林憶蓮 Sandy Lam - 至少還有你 At Least I've Got You | Lyric Video [Chn | Pinyin | Eng Lyrics]",
+              "views": 142415,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/zZbmvGyq-gY/hq720.jpg"
+            },
+            {
+              "videoId": "dLz1buYxMKo",
+              "title": "Sandy Lam (林憶蓮) - Zhi Shao Hai You Ni (至少還有你) | Acoustic Cover by FM Station",
+              "views": 198291,
+              "duration": "4:29",
+              "thumbnail": "https://i.ytimg.com/vi/dLz1buYxMKo/hq720.jpg"
+            },
+            {
+              "videoId": "Wxjs85PZGsk",
+              "title": "【#林忆莲 only】 “殿堂金声”林忆莲温暖开唱  低吟时如细雨叩窗，高亢处似春雷破云Ⅰ我是歌手人气歌王Ⅰ林忆莲单曲合集 I AM A SINGER 4 | Mango TV",
+              "views": 3844584,
+              "duration": "1:04:32",
+              "thumbnail": "https://i.ytimg.com/vi/Wxjs85PZGsk/hq720.jpg"
+            },
+            {
+              "videoId": "pQlAWZLOpgo",
+              "title": "林憶蓮 Sandy Lam - 至少還有你 At Least I've Got You (官方完整版MV)",
+              "views": 41064444,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/pQlAWZLOpgo/hqdefault.jpg"
+            },
+            {
+              "videoId": "ANndlMAk1gg",
+              "title": "THE SINGER 2017 Sandy Lam 《My Dearest》Ep.4 Single 20170211【Hunan TV Official 1080P】",
+              "views": 11492181,
+              "duration": "5:05",
+              "thumbnail": "https://i.ytimg.com/vi/ANndlMAk1gg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sodagreen",
+          "channel": {
+            "id": "UCHpl3POkbXmgqHsyCaBQuLQ",
+            "name": "sodagreen_aka_oaeen",
+            "image": "https://yt3.ggpht.com/2KfCnxFMRhTuue9qJlC6EvCPnxM36EODO1sXwidud0qF0Ane8Dv7RwEqkLawqHlKfVxW3KpjwgE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 143000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "qXv7POo5MNI",
+              "title": "蘇打綠 sodagreen -【無眠】Official Music Video",
+              "views": 23102750,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/qXv7POo5MNI/hqdefault.jpg"
+            },
+            {
+              "videoId": "in8NNzwFa-s",
+              "title": "蘇打綠 sodagreen -【小情歌】Official Music Video",
+              "views": 33575977,
+              "duration": "4:40",
+              "thumbnail": "https://i.ytimg.com/vi/in8NNzwFa-s/hqdefault.jpg"
+            },
+            {
+              "videoId": "P_pyfLArjQg",
+              "title": "蘇打綠 sodagreen - 【我好想你】「小時代」電影主題曲MV",
+              "views": 77938438,
+              "duration": "5:27",
+              "thumbnail": "https://i.ytimg.com/vi/P_pyfLArjQg/hq720.jpg"
+            },
+            {
+              "videoId": "8PSvDdL2BPs",
+              "title": "蘇打綠 sodagreen -【再遇見】Official Music Video",
+              "views": 23406674,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/8PSvDdL2BPs/hqdefault.jpg"
+            },
+            {
+              "videoId": "_k3wjHT5m2E",
+              "title": "蘇打綠 sodagreen - 【故事 (Endless Story Live) 】 Official Music Video",
+              "views": 4903295,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/_k3wjHT5m2E/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sun Nan",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "aZCt73Rx2Ow",
+              "title": "孫楠《嘉賓》“感謝你特別邀請 來見證你的愛情” 孫楠唱到全場淚奔 #Music #live #為歌而讚",
+              "views": 1726840,
+              "duration": "6:29",
+              "thumbnail": "https://i.ytimg.com/vi/aZCt73Rx2Ow/hq720.jpg"
+            },
+            {
+              "videoId": "R8Lxo8uaOhU",
+              "title": "Sun Nan Han Hong   Endless Love MV",
+              "views": 143457,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/R8Lxo8uaOhU/hqdefault.jpg"
+            },
+            {
+              "videoId": "5rZAGKlYeH8",
+              "title": "【黑胶无损】#孙楠 #韩红《#美丽的神话》万世沧桑  穿越岁月 | #声生不息家年华 #InfinityAndBeyond | MangoTV",
+              "views": 784699,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/5rZAGKlYeH8/hq720.jpg"
+            },
+            {
+              "videoId": "nfiwnKh589Q",
+              "title": "【纯享】#那英 #孙楠 《只要有你》当熟悉的声音交织,时光仿佛倒流｜《声生不息·华流季》Infinity And Beyond·Mandopop｜ MangoTV",
+              "views": 230382,
+              "duration": "5:00",
+              "thumbnail": "https://i.ytimg.com/vi/nfiwnKh589Q/hq720.jpg"
+            },
+            {
+              "videoId": "UrG-TGuezGU",
+              "title": "以前的歌手都是真唱！孙楠《留什么给你》#sunnan #孙楠 #中国好歌曲",
+              "views": 23270,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/UrG-TGuezGU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tanya Chua",
+          "channel": {
+            "id": "UC15Z8k3NNQ1LQnRqFwVcOkQ",
+            "name": "蔡健雅 Tanya Chua",
+            "image": "https://yt3.googleusercontent.com/Oc0PqLFCeKxqY6MwAMURqWG9e7bAyC2px2jzZSvszrZvE0rFtKujDwOY-JMl_rPsTQPVftszJtI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 237000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "gQJbdz_5054",
+              "title": "蔡健雅 Tanya Chua -《善良的我們 Learn To Live Again》【影集「不夠善良的我們」片尾曲】Official MV",
+              "views": 4683996,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/gQJbdz_5054/hq720.jpg"
+            },
+            {
+              "videoId": "B8hael6Zvx8",
+              "title": "蔡健雅 Tanya Chua 精選情歌 TOP 10 官方完整版 4K MV (Official 4K UltraHD Video)",
+              "views": 196505,
+              "duration": "46:11",
+              "thumbnail": "https://i.ytimg.com/vi/B8hael6Zvx8/hq720.jpg"
+            },
+            {
+              "videoId": "fKcxM0kWqWc",
+              "title": "紅色高跟鞋",
+              "views": 21362479,
+              "duration": "3:27",
+              "thumbnail": "https://i.ytimg.com/vi/fKcxM0kWqWc/hq720.jpg"
+            },
+            {
+              "videoId": "paecvB1-uPE",
+              "title": "蔡健雅 Tanya Chua -《讓浪漫作主 / Romanticism》Official MV",
+              "views": 7742886,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/paecvB1-uPE/hq720.jpg"
+            },
+            {
+              "videoId": "hPShCoap2Cw",
+              "title": "蔡健雅 Tanya Chua - 【墜落】[Official Music Video]完整放映",
+              "views": 5405942,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/hPShCoap2Cw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tao",
+          "channel": {
+            "id": "UCIc2Qiev27Nkxsr_XuYQZOw",
+            "name": "Tao",
+            "image": "https://yt3.ggpht.com/xXHwbi5RBunUDsLzJxUHVrdNupf1yoojPIzGzLHV2kRWQrR1nXYXpCOZCC0y_1uYTjT_kW34x8A=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 187000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "WdUrBBGzDFU",
+              "title": "💀 $650M TAO Exit - Bittensor's Bitter Pill",
+              "views": 1628,
+              "duration": "8:09",
+              "thumbnail": "https://i.ytimg.com/vi/WdUrBBGzDFU/hq720.jpg"
+            },
+            {
+              "videoId": "SepvquaFWAY",
+              "title": "TAO — 道 | Japanese Zen Music for Deep Meditation & Inner Calm",
+              "views": 7712,
+              "duration": "3:57:35",
+              "thumbnail": "https://i.ytimg.com/vi/SepvquaFWAY/hq720.jpg"
+            },
+            {
+              "videoId": "3drza3ZbsC0",
+              "title": "TAO — 道 —｜Japanese Zen Music for Meditation, Focus & Healing",
+              "views": 314201,
+              "duration": "3:04:06",
+              "thumbnail": "https://i.ytimg.com/vi/3drza3ZbsC0/hq720.jpg"
+            },
+            {
+              "videoId": "CXmKIQwCasc",
+              "title": "TAO — 道 | Zen Meditation Music with Dragon Mural & Japanese Ambient Soundscape",
+              "views": 27195,
+              "duration": "1:06:18",
+              "thumbnail": "https://i.ytimg.com/vi/CXmKIQwCasc/hq720.jpg"
+            },
+            {
+              "videoId": "I3THKRjQDg8",
+              "title": "Alan Watts - Lao Tzu's Tao Te Ching",
+              "views": 60457,
+              "duration": "52:20",
+              "thumbnail": "https://i.ytimg.com/vi/I3THKRjQDg8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tengger",
+          "channel": {
+            "id": "UCBXXqNWvJRbaWmZy-vXlmwA",
+            "name": "TENGGER",
+            "image": "https://yt3.ggpht.com/WJRabIzsMZSpKXbJACv3nG-pYGKehv_wqIRuF6a4h_9ZP-VdkA3JQvyZrV7SWGg4_UmfXhstsg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1030,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "91hed_z7EoY",
+              "title": "SUKU TENGGER: ANTARA ALAM MANUSIA DAN TUHAN || Dokumenter RRI",
+              "views": 91532,
+              "duration": "12:39",
+              "thumbnail": "https://i.ytimg.com/vi/91hed_z7EoY/hq720.jpg"
+            },
+            {
+              "videoId": "XbaMZHpaZZI",
+              "title": "Melawan Lupa - Riwayat Hindu Tengger",
+              "views": 465387,
+              "duration": "30:23",
+              "thumbnail": "https://i.ytimg.com/vi/XbaMZHpaZZI/hq720.jpg"
+            },
+            {
+              "videoId": "Ga39cUMUxV0",
+              "title": "Denyut Tengger di Ranupani",
+              "views": 611502,
+              "duration": "25:38",
+              "thumbnail": "https://i.ytimg.com/vi/Ga39cUMUxV0/hq720.jpg"
+            },
+            {
+              "videoId": "YiZRrsgxIYY",
+              "title": "NEGERI SEJUTA PESONA: Suku Tengger Penjaga Gunung Bromo",
+              "views": 9772,
+              "duration": "4:49",
+              "thumbnail": "https://i.ytimg.com/vi/YiZRrsgxIYY/hq720.jpg"
+            },
+            {
+              "videoId": "L69du-rB9R4",
+              "title": "Bromo dan Roh Penjaga Suku Tengger",
+              "views": 192016,
+              "duration": "23:30",
+              "thumbnail": "https://i.ytimg.com/vi/L69du-rB9R4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tia Ray",
+          "channel": {
+            "id": "UCb6xj7bIsa76QNfv8h1l-Tg",
+            "name": "TIA RAY",
+            "image": "https://yt3.googleusercontent.com/HuyR6l3gTkYqd_TPGKjaYq8S5t5xjp5m2WHCbMTsbW5SJlfaBalzRYUY8OIXuAqfsoUsnQw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 28400,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "9GD5R-UQH2c",
+              "title": "这世间我唯独爱你 (In This World, I Only Love You) - 袁娅维 (Tia Ray)《献鱼 When Destiny Brings the Demon》lyrics",
+              "views": 489858,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/9GD5R-UQH2c/hq720.jpg"
+            },
+            {
+              "videoId": "vcXeF3sNNJY",
+              "title": "盛夏的告别 (电视剧《我的人间烟火》思念主题曲)",
+              "views": 2712901,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/vcXeF3sNNJY/hq720.jpg"
+            },
+            {
+              "videoId": "TooQ9gceeqk",
+              "title": "這世間我唯獨愛你 (《獻魚》片頭曲)",
+              "views": 753559,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/TooQ9gceeqk/hq720.jpg"
+            },
+            {
+              "videoId": "f29W287IQUY",
+              "title": "TTTV-Phone☎️其实我也很想打电话给你们",
+              "views": 116,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/f29W287IQUY/hq720.jpg"
+            },
+            {
+              "videoId": "JbiOHkXURAA",
+              "title": "Stage EP08: Tia Ray, SMART, JUNHAN, KOHI, BIANURA, SHOYA - I DREAM [CHUANG ASIA S2]",
+              "views": 237649,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/JbiOHkXURAA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "VaVa",
+          "channel": {
+            "id": "UCvE_hDrPiQq_V0lugSHw8Cw",
+            "name": "VaVa",
+            "image": "https://yt3.googleusercontent.com/ezj1rjYs1bm_-lFmfUWrRC6msg7sCjnrt1163QP-aYRgGNUbgl1nuYDMfqt7noEdJ6ixDu5M=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 37000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "aknkofx2bHg",
+              "title": "VAVA - My New Swag (我的新衣) featuring Ty. & Nina Wang (王倩倩) (Official Music Video)",
+              "views": 36208160,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/aknkofx2bHg/hq720.jpg"
+            },
+            {
+              "videoId": "PABw6ZClyMY",
+              "title": "3soeurs episode #59 ( Vava, Jess, Blonde)",
+              "views": 38503,
+              "duration": "36:56",
+              "thumbnail": "https://i.ytimg.com/vi/PABw6ZClyMY/hqdefault.jpg"
+            },
+            {
+              "videoId": "N2DsymZ4Z9o",
+              "title": "Middle Child in PARALLEL UNIVERSE Be Like…😍😏| Avocado Playz Compilation (Roblox)",
+              "views": 2714341,
+              "duration": "10:13",
+              "thumbnail": "https://i.ytimg.com/vi/N2DsymZ4Z9o/hq720.jpg"
+            },
+            {
+              "videoId": "42kJWed1MMk",
+              "title": "VaVa - 現実 Feelin' on my mind",
+              "views": 2319705,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/42kJWed1MMk/hq720.jpg"
+            },
+            {
+              "videoId": "xDjEb0Efm_8",
+              "title": "VAVA -  D-ONE [video]",
+              "views": 30949,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/xDjEb0Efm_8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Wakin Chau",
+          "channel": {
+            "id": "UCi5MbwC6ZuWzr_-45CuumDA",
+            "name": "周華健 Wakin Chau",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_kW-BrKj7DkPGr3W9X_od2-pHGPITL4MIoOEp6ctnpWMQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 65099.99999999999,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ymDTR22Zerw",
+              "title": "周華健 Wakin Chau【愛相隨 Love follows us】Official Music Video",
+              "views": 20802582,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/ymDTR22Zerw/hq720.jpg"
+            },
+            {
+              "videoId": "3t82nOt-XgY",
+              "title": "【周華健 Wakin】精選好聽國語30首",
+              "views": 2783863,
+              "duration": "2:06:43",
+              "thumbnail": "https://i.ytimg.com/vi/3t82nOt-XgY/hq720.jpg"
+            },
+            {
+              "videoId": "d3A4Qlmriro",
+              "title": "【周華健 Wakin】精選好聽粵語30首",
+              "views": 313723,
+              "duration": "2:04:55",
+              "thumbnail": "https://i.ytimg.com/vi/d3A4Qlmriro/hq720.jpg"
+            },
+            {
+              "videoId": "6lbPgfKK7m4",
+              "title": "Emil Chau Wakin Chau friend Friends [Official Music Video]",
+              "views": 48548016,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/6lbPgfKK7m4/hq720.jpg"
+            },
+            {
+              "videoId": "IZ8-K3YPVN0",
+              "title": "周華健 Wakin Chau【花心 The flowery heart】Official Music Video",
+              "views": 52143833,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/IZ8-K3YPVN0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Wang Leehom",
+          "channel": {
+            "id": "UCu2FqeCJmyxVEHS2PfZz8sw",
+            "name": "王力宏 Wang Leehom",
+            "image": "https://yt3.googleusercontent.com/_oj0eGnyRt7n39_-nmR8zTtNH5l-Ao_y1rWAQp-OsEWLngmlhcQthB6oXjxNPgPqGGOPxZQqWQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 415000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "80mZNFGmHD4",
+              "title": "王力宏 Wang Leehom《Come What May》 官方 Official MV",
+              "views": 37527,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/80mZNFGmHD4/hq720.jpg"
+            },
+            {
+              "videoId": "kbKFM-Vdh2c",
+              "title": "王力宏 Wang Leehom & 成龍 Jackie Chan 「最好的地方」The Best Place《朋友》現場官攝 Official Vide",
+              "views": 1053015,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/kbKFM-Vdh2c/hq720.jpg"
+            },
+            {
+              "videoId": "fX-TXWWf8rI",
+              "title": "王力宏 Wang Leehom 2021 海南福利秀 The Free Show @HaiNan",
+              "views": 1737176,
+              "duration": "54:49",
+              "thumbnail": "https://i.ytimg.com/vi/fX-TXWWf8rI/hq720.jpg"
+            },
+            {
+              "videoId": "tDvT59SAEmk",
+              "title": "春暉公益 Chunhui Public Welfare丨王力宏探訪貴州兒童福利院 Leehom  Visits a Children's Welfare Home in Guizhou",
+              "views": 2915,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/tDvT59SAEmk/hq720.jpg"
+            },
+            {
+              "videoId": "sU_ByeHJtw8",
+              "title": "王力宏 Leehom Wang - 依然愛你",
+              "views": 17614641,
+              "duration": "4:23",
+              "thumbnail": "https://i.ytimg.com/vi/sU_ByeHJtw8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Yang Kun",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "GVB1rqllesA",
+              "title": "【纯享版】 杨坤《我比以前更寂寞》《歌手2019》第1期 Singer 2019 EP1【湖南卫视官方HD】",
+              "views": 393988,
+              "duration": "4:58",
+              "thumbnail": "https://i.ytimg.com/vi/GVB1rqllesA/hq720.jpg"
+            },
+            {
+              "videoId": "iMmCGZrgddE",
+              "title": "本季唯一的四冠王 一个天生就属于舞台的歌者 —— 杨坤《歌手2019》Singer 2019 Single Collection【湖南卫视官方HD】",
+              "views": 938559,
+              "duration": "56:34",
+              "thumbnail": "https://i.ytimg.com/vi/iMmCGZrgddE/hq720.jpg"
+            },
+            {
+              "videoId": "-F3e2yFB5Yo",
+              "title": "【纯享版】又被张碧晨虐哭了！合作杨坤《在加纳共和国离婚》 一个心如死灰 一个声嘶力竭  将歌曲中的“be感”演绎得淋漓尽致！ #天赐的声音5 EP3 20240510",
+              "views": 22576075,
+              "duration": "4:44",
+              "thumbnail": "https://i.ytimg.com/vi/-F3e2yFB5Yo/hq720.jpg"
+            },
+            {
+              "videoId": "ZjwNri7JzcA",
+              "title": "异客 (Live)",
+              "views": 445967,
+              "duration": "3:48",
+              "thumbnail": "https://i.ytimg.com/vi/ZjwNri7JzcA/hq720.jpg"
+            },
+            {
+              "videoId": "rVjzsiKF4Q0",
+              "title": "【纯享版】杨坤&王赫野&王睿卓《异客》 听远山的风呼唤漂泊的“异客”  歌声唱尽对家乡的眷恋 #天赐的声音5 EP7 20240607",
+              "views": 3080694,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/rVjzsiKF4Q0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Zhou Shen",
+          "channel": {
+            "id": "UCciv4gN3Jm1M8bUsaBs-a_w",
+            "name": "ZhouShen Official",
+            "image": "https://yt3.googleusercontent.com/qr8FuD5HT8YGVQMBwxa9W8_yGjFgMvHq_tHD2SmzTIhntEN7To39yp7uoPQK04YyNiwC33ha=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 199000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "C-x1l6mqTwU",
+              "title": "The Voice of China - Zhou Shen sings \"Huan Yan\"  (with English subtitles)",
+              "views": 5649331,
+              "duration": "3:33",
+              "thumbnail": "https://i.ytimg.com/vi/C-x1l6mqTwU/hq720.jpg"
+            },
+            {
+              "videoId": "uzVdsZbYibQ",
+              "title": "周深 ZHOU SHEN ╳ MAYDAY 五月天 [ 如煙 Like Smoke ] 5525+2版 Official Stage Video",
+              "views": 2798785,
+              "duration": "5:42",
+              "thumbnail": "https://i.ytimg.com/vi/uzVdsZbYibQ/hq720.jpg"
+            },
+            {
+              "videoId": "h39QgWJd0mk",
+              "title": "Zhou Shen's ultimate 2025 hits playlist 🎤✨ Every song a masterpiece!",
+              "views": 203937,
+              "duration": "1:00:17",
+              "thumbnail": "https://i.ytimg.com/vi/h39QgWJd0mk/hq720.jpg"
+            },
+            {
+              "videoId": "hI30P1Qwy2c",
+              "title": "[Special] EP01-10: Charlie's Stage Collection😘 | Crush of Music | iQIYI LifeShow",
+              "views": 126155,
+              "duration": "1:02:00",
+              "thumbnail": "https://i.ytimg.com/vi/hI30P1Qwy2c/hq720.jpg"
+            },
+            {
+              "videoId": "Zp0mYzsPnSQ",
+              "title": "周深 Zhou Shen Opens 2026 “ShenShen’s” Concert Tour with 《修星星的人》",
+              "views": 17057,
+              "duration": "4:31",
+              "thumbnail": "https://i.ytimg.com/vi/Zp0mYzsPnSQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    },
+    "gospel": {
+      "count": 14,
+      "artists": [
+        {
+          "name": "Bethel China",
+          "channel": {
+            "id": "UCsSr9tMt_IU-aNDERrYus8g",
+            "name": "Bethel China",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_meF9tZtOkW5z2mR07-tXkWnjRCkbnjYPJng0x9HnzIh-Y=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1060,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "nRWW4aTG0dU",
+              "title": "Bethel China by The Archibald Project",
+              "views": 1560,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/nRWW4aTG0dU/hq720.jpg"
+            },
+            {
+              "videoId": "m8f2j8Dp448",
+              "title": "Bethel Church Service | Missions Sunday Sermon | Worship with Leah Valenzuela, Peter Mattis",
+              "views": 6904,
+              "duration": "2:35:01",
+              "thumbnail": "https://i.ytimg.com/vi/m8f2j8Dp448/hq720.jpg"
+            },
+            {
+              "videoId": "iCTOQEIH6as",
+              "title": "Bethel China- Child Sponsorship Program",
+              "views": 1044,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/iCTOQEIH6as/hq720.jpg"
+            },
+            {
+              "videoId": "Rfs7BCvkg8k",
+              "title": "Bethel China Early Intervention DVD Trailer",
+              "views": 671,
+              "duration": "1:13",
+              "thumbnail": "https://i.ytimg.com/vi/Rfs7BCvkg8k/hqdefault.jpg"
+            },
+            {
+              "videoId": "KXy26L4Mjc8",
+              "title": "A day in the life: Bethel China's preschool!",
+              "views": 4476,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/KXy26L4Mjc8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Canaan Hymns",
+          "channel": {
+            "id": "UCN2tVSCdQbYPVwn44ukyM7g",
+            "name": "小敏迦南诗歌 Xiaomin Canaan Hymns",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_mwyIiGDiEyxep17o5CEmEqcxXqJqUnFBd0HmGCbxnm9g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 9150,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "xa1saiWejjo",
+              "title": "The Canaan Hymns  ( English Version )",
+              "views": 91661,
+              "duration": "50:48",
+              "thumbnail": "https://i.ytimg.com/vi/xa1saiWejjo/hqdefault.jpg"
+            },
+            {
+              "videoId": "L8xqRkQ38wQ",
+              "title": "良人和我 The Lord and I",
+              "views": 349636,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/L8xqRkQ38wQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "AuCuMdpDAGU",
+              "title": "Dulcimer Hymnal Presents... Canaan Hymn #163",
+              "views": 5090,
+              "duration": "1:47",
+              "thumbnail": "https://i.ytimg.com/vi/AuCuMdpDAGU/hqdefault.jpg"
+            },
+            {
+              "videoId": "7dMpFofjzq8",
+              "title": "The Canaan Hymns - Part 1 of 6",
+              "views": 18423,
+              "duration": "10:01",
+              "thumbnail": "https://i.ytimg.com/vi/7dMpFofjzq8/hqdefault.jpg"
+            },
+            {
+              "videoId": "0WQQ0QWTYVo",
+              "title": "The Language of Canaan - 3ABN Worship / Praise Hymn",
+              "views": 17065,
+              "duration": "5:29",
+              "thumbnail": "https://i.ytimg.com/vi/0WQQ0QWTYVo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Grace Music China",
+          "channel": {
+            "id": "UCC_fdR7zZ_5SU--xuOrEdKw",
+            "name": "Grace Mandarin Chinese",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_nMYQbabY8BXB5kvWIIkVNFlf153mnRpTouYJKexUYOhw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 346000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1gXKPXwMrWk",
+              "title": "讚美之泉弦樂專輯 String Quartet Album - 恩典之路 Path of Grace  (全專輯 連續播放)",
+              "views": 711549,
+              "duration": "55:17",
+              "thumbnail": "https://i.ytimg.com/vi/1gXKPXwMrWk/hq720.jpg"
+            },
+            {
+              "videoId": "9RA5X8bLxaE",
+              "title": "Instrumental Chinese Zither Hymns - Angelina (Full Album Audio)",
+              "views": 157268,
+              "duration": "1:07:05",
+              "thumbnail": "https://i.ytimg.com/vi/9RA5X8bLxaE/hq720.jpg"
+            },
+            {
+              "videoId": "XLTkejR9Rzc",
+              "title": "Grace",
+              "views": 649218,
+              "duration": "5:00",
+              "thumbnail": "https://i.ytimg.com/vi/XLTkejR9Rzc/hq720.jpg"
+            },
+            {
+              "videoId": "Ixvco3BaXZE",
+              "title": "Sense The Grace! Chinese Lofi HipHop Music / Chill Oriental Beats",
+              "views": 171596,
+              "duration": "1:09:00",
+              "thumbnail": "https://i.ytimg.com/vi/Ixvco3BaXZE/hq720.jpg"
+            },
+            {
+              "videoId": "v76-wz1mv8w",
+              "title": "【祢的恩典夠我用 Your Grace Is Enough】官方歌詞版MV (Official Lyrics MV) - 讚美之泉敬拜讚美 (23)",
+              "views": 5674027,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/v76-wz1mv8w/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Harvest Church",
+          "channel": {
+            "id": "UC8zTFt5BlGSvVk6MRXL6khw",
+            "name": "harvest.church",
+            "image": "https://yt3.ggpht.com/W0v2ZwJqnnshSLEyWQGnN_0wtssbwlP1nrtco_5MYpBvA5Ts2pd3PDLulAa5nbJ1pX3M1sqz=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 43300,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "M_aPqUb4GFE",
+              "title": "“Off Leash\" by Pastor Jonathan Laurie",
+              "views": 4892,
+              "duration": "1:40:37",
+              "thumbnail": "https://i.ytimg.com/vi/M_aPqUb4GFE/hq720.jpg"
+            },
+            {
+              "videoId": "IZPIwQzlBgc",
+              "title": "Behind The Scenes Of Harvest",
+              "views": 67,
+              "duration": "2:16",
+              "thumbnail": "https://i.ytimg.com/vi/IZPIwQzlBgc/hq720.jpg"
+            },
+            {
+              "videoId": "A94Pe474hYE",
+              "title": "CityWorship: How Much Do I Love You // Germaine Chua (Emerge) @ City Harvest Church",
+              "views": 5733641,
+              "duration": "9:13",
+              "thumbnail": "https://i.ytimg.com/vi/A94Pe474hYE/hq720.jpg"
+            },
+            {
+              "videoId": "4EEKC4O81AY",
+              "title": "Harvest Rock Church LIVE | Sunday AM Service",
+              "views": 321,
+              "duration": "2:49:17",
+              "thumbnail": "https://i.ytimg.com/vi/4EEKC4O81AY/hq720.jpg"
+            },
+            {
+              "videoId": "fjjY7Ao6pgo",
+              "title": "Bobby Chaw: Passion For God",
+              "views": 1723,
+              "duration": "1:57:29",
+              "thumbnail": "https://i.ytimg.com/vi/fjjY7Ao6pgo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Heavenly Voice",
+          "channel": {
+            "id": "UC-8dCF1dWCI6iZ9Om4NmETw",
+            "name": "Heavenly Voices",
+            "image": "https://yt3.ggpht.com/lBFfIiJdpP6JcB7BeFIM8Or8qebYnGXAMeAMeNd4bIT7WukzhaiRZke3Rm8LhjGmpBU6QanggQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1620,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "4XkTh9UUlaA",
+              "title": "Voices From Heaven: Anne Murray, Dana Winner & Karen Carpenter | Most Beautiful Songs (4K)",
+              "views": 955057,
+              "duration": "1:31:53",
+              "thumbnail": "https://i.ytimg.com/vi/4XkTh9UUlaA/hq720.jpg"
+            },
+            {
+              "videoId": "gmXGWFGXz9A",
+              "title": "Heavenly Voices: Barbra Streisand, Karen Carpenter, Anne Murray, Dana Winner, Diana Ross [HQ]",
+              "views": 68950,
+              "duration": "1:30:21",
+              "thumbnail": "https://i.ytimg.com/vi/gmXGWFGXz9A/hq720.jpg"
+            },
+            {
+              "videoId": "dpWwsAzMTGw",
+              "title": "Voices from Heaven: Anne Murray, Dana Winner & Karen Carpenter 🎶The Most Beautiful Songs (4K)",
+              "views": 562890,
+              "duration": "1:19:53",
+              "thumbnail": "https://i.ytimg.com/vi/dpWwsAzMTGw/hq720.jpg"
+            },
+            {
+              "videoId": "dvGdinsCrbo",
+              "title": "Voices from Heaven: The Most Beautiful Songs of Anne Murray, Dana Winner & Karen Carpenter (4K)",
+              "views": 317232,
+              "duration": "1:34:13",
+              "thumbnail": "https://i.ytimg.com/vi/dvGdinsCrbo/hq720.jpg"
+            },
+            {
+              "videoId": "ykzoKDiaoJ4",
+              "title": "Heavenly Voices That Will Have You On Cloud 9! 😇",
+              "views": 2617127,
+              "duration": "22:19",
+              "thumbnail": "https://i.ytimg.com/vi/ykzoKDiaoJ4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Hillsong Chinese",
+          "channel": {
+            "id": "UCs-HDvpk9ySvy6fDkEPzTTg",
+            "name": "Hillsong Worship - Topic",
+            "image": "https://yt3.ggpht.com/EyIVgYAc6HY6BVA3fvGEvNcKjIsj705vSXlpV-G_xSXjq2ugTSrqBNvB7kksG2hEfj0FYQVzeQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2710,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "acaSDkqAKPA",
+              "title": "我的盼望 Living Hope // HTBB 敬拜 // Featuring Wendy Liew",
+              "views": 852949,
+              "duration": "5:45",
+              "thumbnail": "https://i.ytimg.com/vi/acaSDkqAKPA/hq720.jpg"
+            },
+            {
+              "videoId": "E3J7yHn-V2w",
+              "title": "【何等榮美的名 /  What A Beautiful Name】官方歌詞MV - Hillsong Worship ft. 約書亞樂團、璽恩 SiEnVanessa",
+              "views": 1257941,
+              "duration": "5:53",
+              "thumbnail": "https://i.ytimg.com/vi/E3J7yHn-V2w/hq720.jpg"
+            },
+            {
+              "videoId": "Xn6zwtpFREA",
+              "title": "最佳基督教赞美诗歌 | 推荐经典好听的敬拜崇拜教会诗歌",
+              "views": 2278498,
+              "duration": "1:17:14",
+              "thumbnail": "https://i.ytimg.com/vi/Xn6zwtpFREA/hq720.jpg"
+            },
+            {
+              "videoId": "HJJUty7dpMg",
+              "title": "名分祢已赐给我 - Hillsong 华语 (Who You Say I Am)",
+              "views": 160559,
+              "duration": "5:30",
+              "thumbnail": "https://i.ytimg.com/vi/HJJUty7dpMg/hq720.jpg"
+            },
+            {
+              "videoId": "JQ-C_gJ1hTg",
+              "title": "KUA MUSIC【恩典之洋 / Oceans (Where Feet May Fail)】巫詠歡",
+              "views": 341792,
+              "duration": "6:00",
+              "thumbnail": "https://i.ytimg.com/vi/JQ-C_gJ1hTg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Joshua Band",
+          "channel": {
+            "id": "UC93m2yLo9G4-ZdFMgrdS2LA",
+            "name": "Joshua Band 約書亞樂團",
+            "image": "https://yt3.googleusercontent.com/9sFTLCh3Pr6utgNoxHZ-upX4vgbTPJh-tzHGFbIY_ZTWazBVk-ZPogwUC0QQksqEeNwE81-xFQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 217000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "2Q3DOw4t0mg",
+              "title": "【微小的聲音 / Gentle Whisper】歌詞MV - 約書亞樂團、陳州邦 Ben Chen",
+              "views": 3071,
+              "duration": "7:59",
+              "thumbnail": "https://i.ytimg.com/vi/2Q3DOw4t0mg/hqdefault.jpg"
+            },
+            {
+              "videoId": "JnvqJ2RgcRQ",
+              "title": "【降服 / Surrender】Live Worship - ft. ZEcho、曾晨恩 Yusifu Pulu",
+              "views": 204131,
+              "duration": "5:29",
+              "thumbnail": "https://i.ytimg.com/vi/JnvqJ2RgcRQ/hq720.jpg"
+            },
+            {
+              "videoId": "GsrQJxFPqIM",
+              "title": "約書亞樂團｜三小時｜讚美精選｜快歌｜不間斷｜中文詩歌｜敬拜｜播放清單",
+              "views": 229194,
+              "duration": "3:36:46",
+              "thumbnail": "https://i.ytimg.com/vi/GsrQJxFPqIM/hq720.jpg"
+            },
+            {
+              "videoId": "V3iB3JQyBDs",
+              "title": "【安靜 / Still】Live Video - 約書亞樂團、璽恩SiEnVanessa",
+              "views": 160895,
+              "duration": "8:00",
+              "thumbnail": "https://i.ytimg.com/vi/V3iB3JQyBDs/hq720.jpg"
+            },
+            {
+              "videoId": "gGVfA4QKWeo",
+              "title": "【即或不然的生命 / 주의 자녀로 산다는 것은】Live Worship - 璽恩SiEnVanessa",
+              "views": 391406,
+              "duration": "6:17",
+              "thumbnail": "https://i.ytimg.com/vi/gGVfA4QKWeo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mandarin Praise",
+          "channel": {
+            "id": "UC00EceQGGCMucNvwOS-jQ7A",
+            "name": "讚美之泉 Stream Of Praise Music Ministries",
+            "image": "https://yt3.googleusercontent.com/InGny_hrpKgl76qu9LaAKhn9r2g4fQmVyGjqc7J3IAtr7jPKRZHwMgksWerzRYsKlX9jafRfxw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 882000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Jcs8f03gfu8",
+              "title": "25 Top Rank Pujian Rohani Mandarin - Herlin Pirena",
+              "views": 69596,
+              "duration": "2:06:18",
+              "thumbnail": "https://i.ytimg.com/vi/Jcs8f03gfu8/hq720.jpg"
+            },
+            {
+              "videoId": "u1V5BpkHhEQ",
+              "title": "【讚美之泉/注目看耶穌/愛，我願意/更深之處/Thou Art Worthy 主祢配得】｜讚美之泉 《天堂敬拜 ACOUSTIC》",
+              "views": 4823154,
+              "duration": "27:19",
+              "thumbnail": "https://i.ytimg.com/vi/u1V5BpkHhEQ/hq720.jpg"
+            },
+            {
+              "videoId": "bc1LWTvew6s",
+              "title": "Easy Listening | Praise and Worship | instrumental piano | Psalms | Relaxing and healing",
+              "views": 636382,
+              "duration": "3:06:52",
+              "thumbnail": "https://i.ytimg.com/vi/bc1LWTvew6s/hq720.jpg"
+            },
+            {
+              "videoId": "Xn6zwtpFREA",
+              "title": "最佳基督教赞美诗歌 | 推荐经典好听的敬拜崇拜教会诗歌",
+              "views": 2278498,
+              "duration": "1:17:14",
+              "thumbnail": "https://i.ytimg.com/vi/Xn6zwtpFREA/hq720.jpg"
+            },
+            {
+              "videoId": "Th6SXs87iA0",
+              "title": "Kumpulan Lagu WORSHIP MANDARIN",
+              "views": 388210,
+              "duration": "1:00:52",
+              "thumbnail": "https://i.ytimg.com/vi/Th6SXs87iA0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Morning Star",
+          "channel": {
+            "id": "UChub1tZZuWn9YYHJZZYTbMg",
+            "name": "Morningstar, Inc.",
+            "image": "https://yt3.ggpht.com/nZ1lko6nFg44LAOqmX4KUdaf_JDBid_6Y39QWf8Tk9Jcx0KP1PRqM3xQJM6Ysoxovq1NuhgpDcM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 138000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "WIYGcSAagI0",
+              "title": "Unpacking the New Rules for 401(k) Catch-Up Contributions",
+              "views": 954,
+              "duration": "9:01",
+              "thumbnail": "https://i.ytimg.com/vi/WIYGcSAagI0/hq720.jpg"
+            },
+            {
+              "videoId": "tk-rxh1xmKs",
+              "title": "KING WOMAN - Morning Star (Official Music Video)",
+              "views": 446632,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/tk-rxh1xmKs/hq720.jpg"
+            },
+            {
+              "videoId": "QzaQW6O3Q7Y",
+              "title": "MorningStar Fellowship Church | Sunday Service 10:00am",
+              "views": 762,
+              "duration": "1:26:23",
+              "thumbnail": "https://i.ytimg.com/vi/QzaQW6O3Q7Y/hq720.jpg"
+            },
+            {
+              "videoId": "DO2LuJBnCj4",
+              "title": "Morningstar",
+              "views": 327245,
+              "duration": "11:28",
+              "thumbnail": "https://i.ytimg.com/vi/DO2LuJBnCj4/hq720.jpg"
+            },
+            {
+              "videoId": "0m9yReIixEg",
+              "title": "Vinnie Moore   Morning Star",
+              "views": 750469,
+              "duration": "3:28",
+              "thumbnail": "https://i.ytimg.com/vi/0m9yReIixEg/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "New Wine China",
+          "channel": {
+            "id": "UC7v_qB8nnOkUxt2Xg4662nA",
+            "name": "NWIChurch",
+            "image": "https://yt3.ggpht.com/2yOSNV3Hn8xZqJlSIe_0dFIQoJ07Luh9_6dsVlAL9TwJ7dPNTLZUSN3RGXUIe1vFoxo0fTsqeWY=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 7640,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "1ozGKlOzEVc",
+              "title": "New Wine - Hillsong Worship",
+              "views": 73478469,
+              "duration": "8:14",
+              "thumbnail": "https://i.ytimg.com/vi/1ozGKlOzEVc/hq720.jpg"
+            },
+            {
+              "videoId": "5tbSEeEpLlw",
+              "title": "China's land of wine",
+              "views": 2203,
+              "duration": "2:17",
+              "thumbnail": "https://i.ytimg.com/vi/5tbSEeEpLlw/hqdefault.jpg"
+            },
+            {
+              "videoId": "EjGF_G1qM24",
+              "title": "Communist China Gave Me Free Whiskey & Rice Wine in Shanghai 🇨🇳",
+              "views": 10691,
+              "duration": "1:15:01",
+              "thumbnail": "https://i.ytimg.com/vi/EjGF_G1qM24/hq720.jpg"
+            },
+            {
+              "videoId": "Qswlv_UbvZw",
+              "title": "China's Ningxia, a wine tourism destination",
+              "views": 912,
+              "duration": "2:02",
+              "thumbnail": "https://i.ytimg.com/vi/Qswlv_UbvZw/hq720.jpg"
+            },
+            {
+              "videoId": "wSZQH_c9jOU",
+              "title": "China Wine Featuring Sun Ho, Wyclef Jean & The Elephant Man",
+              "views": 675003,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/wSZQH_c9jOU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Spring of Life",
+          "channel": {
+            "id": "UCprPYABW1IvZy8JscwL9LGQ",
+            "name": "Spring of Life Church",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_ng5P2hqUUG3M6baePEJe2iTwSahW1Cc7N8a3vuID9QzQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6780,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "7PtvnaEo9-0",
+              "title": "[Official Music Video] Perfume「Spring of Life」",
+              "views": 21104907,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/7PtvnaEo9-0/hqdefault.jpg"
+            },
+            {
+              "videoId": "WcRVRs9H7B8",
+              "title": "Hillsong - Spring of Life",
+              "views": 113679,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/WcRVRs9H7B8/hqdefault.jpg"
+            },
+            {
+              "videoId": "p0KHEL_BnXw",
+              "title": "Perfume「Spring of Life (Album-mix)」 from LIVE DVD",
+              "views": 1270659,
+              "duration": "5:58",
+              "thumbnail": "https://i.ytimg.com/vi/p0KHEL_BnXw/hqdefault.jpg"
+            },
+            {
+              "videoId": "YPTJ_URAxm8",
+              "title": "Spring Of Life",
+              "views": 16468,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/YPTJ_URAxm8/hq720.jpg"
+            },
+            {
+              "videoId": "K31zY7XSETw",
+              "title": "Spring Of Life",
+              "views": 448601,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/K31zY7XSETw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Stream of Praise",
+          "channel": {
+            "id": "UC00EceQGGCMucNvwOS-jQ7A",
+            "name": "讚美之泉 Stream Of Praise Music Ministries",
+            "image": "https://yt3.googleusercontent.com/InGny_hrpKgl76qu9LaAKhn9r2g4fQmVyGjqc7J3IAtr7jPKRZHwMgksWerzRYsKlX9jafRfxw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 882000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Q5KXDhegcvo",
+              "title": "讚美之泉《巡迴現場 TOUR LIVE WORSHIP》【安靜 Be Still】＠香港會議展覽中心 HKCEC",
+              "views": 3008,
+              "duration": "5:47",
+              "thumbnail": "https://i.ytimg.com/vi/Q5KXDhegcvo/hq720.jpg"
+            },
+            {
+              "videoId": "sOMvRD0qjjg",
+              "title": "【雨過會天晴 [耶穌 耶穌 我呼求祢] / 深不見底的愛 / 為榮耀的創造 / 只要有祢在我左右】｜讚美之泉《天堂敬拜 LIVE》",
+              "views": 225359,
+              "duration": "25:17",
+              "thumbnail": "https://i.ytimg.com/vi/sOMvRD0qjjg/hq720.jpg"
+            },
+            {
+              "videoId": "oRFOBpFdBD8",
+              "title": "一小時【靈修音樂 Soaking Music】全專輯連續播放「每一天我需要祢」I Need You 讚美之泉安靜系列 (4) Devotional Instrumental Album",
+              "views": 611146,
+              "duration": "55:59",
+              "thumbnail": "https://i.ytimg.com/vi/oRFOBpFdBD8/hq720.jpg"
+            },
+            {
+              "videoId": "czvrMIwDGO4",
+              "title": "【耶穌愛你/在耶穌的腳前/我要一心稱謝祢/彩虹下的約定】｜讚美之泉《天堂敬拜 ACOUSTIC》",
+              "views": 3016885,
+              "duration": "23:46",
+              "thumbnail": "https://i.ytimg.com/vi/czvrMIwDGO4/hq720.jpg"
+            },
+            {
+              "videoId": "phqt2u63iWM",
+              "title": "【單單愛慕你 Simply Loving You】全專輯連續播放 - 讚美之泉鋼琴演奏系列 (1) by 游智婷 Sandy Yu",
+              "views": 1191433,
+              "duration": "1:02:23",
+              "thumbnail": "https://i.ytimg.com/vi/phqt2u63iWM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Xiaomin Church Choir",
+          "channel": {
+            "id": "UCN2tVSCdQbYPVwn44ukyM7g",
+            "name": "小敏迦南诗歌 Xiaomin Canaan Hymns",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_mwyIiGDiEyxep17o5CEmEqcxXqJqUnFBd0HmGCbxnm9g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 9150,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "dAc0e91BNZk",
+              "title": "Mormon Choir",
+              "views": 68,
+              "duration": "1:36",
+              "thumbnail": "https://i.ytimg.com/vi/dAc0e91BNZk/hqdefault.jpg"
+            },
+            {
+              "videoId": "maL5TnJC8Vw",
+              "title": "TICF25 – 世界合唱冠軍賽 WCC【The University of Mindanao Chorale】Domine Deus Meus｜天主、我的上帝",
+              "views": 288,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/maL5TnJC8Vw/hq720.jpg"
+            },
+            {
+              "videoId": "T-vTvFrS2s8",
+              "title": "Boi sing with helium",
+              "views": 13948037,
+              "duration": "0:31",
+              "thumbnail": "https://i.ytimg.com/vi/T-vTvFrS2s8/hq720.jpg"
+            },
+            {
+              "videoId": "-gtQa8wJ1Hc",
+              "title": "(ICC): Ame' Tonge arr. Cessna Kurniawan-Jeju International Choir Festival (JICF 2025), Korea Selatan",
+              "views": 1069,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/-gtQa8wJ1Hc/hq720.jpg"
+            },
+            {
+              "videoId": "tnQfeAOGPdQ",
+              "title": "We are Surrounded (By a Great Cloud of Witnesses) - Mentone Church Choir and Orchestra",
+              "views": 15,
+              "duration": "3:07",
+              "thumbnail": "https://i.ytimg.com/vi/tnQfeAOGPdQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Zion Church",
+          "channel": {
+            "id": "UCcB3vLnUlxB4nRvUT5QF85Q",
+            "name": "Zion Anywhere",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_n_SNmHS9teE9gDJErgLE0cmfWG7JzUghXNpVgZCM2rog=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 28400,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "hwF39cNI8_4",
+              "title": "Zion Church SP | Culto 11h00 - 24/05/2026",
+              "views": 6427,
+              "duration": "2:08:15",
+              "thumbnail": "https://i.ytimg.com/vi/hwF39cNI8_4/hq720.jpg"
+            },
+            {
+              "videoId": "8osQLkYn8zQ",
+              "title": "Zion Church Lisboa | Culto Domingo - 17h - 24/05/2026",
+              "views": 1543,
+              "duration": "3:01:08",
+              "thumbnail": "https://i.ytimg.com/vi/8osQLkYn8zQ/hq720.jpg"
+            },
+            {
+              "videoId": "06tqpK4XOuA",
+              "title": "Praise & Worship at Zion Church - Drummer’s POV",
+              "views": 38184,
+              "duration": "23:02",
+              "thumbnail": "https://i.ytimg.com/vi/06tqpK4XOuA/hq720.jpg"
+            },
+            {
+              "videoId": "6CdcIuKoZyE",
+              "title": "LUTANDO COMO SOLDADOS  // PR. PHILIP MANTOFA",
+              "views": 16747,
+              "duration": "1:16:24",
+              "thumbnail": "https://i.ytimg.com/vi/6CdcIuKoZyE/hq720.jpg"
+            },
+            {
+              "videoId": "zfCJ2fBbWic",
+              "title": "Pentecost Sunday | 5/24/26 | HMD",
+              "views": 4524,
+              "duration": "2:01:01",
+              "thumbnail": "https://i.ytimg.com/vi/zfCJ2fBbWic/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    }
+  }
+}

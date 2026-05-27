@@ -1,0 +1,20 @@
+{
+  "country": "Brazil",
+  "flag": "🇧🇷",
+  "code": "BR",
+  "continent": "South America",
+  "languages": [
+    "Portuguese"
+  ],
+  "collected_at": "2026-05-24",
+  "categories": {
+    "secular": {
+      "count": 0,
+      "artists": []
+    },
+    "gospel": {
+      "count": 0,
+      "artists": []
+    }
+  }
+}

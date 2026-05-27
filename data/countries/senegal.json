@@ -1,0 +1,1818 @@
+{
+  "country": "Senegal",
+  "flag": "🇸🇳",
+  "code": "SN",
+  "continent": "Africa",
+  "categories": {
+    "secular": {
+      "count": 25,
+      "artists": [
+        {
+          "name": "Akon",
+          "channel": {
+            "id": "UC6IBMCQ6-d7p41KHxOsq4RA",
+            "name": "Akon",
+            "image": "https://yt3.googleusercontent.com/IA-GGQcqI_J8DfDHUzYKY1xVhVOC0Dvqu8lIS6GS-OVlmUIL-O5gOGCihEzCz-sU7M1KxC2jtw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 16399999.999999998,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "vIaH35-MLsk",
+              "title": "Akon - Right Now (Na Na Na) (Official Video)",
+              "views": 1191327944,
+              "duration": "5:01",
+              "thumbnail": "https://i.ytimg.com/vi/vIaH35-MLsk/hq720.jpg"
+            },
+            {
+              "videoId": "dN6JeV3jC8Y",
+              "title": "Be With You",
+              "views": 34604359,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/dN6JeV3jC8Y/hq720.jpg"
+            },
+            {
+              "videoId": "-_Av7re3Ce8",
+              "title": "Akon - Be With You (Lyrics) | and no one knows why i'm into you\"",
+              "views": 64970536,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/-_Av7re3Ce8/hq720.jpg"
+            },
+            {
+              "videoId": "sTuMtyFWF1E",
+              "title": "Troublemaker",
+              "views": 36965398,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/sTuMtyFWF1E/hq720.jpg"
+            },
+            {
+              "videoId": "JWA5hJl4Dv0",
+              "title": "Akon - Don't Matter (Official Music Video)",
+              "views": 829304431,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/JWA5hJl4Dv0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Awadi",
+          "channel": {
+            "id": "UChDRzeDvHtn73eyLQ89fVuA",
+            "name": "Nader Al-Awadi | نادر العوضي",
+            "image": "https://yt3.ggpht.com/XSv7aUu1P_D_5iE5LdKpOI-ZvHQ3nDUC5Wwa6AEuDsbqubPh5yPpVuj5x7tNr9FqDPC9WhF0Pw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1780,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "QSpuqiAPvc4",
+              "title": "Dr Diaa Al-Awadi",
+              "views": 1265,
+              "duration": "3:54",
+              "thumbnail": "https://i.ytimg.com/vi/QSpuqiAPvc4/hq720.jpg"
+            },
+            {
+              "videoId": "glNe2LSIDs0",
+              "title": "Awadi feat. Tibass Kazematik - S.O.S. Congo [The Downtown Riddim - Riddim Wise]",
+              "views": 202282,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/glNe2LSIDs0/hqdefault.jpg"
+            },
+            {
+              "videoId": "nGG-X1daFI0",
+              "title": "Gaya Hidup Tanpa Obat: Bagaimana Teori Dr. Diaa Al-Awadi Mengguncang Kedokteran Modern",
+              "views": 4366,
+              "duration": "8:51",
+              "thumbnail": "https://i.ytimg.com/vi/nGG-X1daFI0/hqdefault.jpg"
+            },
+            {
+              "videoId": "jHU09Wo7MLc",
+              "title": "Légendes Urbaines : Awadi - Quand on refuse on dit non (Live)",
+              "views": 5588,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/jHU09Wo7MLc/hq720.jpg"
+            },
+            {
+              "videoId": "j57wT3AQPqc",
+              "title": "Pernyataan filosofi teori tayyibat Dr. Diaa Al Awadi",
+              "views": 304,
+              "duration": "12:37",
+              "thumbnail": "https://i.ytimg.com/vi/j57wT3AQPqc/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "BM Jaay",
+          "channel": {
+            "id": "UCNvoShpUhd0DUs79Gyac8rg",
+            "name": "BM Jaay",
+            "image": "https://yt3.googleusercontent.com/ucqkqrWSisnvqmkfu9kIl6B9ka-dhmvFl4ykNYi9wUdPD0ke8BUvqH-89tKi8JPrlDCPViBpIw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 216000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "AOmO07pim9Q",
+              "title": "BM Jaay - MAIN CHARACTER FREESTYLE",
+              "views": 498297,
+              "duration": "3:18",
+              "thumbnail": "https://i.ytimg.com/vi/AOmO07pim9Q/hq720.jpg"
+            },
+            {
+              "videoId": "mGhEwjMcMlk",
+              "title": "Liste 10 Yi",
+              "views": 249131,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/mGhEwjMcMlk/hq720.jpg"
+            },
+            {
+              "videoId": "cPG6os8W4Yg",
+              "title": "Voyoux",
+              "views": 162104,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/cPG6os8W4Yg/hq720.jpg"
+            },
+            {
+              "videoId": "tU-CYXTrmdk",
+              "title": "BM Jaay  -  Fake My Death (Clip Officiel)",
+              "views": 419639,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/tU-CYXTrmdk/hq720.jpg"
+            },
+            {
+              "videoId": "pijf1csujhU",
+              "title": "Sa lamigne",
+              "views": 449141,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/pijf1csujhU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Baaba Maal",
+          "channel": {
+            "id": "UCCpHXDm-tPU7BJRFCDRz5xQ",
+            "name": "Baaba Maal",
+            "image": "https://yt3.googleusercontent.com/YQA--hwYpl6kv3CawuCNgT_vFeaWNE7zxHfylGL1_bHX0eJGhkwZUcYVG05YzrIrx4XMY5Zw2g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 110000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "eCIHPdx1OAs",
+              "title": "Mumford & Sons, Baaba Maal - There Will Be Time (Live in South Africa)",
+              "views": 22271925,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/eCIHPdx1OAs/hq720.jpg"
+            },
+            {
+              "videoId": "JzU_CUK1VKk",
+              "title": "Baaba Maal - bouyel",
+              "views": 3277843,
+              "duration": "4:21",
+              "thumbnail": "https://i.ytimg.com/vi/JzU_CUK1VKk/hqdefault.jpg"
+            },
+            {
+              "videoId": "wxumKErHl50",
+              "title": "Baaba Maal - Yela",
+              "views": 4720421,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/wxumKErHl50/hq720.jpg"
+            },
+            {
+              "videoId": "UZ-LvqaqPSQ",
+              "title": "Baaba Maal - Baayo  (Live at Celtic Connections 2016)",
+              "views": 429719,
+              "duration": "5:55",
+              "thumbnail": "https://i.ytimg.com/vi/UZ-LvqaqPSQ/hq720.jpg"
+            },
+            {
+              "videoId": "GP3CF2Ov1kY",
+              "title": "Gidelam",
+              "views": 1048572,
+              "duration": "6:38",
+              "thumbnail": "https://i.ytimg.com/vi/GP3CF2Ov1kY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Canabasse",
+          "channel": {
+            "id": "UCCdvIgNVHA0Z4ysWj1UZULg",
+            "name": "Canabasse",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_mI7_OhK-SvXmSTjO9-xWNdSsOTEdd8ZUcceT6uhiDI_7U=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 240000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Tt9KSqdfqAA",
+              "title": "WAVE-CANABASSE KNP",
+              "views": 123962,
+              "duration": "44:13",
+              "thumbnail": "https://i.ytimg.com/vi/Tt9KSqdfqAA/hqdefault.jpg"
+            },
+            {
+              "videoId": "j9R1VBOx3nU",
+              "title": "Buzzlab (Canabasse, Cheeks, Cool Black Lion, Zou Kana) - Bou Bakh Bi - Clip Officiel",
+              "views": 8202339,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/j9R1VBOx3nU/hq720.jpg"
+            },
+            {
+              "videoId": "J8bqvxk0IiA",
+              "title": "Mbeguel Doyoul – Canabasse, Ashs The Best",
+              "views": 2304362,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/J8bqvxk0IiA/hq720.jpg"
+            },
+            {
+              "videoId": "0gL1Igd884s",
+              "title": "Canabasse - Yakkal Sama Der (Official Video)",
+              "views": 1212497,
+              "duration": "3:18",
+              "thumbnail": "https://i.ytimg.com/vi/0gL1Igd884s/hq720.jpg"
+            },
+            {
+              "videoId": "Ebutajbkxdw",
+              "title": "BUZZLAB (Canabasse, Jay, Cool Black, Cheeks, Zou Kana & Lockslegl) - Dama Lay Nakh (official video)",
+              "views": 6006487,
+              "duration": "5:45",
+              "thumbnail": "https://i.ytimg.com/vi/Ebutajbkxdw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Carlou D",
+          "channel": {
+            "id": "UC1y4cgOVnPW3ELhFFsWAq7Q",
+            "name": "Carlou D",
+            "image": "https://yt3.googleusercontent.com/FX8tEv5CWOtcbewaIgm1hHpGpSDcZiTSZ-aa1dkFwVb2kB1QY3hCj8mp_XR1r71mKKNo4TgqRg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 113000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Mu-uLxflH1I",
+              "title": "Carlou D - Ndekke Mbeuguel Remix (Clip Officiel)",
+              "views": 9109151,
+              "duration": "6:18",
+              "thumbnail": "https://i.ytimg.com/vi/Mu-uLxflH1I/hqdefault.jpg"
+            },
+            {
+              "videoId": "iBqlDxX1wMU",
+              "title": "Carlou D - Yaw La remix live (Clip officiel )",
+              "views": 369299,
+              "duration": "5:29",
+              "thumbnail": "https://i.ytimg.com/vi/iBqlDxX1wMU/hq720.jpg"
+            },
+            {
+              "videoId": "kXPxzea_Cxk",
+              "title": "Carlou D - Yaw La [Official Music Video]",
+              "views": 998408,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/kXPxzea_Cxk/hq720.jpg"
+            },
+            {
+              "videoId": "W8gyU2qQd2w",
+              "title": "video mbeuguel carlou D",
+              "views": 1771768,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/W8gyU2qQd2w/hqdefault.jpg"
+            },
+            {
+              "videoId": "u7vhjqWVkCo",
+              "title": "Carlou D - Kaar Soubaanama (Clip Officiel)",
+              "views": 677512,
+              "duration": "5:20",
+              "thumbnail": "https://i.ytimg.com/vi/u7vhjqWVkCo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Cheikh Lo",
+          "channel": {
+            "id": "UCkN8Ux5ngqe2jGOGZwYAnmA",
+            "name": "Cheikh Lo - Topic",
+            "image": "https://yt3.ggpht.com/T_WLa7nS6UKParxamqVbNxCXF1i4x9gquDCiRGbEltodZm3d15cMZUQvl7V0noQjPY3mAojw3g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4560,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "uoSY-b3sn4E",
+              "title": "Cheikh Lô - Full Performance (Live on KEXP)",
+              "views": 702986,
+              "duration": "36:48",
+              "thumbnail": "https://i.ytimg.com/vi/uoSY-b3sn4E/hq720.jpg"
+            },
+            {
+              "videoId": "a-B4Q5_I_mI",
+              "title": "Cheikh Lo - Degg Gui (feat. Flavia Coelho & Fixi) [Clip officiel]",
+              "views": 1082687,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/a-B4Q5_I_mI/hq720.jpg"
+            },
+            {
+              "videoId": "JuahXQeK-oE",
+              "title": "Cheikh Lo. World music festival Porta 2016.",
+              "views": 204097,
+              "duration": "1:20:54",
+              "thumbnail": "https://i.ytimg.com/vi/JuahXQeK-oE/hq720.jpg"
+            },
+            {
+              "videoId": "4e86t-5nQuc",
+              "title": "CHEIKH LO Sukiyaki Tokyo 2015 Archive",
+              "views": 146723,
+              "duration": "32:54",
+              "thumbnail": "https://i.ytimg.com/vi/4e86t-5nQuc/hq720.jpg"
+            },
+            {
+              "videoId": "njFE1kamgHw",
+              "title": "Cheikh Lo - Bamba Sunu Goorgui - Live on VH1, 1997",
+              "views": 351553,
+              "duration": "9:16",
+              "thumbnail": "https://i.ytimg.com/vi/njFE1kamgHw/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Coumba Gawlo",
+          "channel": {
+            "id": "UC3t1YnTvvYvuReaoCOw1L-A",
+            "name": "coumba gawlo",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_kxS_02LeV2Ck67IseYJQNlq-xlWrK-WdBGXYKs0dAtezM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 194000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "y9OybKI7mgY",
+              "title": "COUMBA GAWLO - YEUNGUEUL GUEUSSEUM VIDEO OFFICIELLE - ALBUM GAWLO GAWLO LIVE VOL 1",
+              "views": 1477467,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/y9OybKI7mgY/hq720.jpg"
+            },
+            {
+              "videoId": "HeFpnYKGXMk",
+              "title": "Coumba Gawlo - Topma - Clip Officiel",
+              "views": 3042801,
+              "duration": "6:04",
+              "thumbnail": "https://i.ytimg.com/vi/HeFpnYKGXMk/hqdefault.jpg"
+            },
+            {
+              "videoId": "gF_5vKB4mSE",
+              "title": "Coumba Gawlo - Kouy Feug - Clip Officiel",
+              "views": 2898864,
+              "duration": "7:47",
+              "thumbnail": "https://i.ytimg.com/vi/gF_5vKB4mSE/hqdefault.jpg"
+            },
+            {
+              "videoId": "mnAbVSfaWKY",
+              "title": "Coumba Gawlo - Yo Male (Clip officiel)",
+              "views": 3189251,
+              "duration": "6:24",
+              "thumbnail": "https://i.ytimg.com/vi/mnAbVSfaWKY/hq720.jpg"
+            },
+            {
+              "videoId": "dN3QFd1FWRU",
+              "title": "clip Coumba Gawlo mbeugel réalisé par Christophe Tardy",
+              "views": 1438097,
+              "duration": "6:50",
+              "thumbnail": "https://i.ytimg.com/vi/dN3QFd1FWRU/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Daara J",
+          "channel": {
+            "id": "UCzUSwIuz1O3R8VcCB_x_d2Q",
+            "name": "Daaraj Family",
+            "image": "https://yt3.googleusercontent.com/3mL530z8A6NQYXccoT9cgejtJ7mx4lk57YKksMM9jhjkF6RSIT62oRAJoghedVQnKH4s_OEz3Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 99500,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dPuwfkn0uLU",
+              "title": "Daara J Family - Bayi Yoon - Clip Officiel",
+              "views": 3802385,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/dPuwfkn0uLU/hq720.jpg"
+            },
+            {
+              "videoId": "wL8JaAfFYvA",
+              "title": "DAARA J FAMILY  - Jàmmaarloo",
+              "views": 253071,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/wL8JaAfFYvA/hq720.jpg"
+            },
+            {
+              "videoId": "bV4qTlyw2SQ",
+              "title": "Daara J Family - Tomorrow",
+              "views": 1267487,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/bV4qTlyw2SQ/hq720.jpg"
+            },
+            {
+              "videoId": "SQ_pi-njedA",
+              "title": "Daaraj family - COSAAN (visualizer)",
+              "views": 3857158,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/SQ_pi-njedA/hq720.jpg"
+            },
+            {
+              "videoId": "0o2fiYf7lJM",
+              "title": "Daara J   Esperanza",
+              "views": 300123,
+              "duration": "6:24",
+              "thumbnail": "https://i.ytimg.com/vi/0o2fiYf7lJM/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Dip Doundou Guiss",
+          "channel": {
+            "id": "UC1vuRyLk0d4G0d9sd-Y2U2g",
+            "name": "Dip Doundou Guiss TV",
+            "image": "https://yt3.googleusercontent.com/SMmZsNonEm_zDmNXAt2GaN4F_SM9b0tHSsqbRtXxAqlEhH0uwkowFEXJGv6xIxFrdGEqiQTOGQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 961000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "d_M5ZAH0AJI",
+              "title": "Dip Doundou Guiss - Dungeen daj",
+              "views": 6197106,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/d_M5ZAH0AJI/hq720.jpg"
+            },
+            {
+              "videoId": "CDpHYv4r204",
+              "title": "DIP DOUNDOU GUISS  - ME N YOU  (Official Video)",
+              "views": 17529388,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/CDpHYv4r204/hq720.jpg"
+            },
+            {
+              "videoId": "I-8Ek8Zg_EQ",
+              "title": "SAMBA  PEUZZI - FULL BAKHA FEAT DIP DOUNDOU GUISS & BM JAAY",
+              "views": 304105,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/I-8Ek8Zg_EQ/hq720.jpg"
+            },
+            {
+              "videoId": "RJn6ygwvLOs",
+              "title": "Dip Doundou Guiss - One Night Feat. Nailah (Official Music Video)",
+              "views": 7977262,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/RJn6ygwvLOs/hq720.jpg"
+            },
+            {
+              "videoId": "XIkjBrUGSXA",
+              "title": "Dip Doundou Guiss - Nightmare",
+              "views": 3104131,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/XIkjBrUGSXA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gelongal",
+          "channel": {
+            "id": "UCVu0Xhw05Jy7C_-mJg_HHEA",
+            "name": "GELONGAL",
+            "image": "https://yt3.ggpht.com/WxyFKYCTZpkKQ2SWphPlmebeCdn5HFbn1mydmEbO_obOeSwYZ00Vka88SD5xzHUIo2IMBjao=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 589000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "HyGSulvcH9E",
+              "title": "LE REGARD DE MAMAN ( BANDE ANNONCE LONGUE )",
+              "views": 58658,
+              "duration": "11:38",
+              "thumbnail": "https://i.ytimg.com/vi/HyGSulvcH9E/hq720.jpg"
+            },
+            {
+              "videoId": "xs2HwjrJS-Y",
+              "title": "Gelongal - Nterro (Clip Officiel)",
+              "views": 578787,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/xs2HwjrJS-Y/hqdefault.jpg"
+            },
+            {
+              "videoId": "vWtXCMfuKuc",
+              "title": "Gelongal - Poulodebo - Clip Officiel",
+              "views": 522918,
+              "duration": "4:46",
+              "thumbnail": "https://i.ytimg.com/vi/vWtXCMfuKuc/hqdefault.jpg"
+            },
+            {
+              "videoId": "RUiwtGrFdLM",
+              "title": "Visite de Serigne Thierno  MBACKE GELONGAL à Paris  Dialibatu Marahib",
+              "views": 48737,
+              "duration": "30:28",
+              "thumbnail": "https://i.ytimg.com/vi/RUiwtGrFdLM/hq720.jpg"
+            },
+            {
+              "videoId": "Ox77rWF6SEE",
+              "title": "GELONGAL - NOS ÉTOILES (Papis & Samba)",
+              "views": 67104,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/Ox77rWF6SEE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ismael Lo",
+          "channel": {
+            "id": "UCdqzxrySEPBav7rQe_ppMpg",
+            "name": "Ismaël Lo - Topic",
+            "image": "https://yt3.ggpht.com/A4EYeh94CNtAkt5yktaUWOsu0LqrqssZQW6t6ghfRRBHNTw4Q7NB3tGv-Et04fpXJhjakJPwFg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 25400,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "Ycm_Y9EENec",
+              "title": "Ismaël Lô - Tajabone (clip officiel)",
+              "views": 1277224,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/Ycm_Y9EENec/hqdefault.jpg"
+            },
+            {
+              "videoId": "wOfm9WRFRxA",
+              "title": "ISMAEL LO - AFRICA",
+              "views": 5930911,
+              "duration": "5:03",
+              "thumbnail": "https://i.ytimg.com/vi/wOfm9WRFRxA/hqdefault.jpg"
+            },
+            {
+              "videoId": "qWHzH6UlDDU",
+              "title": "Jammu Africa",
+              "views": 1589138,
+              "duration": "5:02",
+              "thumbnail": "https://i.ytimg.com/vi/qWHzH6UlDDU/hq720.jpg"
+            },
+            {
+              "videoId": "ykW-ExaYklc",
+              "title": "Tajabone",
+              "views": 888449,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/ykW-ExaYklc/hq720.jpg"
+            },
+            {
+              "videoId": "jo7TdbR18xQ",
+              "title": "Ismael Lo - Tajabone",
+              "views": 1431569,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/jo7TdbR18xQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ngaaka Blinde",
+          "channel": {
+            "id": "UCCQYTf0E1NaLs1Z4CCTuVNA",
+            "name": "KING BABA",
+            "image": "https://yt3.googleusercontent.com/qK5qDpVy5JYmN65aGLxU5DIU9D78E6aqAoGsRHrl69wSqZwmQbi9EyAM7q98BYrZSIMKU51sDg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1260000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "0vkVj8_-oqc",
+              "title": "KING BABA - Ngaaka Blinde - Effect Secondaire (clip officiel)",
+              "views": 10506127,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/0vkVj8_-oqc/hq720.jpg"
+            },
+            {
+              "videoId": "veRlAfmUCec",
+              "title": "King Baba - SYMPOSIUM (clip officiel)",
+              "views": 780837,
+              "duration": "2:21",
+              "thumbnail": "https://i.ytimg.com/vi/veRlAfmUCec/hq720.jpg"
+            },
+            {
+              "videoId": "EC7wx6fsEX8",
+              "title": "King Baba - ACTU LOCALE. feat MATADI (Visualizer)",
+              "views": 8366015,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/EC7wx6fsEX8/hq720.jpg"
+            },
+            {
+              "videoId": "UHeYjhkjN1I",
+              "title": "KING BABA X DJ MAC X CRASHDUMMY  \"MAAY SEN BAAY\" (OFFICIAL MUSIC VIDEO) WYFL RIDDIM REMIX",
+              "views": 153261,
+              "duration": "2:01",
+              "thumbnail": "https://i.ytimg.com/vi/UHeYjhkjN1I/hq720.jpg"
+            },
+            {
+              "videoId": "2I7a6g3OnSI",
+              "title": "Ngaaka Blindé - Activel Seu Bluetooth (Vidéo Lyrics)",
+              "views": 824341,
+              "duration": "5:12",
+              "thumbnail": "https://i.ytimg.com/vi/2I7a6g3OnSI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Orchestra Baobab",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "m4yFmRNcX3I",
+              "title": "Orchestra Baobab - Utrus Horas (Official Audio)",
+              "views": 739278,
+              "duration": "8:46",
+              "thumbnail": "https://i.ytimg.com/vi/m4yFmRNcX3I/hq720.jpg"
+            },
+            {
+              "videoId": "L84zH_dpoSo",
+              "title": "Orchestra Baobab - live at Best Kept Secret 2025",
+              "views": 33421,
+              "duration": "30:12",
+              "thumbnail": "https://i.ytimg.com/vi/L84zH_dpoSo/hq720.jpg"
+            },
+            {
+              "videoId": "jSTprGSFPM0",
+              "title": "Orchestra Baobab - Sey (Official Audio)",
+              "views": 107659,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/jSTprGSFPM0/hq720.jpg"
+            },
+            {
+              "videoId": "om366DLLtqg",
+              "title": "Orchestra Baobab Live at Ellen’s (The House of KOKO)",
+              "views": 55857,
+              "duration": "1:16:58",
+              "thumbnail": "https://i.ytimg.com/vi/om366DLLtqg/hq720.jpg"
+            },
+            {
+              "videoId": "yXiFcVs5iyk",
+              "title": "Orchestra Baobab - Werente Serigne (Official Audio)",
+              "views": 260465,
+              "duration": "6:51",
+              "thumbnail": "https://i.ytimg.com/vi/yXiFcVs5iyk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pape Diouf",
+          "channel": {
+            "id": "UCQOVw8713P-ZaKZk2x5BTCw",
+            "name": "Pape Diouf",
+            "image": "https://yt3.googleusercontent.com/IZD34a9r3SE8T5V5qK9sKPo7tVxIUwW5vnlSqlUuhBcOudWJMmgSSSgh81C1p_pPuODK6cNRYms=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 263000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "j2Tj_ejWQf0",
+              "title": "PAPE DIOUF-Du Degn-Clip Officiel",
+              "views": 19339444,
+              "duration": "7:09",
+              "thumbnail": "https://i.ytimg.com/vi/j2Tj_ejWQf0/hq720.jpg"
+            },
+            {
+              "videoId": "-cDoCgalmWY",
+              "title": "Pape Diouf - Soirée Live au Barramundi (Dakar, Samedi 18 Avril 2026)",
+              "views": 11167,
+              "duration": "2:05:22",
+              "thumbnail": "https://i.ytimg.com/vi/-cDoCgalmWY/hq720.jpg"
+            },
+            {
+              "videoId": "CWLmrX-phIc",
+              "title": "Pape Diouf - Superman Love (Clip Officiel)",
+              "views": 34681623,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/CWLmrX-phIc/hq720.jpg"
+            },
+            {
+              "videoId": "Rb0vjW5GvR0",
+              "title": "Diofior - Pape Diouf",
+              "views": 7844778,
+              "duration": "7:50",
+              "thumbnail": "https://i.ytimg.com/vi/Rb0vjW5GvR0/hq720.jpg"
+            },
+            {
+              "videoId": "9PLqrjrqJyQ",
+              "title": "Pape Diouf Live Performance JUST 4 YOU - Samedi 17 Janvier 2026 - HD",
+              "views": 46206,
+              "duration": "2:27:42",
+              "thumbnail": "https://i.ytimg.com/vi/9PLqrjrqJyQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pape Thiopet",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "T9JYVmmPDKk",
+              "title": ",nouveau cilp de thiopet ganar",
+              "views": 74445,
+              "duration": "5:03",
+              "thumbnail": "https://i.ytimg.com/vi/T9JYVmmPDKk/hq720.jpg"
+            },
+            {
+              "videoId": "mUFHmKOXmRo",
+              "title": "PAPE THIOPET -  LEUMBEUL LU VIP - Video Officielle",
+              "views": 140369,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/mUFHmKOXmRo/hq720.jpg"
+            },
+            {
+              "videoId": "Ii8P0U9GvJU",
+              "title": "#2STVLIVE 2S SHOW AVEC OMARO ET ADJA DIALLO INVITE PAPE NDIAYE THIOPET",
+              "views": 50616,
+              "duration": "2:19:18",
+              "thumbnail": "https://i.ytimg.com/vi/Ii8P0U9GvJU/hqdefault.jpg"
+            },
+            {
+              "videoId": "tbjvb4w3tbE",
+              "title": "Pape Ndiaye Thiopét - Ray Joxogn",
+              "views": 4393891,
+              "duration": "8:36",
+              "thumbnail": "https://i.ytimg.com/vi/tbjvb4w3tbE/hqdefault.jpg"
+            },
+            {
+              "videoId": "xC2CkZRz7n4",
+              "title": "Pape NdiayeThiopet -  IlaTouba",
+              "views": 489051,
+              "duration": "6:58",
+              "thumbnail": "https://i.ytimg.com/vi/xC2CkZRz7n4/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pee Froiss",
+          "channel": {
+            "id": "UCk5Ui1Azo3vq-xMeyb4QYFQ",
+            "name": "Pee Froiss - Topic",
+            "image": "https://yt3.ggpht.com/Di-9VoyNQ15lL68JEdf128i5-ktIu6NzXHq73FEL4XtfyfwerdJ1I5sL7ZseJB5cvy8FfI5lfOA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 90,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "dedyUS_a650",
+              "title": "Pee Froiss - Ca va Peter",
+              "views": 61246,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/dedyUS_a650/hqdefault.jpg"
+            },
+            {
+              "videoId": "INNK2sDsuuc",
+              "title": "LARABIRANAAN  PEE FROISS",
+              "views": 256912,
+              "duration": "5:03",
+              "thumbnail": "https://i.ytimg.com/vi/INNK2sDsuuc/hqdefault.jpg"
+            },
+            {
+              "videoId": "-bqSM_gkJFg",
+              "title": "Pee Froiss ‎– F.R.O.I.S.S. K7 Senegal 2001 (Side A)",
+              "views": 93510,
+              "duration": "22:54",
+              "thumbnail": "https://i.ytimg.com/vi/-bqSM_gkJFg/hq720.jpg"
+            },
+            {
+              "videoId": "bBtsgNGRmcE",
+              "title": "Pee froiss - Ca va Peter",
+              "views": 22217,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/bBtsgNGRmcE/hq720.jpg"
+            },
+            {
+              "videoId": "lSdRHgk1R3c",
+              "title": "Pee Froiss - Rakk Ndaw",
+              "views": 179662,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/lSdRHgk1R3c/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Positive Black Soul",
+          "channel": {
+            "id": "UCx1iiQKmHbFYbyvpIL3eb7Q",
+            "name": "Positive Black Soul",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nFZ5YYez9VeOBB_1jsUNPLbJ941j4SrZFoc_rElc0OGQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10900,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1jDA6ePLgJk",
+              "title": "Positive Black Soul - JE NE SAIS PAS",
+              "views": 449004,
+              "duration": "3:20",
+              "thumbnail": "https://i.ytimg.com/vi/1jDA6ePLgJk/hqdefault.jpg"
+            },
+            {
+              "videoId": "80f3X_5DSj4",
+              "title": "POSITIVE BLACK SOUL - Run Cool Feat. KyMani Marley",
+              "views": 35551,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/80f3X_5DSj4/hqdefault.jpg"
+            },
+            {
+              "videoId": "xo4KacSv6p4",
+              "title": "POSITIVE BLACK SOUL - NUBIAN SOUND",
+              "views": 142861,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/xo4KacSv6p4/hqdefault.jpg"
+            },
+            {
+              "videoId": "su7rdJTVdE4",
+              "title": "POSITIVE BLACK SOUL - WHY",
+              "views": 233860,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/su7rdJTVdE4/hqdefault.jpg"
+            },
+            {
+              "videoId": "Q1CMGESrDY4",
+              "title": "PBS-CAPSI",
+              "views": 501946,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/Q1CMGESrDY4/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sidy Samb",
+          "channel": {
+            "id": "UCAWrBWtlzVc_3b07ausNosg",
+            "name": "SIDY SAMB",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nht2aivslXRjTEggMpTaIqBfGJx-p09qQ5Fzw7Q-K9Vb0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2520,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "isIiFpyPp88",
+              "title": "Sidy Samb - Primavera",
+              "views": 374324,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/isIiFpyPp88/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZC1E6gA0lyE",
+              "title": "Women",
+              "views": 33365,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/ZC1E6gA0lyE/hq720.jpg"
+            },
+            {
+              "videoId": "_OMvLbD40wA",
+              "title": "Adayi",
+              "views": 2241,
+              "duration": "2:36",
+              "thumbnail": "https://i.ytimg.com/vi/_OMvLbD40wA/hq720.jpg"
+            },
+            {
+              "videoId": "JeVN3Cjpdh0",
+              "title": "Mor Talla Samb & Sidy Samb (Dane doole)",
+              "views": 84657,
+              "duration": "4:47",
+              "thumbnail": "https://i.ytimg.com/vi/JeVN3Cjpdh0/hqdefault.jpg"
+            },
+            {
+              "videoId": "ORHr37EUkww",
+              "title": "Sidy Samb-Live Yengoulene",
+              "views": 82375,
+              "duration": "8:22",
+              "thumbnail": "https://i.ytimg.com/vi/ORHr37EUkww/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Simon",
+          "channel": {
+            "id": "UCQCrKxBj5Id79syQEsY2Qxg",
+            "name": "Simon Wilson",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_nTkE3ECEYjR8I-GDNnWe0bqBOuhTv7iVhVhxc-7dwpIdc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OtuhlEEfLJI",
+              "title": "Simon Vuarambon B2B Tantum @ We Are Lost Festival 2025 | Buenos Aires",
+              "views": 184212,
+              "duration": "2:02:51",
+              "thumbnail": "https://i.ytimg.com/vi/OtuhlEEfLJI/hq720.jpg"
+            },
+            {
+              "videoId": "UiE2EqSdfvI",
+              "title": "Kuli Bangunan Dihina Sampah, Tiba CEO Cantik Datang Bawa Anak: 'Dia Suamiku dan Pewaris Tahta Kami!'",
+              "views": 2710031,
+              "duration": "2:12:47",
+              "thumbnail": "https://i.ytimg.com/vi/UiE2EqSdfvI/hq720.jpg"
+            },
+            {
+              "videoId": "x2bd1zp_q6Y",
+              "title": "Simon and Garfunkel ( The Concert in Central Park 1981 ) Full Concert 16:9 HQ",
+              "views": 3669524,
+              "duration": "1:26:33",
+              "thumbnail": "https://i.ytimg.com/vi/x2bd1zp_q6Y/hq720.jpg"
+            },
+            {
+              "videoId": "NAEppFUWLfc",
+              "title": "Simon & Garfunkel - The Sound of Silence (from The Concert in Central Park)",
+              "views": 189861576,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/NAEppFUWLfc/hq720.jpg"
+            },
+            {
+              "videoId": "R8frGD9k8ws",
+              "title": "Simon Vuarambon | Live at Palacio Alsina, Buenos Aires (Argentina)",
+              "views": 531566,
+              "duration": "2:00:38",
+              "thumbnail": "https://i.ytimg.com/vi/R8frGD9k8ws/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Thione Seck",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "StHGUM4yT60",
+              "title": "BEST OF THIONE BALLAGO SECK",
+              "views": 665001,
+              "duration": "1:39:31",
+              "thumbnail": "https://i.ytimg.com/vi/StHGUM4yT60/hqdefault.jpg"
+            },
+            {
+              "videoId": "TBWsEjFFD6k",
+              "title": "Thione Seck - Diaga",
+              "views": 32194736,
+              "duration": "8:14",
+              "thumbnail": "https://i.ytimg.com/vi/TBWsEjFFD6k/hq720.jpg"
+            },
+            {
+              "videoId": "9NmKVFX3RaE",
+              "title": "LIVE THIONE SECK NON STOP RETRO",
+              "views": 79429,
+              "duration": "1:11:32",
+              "thumbnail": "https://i.ytimg.com/vi/9NmKVFX3RaE/hqdefault.jpg"
+            },
+            {
+              "videoId": "8D0ilLdObgo",
+              "title": "thione seck khalel",
+              "views": 1031372,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/8D0ilLdObgo/hqdefault.jpg"
+            },
+            {
+              "videoId": "ExRQRP4Ku0M",
+              "title": "Thione Seck - Bounia (feat Le Raam Daan)",
+              "views": 4307895,
+              "duration": "5:52",
+              "thumbnail": "https://i.ytimg.com/vi/ExRQRP4Ku0M/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Titi",
+          "channel": {
+            "id": "UCXodGGoCUuMgLFoTf42OgIw",
+            "name": "Titi Toys and Dolls",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_lXzzpEYWrdK9W1exOrKQmXBt8ImifegG0Bh4lv-bas1C4=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 6190000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "vog9ccIGafU",
+              "title": "Titi Dj - Bahasa Kalbu | Official 4K Remastered Video",
+              "views": 5093624,
+              "duration": "4:34",
+              "thumbnail": "https://i.ytimg.com/vi/vog9ccIGafU/hq720.jpg"
+            },
+            {
+              "videoId": "n4bwPFG8ac4",
+              "title": "Titi DJ - Jangan Berhenti Mencintaiku | Lirik Lagu Indonesia",
+              "views": 1727380,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/n4bwPFG8ac4/hq720.jpg"
+            },
+            {
+              "videoId": "7cPBP6hfCIU",
+              "title": "Titi DJ - Tak Kan Ada Cinta Yang Lain | Official Music Video",
+              "views": 4470189,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/7cPBP6hfCIU/hq720.jpg"
+            },
+            {
+              "videoId": "bMTeJULIVrs",
+              "title": "TITI DJ - Matamu | Official Music Video",
+              "views": 4116776,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/bMTeJULIVrs/hq720.jpg"
+            },
+            {
+              "videoId": "rLfwh4qnWgU",
+              "title": "Titi DJ - Separuh Hidupku | Official Music Video",
+              "views": 3432640,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/rLfwh4qnWgU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Viviane Ndour",
+          "channel": {
+            "id": "UCYsdOXVmOjhT-LB2r9U35Mg",
+            "name": "Viviane Chidid Officiel",
+            "image": "https://yt3.googleusercontent.com/EhueZMrLERfBjn8M-LMG86dRxAT5KRx_9bXAM_tNAe7GOZAtUkJ3hmbHEwn7J68z3zYqLlcG5g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1410000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Y0RlycDN1xw",
+              "title": "Viviane CHIDID - Yeuk Yeuk (Clip Officiel)",
+              "views": 32577628,
+              "duration": "5:06",
+              "thumbnail": "https://i.ytimg.com/vi/Y0RlycDN1xw/hq720.jpg"
+            },
+            {
+              "videoId": "o6OnE-DTBJw",
+              "title": "Viviane - Kumu Neexul - Clip Officiel",
+              "views": 10116271,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/o6OnE-DTBJw/hq720.jpg"
+            },
+            {
+              "videoId": "Zj5OJdqClSM",
+              "title": "Viviane CHIDID Ft. Bass THIOUNG - SWEET GAME",
+              "views": 38923477,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/Zj5OJdqClSM/hq720.jpg"
+            },
+            {
+              "videoId": "APXlEa4_Nfs",
+              "title": "Viviane Chidid - XAARIT",
+              "views": 18745172,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/APXlEa4_Nfs/hq720.jpg"
+            },
+            {
+              "videoId": "Ct_IJPqXcXc",
+              "title": "Viviane Chidid \" Déranger \" Clip Officiel",
+              "views": 19986169,
+              "duration": "5:23",
+              "thumbnail": "https://i.ytimg.com/vi/Ct_IJPqXcXc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Wally Seck",
+          "channel": {
+            "id": "UCn35kQ-UglSExf-q1nrvqRw",
+            "name": "Wally Seck Officiel",
+            "image": "https://yt3.googleusercontent.com/BuzQRyyzGR0FC356kNb_WA16noUmHUbgiNwU6gj0gsL65ovQpZ-Dku-AxxrV5z0I9UrRSrT3=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2610000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Qu9ssZVgfIk",
+              "title": "Wally B. Seck - CONFUSE feat. Mia Guisse & Amadeus (Video Officielle)",
+              "views": 58781599,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/Qu9ssZVgfIk/hq720.jpg"
+            },
+            {
+              "videoId": "KFERzXrxCkw",
+              "title": "Wally B. Seck - ON IT (Live)",
+              "views": 6535088,
+              "duration": "1:09:25",
+              "thumbnail": "https://i.ytimg.com/vi/KFERzXrxCkw/hq720.jpg"
+            },
+            {
+              "videoId": "RKqAsaFVcZ8",
+              "title": "Wally B. Seck - Entre nous (clip officiel)",
+              "views": 9346923,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/RKqAsaFVcZ8/hq720.jpg"
+            },
+            {
+              "videoId": "wLfzLD10WME",
+              "title": "Thérapie (Live)",
+              "views": 856238,
+              "duration": "7:53",
+              "thumbnail": "https://i.ytimg.com/vi/wLfzLD10WME/hq720.jpg"
+            },
+            {
+              "videoId": "JAMMDyPu1Lc",
+              "title": "Wally B. Seck - Je t’aime (Clip Officiel)",
+              "views": 33130804,
+              "duration": "3:17",
+              "thumbnail": "https://i.ytimg.com/vi/JAMMDyPu1Lc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Youssou N'Dour",
+          "channel": {},
+          "topSongs": [],
+          "songCount": 0
+        }
+      ]
+    },
+    "gospel": {
+      "count": 15,
+      "artists": [
+        {
+          "name": "Aby Ndour",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "qp27h7PQTCM",
+              "title": "Aby Ndour.Xarit.avi",
+              "views": 473876,
+              "duration": "2:47",
+              "thumbnail": "https://i.ytimg.com/vi/qp27h7PQTCM/hqdefault.jpg"
+            },
+            {
+              "videoId": "Ggc3IkNasAM",
+              "title": "Confusion - Aby Ndour",
+              "views": 909388,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/Ggc3IkNasAM/hqdefault.jpg"
+            },
+            {
+              "videoId": "u1BdEzIyWto",
+              "title": "Seetoo Seet (feat. Alioune Mbaye Nder, Ndiole)",
+              "views": 654615,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/u1BdEzIyWto/hq720.jpg"
+            },
+            {
+              "videoId": "vfMf-_-4pWM",
+              "title": "Jamm ak Salaam.mov",
+              "views": 273952,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/vfMf-_-4pWM/hqdefault.jpg"
+            },
+            {
+              "videoId": "NYALHBrub3M",
+              "title": "SEETOO SEET ABY NDOUR FT NDER et NDIOLE CLIP OFFICIEL",
+              "views": 10921837,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/NYALHBrub3M/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Aida Samb",
+          "channel": {
+            "id": "UCr61TfruScrZP4So22aHIew",
+            "name": "Aida Samb",
+            "image": "https://yt3.googleusercontent.com/ryUnxTSdL8BxZb2dJHgm3rDmYHjOYaZX4CH9AUtWAoJihwTVpkNbJm-Q-RSqE0xJnVv3odDhMw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 208000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "sIxBu2duLaI",
+              "title": "AIDA SAMB BULKO SANK Officiel",
+              "views": 21612375,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/sIxBu2duLaI/hq720.jpg"
+            },
+            {
+              "videoId": "70HzUS-sCbc",
+              "title": "Aida Samb - Defma Reine (Clip Officiel) Feat Mbaye Dieye Faye",
+              "views": 2819857,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/70HzUS-sCbc/hq720.jpg"
+            },
+            {
+              "videoId": "JpiG8cuNvP0",
+              "title": "Aida Samb - Confirmation (Live Performance)",
+              "views": 818500,
+              "duration": "1:19:40",
+              "thumbnail": "https://i.ytimg.com/vi/JpiG8cuNvP0/hq720.jpg"
+            },
+            {
+              "videoId": "LnVbokx1KhE",
+              "title": "Aida Samb - Yaw La (Clip Officiel)",
+              "views": 18020739,
+              "duration": "4:29",
+              "thumbnail": "https://i.ytimg.com/vi/LnVbokx1KhE/hq720.jpg"
+            },
+            {
+              "videoId": "upjywP401Pw",
+              "title": "AIDA SAMB- Baadolo (Official Video)",
+              "views": 11001075,
+              "duration": "3:28",
+              "thumbnail": "https://i.ytimg.com/vi/upjywP401Pw/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Baaba Maal",
+          "channel": {
+            "id": "UCCpHXDm-tPU7BJRFCDRz5xQ",
+            "name": "Baaba Maal",
+            "image": "https://yt3.googleusercontent.com/YQA--hwYpl6kv3CawuCNgT_vFeaWNE7zxHfylGL1_bHX0eJGhkwZUcYVG05YzrIrx4XMY5Zw2g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 110000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "eCIHPdx1OAs",
+              "title": "Mumford & Sons, Baaba Maal - There Will Be Time (Live in South Africa)",
+              "views": 22271925,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/eCIHPdx1OAs/hq720.jpg"
+            },
+            {
+              "videoId": "JzU_CUK1VKk",
+              "title": "Baaba Maal - bouyel",
+              "views": 3277843,
+              "duration": "4:21",
+              "thumbnail": "https://i.ytimg.com/vi/JzU_CUK1VKk/hqdefault.jpg"
+            },
+            {
+              "videoId": "wxumKErHl50",
+              "title": "Baaba Maal - Yela",
+              "views": 4720431,
+              "duration": "4:09",
+              "thumbnail": "https://i.ytimg.com/vi/wxumKErHl50/hq720.jpg"
+            },
+            {
+              "videoId": "UZ-LvqaqPSQ",
+              "title": "Baaba Maal - Baayo  (Live at Celtic Connections 2016)",
+              "views": 429781,
+              "duration": "5:55",
+              "thumbnail": "https://i.ytimg.com/vi/UZ-LvqaqPSQ/hq720.jpg"
+            },
+            {
+              "videoId": "7_TJ9ueCZO4",
+              "title": "Baaba Maal - Yerimayo Celebration (Official Video)",
+              "views": 164031,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/7_TJ9ueCZO4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Carlou D",
+          "channel": {
+            "id": "UC1y4cgOVnPW3ELhFFsWAq7Q",
+            "name": "Carlou D",
+            "image": "https://yt3.googleusercontent.com/FX8tEv5CWOtcbewaIgm1hHpGpSDcZiTSZ-aa1dkFwVb2kB1QY3hCj8mp_XR1r71mKKNo4TgqRg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 113000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Mu-uLxflH1I",
+              "title": "Carlou D - Ndekke Mbeuguel Remix (Clip Officiel)",
+              "views": 9109151,
+              "duration": "6:18",
+              "thumbnail": "https://i.ytimg.com/vi/Mu-uLxflH1I/hqdefault.jpg"
+            },
+            {
+              "videoId": "iBqlDxX1wMU",
+              "title": "Carlou D - Yaw La remix live (Clip officiel )",
+              "views": 369299,
+              "duration": "5:29",
+              "thumbnail": "https://i.ytimg.com/vi/iBqlDxX1wMU/hq720.jpg"
+            },
+            {
+              "videoId": "W8gyU2qQd2w",
+              "title": "video mbeuguel carlou D",
+              "views": 1771768,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/W8gyU2qQd2w/hqdefault.jpg"
+            },
+            {
+              "videoId": "JHtMweIzadU",
+              "title": "Carlou D - Yaw la - version live",
+              "views": 751536,
+              "duration": "5:27",
+              "thumbnail": "https://i.ytimg.com/vi/JHtMweIzadU/hq720.jpg"
+            },
+            {
+              "videoId": "eHpgATxNg-I",
+              "title": "Carlou D - EUPNEU (Clip Officiel)",
+              "views": 1179170,
+              "duration": "4:37",
+              "thumbnail": "https://i.ytimg.com/vi/eHpgATxNg-I/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Coumba Gawlo",
+          "channel": {
+            "id": "UC3t1YnTvvYvuReaoCOw1L-A",
+            "name": "coumba gawlo",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_kxS_02LeV2Ck67IseYJQNlq-xlWrK-WdBGXYKs0dAtezM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 194000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "y9OybKI7mgY",
+              "title": "COUMBA GAWLO - YEUNGUEUL GUEUSSEUM VIDEO OFFICIELLE - ALBUM GAWLO GAWLO LIVE VOL 1",
+              "views": 1477479,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/y9OybKI7mgY/hq720.jpg"
+            },
+            {
+              "videoId": "gF_5vKB4mSE",
+              "title": "Coumba Gawlo - Kouy Feug - Clip Officiel",
+              "views": 2898873,
+              "duration": "7:47",
+              "thumbnail": "https://i.ytimg.com/vi/gF_5vKB4mSE/hqdefault.jpg"
+            },
+            {
+              "videoId": "HeFpnYKGXMk",
+              "title": "Coumba Gawlo - Topma - Clip Officiel",
+              "views": 3042801,
+              "duration": "6:04",
+              "thumbnail": "https://i.ytimg.com/vi/HeFpnYKGXMk/hqdefault.jpg"
+            },
+            {
+              "videoId": "dN3QFd1FWRU",
+              "title": "clip Coumba Gawlo mbeugel réalisé par Christophe Tardy",
+              "views": 1438097,
+              "duration": "6:50",
+              "thumbnail": "https://i.ytimg.com/vi/dN3QFd1FWRU/hqdefault.jpg"
+            },
+            {
+              "videoId": "t-WvJVwJKp4",
+              "title": "COUMBA GAWLO - SOLEIL (Video Officielle)",
+              "views": 1596485,
+              "duration": "3:38",
+              "thumbnail": "https://i.ytimg.com/vi/t-WvJVwJKp4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fafadi",
+          "channel": {
+            "id": "UCBfe3KwtG_YpXz81gsAj3Vg",
+            "name": "fafadi kelefa",
+            "image": "https://yt3.ggpht.com/rO18O1kSXlC4JYoaCM7cqpztFD2zxVPuW-_sCj5mbunOlmS5vdWbrWkrjofj-tMcQPo0rnw0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 58100,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "pHo0CE_a4yQ",
+              "title": "Fafadi & di Wulabaa Sound / Gal I Love U",
+              "views": 2023592,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/pHo0CE_a4yQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "t_L6VudVzTk",
+              "title": "FAFADI .Gal I Love U .AI ,MALE",
+              "views": 820,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/t_L6VudVzTk/hq720.jpg"
+            },
+            {
+              "videoId": "118z1Sa22HM",
+              "title": "FAFADI .Mama (angel of my life) AI cover",
+              "views": 20412,
+              "duration": "4:44",
+              "thumbnail": "https://i.ytimg.com/vi/118z1Sa22HM/hq720.jpg"
+            },
+            {
+              "videoId": "UmKQwUFESgI",
+              "title": "Fafadi - Kanala Mola Bi (Official Music Video)",
+              "views": 1238903,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/UmKQwUFESgI/hq720.jpg"
+            },
+            {
+              "videoId": "7KTEoAhJZYs",
+              "title": "LYNX POST-PROD Fafadi ak amajang - i believe in you",
+              "views": 1253187,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/7KTEoAhJZYs/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Julia Sarr",
+          "channel": {
+            "id": "UCRCwSksJ4FXz54_KxSNnfPw",
+            "name": "Julia Sarr",
+            "image": "https://yt3.googleusercontent.com/HenC7oh_rIl784b6GSYX7Fnvr5-Wye0MAkzUVk9Tp6fwbVphdYXqzASWqm0NDMvkO0aQkUyyHRo=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1350,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Y4RumvnvtTU",
+              "title": "JULIA SARR - ADJANA (Official Music Video)",
+              "views": 46822,
+              "duration": "4:08",
+              "thumbnail": "https://i.ytimg.com/vi/Y4RumvnvtTU/hq720.jpg"
+            },
+            {
+              "videoId": "x4i6a9A4hNk",
+              "title": "JULIA SARR - YÉNÉ   (Live 1/3  Jazz à Vienne)",
+              "views": 5346,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/x4i6a9A4hNk/hq720.jpg"
+            },
+            {
+              "videoId": "2h-DzOOsrZo",
+              "title": "Julia Sarr-Jamois On Being Her Own Kind Of Stylist",
+              "views": 34623,
+              "duration": "11:34",
+              "thumbnail": "https://i.ytimg.com/vi/2h-DzOOsrZo/hq720.jpg"
+            },
+            {
+              "videoId": "O2RK7SRpAzg",
+              "title": "JULIA SARR - PRAYERS (Official Music Vidéo)",
+              "views": 7285,
+              "duration": "5:12",
+              "thumbnail": "https://i.ytimg.com/vi/O2RK7SRpAzg/hq720.jpg"
+            },
+            {
+              "videoId": "89HTbVpCXr0",
+              "title": "JULIA SARR Trio LIVE EPK (english subtitles)",
+              "views": 1628,
+              "duration": "6:43",
+              "thumbnail": "https://i.ytimg.com/vi/89HTbVpCXr0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mame Diarra",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "PS8865AseV0",
+              "title": "Ndiassé ndiaye nabien news single sokhna diarra",
+              "views": 606873,
+              "duration": "5:56",
+              "thumbnail": "https://i.ytimg.com/vi/PS8865AseV0/hq720.jpg"
+            },
+            {
+              "videoId": "-v5yt7Qxi7s",
+              "title": "Exclusive : Wolofalou Sokhna Diarra Bousso par Serigne Khadim Gueye",
+              "views": 900612,
+              "duration": "20:54",
+              "thumbnail": "https://i.ytimg.com/vi/-v5yt7Qxi7s/hqdefault.jpg"
+            },
+            {
+              "videoId": "A82OiZcV0Vw",
+              "title": "Diarra Sylla x Marieme - Catch a Vibe (Official Video)",
+              "views": 534766,
+              "duration": "2:55",
+              "thumbnail": "https://i.ytimg.com/vi/A82OiZcV0Vw/hq720.jpg"
+            },
+            {
+              "videoId": "LoH7rIwhqUU",
+              "title": "Wally seck mame diarra fam lou nékh ambiance 100 %",
+              "views": 227237,
+              "duration": "21:16",
+              "thumbnail": "https://i.ytimg.com/vi/LoH7rIwhqUU/hq720.jpg"
+            },
+            {
+              "videoId": "axT8JlcK77U",
+              "title": "CUPID - DIARRA SYLLA - OFFICIAL MUSIC VIDEO",
+              "views": 300356,
+              "duration": "2:18",
+              "thumbnail": "https://i.ytimg.com/vi/axT8JlcK77U/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pape Diouf",
+          "channel": {
+            "id": "UCQOVw8713P-ZaKZk2x5BTCw",
+            "name": "Pape Diouf",
+            "image": "https://yt3.googleusercontent.com/IZD34a9r3SE8T5V5qK9sKPo7tVxIUwW5vnlSqlUuhBcOudWJMmgSSSgh81C1p_pPuODK6cNRYms=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 263000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "j2Tj_ejWQf0",
+              "title": "PAPE DIOUF-Du Degn-Clip Officiel",
+              "views": 19339523,
+              "duration": "7:09",
+              "thumbnail": "https://i.ytimg.com/vi/j2Tj_ejWQf0/hq720.jpg"
+            },
+            {
+              "videoId": "-cDoCgalmWY",
+              "title": "Pape Diouf - Soirée Live au Barramundi (Dakar, Samedi 18 Avril 2026)",
+              "views": 11167,
+              "duration": "2:05:22",
+              "thumbnail": "https://i.ytimg.com/vi/-cDoCgalmWY/hq720.jpg"
+            },
+            {
+              "videoId": "CWLmrX-phIc",
+              "title": "Pape Diouf - Superman Love (Clip Officiel)",
+              "views": 34681623,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/CWLmrX-phIc/hq720.jpg"
+            },
+            {
+              "videoId": "Rb0vjW5GvR0",
+              "title": "Diofior - Pape Diouf",
+              "views": 7844778,
+              "duration": "7:50",
+              "thumbnail": "https://i.ytimg.com/vi/Rb0vjW5GvR0/hq720.jpg"
+            },
+            {
+              "videoId": "9PLqrjrqJyQ",
+              "title": "Pape Diouf Live Performance JUST 4 YOU - Samedi 17 Janvier 2026 - HD",
+              "views": 46206,
+              "duration": "2:27:42",
+              "thumbnail": "https://i.ytimg.com/vi/9PLqrjrqJyQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sidy Samb",
+          "channel": {
+            "id": "UCAWrBWtlzVc_3b07ausNosg",
+            "name": "SIDY SAMB",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nht2aivslXRjTEggMpTaIqBfGJx-p09qQ5Fzw7Q-K9Vb0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2520,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "isIiFpyPp88",
+              "title": "Sidy Samb - Primavera",
+              "views": 374324,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/isIiFpyPp88/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZC1E6gA0lyE",
+              "title": "Women",
+              "views": 33365,
+              "duration": "4:38",
+              "thumbnail": "https://i.ytimg.com/vi/ZC1E6gA0lyE/hq720.jpg"
+            },
+            {
+              "videoId": "_OMvLbD40wA",
+              "title": "Adayi",
+              "views": 2241,
+              "duration": "2:36",
+              "thumbnail": "https://i.ytimg.com/vi/_OMvLbD40wA/hq720.jpg"
+            },
+            {
+              "videoId": "zTNXPgNGwL4",
+              "title": "sidy samb primavera",
+              "views": 170975,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/zTNXPgNGwL4/hqdefault.jpg"
+            },
+            {
+              "videoId": "JeVN3Cjpdh0",
+              "title": "Mor Talla Samb & Sidy Samb (Dane doole)",
+              "views": 84657,
+              "duration": "4:47",
+              "thumbnail": "https://i.ytimg.com/vi/JeVN3Cjpdh0/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sister Fa",
+          "channel": {
+            "id": "UCrnSGN3acUK0gAFzuNQwCXw",
+            "name": "Sister Fa - Topic",
+            "image": "https://yt3.ggpht.com/Y9J0bzUlxT-MF4r0YQNHAZcY00OO-A635hjozAazfej8aP5czwLjfKHvLH-gr8msF7nKxrlj=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 299,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "ktts8jVSh9w",
+              "title": "Milyamba",
+              "views": 4915,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/ktts8jVSh9w/hq720.jpg"
+            },
+            {
+              "videoId": "FmpBw-cy4l0",
+              "title": "Sarabah",
+              "views": 1414,
+              "duration": "4:21",
+              "thumbnail": "https://i.ytimg.com/vi/FmpBw-cy4l0/hq720.jpg"
+            },
+            {
+              "videoId": "x-H5RW2nE34",
+              "title": "Sister Fa-Sarabah",
+              "views": 30774,
+              "duration": "4:27",
+              "thumbnail": "https://i.ytimg.com/vi/x-H5RW2nE34/hqdefault.jpg"
+            },
+            {
+              "videoId": "bwk511rb5uc",
+              "title": "Sister Fa - Milyamba",
+              "views": 5822,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/bwk511rb5uc/hqdefault.jpg"
+            },
+            {
+              "videoId": "MDEuOucTHaw",
+              "title": "Pemeran Sister, Sister (1994) Dulu dan Sekarang! 30 Tahun Berlalu 2026!",
+              "views": 853,
+              "duration": "33:00",
+              "thumbnail": "https://i.ytimg.com/vi/MDEuOucTHaw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Thione Seck",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "StHGUM4yT60",
+              "title": "BEST OF THIONE BALLAGO SECK",
+              "views": 665001,
+              "duration": "1:39:31",
+              "thumbnail": "https://i.ytimg.com/vi/StHGUM4yT60/hqdefault.jpg"
+            },
+            {
+              "videoId": "TBWsEjFFD6k",
+              "title": "Thione Seck - Diaga",
+              "views": 32194736,
+              "duration": "8:14",
+              "thumbnail": "https://i.ytimg.com/vi/TBWsEjFFD6k/hq720.jpg"
+            },
+            {
+              "videoId": "9NmKVFX3RaE",
+              "title": "LIVE THIONE SECK NON STOP RETRO",
+              "views": 79429,
+              "duration": "1:11:32",
+              "thumbnail": "https://i.ytimg.com/vi/9NmKVFX3RaE/hqdefault.jpg"
+            },
+            {
+              "videoId": "8D0ilLdObgo",
+              "title": "thione seck khalel",
+              "views": 1031372,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/8D0ilLdObgo/hqdefault.jpg"
+            },
+            {
+              "videoId": "ExRQRP4Ku0M",
+              "title": "Thione Seck - Bounia (feat Le Raam Daan)",
+              "views": 4307895,
+              "duration": "5:52",
+              "thumbnail": "https://i.ytimg.com/vi/ExRQRP4Ku0M/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Viviane Ndour",
+          "channel": {
+            "id": "UCYsdOXVmOjhT-LB2r9U35Mg",
+            "name": "Viviane Chidid Officiel",
+            "image": "https://yt3.googleusercontent.com/EhueZMrLERfBjn8M-LMG86dRxAT5KRx_9bXAM_tNAe7GOZAtUkJ3hmbHEwn7J68z3zYqLlcG5g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1410000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Y0RlycDN1xw",
+              "title": "Viviane CHIDID - Yeuk Yeuk (Clip Officiel)",
+              "views": 32577751,
+              "duration": "5:06",
+              "thumbnail": "https://i.ytimg.com/vi/Y0RlycDN1xw/hq720.jpg"
+            },
+            {
+              "videoId": "o6OnE-DTBJw",
+              "title": "Viviane - Kumu Neexul - Clip Officiel",
+              "views": 10116271,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/o6OnE-DTBJw/hq720.jpg"
+            },
+            {
+              "videoId": "Zj5OJdqClSM",
+              "title": "Viviane CHIDID Ft. Bass THIOUNG - SWEET GAME",
+              "views": 38923764,
+              "duration": "5:04",
+              "thumbnail": "https://i.ytimg.com/vi/Zj5OJdqClSM/hq720.jpg"
+            },
+            {
+              "videoId": "APXlEa4_Nfs",
+              "title": "Viviane Chidid - XAARIT",
+              "views": 18745172,
+              "duration": "4:30",
+              "thumbnail": "https://i.ytimg.com/vi/APXlEa4_Nfs/hq720.jpg"
+            },
+            {
+              "videoId": "Ct_IJPqXcXc",
+              "title": "Viviane Chidid \" Déranger \" Clip Officiel",
+              "views": 19986169,
+              "duration": "5:23",
+              "thumbnail": "https://i.ytimg.com/vi/Ct_IJPqXcXc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Wally Seck",
+          "channel": {
+            "id": "UCn35kQ-UglSExf-q1nrvqRw",
+            "name": "Wally Seck Officiel",
+            "image": "https://yt3.googleusercontent.com/BuzQRyyzGR0FC356kNb_WA16noUmHUbgiNwU6gj0gsL65ovQpZ-Dku-AxxrV5z0I9UrRSrT3=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2610000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Qu9ssZVgfIk",
+              "title": "Wally B. Seck - CONFUSE feat. Mia Guisse & Amadeus (Video Officielle)",
+              "views": 58782056,
+              "duration": "3:49",
+              "thumbnail": "https://i.ytimg.com/vi/Qu9ssZVgfIk/hq720.jpg"
+            },
+            {
+              "videoId": "KFERzXrxCkw",
+              "title": "Wally B. Seck - ON IT (Live)",
+              "views": 6535824,
+              "duration": "1:09:25",
+              "thumbnail": "https://i.ytimg.com/vi/KFERzXrxCkw/hq720.jpg"
+            },
+            {
+              "videoId": "RKqAsaFVcZ8",
+              "title": "Wally B. Seck - Entre nous (clip officiel)",
+              "views": 9347204,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/RKqAsaFVcZ8/hq720.jpg"
+            },
+            {
+              "videoId": "Kmmi6AEoTho",
+              "title": "Sidiki Diabaté feat Wally Seck - Assurance (Clip Officiel)",
+              "views": 19920348,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/Kmmi6AEoTho/hq720.jpg"
+            },
+            {
+              "videoId": "JAMMDyPu1Lc",
+              "title": "Wally B. Seck - Je t’aime (Clip Officiel)",
+              "views": 33130804,
+              "duration": "3:17",
+              "thumbnail": "https://i.ytimg.com/vi/JAMMDyPu1Lc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Youssou N'Dour",
+          "channel": {},
+          "topSongs": [],
+          "songCount": 0
+        }
+      ]
+    }
+  }
+}

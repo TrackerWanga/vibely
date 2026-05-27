@@ -1,0 +1,24 @@
+{
+  "country": "India",
+  "flag": "🇮🇳",
+  "code": "IN",
+  "continent": "Asia",
+  "languages": [
+    "Hindi",
+    "Tamil",
+    "Telugu",
+    "Punjabi",
+    "English"
+  ],
+  "collected_at": "2026-05-24",
+  "categories": {
+    "secular": {
+      "count": 0,
+      "artists": []
+    },
+    "gospel": {
+      "count": 0,
+      "artists": []
+    }
+  }
+}

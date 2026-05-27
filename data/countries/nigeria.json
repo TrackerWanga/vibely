@@ -1,0 +1,4044 @@
+{
+  "country": "Nigeria",
+  "flag": "🇳🇬",
+  "code": "NG",
+  "continent": "Africa",
+  "categories": {
+    "secular": {
+      "count": 49,
+      "artists": [
+        {
+          "name": "2Baba",
+          "channel": {
+            "id": "UC-16fxcFZvJUMo-zMEn8Akg",
+            "name": "Official2Baba",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_kTFmrTBFRJcNR7Kw8NP-lIG9anYHC-7kdhepv4tc6qJg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 497000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "IJTH2R0DAaw",
+              "title": "2Baba - Officially Blind (Remix) [Official Video]",
+              "views": 7075550,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/IJTH2R0DAaw/hq720.jpg"
+            },
+            {
+              "videoId": "_A0fWBHu9pM",
+              "title": "2Face - African Queen [Official Video]",
+              "views": 28673919,
+              "duration": "4:48",
+              "thumbnail": "https://i.ytimg.com/vi/_A0fWBHu9pM/hqdefault.jpg"
+            },
+            {
+              "videoId": "O2faaY4IHuI",
+              "title": "Best of 2baba A.k.A 2face Idibia Mixtape/Dj Lighter",
+              "views": 313109,
+              "duration": "1:18:10",
+              "thumbnail": "https://i.ytimg.com/vi/O2faaY4IHuI/hqdefault.jpg"
+            },
+            {
+              "videoId": "gvv1jOFMyNg",
+              "title": "2Face - If Love Is A Crime [Official Video]",
+              "views": 7666587,
+              "duration": "5:12",
+              "thumbnail": "https://i.ytimg.com/vi/gvv1jOFMyNg/hqdefault.jpg"
+            },
+            {
+              "videoId": "z_cK-M9lBCI",
+              "title": "BEST OF 2BABA RELOADED #2FACE MIX OLD & NEW HITS (DJ WYTEE) 2003/2020 UPDATE",
+              "views": 1799020,
+              "duration": "1:21:41",
+              "thumbnail": "https://i.ytimg.com/vi/z_cK-M9lBCI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Adekunle Gold",
+          "channel": {
+            "id": "UC3RP_IbJrcP8cIwOC7wRj5g",
+            "name": "Adekunle Gold",
+            "image": "https://yt3.googleusercontent.com/p1NAVb2-Jd_Z0CFlTSLyIOgVxFIoCgMIzx_Y2-4Zu1H3FGLJGfsk2au-IzR6D8BPYsIC-bBikA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1030000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "zgi30OqnKN4",
+              "title": "Adekunle Gold - Okay",
+              "views": 57885660,
+              "duration": "3:18",
+              "thumbnail": "https://i.ytimg.com/vi/zgi30OqnKN4/hq720.jpg"
+            },
+            {
+              "videoId": "whptJMsHQVI",
+              "title": "Adekunle Gold - Something Different",
+              "views": 35936610,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/whptJMsHQVI/hq720.jpg"
+            },
+            {
+              "videoId": "XIcsU494u8M",
+              "title": "Adekunle Gold, Lucky Daye - Sinner (Official Music Video)",
+              "views": 26152139,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/XIcsU494u8M/hq720.jpg"
+            },
+            {
+              "videoId": "cLkk7Qn3QS0",
+              "title": "Adekunle Gold ft Olamide - Formation (Video Musik Resmi)",
+              "views": 2413173,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/cLkk7Qn3QS0/hq720.jpg"
+            },
+            {
+              "videoId": "VnXq06m9P4g",
+              "title": "Adekunle Gold, Zinoleesky - Party No Dey Stop (Official Music Video)",
+              "views": 37058208,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/VnXq06m9P4g/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Asake",
+          "channel": {
+            "id": "UCU9R50wyBPKpdbcIScAyZig",
+            "name": "ASAKE",
+            "image": "https://yt3.googleusercontent.com/05DKB1O6aaWS7E36alLqe7w9qIexy3YnVp0nHFT9Gz9ot7lRKLBRUioKREDdLmWuOH5jgWfX_Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2009999.9999999998,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "bbVZo4Yw7pI",
+              "title": "Asake - Lonely At The Top (Official Video)",
+              "views": 90843882,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/bbVZo4Yw7pI/hq720.jpg"
+            },
+            {
+              "videoId": "NCyOpHmh0mA",
+              "title": "Asake - Forgiveness (Official Video)",
+              "views": 2765246,
+              "duration": "2:48",
+              "thumbnail": "https://i.ytimg.com/vi/NCyOpHmh0mA/hq720.jpg"
+            },
+            {
+              "videoId": "lIp-OwMozKI",
+              "title": "Asake – Red Bull Symphonic (Full Performance)",
+              "views": 4788355,
+              "duration": "1:22:20",
+              "thumbnail": "https://i.ytimg.com/vi/lIp-OwMozKI/hq720.jpg"
+            },
+            {
+              "videoId": "HRfb4NVD8LE",
+              "title": "Blaqbonez - Chanel (feat. Asake) [Official Music Video]",
+              "views": 454795,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/HRfb4NVD8LE/hq720.jpg"
+            },
+            {
+              "videoId": "JRF_sdTXpGw",
+              "title": "Asake, Travis Scott - Active (Official Video)",
+              "views": 16934783,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/JRF_sdTXpGw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ayra Starr",
+          "channel": {
+            "id": "UCK7oVw_ftuBIwiipiBf7ogA",
+            "name": "Ayra Starr",
+            "image": "https://yt3.googleusercontent.com/iIwF3ivh4MV8oqD6hG5EemBwxdhi70bg2RlvCYdpgfLKZna7N3Sml9Yo6B3zii7EvHGQJcDIgA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3200000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "EhyzYPSHRQU",
+              "title": "Ayra Starr - Commas (Lyric Video)",
+              "views": 207657629,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/EhyzYPSHRQU/hqdefault.jpg"
+            },
+            {
+              "videoId": "crtQSTYWtqE",
+              "title": "Ayra Starr - Rush (Official Music Video)",
+              "views": 566043089,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/crtQSTYWtqE/hq720.jpg"
+            },
+            {
+              "videoId": "MS7I2kVp0bw",
+              "title": "Johnny Drille, Ayra Starr & Young Jonn - Colorado (Official Music Video)",
+              "views": 3268511,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/MS7I2kVp0bw/hqdefault.jpg"
+            },
+            {
+              "videoId": "GodmYPfMaio",
+              "title": "Ayra Starr, Rema - Who’s Dat Girl",
+              "views": 38997241,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/GodmYPfMaio/hq720.jpg"
+            },
+            {
+              "videoId": "jeMYgIfNwD8",
+              "title": "Ayra Starr - Last Heartbreak Song ft. Giveon (Official Music Video)",
+              "views": 49845211,
+              "duration": "2:47",
+              "thumbnail": "https://i.ytimg.com/vi/jeMYgIfNwD8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Buju",
+          "channel": {
+            "id": "UCGCmhbMffOb80CIF8ACTfBA",
+            "name": "Bnxn TYE",
+            "image": "https://yt3.googleusercontent.com/holfFxF-celbHlY8DLKmn4lW5iU027gMYXcw6Os9yS-ptFqbYJ5bkFSf2W8HwqYPxPedqkEw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 492000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "AdPUIdLb54s",
+              "title": "PEMBUNUHAN BUJU OLEH POLISI: Setelah Menyaksikan Penembakan di Granville pada Hari Ibu (Rekaman C...",
+              "views": 11952,
+              "duration": "28:49",
+              "thumbnail": "https://i.ytimg.com/vi/AdPUIdLb54s/hq720.jpg"
+            },
+            {
+              "videoId": "pcC_vcmB3U4",
+              "title": "Buju Banton - Driver A | A COLORS SHOW",
+              "views": 328305,
+              "duration": "2:47",
+              "thumbnail": "https://i.ytimg.com/vi/pcC_vcmB3U4/hq720.jpg"
+            },
+            {
+              "videoId": "aw5NWcHpEPc",
+              "title": "Alikiba & Mbosso - Bhuju (Official Music Video)",
+              "views": 5661137,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/aw5NWcHpEPc/hq720.jpg"
+            },
+            {
+              "videoId": "PAZ0eGMWhuM",
+              "title": "BNXN, Sarz - Back Outside (Official Video)",
+              "views": 3359456,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/PAZ0eGMWhuM/hq720.jpg"
+            },
+            {
+              "videoId": "Vc-a34TmhFQ",
+              "title": "BNXN, Sarz - Already (Official Visualizer)",
+              "views": 64431,
+              "duration": "2:36",
+              "thumbnail": "https://i.ytimg.com/vi/Vc-a34TmhFQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Burna Boy",
+          "channel": {
+            "id": "UCEzDdNqNkT-7rSfSGSr1hWg",
+            "name": "Burna Boy",
+            "image": "https://yt3.googleusercontent.com/R_lx2cAcDqU--oWopjcHFF-dffPRq2j_A4QPoTauqL8X-j24B6Av_RmoTsLCGHNC-iWhRf0yTQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5860000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Ecl8Aod0Tl0",
+              "title": "Burna Boy - On The Low [Official Music Video]",
+              "views": 466743390,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/Ecl8Aod0Tl0/hq720.jpg"
+            },
+            {
+              "videoId": "hLDQ88vAhIs",
+              "title": "Burna Boy - City Boys [Official Music Video]",
+              "views": 112674477,
+              "duration": "2:34",
+              "thumbnail": "https://i.ytimg.com/vi/hLDQ88vAhIs/hq720.jpg"
+            },
+            {
+              "videoId": "421w1j87fEM",
+              "title": "Burna Boy - Last Last [Official Music Video]",
+              "views": 350986500,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/421w1j87fEM/hq720.jpg"
+            },
+            {
+              "videoId": "fcnDmrtj6Sk",
+              "title": "Shakira, Burna Boy - Dai Dai (Official Video)",
+              "views": 6203405,
+              "duration": "4:01",
+              "thumbnail": "https://i.ytimg.com/vi/fcnDmrtj6Sk/hq720.jpg"
+            },
+            {
+              "videoId": "bGsKQxIwEeQ",
+              "title": "Burna Boy - Tested, Approved & Trusted [Official Music Video]",
+              "views": 60727823,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/bGsKQxIwEeQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Chike",
+          "channel": {
+            "id": "UCVXhwLsuNli6N8FElr7sNvQ",
+            "name": "Chike",
+            "image": "https://yt3.googleusercontent.com/JgFW2EumWUnr2jhKshUgT7VE9KAoOCfmI9bAkxkeGvDla35-BHQqRLXoRLgff5NAkcKJDFiZuCs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1270000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "vC9vmT3Vg-E",
+              "title": "Chiké & Syemca - Pity My Soul [Official Audio]",
+              "views": 36288,
+              "duration": "2:22",
+              "thumbnail": "https://i.ytimg.com/vi/vC9vmT3Vg-E/hq720.jpg"
+            },
+            {
+              "videoId": "KomRDRZqF5Q",
+              "title": "Chiké - Balance Am [Official Video]",
+              "views": 2640234,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/KomRDRZqF5Q/hq720.jpg"
+            },
+            {
+              "videoId": "71-aBRC565w",
+              "title": "Chiké - If You No Love feat. Mayorkun (Official Video)",
+              "views": 44544921,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/71-aBRC565w/hq720.jpg"
+            },
+            {
+              "videoId": "p4ygnUT-WOo",
+              "title": "Chike - Out of Love (Music Video)",
+              "views": 6627492,
+              "duration": "3:32",
+              "thumbnail": "https://i.ytimg.com/vi/p4ygnUT-WOo/hq720.jpg"
+            },
+            {
+              "videoId": "9DpejbEJ5Gs",
+              "title": "Chiké & Simi – Running (To You) [Official Video]",
+              "views": 101483720,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/9DpejbEJ5Gs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ckay",
+          "channel": {
+            "id": "UC7l7-ClAn4QZlA_Qq5sTIdw",
+            "name": "CKay",
+            "image": "https://yt3.googleusercontent.com/Uflzx2-b5wi7txR4qhvQyvbFhbsFJ4KIZOgd0V3-Up0CQGI2bswuM-wzhNtcHROy4GXlxXRH=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4340000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "D-YDEyuDxWU",
+              "title": "CKay - Love Nwantiti Remix ft. Joeboy & Kuami Eugene [Ah Ah Ah] [Official Music Video]",
+              "views": 614643000,
+              "duration": "3:14",
+              "thumbnail": "https://i.ytimg.com/vi/D-YDEyuDxWU/hq720.jpg"
+            },
+            {
+              "videoId": "VFyYHJ9PP4U",
+              "title": "CKay - AFRICAN GIRLS ft. Kidd Carder",
+              "views": 103131,
+              "duration": "2:09",
+              "thumbnail": "https://i.ytimg.com/vi/VFyYHJ9PP4U/hq720.jpg"
+            },
+            {
+              "videoId": "Ypr5QN7Xn_M",
+              "title": "CKay - Emiliana [Official Music Video]",
+              "views": 144120391,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/Ypr5QN7Xn_M/hq720.jpg"
+            },
+            {
+              "videoId": "-pPpFq92cOI",
+              "title": "CKay - Love Nwantiti [Choreo Flying Steps Academy] feat. Ivana Santacruz",
+              "views": 3715161,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/-pPpFq92cOI/hqdefault.jpg"
+            },
+            {
+              "videoId": "qNbAu0IZhKQ",
+              "title": "CKay -  nwayi [Official Music Video]",
+              "views": 12844469,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/qNbAu0IZhKQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Davido",
+          "channel": {
+            "id": "UCkBV3nBa0iRdxEGc4DUS3xA",
+            "name": "Davido",
+            "image": "https://yt3.googleusercontent.com/PA9kUuWtOhJkWixPHjNI6RqfOJYw1131XdDhVMaojjp0wjrgFy4kF2b4OqHgDBys9pVj4M20-sM=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OSBan_sH_b8",
+              "title": "Davido - UNAVAILABLE (Official Video) ft. Musa Keys",
+              "views": 147543744,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/OSBan_sH_b8/hq720.jpg"
+            },
+            {
+              "videoId": "XCjU9qbfv1U",
+              "title": "Davido - With You (Official Video) ft. Omah Lay",
+              "views": 69936715,
+              "duration": "2:20",
+              "thumbnail": "https://i.ytimg.com/vi/XCjU9qbfv1U/hq720.jpg"
+            },
+            {
+              "videoId": "3Iyuym-Gci0",
+              "title": "Davido - Fall (Official Video)",
+              "views": 330431407,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/3Iyuym-Gci0/hq720.jpg"
+            },
+            {
+              "videoId": "3bFPDfWReN0",
+              "title": "Davido - KANTE (Official Video) ft. Fave",
+              "views": 68971936,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/3bFPDfWReN0/hq720.jpg"
+            },
+            {
+              "videoId": "B9H3iinXZv0",
+              "title": "Davido - Risky (Official Video) ft. Popcaan",
+              "views": 99894139,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/B9H3iinXZv0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Dbanj",
+          "channel": {
+            "id": "UCkeL65D_LJU6CefiEJ6xL_Q",
+            "name": "D'Banj",
+            "image": "https://yt3.googleusercontent.com/IhvGPjRTvHnSb06Jfp6nkUxQVEmEpcfwOnEP3XSxWRTCNilJagA2W-CFXGXERDMOZ8br8VQtWBc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 235000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "7KhxmAD74Ck",
+              "title": "D'Banj- Fall In Love Official Video",
+              "views": 9778009,
+              "duration": "5:05",
+              "thumbnail": "https://i.ytimg.com/vi/7KhxmAD74Ck/hqdefault.jpg"
+            },
+            {
+              "videoId": "EUYNnVgkAag",
+              "title": "D'Banj - Oliver Twist Official Video -  HD.",
+              "views": 2322036,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/EUYNnVgkAag/hq720.jpg"
+            },
+            {
+              "videoId": "O_hZ9YKVwqg",
+              "title": "D'Banj ft Snoop Dogg - Mr Endowed (Remix) [Official Video]",
+              "views": 1019015,
+              "duration": "4:40",
+              "thumbnail": "https://i.ytimg.com/vi/O_hZ9YKVwqg/hq720.jpg"
+            },
+            {
+              "videoId": "8tIQze10Ovw",
+              "title": "Kayswitch ft D'banj - OBIMO (Official Video)",
+              "views": 986883,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/8tIQze10Ovw/hq720.jpg"
+            },
+            {
+              "videoId": "aArqQ9NWrQ4",
+              "title": "D'banj - Emergency [Official Video]",
+              "views": 437042,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/aArqQ9NWrQ4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Dija",
+          "channel": {
+            "id": "UC8pyBGx4ZXfBmk6X9LS6kow",
+            "name": "DIJA🦋",
+            "image": "https://yt3.ggpht.com/RcsscG8EMBjn6DmxOjCKB3QmVkVGgXHQ5T7pTs-GPP12wMl0UxIXFSrMUhrA_jdLyp5CCJ98czw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 10500,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "w0MiYMNheiM",
+              "title": "Di'Ja - Awww Music Video",
+              "views": 7717222,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/w0MiYMNheiM/hq720.jpg"
+            },
+            {
+              "videoId": "OwLg8rDg6Tc",
+              "title": "🎵 DIJA — “Just One Coffee ☕Song “  (Lesbian couple song )",
+              "views": 6,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/OwLg8rDg6Tc/hq720.jpg"
+            },
+            {
+              "videoId": "_VuJA-VQRcY",
+              "title": "Central Cee - Doja (Official Music Video)",
+              "views": 253771187,
+              "duration": "1:46",
+              "thumbnail": "https://i.ytimg.com/vi/_VuJA-VQRcY/hqdefault.jpg"
+            },
+            {
+              "videoId": "f1jfUYOQhuA",
+              "title": "واخيرا لقيت زماني❤️ نهار تعارف ديالي💍كيفاش وجدت ليه جري عليا نجري عليك بكيت بالفرحة وشداتني الخلعة🫨",
+              "views": 49256,
+              "duration": "10:20",
+              "thumbnail": "https://i.ytimg.com/vi/f1jfUYOQhuA/hq720.jpg"
+            },
+            {
+              "videoId": "i-gyLf1rgRY",
+              "title": "MANTAP BANGET! Penampilan Dija Bikin Satu Studio Bergoyang |  BOOTCAMP | X FACTOR INDONESIA SEASON 4",
+              "views": 134570,
+              "duration": "1:53",
+              "thumbnail": "https://i.ytimg.com/vi/i-gyLf1rgRY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Falz",
+          "channel": {
+            "id": "UCRySqRCtgB9iKFK4lSQRXBw",
+            "name": "Falz",
+            "image": "https://yt3.googleusercontent.com/yzvvUUTqvSqo06rQ5FGmWYGWy110JvDrYXjTMxml9-oLU3QCI2j-BcQygyDp0tBFk0UzRg8jYg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 502000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "kzzsBzgjA6A",
+              "title": "Falz - Soft Work (Official Video)",
+              "views": 8452314,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/kzzsBzgjA6A/hq720.jpg"
+            },
+            {
+              "videoId": "FRmS1MC-gb0",
+              "title": "Falz - Bop Daddy (Official Video) ft. Ms Banks",
+              "views": 4780113,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/FRmS1MC-gb0/hq720.jpg"
+            },
+            {
+              "videoId": "YZ8ezXKCwZc",
+              "title": "Falz - Child Of The World (Official Video)",
+              "views": 1915421,
+              "duration": "5:10",
+              "thumbnail": "https://i.ytimg.com/vi/YZ8ezXKCwZc/hq720.jpg"
+            },
+            {
+              "videoId": "Co2sqJSzbFI",
+              "title": "Falz - Soldier (Official Music Video) ft. SIMI",
+              "views": 22850796,
+              "duration": "4:46",
+              "thumbnail": "https://i.ytimg.com/vi/Co2sqJSzbFI/hq720.jpg"
+            },
+            {
+              "videoId": "PPi6kUNqq0k",
+              "title": "Ajebutter22 - Bad Gang (Official Video) ft. Falz",
+              "views": 6285082,
+              "duration": "3:43",
+              "thumbnail": "https://i.ytimg.com/vi/PPi6kUNqq0k/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Fireboy DML",
+          "channel": {
+            "id": "UCvrQdOvBRW-ycBQ32o1BCQw",
+            "name": "Fireboy DML",
+            "image": "https://yt3.googleusercontent.com/b4AWNp8ZGuyiKoNdRZJkk9e2MJKIt1cLv-9AdbZ_dk0N-A9CkIVePsbNp3bh7B-HCJIpmAS2UA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2080000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "gCLUIzOsgGg",
+              "title": "Fireboy DML, Asake - Bandana (Official Video)",
+              "views": 196676464,
+              "duration": "3:02",
+              "thumbnail": "https://i.ytimg.com/vi/gCLUIzOsgGg/hq720.jpg"
+            },
+            {
+              "videoId": "pekzpzNCNDQ",
+              "title": "Fireboy DML, Ed Sheeran - Peru (Official Video)",
+              "views": 255291925,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/pekzpzNCNDQ/hq720.jpg"
+            },
+            {
+              "videoId": "77YFPhgt8P0",
+              "title": "Fireboy DML - Everyday (Official Video)",
+              "views": 17809932,
+              "duration": "3:08",
+              "thumbnail": "https://i.ytimg.com/vi/77YFPhgt8P0/hq720.jpg"
+            },
+            {
+              "videoId": "s5Ceoz1hlyw",
+              "title": "Fireboy DML - Playboy (Official Video)",
+              "views": 20965832,
+              "duration": "3:51",
+              "thumbnail": "https://i.ytimg.com/vi/s5Ceoz1hlyw/hq720.jpg"
+            },
+            {
+              "videoId": "YRhBfL3GEjQ",
+              "title": "Fireboy DML - Vibration (Official Video)",
+              "views": 50461403,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/YRhBfL3GEjQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Flavor",
+          "channel": {
+            "id": "UCC24v-BVlGf1IeiqMlFx0dQ",
+            "name": "Official Flavour",
+            "image": "https://yt3.googleusercontent.com/rltJAfnj5kftDgXu4ZEgSqd1dtsExAlQzQNCw7AONxmaVSPfGqjEl1YIhkjoKA2jK6wHcRf2rhA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4019999.9999999995,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ME5NX6J6zaw",
+              "title": "Flavour - Big Baller (Official Video)",
+              "views": 19226150,
+              "duration": "2:45",
+              "thumbnail": "https://i.ytimg.com/vi/ME5NX6J6zaw/hq720.jpg"
+            },
+            {
+              "videoId": "71hoOjpy9tY",
+              "title": "Flavour - ADA BEKEE (Official Video)",
+              "views": 1488063,
+              "duration": "6:34",
+              "thumbnail": "https://i.ytimg.com/vi/71hoOjpy9tY/hq720.jpg"
+            },
+            {
+              "videoId": "cXPOcJQp5rU",
+              "title": "FLAVOR FOLEY DIGITAL LIVE | Digital Stars @ MIKU EXPO 2026",
+              "views": 100690,
+              "duration": "1:01:21",
+              "thumbnail": "https://i.ytimg.com/vi/cXPOcJQp5rU/hq720.jpg"
+            },
+            {
+              "videoId": "uvyr43yhKB8",
+              "title": "Chill House Music Mix & Outdoor Cooking In Cozy Cabin | Relaxing Flavour Trip Playlist",
+              "views": 1441541,
+              "duration": "2:13:57",
+              "thumbnail": "https://i.ytimg.com/vi/uvyr43yhKB8/hq720.jpg"
+            },
+            {
+              "videoId": "q49JaeHIuF4",
+              "title": "Flavour - The Eagle Has Landed (Official Music Video)",
+              "views": 3578615,
+              "duration": "2:28",
+              "thumbnail": "https://i.ytimg.com/vi/q49JaeHIuF4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ice Prince",
+          "channel": {
+            "id": "UCNsGTHA_RpqDvhd-0aULyrQ",
+            "name": "Ice Prince",
+            "image": "https://yt3.googleusercontent.com/oLczk52VCXgj4f2C8KSX8tSzHExL_p_5CXXAQnlHHVdGSNKUGfhhU53xx0XYrPWqJWGFpFAfjw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 172000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Mo0cQa8OjlI",
+              "title": "Ice Prince - Nice One(feat. Skiibii) [Official Music Video]",
+              "views": 77380,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/Mo0cQa8OjlI/hq720.jpg"
+            },
+            {
+              "videoId": "2A576XVrgD4",
+              "title": "Ice Prince Ft. Brymo - Oleku [www.afrogrooves.com]",
+              "views": 8231102,
+              "duration": "4:52",
+              "thumbnail": "https://i.ytimg.com/vi/2A576XVrgD4/hqdefault.jpg"
+            },
+            {
+              "videoId": "1ZvPXApXb9A",
+              "title": "Ice Prince - High Class (feat. Niniola) [Official Music Video]",
+              "views": 157166,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/1ZvPXApXb9A/hqdefault.jpg"
+            },
+            {
+              "videoId": "tSjzTCqJAcA",
+              "title": "Ice Prince - Shots On Shots (ft. Sarkodie) (Official Video)",
+              "views": 2617590,
+              "duration": "4:07",
+              "thumbnail": "https://i.ytimg.com/vi/tSjzTCqJAcA/hq720.jpg"
+            },
+            {
+              "videoId": "-hyDrO0uOXQ",
+              "title": "Samklef - Molowo Noni ft. Wizkid, D'Prince & Ice Prince (video)",
+              "views": 3223423,
+              "duration": "4:11",
+              "thumbnail": "https://i.ytimg.com/vi/-hyDrO0uOXQ/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Joeboy",
+          "channel": {
+            "id": "UCv3EFZRGITcQwdyCE_ap0UA",
+            "name": "Joeboy",
+            "image": "https://yt3.googleusercontent.com/8jSUSO1bh7Ipt8Ip2v6H2WNPJ8pg9NGE695T-ckMz3nyz5sWjaW0CKaAZIUddhh03ljIJdWk=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "UEcAPvoSe_8",
+              "title": "Joeboy - Sip (Alcohol) [Official Music Video]",
+              "views": 195281523,
+              "duration": "2:55",
+              "thumbnail": "https://i.ytimg.com/vi/UEcAPvoSe_8/hq720.jpg"
+            },
+            {
+              "videoId": "I6wzhp4g2Cw",
+              "title": "Joeboy - Baby (Visualizer)",
+              "views": 91866549,
+              "duration": "2:46",
+              "thumbnail": "https://i.ytimg.com/vi/I6wzhp4g2Cw/hq720.jpg"
+            },
+            {
+              "videoId": "PUnx13A4XDs",
+              "title": "Joeboy - Beginning (Visualizer)",
+              "views": 65242803,
+              "duration": "2:41",
+              "thumbnail": "https://i.ytimg.com/vi/PUnx13A4XDs/hq720.jpg"
+            },
+            {
+              "videoId": "dQ7gIh4Fmv0",
+              "title": "Joeboy - Sip (Alcohol) [Lyric Video]",
+              "views": 101057409,
+              "duration": "2:39",
+              "thumbnail": "https://i.ytimg.com/vi/dQ7gIh4Fmv0/hq720.jpg"
+            },
+            {
+              "videoId": "eyQePnCXRsk",
+              "title": "Joeboy - Body & Soul (Official Video)",
+              "views": 29368325,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/eyQePnCXRsk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Johnny Drille",
+          "channel": {
+            "id": "UCr2CrvCc_tu8dkcmik0SLeA",
+            "name": "Johnny Drille",
+            "image": "https://yt3.googleusercontent.com/489a1iVb6W77PTyaVRS8IykMkMBAW0-p462NKV7JQTc14nvfwETjDwGuhU5tH-KIAizmqa3j-w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 959000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "gWawAYEuLvc",
+              "title": "Johnny Drille - Lego House/Life For Rent (Johnny's Room Live 4)",
+              "views": 4009733,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/gWawAYEuLvc/hq720.jpg"
+            },
+            {
+              "videoId": "CSK5eApRGwQ",
+              "title": "Johnny Drille - How Are You [My Friend] - (Performance Video)",
+              "views": 101183376,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/CSK5eApRGwQ/hq720.jpg"
+            },
+            {
+              "videoId": "MS7I2kVp0bw",
+              "title": "Johnny Drille, Ayra Starr & Young Jonn - Colorado (Official Music Video)",
+              "views": 3268583,
+              "duration": "4:16",
+              "thumbnail": "https://i.ytimg.com/vi/MS7I2kVp0bw/hqdefault.jpg"
+            },
+            {
+              "videoId": "GZFKra1IXvs",
+              "title": "Johnny Drille - Bad Dancer (Performance Video)",
+              "views": 2201891,
+              "duration": "3:54",
+              "thumbnail": "https://i.ytimg.com/vi/GZFKra1IXvs/hq720.jpg"
+            },
+            {
+              "videoId": "ewn8lR9mXR0",
+              "title": "Before The Morning Light - Rooftop Live Session",
+              "views": 16583,
+              "duration": "40:06",
+              "thumbnail": "https://i.ytimg.com/vi/ewn8lR9mXR0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kcee",
+          "channel": {
+            "id": "UC5IWg-ltJXPyCOgCUjnh2Uw",
+            "name": "KCEE",
+            "image": "https://yt3.googleusercontent.com/zEEc2MSwlSXfi_l1yhpfd23FBVvENWWi9vMANi69KsvzmT0I9ZTtjnZtZeZu_zuPr2VtQTZwEA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 355000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "WsMwhD0SmHU",
+              "title": "Kcee - Ojapiano (Official Video)",
+              "views": 34836655,
+              "duration": "2:53",
+              "thumbnail": "https://i.ytimg.com/vi/WsMwhD0SmHU/hq720.jpg"
+            },
+            {
+              "videoId": "xI7jUvzuCkc",
+              "title": "Kcee - Ojaginger (Official Video)",
+              "views": 2483883,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/xI7jUvzuCkc/hqdefault.jpg"
+            },
+            {
+              "videoId": "JKJVx59jrdY",
+              "title": "Kcee - Limpopo (Official Music Video)",
+              "views": 6670813,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/JKJVx59jrdY/hq720.jpg"
+            },
+            {
+              "videoId": "34n2PaJBmFg",
+              "title": "Kcee feat. Umu Obiligbo - Na You Sabi (Official Video)",
+              "views": 4595437,
+              "duration": "3:02",
+              "thumbnail": "https://i.ytimg.com/vi/34n2PaJBmFg/hq720.jpg"
+            },
+            {
+              "videoId": "-_dErYLKrTU",
+              "title": "Kcee - Erimma (Official Video) ft. Timaya",
+              "views": 7535543,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/-_dErYLKrTU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kizz Daniel",
+          "channel": {
+            "id": "UC1NnPocepJaxebLAcSm0dVw",
+            "name": "Kizz Daniel",
+            "image": "https://yt3.googleusercontent.com/j8Yiae2jD10-ml5mcRdia_dfI-QlTeebQH1MgeJu9v6WQwMle55Hqdbx9_6lICCWi-8knJdzjus=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3670000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "4j7Fa2PCMow",
+              "title": "Kizz Daniel, EMPIRE - Cough (Official Video)",
+              "views": 260192672,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/4j7Fa2PCMow/hq720.jpg"
+            },
+            {
+              "videoId": "bLF90M96m2Q",
+              "title": "Kizz Daniel, Tekno - Buga (Official Video)",
+              "views": 288792010,
+              "duration": "3:06",
+              "thumbnail": "https://i.ytimg.com/vi/bLF90M96m2Q/hq720.jpg"
+            },
+            {
+              "videoId": "VwcY7PwFvMc",
+              "title": "Kizz Daniel - Double (Official Visualizer)",
+              "views": 30794150,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/VwcY7PwFvMc/hq720.jpg"
+            },
+            {
+              "videoId": "ElgKinpsqYI",
+              "title": "Kizz Daniel - RTID (Rich Till I Die) (Official Video)",
+              "views": 34131722,
+              "duration": "2:58",
+              "thumbnail": "https://i.ytimg.com/vi/ElgKinpsqYI/hq720.jpg"
+            },
+            {
+              "videoId": "3d6T2qFZ5vU",
+              "title": "Kizz Daniel - Lie (Official Video)",
+              "views": 57530757,
+              "duration": "4:37",
+              "thumbnail": "https://i.ytimg.com/vi/3d6T2qFZ5vU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Korede Bello",
+          "channel": {
+            "id": "UCVyLkguTbFz_u7aSE9jSXwQ",
+            "name": "KOREDE BELLO",
+            "image": "https://yt3.googleusercontent.com/FfXHEKR6OQnvmwLe3N49qvQvWLoTlnfOH15EosGeOOSV4iUNtQMgR1GnGVn7SHmsEK1kQ6AJpw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 288000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "hJBi780qFas",
+              "title": "Korede Bello  - Do Like That ( Official Music Video )",
+              "views": 152997488,
+              "duration": "3:56",
+              "thumbnail": "https://i.ytimg.com/vi/hJBi780qFas/hq720.jpg"
+            },
+            {
+              "videoId": "UXyUMMMETsA",
+              "title": "Korede Bello ft. Tiwa Savage - Romantic ( Official Music Video )",
+              "views": 49254585,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/UXyUMMMETsA/hq720.jpg"
+            },
+            {
+              "videoId": "dv1AClQrDeU",
+              "title": "Korede Bello - Mi Casa Su Casa (Official Music Video)",
+              "views": 5625465,
+              "duration": "3:00",
+              "thumbnail": "https://i.ytimg.com/vi/dv1AClQrDeU/hq720.jpg"
+            },
+            {
+              "videoId": "f6-gjQQNIlA",
+              "title": "Adaobi - Official Video by Mavins Ft. Don Jazzy, Reekado Banks, Di'ja, Korede Bello",
+              "views": 79551908,
+              "duration": "4:26",
+              "thumbnail": "https://i.ytimg.com/vi/f6-gjQQNIlA/hq720.jpg"
+            },
+            {
+              "videoId": "nlnFYemnr1o",
+              "title": "Korede Bello - Butterfly ( Official Music Video )",
+              "views": 4305229,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/nlnFYemnr1o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "MI Abaga",
+          "channel": {
+            "id": "UCcn7iJzEqHLQAA2c2DZhUnA",
+            "name": "MI Abaga",
+            "image": "https://yt3.googleusercontent.com/qD-28oostNOvJrwuUUYcUYqTPmmZt4jFdV7ERVepCJiyu289fw2A7g_kHpRA_XoZXfGm8eJ4Xw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 105000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "XpmwwwZSx20",
+              "title": "Money",
+              "views": 44731,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/XpmwwwZSx20/hq720.jpg"
+            },
+            {
+              "videoId": "xlROWz1W7dI",
+              "title": "M.I Abaga - Plan B",
+              "views": 130897,
+              "duration": "4:19",
+              "thumbnail": "https://i.ytimg.com/vi/xlROWz1W7dI/hqdefault.jpg"
+            },
+            {
+              "videoId": "zI0j4B1HRhU",
+              "title": "Anoti (feat. Gabriel)",
+              "views": 36319,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/zI0j4B1HRhU/hq720.jpg"
+            },
+            {
+              "videoId": "ygMVP8WumPU",
+              "title": "M.I Abaga - The Guy (Full Album)",
+              "views": 99848,
+              "duration": "40:18",
+              "thumbnail": "https://i.ytimg.com/vi/ygMVP8WumPU/hq720.jpg"
+            },
+            {
+              "videoId": "cDuBYZ25Juo",
+              "title": "The Blood",
+              "views": 69823,
+              "duration": "4:27",
+              "thumbnail": "https://i.ytimg.com/vi/cDuBYZ25Juo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Maleek Berry",
+          "channel": {
+            "id": "UCcxulY7ZaCHCYUKjJt7kowQ",
+            "name": "Maleek Berry",
+            "image": "https://yt3.googleusercontent.com/_P99qZ1BTQrw_rHiCquF-qfDm-HoTBSWongAi_n9dj4Q63nvT5G76sNWSKu8mnoKTcZvB5Mn=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 636000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Si0ZHJdlu9M",
+              "title": "Maleek Berry - Kontrol (Official Video)",
+              "views": 138241739,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/Si0ZHJdlu9M/hq720.jpg"
+            },
+            {
+              "videoId": "047xGplGP4o",
+              "title": "Maleek Berry - Eko Miami ft. Geko (Official Video)",
+              "views": 15747183,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/047xGplGP4o/hq720.jpg"
+            },
+            {
+              "videoId": "JEq-li_e9Fg",
+              "title": "Maleek Berry - Been Calling (Official Video)",
+              "views": 15557939,
+              "duration": "4:20",
+              "thumbnail": "https://i.ytimg.com/vi/JEq-li_e9Fg/hq720.jpg"
+            },
+            {
+              "videoId": "chkzfYAtMBc",
+              "title": "Maleek Berry - Bend It (Official Audio)",
+              "views": 16196433,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/chkzfYAtMBc/hq720.jpg"
+            },
+            {
+              "videoId": "TBYMeNUkD68",
+              "title": "Maleek Berry - Mirror (Official Visualiser)",
+              "views": 208998,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/TBYMeNUkD68/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mayorkun",
+          "channel": {
+            "id": "UCs1okHjZXuWMsB4z_bNlHmA",
+            "name": "Mayorkun",
+            "image": "https://yt3.googleusercontent.com/pdv32kV2w5jnEV2218brVtKA2U2hZr5A1qxC7tatcPvvjzSySxwRjs0jNBb3Q32NPW_JGUgu744=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 277000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "N6Pq5eqx-uY",
+              "title": "Mayorkun - Mama (Official Video)",
+              "views": 37293612,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/N6Pq5eqx-uY/hq720.jpg"
+            },
+            {
+              "videoId": "2Mkf-YELwbY",
+              "title": "Mayorkun - Certified Loner (No Competition) (Official Music Video)",
+              "views": 8684507,
+              "duration": "2:49",
+              "thumbnail": "https://i.ytimg.com/vi/2Mkf-YELwbY/hq720.jpg"
+            },
+            {
+              "videoId": "fXclkNPiiqU",
+              "title": "Mayorkun - Let Me Know (Official Music Video)",
+              "views": 4103147,
+              "duration": "3:00",
+              "thumbnail": "https://i.ytimg.com/vi/fXclkNPiiqU/hq720.jpg"
+            },
+            {
+              "videoId": "OmidK8z4YzE",
+              "title": "Camidoh - Sugarcane Remix (Feat. Mayorkun, King Promise & Darkoo) (Official Video)",
+              "views": 147533864,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/OmidK8z4YzE/hq720.jpg"
+            },
+            {
+              "videoId": "j9A0fQu28Gk",
+              "title": "MAYORKUN - UP TO SOMETHING (OFFICIAL VIDEO)",
+              "views": 4393326,
+              "duration": "3:20",
+              "thumbnail": "https://i.ytimg.com/vi/j9A0fQu28Gk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mr Eazi",
+          "channel": {
+            "id": "UCSytDzPOmj1YV4_ctQOIdhg",
+            "name": "Mr Eazi",
+            "image": "https://yt3.googleusercontent.com/sjRi5JwxZ6KJpaxiz3kNkAdxDMSvLHHUAQaETMYymSySB1VflMIKVCQsLSXCGpabV14W4bqQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1330000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "v15sS1sL_S4",
+              "title": "Mr Eazi - Leg Over ( Vibez Video )",
+              "views": 123232384,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/v15sS1sL_S4/hq720.jpg"
+            },
+            {
+              "videoId": "m7VX0tHCxfY",
+              "title": "Mr Eazi - Miss You Bad (feat. Burna Boy) [Official Video]",
+              "views": 20635266,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/m7VX0tHCxfY/hq720.jpg"
+            },
+            {
+              "videoId": "vk_4yxkgjAI",
+              "title": "Mr Eazi - Skintight ft Efya ( Official Video )",
+              "views": 43776079,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/vk_4yxkgjAI/hq720.jpg"
+            },
+            {
+              "videoId": "X0YOrxhBoj0",
+              "title": "Mr Eazi - Pour Me Water (Official Video)",
+              "views": 19892823,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/X0YOrxhBoj0/hq720.jpg"
+            },
+            {
+              "videoId": "sBMredVuy7M",
+              "title": "Mr Eazi & Simi - Doyin (Official Video)",
+              "views": 20770365,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/sBMredVuy7M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Niniola",
+          "channel": {
+            "id": "UCI5JCKHKcsQ4LnZK1VpQ4ug",
+            "name": "officialNiniola",
+            "image": "https://yt3.googleusercontent.com/38fE4eI0veT7kZyQEMZQKJrsep-8ZZD6Z-wHPQkkfhVgqhPC5YG4YeDAoz98EAUtp_uI4ph71w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 127000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "nCbjK4259RM",
+              "title": "NINIOLA - MARADONA (OFFICIAL VIDEO)",
+              "views": 12279240,
+              "duration": "3:43",
+              "thumbnail": "https://i.ytimg.com/vi/nCbjK4259RM/hq720.jpg"
+            },
+            {
+              "videoId": "fT9pMy0gMJ4",
+              "title": "NINIOLA - GINGER ME (ALUM) (OFFICIAL MUSIC VIDEO)",
+              "views": 2456033,
+              "duration": "2:22",
+              "thumbnail": "https://i.ytimg.com/vi/fT9pMy0gMJ4/hq720.jpg"
+            },
+            {
+              "videoId": "E-7bk5BW-RU",
+              "title": "NINIOLA - ADDICTED (OFFICIAL VIDEO)",
+              "views": 2896222,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/E-7bk5BW-RU/hq720.jpg"
+            },
+            {
+              "videoId": "rkd31UpWrUg",
+              "title": "NINIOLA  - TOO SWEET (O DUN) (OFFICIAL VIDEO)",
+              "views": 1862822,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/rkd31UpWrUg/hq720.jpg"
+            },
+            {
+              "videoId": "1ZvPXApXb9A",
+              "title": "Ice Prince - High Class (feat. Niniola) [Official Music Video]",
+              "views": 157166,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/1ZvPXApXb9A/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Olamide",
+          "channel": {
+            "id": "UCp87taDLDbvqPyoyhBZ7jWQ",
+            "name": "Olamide",
+            "image": "https://yt3.googleusercontent.com/O52BVJppFt0qTMC-6NsVh0zxLzOjhWJVF-lQyI4ckMN0M3QZkA8KU3HEzCk5DjOU9bbDTrwswA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1420000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "NjkHqnMAD88",
+              "title": "Larry Gaaga, Olamide, Mavo, Kidd Carder - Come On",
+              "views": 209705,
+              "duration": "3:17",
+              "thumbnail": "https://i.ytimg.com/vi/NjkHqnMAD88/hq720.jpg"
+            },
+            {
+              "videoId": "qzjO31PRP9I",
+              "title": "Olamide - Rock Me Gentle (Official Video)",
+              "views": 1224076,
+              "duration": "3:15",
+              "thumbnail": "https://i.ytimg.com/vi/qzjO31PRP9I/hq720.jpg"
+            },
+            {
+              "videoId": "w-Bbuvgeb20",
+              "title": "Teni, Olamide - Zion (Official video)",
+              "views": 3482442,
+              "duration": "3:59",
+              "thumbnail": "https://i.ytimg.com/vi/w-Bbuvgeb20/hq720.jpg"
+            },
+            {
+              "videoId": "cLkk7Qn3QS0",
+              "title": "Adekunle Gold ft Olamide - Formation (Official Music Video)",
+              "views": 2413173,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/cLkk7Qn3QS0/hq720.jpg"
+            },
+            {
+              "videoId": "j2u5Gbadn7o",
+              "title": "Olamide - Wo!!",
+              "views": 37689568,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/j2u5Gbadn7o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Omah Lay",
+          "channel": {
+            "id": "UCSUVM9Ygr6AI5Eje5BnFhtw",
+            "name": "Omah Lay",
+            "image": "https://yt3.googleusercontent.com/vdfO67_TOF0Oko_r7d--KOx5R-V9rBOWOgyiU5lOaPttLgmrQgum1Dyd5h1ut5KhSb8a9IJt6CA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2750000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "k6eE3c70hgg",
+              "title": "Omah Lay -  soso (Official Music Video)",
+              "views": 274020529,
+              "duration": "3:05",
+              "thumbnail": "https://i.ytimg.com/vi/k6eE3c70hgg/hq720.jpg"
+            },
+            {
+              "videoId": "X3Ai6osw3Mk",
+              "title": "Omah Lay - Understand (Official Music Video)",
+              "views": 186993528,
+              "duration": "3:07",
+              "thumbnail": "https://i.ytimg.com/vi/X3Ai6osw3Mk/hq720.jpg"
+            },
+            {
+              "videoId": "DqUd72pK15Y",
+              "title": "Omah Lay - Godly [Official Music Video]",
+              "views": 155967269,
+              "duration": "2:56",
+              "thumbnail": "https://i.ytimg.com/vi/DqUd72pK15Y/hq720.jpg"
+            },
+            {
+              "videoId": "E3E8qQmP4t8",
+              "title": "Omah Lay - Holy Ghost [Official Music Video]",
+              "views": 56511930,
+              "duration": "3:12",
+              "thumbnail": "https://i.ytimg.com/vi/E3E8qQmP4t8/hqdefault.jpg"
+            },
+            {
+              "videoId": "QkJH2lK7usw",
+              "title": "OMAH LAY - I AM (Official Audio)",
+              "views": 1578841,
+              "duration": "3:13",
+              "thumbnail": "https://i.ytimg.com/vi/QkJH2lK7usw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Omawumi",
+          "channel": {
+            "id": "UCbMxjNG00317U1nCpyPeSMA",
+            "name": "Omawumi",
+            "image": "https://yt3.googleusercontent.com/KbXDSE33SdTmR7nJ2sS5f-w1t3K1UKoWcBuU6g-8avt0j0P7RXXxiREKDj1arh71-RP_DNlA4w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 27600,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "hIhDiFaBhBo",
+              "title": "Omawumi Ft. Flavour - Bottom Belle (Official Video)",
+              "views": 827148,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/hIhDiFaBhBo/hqdefault.jpg"
+            },
+            {
+              "videoId": "kM-0l7gYwGw",
+              "title": "Omawumi - Megbele [Official Video]",
+              "views": 1080112,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/kM-0l7gYwGw/hq720.jpg"
+            },
+            {
+              "videoId": "r3aaspHMmoc",
+              "title": "Omawumi feat. Flavour - Bottom Belle (Official Audio)",
+              "views": 776197,
+              "duration": "3:31",
+              "thumbnail": "https://i.ytimg.com/vi/r3aaspHMmoc/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZPiP-EF01hg",
+              "title": "Omawumi - If You Ask Me (Official Video)",
+              "views": 416762,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/ZPiP-EF01hg/hqdefault.jpg"
+            },
+            {
+              "videoId": "m2iu8SCm1P4",
+              "title": "Omawumi - Serious Love Nwantinti (Official Audio)",
+              "views": 402142,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/m2iu8SCm1P4/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Oxlade",
+          "channel": {
+            "id": "UCry4G5TuPV3y8lPUhOIg22A",
+            "name": "Oxlade",
+            "image": "https://yt3.googleusercontent.com/ToSQLlfMfrweULu1iqsXFd-lPutiaZ62StzIOcUJ4l5_2N6nxgi2de385xs6eB414nNxM4IW_g=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 708000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1pDQjwaH3qk",
+              "title": "Oxlade - KU LO SA | A COLORS SHOW",
+              "views": 176773484,
+              "duration": "2:31",
+              "thumbnail": "https://i.ytimg.com/vi/1pDQjwaH3qk/hq720.jpg"
+            },
+            {
+              "videoId": "yugnGjmljww",
+              "title": "Oxlade & Tayc - KU LO SA (Red Bull Symphonic Paris)",
+              "views": 772994,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/yugnGjmljww/hq720.jpg"
+            },
+            {
+              "videoId": "bIgSdyo7t_E",
+              "title": "Oxlade - OLOLUFE (Official Video) ft. Sarkodie",
+              "views": 3290320,
+              "duration": "2:28",
+              "thumbnail": "https://i.ytimg.com/vi/bIgSdyo7t_E/hq720.jpg"
+            },
+            {
+              "videoId": "xvO36ngj2P4",
+              "title": "Oxlade - INTOXYCATED (Lyrics video) ft. Dave",
+              "views": 8891846,
+              "duration": "3:32",
+              "thumbnail": "https://i.ytimg.com/vi/xvO36ngj2P4/hq720.jpg"
+            },
+            {
+              "videoId": "IcIkmPU9reU",
+              "title": "Oxlade, Camila Cabello - KU LO SA (Official Video)",
+              "views": 27606658,
+              "duration": "2:29",
+              "thumbnail": "https://i.ytimg.com/vi/IcIkmPU9reU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Patoranking",
+          "channel": {
+            "id": "UC_p3IZfAsQ66RAUxNk7qTqQ",
+            "name": "Patoranking",
+            "image": "https://yt3.googleusercontent.com/hSNe5bplLXXzRenc93o4jGdoyxNK_hWYG9DbonbRxoDVB5SWBvKIfYDQ7bLsqN3VwgV9s3iU_oI=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1870000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "sRbHy6sRDps",
+              "title": "Patoranking - Abule (Official Video)",
+              "views": 84131133,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/sRbHy6sRDps/hq720.jpg"
+            },
+            {
+              "videoId": "0WOHZ9QhI9M",
+              "title": "Patoranking - Suh Different (Official Video)",
+              "views": 43136881,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/0WOHZ9QhI9M/hq720.jpg"
+            },
+            {
+              "videoId": "ZjN4agWqTdc",
+              "title": "Patoranking - Love you Die [Official Video] ft. Diamond Platnumz",
+              "views": 71646771,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/ZjN4agWqTdc/hq720.jpg"
+            },
+            {
+              "videoId": "822XcyV7uV0",
+              "title": "Patoranking - Kolo Kolo [Feat. Diamond Platnumz] (Official Music Video)",
+              "views": 133679,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/822XcyV7uV0/hq720.jpg"
+            },
+            {
+              "videoId": "7b0ETFcWrgY",
+              "title": "Patoranking - BABYLON [Feat. Victony] (Official Music Video)",
+              "views": 50210995,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/7b0ETFcWrgY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Phyno",
+          "channel": {
+            "id": "UC_kzqsFmGmwcJPqEuGqUyGA",
+            "name": "PhynoFino",
+            "image": "https://yt3.googleusercontent.com/3LFWc2XM0SBT3K8ywXkFSBRUVcWffO5O47ExeSfdhOwm4CpdvAO6rNWDfUo1iD8A1Jeu9il_=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 676000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "0sUqUvcNZTA",
+              "title": "Phyno - Back Outside (Official Video) ft. Cheque",
+              "views": 6365969,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/0sUqUvcNZTA/hq720.jpg"
+            },
+            {
+              "videoId": "vgLMftfWckU",
+              "title": "Phyno - Ask Of Me Now (Official Video)",
+              "views": 3499099,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/vgLMftfWckU/hq720.jpg"
+            },
+            {
+              "videoId": "v98Rm4u1Tf4",
+              "title": "Phyno - Trouble Maker (Official Video)",
+              "views": 1093105,
+              "duration": "2:33",
+              "thumbnail": "https://i.ytimg.com/vi/v98Rm4u1Tf4/hq720.jpg"
+            },
+            {
+              "videoId": "QZpjUnq5xGw",
+              "title": "Phyno and Flavour - Uzo Ano (Official Audio)",
+              "views": 511868,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/QZpjUnq5xGw/hq720.jpg"
+            },
+            {
+              "videoId": "9F53UQ_2L_I",
+              "title": "Phyno - Fada Fada [Official Video] ft. Olamide",
+              "views": 41124484,
+              "duration": "4:40",
+              "thumbnail": "https://i.ytimg.com/vi/9F53UQ_2L_I/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Reekado Banks",
+          "channel": {
+            "id": "UC9gtxrBHZhEkpXSWfqwjLkg",
+            "name": "Reekado Banks",
+            "image": "https://yt3.googleusercontent.com/JhGAsKXZBaR4BedyuJj5tbInTmFhf-khyNOAhTkkBFlDT0lLFgbLydWBgdkbf1bLmrLeqJjyyNA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 532000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OC93pNSrRP8",
+              "title": "Reekado Banks - Rora (Official Video)",
+              "views": 35930336,
+              "duration": "3:55",
+              "thumbnail": "https://i.ytimg.com/vi/OC93pNSrRP8/hq720.jpg"
+            },
+            {
+              "videoId": "CaKfUTWU0dw",
+              "title": "Reekado Banks - Like Ft. Tiwa Savage and Fiokee ( Official Music Video )",
+              "views": 36271988,
+              "duration": "3:18",
+              "thumbnail": "https://i.ytimg.com/vi/CaKfUTWU0dw/hq720.jpg"
+            },
+            {
+              "videoId": "5qREzfM9uWc",
+              "title": "Reekado Banks - Move Ft. Vanessa Mdee ( Official Music Video )",
+              "views": 16353625,
+              "duration": "4:04",
+              "thumbnail": "https://i.ytimg.com/vi/5qREzfM9uWc/hq720.jpg"
+            },
+            {
+              "videoId": "AJNZJOh25IQ",
+              "title": "Reekado Banks  -  Easy Jeje ( Official Music Video )",
+              "views": 29085964,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/AJNZJOh25IQ/hq720.jpg"
+            },
+            {
+              "videoId": "aQ1UyrBljgw",
+              "title": "Reekado Banks, Adekunle Gold & Maleek Berry - Feel Different (Official Video)",
+              "views": 1878645,
+              "duration": "3:01",
+              "thumbnail": "https://i.ytimg.com/vi/aQ1UyrBljgw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Rema",
+          "channel": {
+            "id": "UCHGF6zfD2gwLuke95X3CKFQ",
+            "name": "Rema",
+            "image": "https://yt3.googleusercontent.com/0i0YGPSpWbEEOSnDUek8JjqVdvanJfnTrbky7XENusE7ceGq8ATZtlHheKKVioS17MQz55Tw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 5480000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "WcIcVapfqXw",
+              "title": "Rema, Selena Gomez - Calm Down (Official Music Video)",
+              "views": 1378406740,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/WcIcVapfqXw/hq720.jpg"
+            },
+            {
+              "videoId": "safzyuZNCGI",
+              "title": "LISA, Anitta, Rema, FIFA Sound - Goals (FIFA World Cup 2026™) [Official Music Video]",
+              "views": 7227259,
+              "duration": "3:10",
+              "thumbnail": "https://i.ytimg.com/vi/safzyuZNCGI/hq720.jpg"
+            },
+            {
+              "videoId": "dNt1QR1ecuM",
+              "title": "Rema - Charm (Official Music Video)",
+              "views": 149742006,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/dNt1QR1ecuM/hq720.jpg"
+            },
+            {
+              "videoId": "ZV7GhlAkflA",
+              "title": "Rema - Fame | A COLORS ENCORE",
+              "views": 44812511,
+              "duration": "1:52",
+              "thumbnail": "https://i.ytimg.com/vi/ZV7GhlAkflA/hq720.jpg"
+            },
+            {
+              "videoId": "nrTkERuwdCc",
+              "title": "Rema - Soundgasm (Official Music Video)",
+              "views": 130003287,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/nrTkERuwdCc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Ruger",
+          "channel": {
+            "id": "UCQvERCDVBsHg0CcBaPihvJg",
+            "name": "Ruger",
+            "image": "https://yt3.googleusercontent.com/cikTD4oIlQyxCz5x56xDS90E0_t-FMX2QW_MG9vDyTzUiDGFk9Y1-gAPf9teCrrIbH9iRRVJ4Q=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2300000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "MqqBH9Fa4NQ",
+              "title": "Ruger - Asiwaju (Official Video)",
+              "views": 169332817,
+              "duration": "3:37",
+              "thumbnail": "https://i.ytimg.com/vi/MqqBH9Fa4NQ/hq720.jpg"
+            },
+            {
+              "videoId": "I9tqmugh2X8",
+              "title": "Ruger - Bounce (Official Video)",
+              "views": 121680830,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/I9tqmugh2X8/hq720.jpg"
+            },
+            {
+              "videoId": "hzFUM5AW1YQ",
+              "title": "Ruger - Dior (Official Video)",
+              "views": 42509056,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/hzFUM5AW1YQ/hq720.jpg"
+            },
+            {
+              "videoId": "9zEPGHPZCF8",
+              "title": "Ruger - Red Flags (Official Video)",
+              "views": 29756625,
+              "duration": "3:17",
+              "thumbnail": "https://i.ytimg.com/vi/9zEPGHPZCF8/hq720.jpg"
+            },
+            {
+              "videoId": "7M2Gps9xR8g",
+              "title": "Ruger - Girlfriend (Official Video)",
+              "views": 174223483,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/7M2Gps9xR8g/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Runtown",
+          "channel": {
+            "id": "UCQupQBZdcNuE84ReiTP6pIA",
+            "name": "Runtown",
+            "image": "https://yt3.googleusercontent.com/DgcQiAq1TC25dFUWfBEinp5bH6lGP0UPVFjsO18FddGb9fNqz8Ygryl6n8_f5kWkUULFVRo74w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Tb4X1BWNO5k",
+              "title": "Mad Over You (Official Music Video) - Runtown",
+              "views": 211140319,
+              "duration": "3:47",
+              "thumbnail": "https://i.ytimg.com/vi/Tb4X1BWNO5k/hq720.jpg"
+            },
+            {
+              "videoId": "J55SbQNt8OU",
+              "title": "Runtown - For Life (Official Music Video)",
+              "views": 108392014,
+              "duration": "3:53",
+              "thumbnail": "https://i.ytimg.com/vi/J55SbQNt8OU/hq720.jpg"
+            },
+            {
+              "videoId": "ejkNXMiVfPU",
+              "title": "Runtown - Energy (Official Music Video)",
+              "views": 28219436,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/ejkNXMiVfPU/hq720.jpg"
+            },
+            {
+              "videoId": "MNSxmh8Sxqc",
+              "title": "Runtown - Things I Know (Official Lyric Video)",
+              "views": 663842,
+              "duration": "2:51",
+              "thumbnail": "https://i.ytimg.com/vi/MNSxmh8Sxqc/hq720.jpg"
+            },
+            {
+              "videoId": "fh9AApeyZNQ",
+              "title": "Runtown - International Badman Killa (Official Music Video)",
+              "views": 4071644,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/fh9AApeyZNQ/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Seyi Vibez",
+          "channel": {
+            "id": "UCtiUpk9-BfQVIArCZ2rckew",
+            "name": "Seyi vibez",
+            "image": "https://yt3.googleusercontent.com/H2sgvWpVMgvmM9pcrTo7iA5j8tOiGE2ckEO7TqZ2GbfRBpKNUsbJaxAaczMkQbVUoZvW2Si4uLY=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 482000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "NKwpvQmtO-U",
+              "title": "Seyi Vibez - Today (Official Video)",
+              "views": 7170580,
+              "duration": "2:42",
+              "thumbnail": "https://i.ytimg.com/vi/NKwpvQmtO-U/hq720.jpg"
+            },
+            {
+              "videoId": "0RTKqRRThlw",
+              "title": "Seyi Vibez - MARIO KART (Crib Performance)",
+              "views": 7499350,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/0RTKqRRThlw/hq720.jpg"
+            },
+            {
+              "videoId": "r-4rpMpCH8w",
+              "title": "Seyi Vibez - Man of The Year (Lyric Video)",
+              "views": 8966141,
+              "duration": "2:25",
+              "thumbnail": "https://i.ytimg.com/vi/r-4rpMpCH8w/hq720.jpg"
+            },
+            {
+              "videoId": "KZkES3G4J44",
+              "title": "Seyi Vibez - FUJI MOTO (Official Visualizer)",
+              "views": 3215895,
+              "duration": "2:39",
+              "thumbnail": "https://i.ytimg.com/vi/KZkES3G4J44/hq720.jpg"
+            },
+            {
+              "videoId": "dN4QxTcis2w",
+              "title": "Seyi Vibez - Karma (Official Video)",
+              "views": 12774590,
+              "duration": "2:35",
+              "thumbnail": "https://i.ytimg.com/vi/dN4QxTcis2w/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Simi",
+          "channel": {
+            "id": "UC9VQ6w1h8WzqJlxX8OwdYEA",
+            "name": "Simi",
+            "image": "https://yt3.googleusercontent.com/bxDIrUBKdUJIXJty9E_iYFlwONHiFnYxRWfy8RGanxR0Jwa33MiHUY0ZsGs0jgMT8E6qrN0yS7c=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1120000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1v5DU1brzVw",
+              "title": "SIMI - Jericho (Official Video) ft. Patoranking",
+              "views": 38271724,
+              "duration": "3:21",
+              "thumbnail": "https://i.ytimg.com/vi/1v5DU1brzVw/hq720.jpg"
+            },
+            {
+              "videoId": "-L8hLkg21MQ",
+              "title": "SIMI - Duduke (Official Video)",
+              "views": 93998772,
+              "duration": "2:57",
+              "thumbnail": "https://i.ytimg.com/vi/-L8hLkg21MQ/hq720.jpg"
+            },
+            {
+              "videoId": "Mude7cCSs9s",
+              "title": "LADIPOE feat. Simi - Know You (Official Music Video)",
+              "views": 45701180,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/Mude7cCSs9s/hq720.jpg"
+            },
+            {
+              "videoId": "9DpejbEJ5Gs",
+              "title": "Chiké & Simi – Running (To You) [Official Video]",
+              "views": 101483720,
+              "duration": "3:35",
+              "thumbnail": "https://i.ytimg.com/vi/9DpejbEJ5Gs/hq720.jpg"
+            },
+            {
+              "videoId": "jf6uYtSR6bQ",
+              "title": "SIMI - Duduke (Official Audio)",
+              "views": 4368408,
+              "duration": "2:53",
+              "thumbnail": "https://i.ytimg.com/vi/jf6uYtSR6bQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Spyro",
+          "channel": {
+            "id": "UCWzRYc2jGp1Nul1Nm3esyeA",
+            "name": "Spyro",
+            "image": "https://yt3.ggpht.com/peBlci1wHhw3oPTwljjxPHJwpJvhyMdKaAyylzPUGQMKckiJtTTw0ofhwf3bpLI-sZse2KCp=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 77600,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "lrVKjNR0-SE",
+              "title": "Spyro the Dragon - Complete 120% Walkthrough - All Dragons, All Gems, All Eggs (Longplay)",
+              "views": 3071996,
+              "duration": "3:45:22",
+              "thumbnail": "https://i.ytimg.com/vi/lrVKjNR0-SE/hq720.jpg"
+            },
+            {
+              "videoId": "OHnXY9F7m9c",
+              "title": "Spyro ft Tiwa Savage - Who is your Guy? Remix (Official Video)",
+              "views": 280486264,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/OHnXY9F7m9c/hq720.jpg"
+            },
+            {
+              "videoId": "xYNySTzsx5Q",
+              "title": "Spyro Reignited Trilogy (PS5) 4K HDR Gameplay - (100% Full Game)",
+              "views": 622741,
+              "duration": "4:24:41",
+              "thumbnail": "https://i.ytimg.com/vi/xYNySTzsx5Q/hq720.jpg"
+            },
+            {
+              "videoId": "lo58g8-PP0w",
+              "title": "Spyro Reignited Trilogy - All Bosses (No Damage)",
+              "views": 1566472,
+              "duration": "1:20:46",
+              "thumbnail": "https://i.ytimg.com/vi/lo58g8-PP0w/hq720.jpg"
+            },
+            {
+              "videoId": "eVv5p7J_Rvw",
+              "title": "The Many, MANY Glitches of Spyro 1! | Original Spyro 1 (1998) Glitches!",
+              "views": 8212,
+              "duration": "52:43",
+              "thumbnail": "https://i.ytimg.com/vi/eVv5p7J_Rvw/hq720_custom_3.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tekno",
+          "channel": {
+            "id": "UChtLVO3MFudYeVQ6y3Rscyg",
+            "name": "Tekno Tuner HS Official",
+            "image": "https://yt3.ggpht.com/p52Di5_dve5apo904ogBVKnaDL3IIMOEXbLzjXCXoT7LHcI_O8oU4DjJJYbaPG4uUeAVzENi2D0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 572000,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "dNEXRsepXgk",
+              "title": "TECHNO MIX 2026 💣 Remixes Of Popular Songs 💣 Only Techno Bangers",
+              "views": 39177,
+              "duration": "1:06:59",
+              "thumbnail": "https://i.ytimg.com/vi/dNEXRsepXgk/hq720.jpg"
+            },
+            {
+              "videoId": "XJktaXYRWBg",
+              "title": "Melodic Techno & Progressive House  Mix 2024  Argy Omnia Monolink Rebūke Daniel Portman Raf Fender",
+              "views": 14241018,
+              "duration": "1:39:53",
+              "thumbnail": "https://i.ytimg.com/vi/XJktaXYRWBg/hq720.jpg"
+            },
+            {
+              "videoId": "OcChVfdrp24",
+              "title": "TECHNO MIX 2024 | THE QUEEN OF TECHNO !!! | Mixed by EJ",
+              "views": 1110351,
+              "duration": "1:00:38",
+              "thumbnail": "https://i.ytimg.com/vi/OcChVfdrp24/hq720.jpg"
+            },
+            {
+              "videoId": "H9xYDn7go1M",
+              "title": "CERITA DIANCAM DIBUNUH SAMPAI MAU DIKONTRAK BOS TEKNO TUNER 1 MILYAR ??",
+              "views": 186366,
+              "duration": "59:12",
+              "thumbnail": "https://i.ytimg.com/vi/H9xYDn7go1M/hqdefault.jpg"
+            },
+            {
+              "videoId": "KErqMcZR0KA",
+              "title": "Tekno - Skeletun (Official Video)",
+              "views": 74551130,
+              "duration": "3:23",
+              "thumbnail": "https://i.ytimg.com/vi/KErqMcZR0KA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tems",
+          "channel": {
+            "id": "UCWfi5ELXGAe-DCA6cOP3aNw",
+            "name": "Tems",
+            "image": "https://yt3.googleusercontent.com/VKYzt0ApuZmmAoR1BZTyJvFC2tEOX2brBsHD3REYijETJgxhgKLOaw_5bM6xjAjEZfsnorI1sg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1580000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "1JltlSJH5bY",
+              "title": "Tems - Me & U (Official Video)",
+              "views": 109644961,
+              "duration": "3:24",
+              "thumbnail": "https://i.ytimg.com/vi/1JltlSJH5bY/hq720.jpg"
+            },
+            {
+              "videoId": "SOJpE1KMUbo",
+              "title": "Dave - Raindance (ft. Tems)",
+              "views": 160640212,
+              "duration": "3:41",
+              "thumbnail": "https://i.ytimg.com/vi/SOJpE1KMUbo/hq720.jpg"
+            },
+            {
+              "videoId": "tzBXQbUj3uI",
+              "title": "Tems - First (Audio)",
+              "views": 818068,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/tzBXQbUj3uI/hq720.jpg"
+            },
+            {
+              "videoId": "CWzkxJ3wGeY",
+              "title": "Tems Playlist | Healing",
+              "views": 1341541,
+              "duration": "49:05",
+              "thumbnail": "https://i.ytimg.com/vi/CWzkxJ3wGeY/hq720.jpg"
+            },
+            {
+              "videoId": "a4UsBlhj30M",
+              "title": "Tems - What You Need | A COLORS SHOW",
+              "views": 10708494,
+              "duration": "3:52",
+              "thumbnail": "https://i.ytimg.com/vi/a4UsBlhj30M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Timaya",
+          "channel": {
+            "id": "UCWKwprVN2fEwH6weIFM08mw",
+            "name": "OfficialTimaya",
+            "image": "https://yt3.googleusercontent.com/Z68-s540fJsYYTAFPXZfJTs8kuG07cZ7AFpvWIkgBeUWlX98eNVHemZTXXX4elU_hQFGYAFm=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1010000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "xwV9fdK7Mt8",
+              "title": "Timaya - Sanko (Official Video)",
+              "views": 32347637,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/xwV9fdK7Mt8/hq720.jpg"
+            },
+            {
+              "videoId": "od2lX2tJ3Zg",
+              "title": "Timaya - Balance (Official Video)",
+              "views": 34210720,
+              "duration": "3:03",
+              "thumbnail": "https://i.ytimg.com/vi/od2lX2tJ3Zg/hq720.jpg"
+            },
+            {
+              "videoId": "AKJGyiNEjpc",
+              "title": "Timaya - Don Dada (Official Video)",
+              "views": 9253810,
+              "duration": "3:26",
+              "thumbnail": "https://i.ytimg.com/vi/AKJGyiNEjpc/hq720.jpg"
+            },
+            {
+              "videoId": "PmpvNwUZ0q0",
+              "title": "I Like The Way (Official Music Video) - Timaya | Official Timaya",
+              "views": 16491297,
+              "duration": "3:38",
+              "thumbnail": "https://i.ytimg.com/vi/PmpvNwUZ0q0/hq720.jpg"
+            },
+            {
+              "videoId": "GIqbvsSXyWU",
+              "title": "Timaya - Cold Outside feat. Buju (Official Video)",
+              "views": 60396940,
+              "duration": "3:32",
+              "thumbnail": "https://i.ytimg.com/vi/GIqbvsSXyWU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tiwa Savage",
+          "channel": {
+            "id": "UCcBJoRL_QYkPlJaMhAUahvA",
+            "name": "Tiwa Savage",
+            "image": "https://yt3.googleusercontent.com/wZotv2LNhzwwSkhINMnuVfpEKvDs9zSgLBQJ9klWYpezMGLKd4DWRdStjjRdmQPuxLYkKgOtGA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1590000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dFBQzRNsMK0",
+              "title": "Tiwa Savage - All Over ( Official Music Video )",
+              "views": 102726129,
+              "duration": "3:43",
+              "thumbnail": "https://i.ytimg.com/vi/dFBQzRNsMK0/hq720.jpg"
+            },
+            {
+              "videoId": "OHnXY9F7m9c",
+              "title": "Spyro ft Tiwa Savage - Who is your Guy? Remix (Official Video)",
+              "views": 280485509,
+              "duration": "3:30",
+              "thumbnail": "https://i.ytimg.com/vi/OHnXY9F7m9c/hq720.jpg"
+            },
+            {
+              "videoId": "5goMslKxEWs",
+              "title": "Tiwa Savage - Koroba",
+              "views": 20914111,
+              "duration": "2:43",
+              "thumbnail": "https://i.ytimg.com/vi/5goMslKxEWs/hq720.jpg"
+            },
+            {
+              "videoId": "bVMAcPw1KEM",
+              "title": "Tiwa Savage - Dangerous Love",
+              "views": 5007900,
+              "duration": "3:29",
+              "thumbnail": "https://i.ytimg.com/vi/bVMAcPw1KEM/hq720.jpg"
+            },
+            {
+              "videoId": "D7wqi1HZFq8",
+              "title": "1da Banton - No Wahala (Remix) feat. Kizz Daniel & Tiwa Savage",
+              "views": 155014150,
+              "duration": "2:59",
+              "thumbnail": "https://i.ytimg.com/vi/D7wqi1HZFq8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Vector",
+          "channel": {
+            "id": "UCzJ53fi4NuDCYWOk9PtEkCA",
+            "name": "_vector_",
+            "image": "https://yt3.ggpht.com/xk1LtaFeJ_GgnoCuljfLe0LHesN7RRU5Fj11ucHoF-DsVU_fmPn1Mb_eqfqijXpfbtzvHphkrg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 32700000.000000004,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "iXdMpXMuEGI",
+              "title": "Vectors - Precalculus",
+              "views": 508919,
+              "duration": "18:47",
+              "thumbnail": "https://i.ytimg.com/vi/iXdMpXMuEGI/hq720.jpg"
+            },
+            {
+              "videoId": "fNk_zzaMoSs",
+              "title": "Vectors | Chapter 1, Essence of linear algebra",
+              "views": 11683654,
+              "duration": "9:52",
+              "thumbnail": "https://i.ytimg.com/vi/fNk_zzaMoSs/hq720.jpg"
+            },
+            {
+              "videoId": "PxDfkq3FMaw",
+              "title": "Vectors - GCSE Higher Maths",
+              "views": 1177690,
+              "duration": "28:33",
+              "thumbnail": "https://i.ytimg.com/vi/PxDfkq3FMaw/hq720.jpg"
+            },
+            {
+              "videoId": "EwSHKuSxX_8",
+              "title": "Vectors - Basic Introduction - Physics",
+              "views": 2470825,
+              "duration": "12:13",
+              "thumbnail": "https://i.ytimg.com/vi/EwSHKuSxX_8/hq720.jpg"
+            },
+            {
+              "videoId": "ml4NSzCQobk",
+              "title": "What is a vector? - David Huynh",
+              "views": 2206337,
+              "duration": "4:41",
+              "thumbnail": "https://i.ytimg.com/vi/ml4NSzCQobk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Victony",
+          "channel": {
+            "id": "UCMk_svQuQ475Qw0EiTS49Lg",
+            "name": "Victony",
+            "image": "https://yt3.googleusercontent.com/TNtqazoulYLbocGz0UMhboFSEs9-ZcVDjFy359DgBsdlWyma0sP7FrTd60xmImOi_cipbzFJo6I=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 819000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OGAngW1BZ04",
+              "title": "Victony - Soweto with Don Toliver, Rema & Tempoe (Official Video)",
+              "views": 138382141,
+              "duration": "3:42",
+              "thumbnail": "https://i.ytimg.com/vi/OGAngW1BZ04/hq720.jpg"
+            },
+            {
+              "videoId": "DPBRGWUgQsA",
+              "title": "Victony & Tempoe - Soweto (Official Video)",
+              "views": 195419879,
+              "duration": "2:38",
+              "thumbnail": "https://i.ytimg.com/vi/DPBRGWUgQsA/hq720.jpg"
+            },
+            {
+              "videoId": "NrhgS919qjw",
+              "title": "Victony - Everything (Official Video)",
+              "views": 11799718,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/NrhgS919qjw/hq720.jpg"
+            },
+            {
+              "videoId": "agjgfxKIIgM",
+              "title": "Victony - Soweto with Don Toliver, Rema & Tempoe (Official Lyric Video)",
+              "views": 19847549,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/agjgfxKIIgM/hq720.jpg"
+            },
+            {
+              "videoId": "LAubtXWf7uk",
+              "title": "Victony - Tanko (ft. Terry G) [Official Music Video]",
+              "views": 1974082,
+              "duration": "3:45",
+              "thumbnail": "https://i.ytimg.com/vi/LAubtXWf7uk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Waje",
+          "channel": {
+            "id": "UCAw8Sy1F4nsb7CX1rblJ96w",
+            "name": "WAJE",
+            "image": "https://yt3.googleusercontent.com/wGxaMNaoDb7e8JGeP2eQb6erOqqussYVo_Gdbxk0YSEQ3XnmkvmAxgzTol3kBpWEVhMnEVR88A=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 52100,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "e33zCUm1ZnY",
+              "title": "Wake (Live from Summercamp) - Hillsong Young & Free",
+              "views": 20067098,
+              "duration": "4:40",
+              "thumbnail": "https://i.ytimg.com/vi/e33zCUm1ZnY/hq720.jpg"
+            },
+            {
+              "videoId": "lYPapDQhRDk",
+              "title": "Omini Knowest (Official Music Video)",
+              "views": 272720,
+              "duration": "4:17",
+              "thumbnail": "https://i.ytimg.com/vi/lYPapDQhRDk/hq720.jpg"
+            },
+            {
+              "videoId": "5y_KJAg8bHI",
+              "title": "Avicii - Wake Me Up (Official Lyric Video)",
+              "views": 540848176,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/5y_KJAg8bHI/hq720.jpg"
+            },
+            {
+              "videoId": "TBX29MvsqFs",
+              "title": "2Baba Ft. Waje - Frenemies 2.0",
+              "views": 397282,
+              "duration": "4:02",
+              "thumbnail": "https://i.ytimg.com/vi/TBX29MvsqFs/hq720.jpg"
+            },
+            {
+              "videoId": "1nCU_k-VPQo",
+              "title": "One Naira (feat. Waje)",
+              "views": 981326,
+              "duration": "4:32",
+              "thumbnail": "https://i.ytimg.com/vi/1nCU_k-VPQo/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Wizkid",
+          "channel": {
+            "id": "UCi7Cbr-F3zFQjwafFh5RWJA",
+            "name": "StarBoy TV",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_kAK3Ve1Ro6nv0JxxNMq6jKVx55CoS_RttDbp3XVCdiNW0=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "jipQpjUA_o8",
+              "title": "Wizkid - Essence (Official Video) ft. Tems",
+              "views": 252566631,
+              "duration": "4:06",
+              "thumbnail": "https://i.ytimg.com/vi/jipQpjUA_o8/hq720.jpg"
+            },
+            {
+              "videoId": "haA7DpK9Z4k",
+              "title": "Wizkid - Fever (Official Video)",
+              "views": 152919280,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/haA7DpK9Z4k/hq720.jpg"
+            },
+            {
+              "videoId": "Q7QiLceJSLQ",
+              "title": "WIZKID  - OJUELEGBA",
+              "views": 80980931,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/Q7QiLceJSLQ/hq720.jpg"
+            },
+            {
+              "videoId": "lQJSWH2S-BU",
+              "title": "WIZ KID | 2 Hours of Chill Songs | Afrobeats/R&B MUSIC PLAYLIST | Starboy",
+              "views": 8380890,
+              "duration": "2:04:41",
+              "thumbnail": "https://i.ytimg.com/vi/lQJSWH2S-BU/hq720.jpg"
+            },
+            {
+              "videoId": "vqW18C4plZ8",
+              "title": "Wizkid - Come Closer (Official Video) ft. Drake",
+              "views": 166766220,
+              "duration": "3:36",
+              "thumbnail": "https://i.ytimg.com/vi/vqW18C4plZ8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Yemi Alade",
+          "channel": {
+            "id": "UCWD1TnmmbbynUSp8tkadR-g",
+            "name": "Yemi Alade",
+            "image": "https://yt3.googleusercontent.com/8oVBt5yLMaPjyWxEhzVZq3-LLM1bn3dbtMgCk2CFHsjpRboLKq3B8b1ysV9rIPVxLWmWocIHaQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2580000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "C_XkTKoDI18",
+              "title": "Yemi Alade - Johnny (Official Music Video)",
+              "views": 182932641,
+              "duration": "5:17",
+              "thumbnail": "https://i.ytimg.com/vi/C_XkTKoDI18/hq720.jpg"
+            },
+            {
+              "videoId": "L2n3lBHiZRs",
+              "title": "Yemi Alade - Bum Bum (Official Music Video)",
+              "views": 56108379,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/L2n3lBHiZRs/hq720.jpg"
+            },
+            {
+              "videoId": "kAPEntGix4M",
+              "title": "Yemi Alade - Africa ft. Sauti Sol (Official Music Video)",
+              "views": 37094427,
+              "duration": "4:05",
+              "thumbnail": "https://i.ytimg.com/vi/kAPEntGix4M/hq720.jpg"
+            },
+            {
+              "videoId": "7oPkeBJA5NU",
+              "title": "Yemi Alade - Baddie",
+              "views": 23854746,
+              "duration": "3:19",
+              "thumbnail": "https://i.ytimg.com/vi/7oPkeBJA5NU/hq720.jpg"
+            },
+            {
+              "videoId": "n5mv9kFs_uc",
+              "title": "Yemi Alade & Spice - Bubble It (Official Video)",
+              "views": 10063109,
+              "duration": "2:54",
+              "thumbnail": "https://i.ytimg.com/vi/n5mv9kFs_uc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Young Jonn",
+          "channel": {
+            "id": "UCyz9HsyG9uh1vio0KZhcrnQ",
+            "name": "Young Jonn",
+            "image": "https://yt3.googleusercontent.com/4NqZ_eYlQMcgNDB4ioIL5WNBaUpi8WmSC2a6YNMIBb_46hWt2eH8VH2VCjUPNIKfYJc5SG0D2w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 442000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "qScsIn8UCcM",
+              "title": "Young Jonn - 2 factor (feat. Asake & Focalistic) [Official Music Video]",
+              "views": 2913378,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/qScsIn8UCcM/hq720.jpg"
+            },
+            {
+              "videoId": "LWWCj-EbevI",
+              "title": "Young Jonn - Xtra Cool (Official Music Video)",
+              "views": 39375005,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/LWWCj-EbevI/hq720.jpg"
+            },
+            {
+              "videoId": "92Xl9K5uQGc",
+              "title": "Young Jonn - Bahamas (Official Music Video)",
+              "views": 10046507,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/92Xl9K5uQGc/hq720.jpg"
+            },
+            {
+              "videoId": "0zesotRwEWM",
+              "title": "Young Jonn - Aquafina (Official Music Video)",
+              "views": 15848859,
+              "duration": "2:52",
+              "thumbnail": "https://i.ytimg.com/vi/0zesotRwEWM/hq720.jpg"
+            },
+            {
+              "videoId": "SyLoIrE8JAs",
+              "title": "Young Jonn  - Lalala (feat. Rema) [Official Music Video]",
+              "views": 7803880,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/SyLoIrE8JAs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Zlatan",
+          "channel": {
+            "id": "UCKnwBvLOEePfYPT4KaaUCLw",
+            "name": "Zlatan",
+            "image": "https://yt3.googleusercontent.com/OinwqQd8I6iKJ3Xh-POlvOhV19P5_5Y5kLD-4etoTO7soIbq1hnlEMxUJrOqB9-l2hgEs8cVOg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 439000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ntohaMEcPL0",
+              "title": "Zlatan Ibrahimovic ● Top 30 Goals",
+              "views": 5158574,
+              "duration": "9:49",
+              "thumbnail": "https://i.ytimg.com/vi/ntohaMEcPL0/hq720.jpg"
+            },
+            {
+              "videoId": "RqUEM5hkYdI",
+              "title": "Saat Para Pemain Ditanya Tentang Zlatan Ibrahimovic...",
+              "views": 639770,
+              "duration": "8:03",
+              "thumbnail": "https://i.ytimg.com/vi/RqUEM5hkYdI/hq720.jpg"
+            },
+            {
+              "videoId": "85ARmG9-Qy8",
+              "title": "Zlatan Ibrahimovic: Gol Liga Primer",
+              "views": 7022894,
+              "duration": "6:44",
+              "thumbnail": "https://i.ytimg.com/vi/85ARmG9-Qy8/hq720.jpg"
+            },
+            {
+              "videoId": "4JclBigVkV8",
+              "title": "Prime Zlatan Ibrahimovic Was Actually Insane",
+              "views": 320563,
+              "duration": "22:13",
+              "thumbnail": "https://i.ytimg.com/vi/4JclBigVkV8/hq720.jpg"
+            },
+            {
+              "videoId": "ZYja-gziyB0",
+              "title": "Antara Legenda & Kontroversi… Dua Wajah Zlatan Ibrahimovic Terungkap!",
+              "views": 95143,
+              "duration": "31:46",
+              "thumbnail": "https://i.ytimg.com/vi/ZYja-gziyB0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    },
+    "gospel": {
+      "count": 35,
+      "artists": [
+        {
+          "name": "Ada Ehi",
+          "channel": {
+            "id": "UCpM0LdoSSvRgW-AqBTOhKow",
+            "name": "Ada Ehi",
+            "image": "https://yt3.googleusercontent.com/NUy78-JOpywBLcEQRWtaDgBfZum1X-2ZK8S1nAq_iB8kyIYwm8Myi-7A9kwB0DyqcKfiIqmOGg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2420000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tiQ7h6J6WEU",
+              "title": "Ada Ehi - Live at Worship Court Lagos",
+              "views": 10258,
+              "duration": "11:29",
+              "thumbnail": "https://i.ytimg.com/vi/tiQ7h6J6WEU/hq720.jpg"
+            },
+            {
+              "videoId": "LjpGilXJOuY",
+              "title": "Ada Ehi - Congratulations ft Buchi | The Official Video",
+              "views": 85905873,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/LjpGilXJOuY/hq720.jpg"
+            },
+            {
+              "videoId": "dNKe1fP9O9o",
+              "title": "ADA EHI - DEFINITELY | The Official Music Video",
+              "views": 21705484,
+              "duration": "3:57",
+              "thumbnail": "https://i.ytimg.com/vi/dNKe1fP9O9o/hqdefault.jpg"
+            },
+            {
+              "videoId": "DIFXXJ4MWrA",
+              "title": "ADA EHI x JOE PRAIZE - GAME CHANGER I The Official Music Video",
+              "views": 17520736,
+              "duration": "4:42",
+              "thumbnail": "https://i.ytimg.com/vi/DIFXXJ4MWrA/hq720.jpg"
+            },
+            {
+              "videoId": "HPqDaKajSnQ",
+              "title": "ADA EHI - YESUS (Kamu Mampu)",
+              "views": 76315216,
+              "duration": "5:56",
+              "thumbnail": "https://i.ytimg.com/vi/HPqDaKajSnQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Bidemi Olaoba",
+          "channel": {
+            "id": "UCAIM3y9fRUWYmbVvtgPORYw",
+            "name": "Bidemi Olaoba",
+            "image": "https://yt3.googleusercontent.com/vFVebzw9D1L1_mCUJH1GM2G_ds5yTr10lMfkZyYY_pH2adnbMn701TMN15aSAP07Nj_ht_zB=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 234000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "xBnxgP3_aB8",
+              "title": "BIDEMI OLAOBA Intense Praise & Worship - VBC 2025 Grand Finale @BidemiOlaoba",
+              "views": 518677,
+              "duration": "50:31",
+              "thumbnail": "https://i.ytimg.com/vi/xBnxgP3_aB8/hq720.jpg"
+            },
+            {
+              "videoId": "Dv26gcu4Eeo",
+              "title": "BIDEMI OLAOBA MINISTRATION AT  IN HIS PRESENCE OAU",
+              "views": 62012,
+              "duration": "52:23",
+              "thumbnail": "https://i.ytimg.com/vi/Dv26gcu4Eeo/hq720.jpg"
+            },
+            {
+              "videoId": "yT2VgqNsUSQ",
+              "title": "In His Presence May  Thanksgiving With Bidemi Olaoba 2026  | Tobi Akuraku",
+              "views": 25670,
+              "duration": "2:09:47",
+              "thumbnail": "https://i.ytimg.com/vi/yT2VgqNsUSQ/hq720.jpg"
+            },
+            {
+              "videoId": "QglhoVz5ank",
+              "title": "Bidemi Olaoba X Mercy Chinwo - Give Me Chance (Official Video)",
+              "views": 13235077,
+              "duration": "4:20",
+              "thumbnail": "https://i.ytimg.com/vi/QglhoVz5ank/hq720.jpg"
+            },
+            {
+              "videoId": "DU8SXtr-g6o",
+              "title": "Bidemi Olaoba - Unrestricted praises",
+              "views": 533132,
+              "duration": "26:24",
+              "thumbnail": "https://i.ytimg.com/vi/DU8SXtr-g6o/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Chandler Moore",
+          "channel": {
+            "id": "UC1-9KAdjyIxiuyAac7-S0Bw",
+            "name": "Chandler Moore",
+            "image": "https://yt3.googleusercontent.com/MO_xzJxZB8rO6HIld0Tx19sudA4yKlRfvwaDk6MuvHFX0KrGxXhs9j5HNe8OdIp8E8cr9LsScA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 211000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "YbGFYaA0SbY",
+              "title": "God I'm Just Grateful | Elevation Worship & Chandler Moore",
+              "views": 12231972,
+              "duration": "4:59",
+              "thumbnail": "https://i.ytimg.com/vi/YbGFYaA0SbY/hq720.jpg"
+            },
+            {
+              "videoId": "bcNRw9wIQqg",
+              "title": "What I Needed  | Chandler Moore | Live In Los Angeles (Official Music Video)",
+              "views": 9143762,
+              "duration": "8:28",
+              "thumbnail": "https://i.ytimg.com/vi/bcNRw9wIQqg/hqdefault.jpg"
+            },
+            {
+              "videoId": "vGb2iDWLlq4",
+              "title": "Lead Me On (Live) | Chandler Moore | Live In Los Angeles (Official Music Video)",
+              "views": 19063711,
+              "duration": "7:42",
+              "thumbnail": "https://i.ytimg.com/vi/vGb2iDWLlq4/hq720.jpg"
+            },
+            {
+              "videoId": "dQ1xxoP7NJk",
+              "title": "More Than Able (feat. Chandler Moore & Tiffany Hudson) | Elevation Worship",
+              "views": 48489236,
+              "duration": "9:59",
+              "thumbnail": "https://i.ytimg.com/vi/dQ1xxoP7NJk/hq720.jpg"
+            },
+            {
+              "videoId": "eJshpEZQQqU",
+              "title": "One More Day (Live) | Elevation Worship & Sons Of Sunday",
+              "views": 4435960,
+              "duration": "7:35",
+              "thumbnail": "https://i.ytimg.com/vi/eJshpEZQQqU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Chris Morgan",
+          "channel": {
+            "id": "UC-FDMzkM3iZNlhwgxU0Zrjg",
+            "name": "Chris Morgan",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nBUOVl7exoeQk5xAFsUKzR6KeWsyTghN2u2Op5BdnuX6U=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 42600,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "jEjs1EVEbDU",
+              "title": "Often as I Breathe",
+              "views": 362459,
+              "duration": "5:16",
+              "thumbnail": "https://i.ytimg.com/vi/jEjs1EVEbDU/hq720.jpg"
+            },
+            {
+              "videoId": "Iu4iLxZ3XYQ",
+              "title": "Just Like a Dream",
+              "views": 69302,
+              "duration": "6:35",
+              "thumbnail": "https://i.ytimg.com/vi/Iu4iLxZ3XYQ/hq720.jpg"
+            },
+            {
+              "videoId": "l0Nu6aXpVuE",
+              "title": "I Do",
+              "views": 246583,
+              "duration": "4:43",
+              "thumbnail": "https://i.ytimg.com/vi/l0Nu6aXpVuE/hq720.jpg"
+            },
+            {
+              "videoId": "0BjqIz98vyc",
+              "title": "Yahweh",
+              "views": 501538,
+              "duration": "4:13",
+              "thumbnail": "https://i.ytimg.com/vi/0BjqIz98vyc/hq720.jpg"
+            },
+            {
+              "videoId": "dI5ruzWw-Hg",
+              "title": "DAILY AS I LIVE - LIVE WORSHIP BY CHRIS MORGAN",
+              "views": 2017191,
+              "duration": "10:55",
+              "thumbnail": "https://i.ytimg.com/vi/dI5ruzWw-Hg/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "David G",
+          "channel": {
+            "id": "UCCjFJAICfz2CeJcQGUCOc9g",
+            "name": "David G",
+            "image": "https://yt3.ggpht.com/AtnEopbvwgv6JtNHSUTyPAWHilvTgyWB0Gaxnmyn363DLiywjtSS8wn01TWRoTR0SJnv3_lkpw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 37300,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "Hn-l3KQg8Y0",
+              "title": "DAVID LIVE SET | VAMOS JOGJA",
+              "views": 6277,
+              "duration": "1:03:39",
+              "thumbnail": "https://i.ytimg.com/vi/Hn-l3KQg8Y0/hq720.jpg"
+            },
+            {
+              "videoId": "jBuWCDssUms",
+              "title": "David G - My Trust Is In You (Official Music Video)",
+              "views": 2961420,
+              "duration": "3:39",
+              "thumbnail": "https://i.ytimg.com/vi/jBuWCDssUms/hq720.jpg"
+            },
+            {
+              "videoId": "WDkTvyTwIeg",
+              "title": "02 DAVID G. - MY TRUST IS IN YOU",
+              "views": 141664,
+              "duration": "3:38",
+              "thumbnail": "https://i.ytimg.com/vi/WDkTvyTwIeg/hq720.jpg"
+            },
+            {
+              "videoId": "oxsM19jV078",
+              "title": "DAVID DJ SET | VAMOS JOGJA",
+              "views": 12220,
+              "duration": "41:28",
+              "thumbnail": "https://i.ytimg.com/vi/oxsM19jV078/hq720.jpg"
+            },
+            {
+              "videoId": "azPXo9ui0tQ",
+              "title": "Yahweh",
+              "views": 28149,
+              "duration": "5:25",
+              "thumbnail": "https://i.ytimg.com/vi/azPXo9ui0tQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Donnie McClurkin",
+          "channel": {
+            "id": "UC6jEzPuYxOYOd_GikZHwwHw",
+            "name": "DonnieMcClurkinShow",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_l86HtupWiwfQKsg4HxO14iJD3iPt50g_3MynSaVPlGtSw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 312000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tzdQgjKUTwM",
+              "title": "Donnie McClurkin - I Need You (Official Video)",
+              "views": 38916784,
+              "duration": "5:14",
+              "thumbnail": "https://i.ytimg.com/vi/tzdQgjKUTwM/hq720.jpg"
+            },
+            {
+              "videoId": "S0tX_ctp0Gs",
+              "title": "Donnie McClurkin - We Fall Down (Stereo)",
+              "views": 14143016,
+              "duration": "4:22",
+              "thumbnail": "https://i.ytimg.com/vi/S0tX_ctp0Gs/hq720.jpg"
+            },
+            {
+              "videoId": "QvbFiRwd2FY",
+              "title": "CeCe Winans, Marvin Winans, & Donnie McClurkin Live In Times Square | FULL CONCERT",
+              "views": 4827482,
+              "duration": "1:30:51",
+              "thumbnail": "https://i.ytimg.com/vi/QvbFiRwd2FY/hq720.jpg"
+            },
+            {
+              "videoId": "WZMEd-eyaaQ",
+              "title": "Only You Are Holy",
+              "views": 4362668,
+              "duration": "6:55",
+              "thumbnail": "https://i.ytimg.com/vi/WZMEd-eyaaQ/hq720.jpg"
+            },
+            {
+              "videoId": "6fGaxufI0kc",
+              "title": "Great is Your Mercy   Donnie McClurkin Gospel Goes classical SA",
+              "views": 314376,
+              "duration": "6:01",
+              "thumbnail": "https://i.ytimg.com/vi/6fGaxufI0kc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Dunsin Oyekan",
+          "channel": {
+            "id": "UC9unpsMUkOGDIMraqBfZtYg",
+            "name": "Dunsin Oyekan",
+            "image": "https://yt3.googleusercontent.com/d33NWWLsiEBDWehMSfCqg76UZpMwMm49FcE5uV1ILH_Eoz7njtD7EH8Wbz4nCgTDMnoW18uJQg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1460000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "9MjvlAt5BJU",
+              "title": "UPPER ROOM ABUJA MAY 2026 - 17th May 2026 #dunsinoyekan #worship #upperroom",
+              "views": 111743,
+              "duration": "4:10:19",
+              "thumbnail": "https://i.ytimg.com/vi/9MjvlAt5BJU/hq720.jpg"
+            },
+            {
+              "videoId": "lrdmnAn9gxk",
+              "title": "Worthy Of My Praise - Dunsin Oyekan ft  @LawrenceOyor #dunsinoyekan #worship #thegreatcommission",
+              "views": 26087732,
+              "duration": "16:15",
+              "thumbnail": "https://i.ytimg.com/vi/lrdmnAn9gxk/hq720.jpg"
+            },
+            {
+              "videoId": "NZ6oTmngasY",
+              "title": "Who Is Like You? - Dunsin Oyekan",
+              "views": 11113671,
+              "duration": "19:04",
+              "thumbnail": "https://i.ytimg.com/vi/NZ6oTmngasY/hq720.jpg"
+            },
+            {
+              "videoId": "ja343Erbpq0",
+              "title": "BARUCH HASHEM ADONAI - Dunsin Oyekan ft. @theophilussunday..",
+              "views": 3855064,
+              "duration": "19:20",
+              "thumbnail": "https://i.ytimg.com/vi/ja343Erbpq0/hq720.jpg"
+            },
+            {
+              "videoId": "fem4tFkwUEU",
+              "title": "No Me Without You - Dunsin Oyekan #dunsinoyekan #worship #nomewithoutjesus",
+              "views": 12903296,
+              "duration": "10:35",
+              "thumbnail": "https://i.ytimg.com/vi/fem4tFkwUEU/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Eben",
+          "channel": {
+            "id": "UCvIhrQ9BRWUxBNsDJQi8V5A",
+            "name": "EBEN",
+            "image": "https://yt3.googleusercontent.com/7gx3AutJ0QtdNViohP7Ns86HGmIklm8uWeFN4QNUlolm6FiByGPTDeQM8zIcjKebhmG51mJp=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 40800,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "TLywEK5CIMs",
+              "title": "EBEN - Hurts (Lyric Video)",
+              "views": 13771952,
+              "duration": "3:44",
+              "thumbnail": "https://i.ytimg.com/vi/TLywEK5CIMs/hq720.jpg"
+            },
+            {
+              "videoId": "cQyE9MSzZLk",
+              "title": "EBEN - Run Away (Lyric Video)",
+              "views": 275292,
+              "duration": "3:16",
+              "thumbnail": "https://i.ytimg.com/vi/cQyE9MSzZLk/hq720.jpg"
+            },
+            {
+              "videoId": "4MeN0ofo-6U",
+              "title": "EBEN & Nu-La - Your Love (Lyric Video)",
+              "views": 238805,
+              "duration": "3:11",
+              "thumbnail": "https://i.ytimg.com/vi/4MeN0ofo-6U/hq720.jpg"
+            },
+            {
+              "videoId": "TG0hau16dBw",
+              "title": "EBEN - Drown (Lyric Video)",
+              "views": 3678940,
+              "duration": "3:22",
+              "thumbnail": "https://i.ytimg.com/vi/TG0hau16dBw/hq720.jpg"
+            },
+            {
+              "videoId": "ylFR9VqLMYg",
+              "title": "Eben - Victory (Video)",
+              "views": 67771454,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/ylFR9VqLMYg/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Frank Edwards",
+          "channel": {
+            "id": "UCWhUxVq72zmbcWlm9uguLPg",
+            "name": "FRANK EDWARDS",
+            "image": "https://yt3.googleusercontent.com/-v_eI84Sqxo14N-912NxRXeKwy5fiE_rgKkzVcXf7PFGoO8GYlJVjbS92DkTIidIdRDY7lEGHd8=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 446000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "dX3e7-n1BcU",
+              "title": "Frank Edwards - IF NOT FOR YOU  #frankedwards #rocktown #gospelmusic #ifnotforyou",
+              "views": 7779673,
+              "duration": "2:17",
+              "thumbnail": "https://i.ytimg.com/vi/dX3e7-n1BcU/hq720.jpg"
+            },
+            {
+              "videoId": "lLgQqp_uxLs",
+              "title": "F r a n k E d w a r d s Greatest Hits ~ Top Praise And Worship Songs",
+              "views": 444396,
+              "duration": "42:09",
+              "thumbnail": "https://i.ytimg.com/vi/lLgQqp_uxLs/hq720.jpg"
+            },
+            {
+              "videoId": "3ZQGqoygXhE",
+              "title": "FRANK EDWARDS - MIYERUWE (I praise you) #spiritualmusicseason",
+              "views": 4595252,
+              "duration": "4:00",
+              "thumbnail": "https://i.ytimg.com/vi/3ZQGqoygXhE/hqdefault.jpg"
+            },
+            {
+              "videoId": "lOfqSrU7WaI",
+              "title": "Obuka  -  Jesus eh (Official Video)",
+              "views": 204853,
+              "duration": "4:39",
+              "thumbnail": "https://i.ytimg.com/vi/lOfqSrU7WaI/hq720.jpg"
+            },
+            {
+              "videoId": "P6cVM3W_K9Y",
+              "title": "Frank Edwards   Celestial ft Victor Ike (VIDEO)",
+              "views": 6181577,
+              "duration": "5:56",
+              "thumbnail": "https://i.ytimg.com/vi/P6cVM3W_K9Y/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "GUC",
+          "channel": {
+            "id": "UCAdAODvRZIWoY2RtdxdGyPA",
+            "name": "Minister GUC",
+            "image": "https://yt3.ggpht.com/h41k7mczS4-1SVgZDlsDPiK3fIeR8OSH1-hxdv1o17kJhb4wAsfhjOa5O9uYl1TLbTsOtGunig=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 325000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "-r6mL7Ws0Cc",
+              "title": "Minister GUC - All That Matters (LIVE)",
+              "views": 139437784,
+              "duration": "11:00",
+              "thumbnail": "https://i.ytimg.com/vi/-r6mL7Ws0Cc/hq720.jpg"
+            },
+            {
+              "videoId": "_fei3yjsD3A",
+              "title": "Minister GUC - Obinigwe (Official Video)",
+              "views": 38357948,
+              "duration": "9:08",
+              "thumbnail": "https://i.ytimg.com/vi/_fei3yjsD3A/hq720.jpg"
+            },
+            {
+              "videoId": "gfFyFYnh72I",
+              "title": "#NationsWorship2026 MINISTER GUC Leads Dunamis in Deep Worship 😭",
+              "views": 133087,
+              "duration": "19:54",
+              "thumbnail": "https://i.ytimg.com/vi/gfFyFYnh72I/hq720.jpg"
+            },
+            {
+              "videoId": "R95pR_XQa9c",
+              "title": "GUC Live di | #TheAtmosphere26 | #COZA@27 | 28-02-2026 |",
+              "views": 20750,
+              "duration": "22:26",
+              "thumbnail": "https://i.ytimg.com/vi/R95pR_XQa9c/hq720.jpg"
+            },
+            {
+              "videoId": "fepL-TrorHM",
+              "title": "Obinigwe",
+              "views": 2786580,
+              "duration": "9:13",
+              "thumbnail": "https://i.ytimg.com/vi/fepL-TrorHM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Gabriel Eziashi",
+          "channel": {
+            "id": "UCvEh8YfLJpIA9a-hPlngJjA",
+            "name": "Gabriel Eziashi TV",
+            "image": "https://yt3.googleusercontent.com/F89cKWfR3qCpy4jDQaS7Xmbk48zTNgrWiAXg_wOCTHAMGDEkiW7VUpvqwg0o74nJmJ-GrJmRkg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 259000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ckjxHUAaxeA",
+              "title": "African Praise Medley by Gabriel Eziashi",
+              "views": 8960046,
+              "duration": "21:07",
+              "thumbnail": "https://i.ytimg.com/vi/ckjxHUAaxeA/hq720.jpg"
+            },
+            {
+              "videoId": "gTMyrT8_R30",
+              "title": "Emmanuel - Gabriel Eziashi x Henrisoul",
+              "views": 20050452,
+              "duration": "9:15",
+              "thumbnail": "https://i.ytimg.com/vi/gTMyrT8_R30/hq720.jpg"
+            },
+            {
+              "videoId": "a6yBrXHwkcI",
+              "title": "Contemporary Praise Medley - Gabriel Eziashi",
+              "views": 511399,
+              "duration": "13:39",
+              "thumbnail": "https://i.ytimg.com/vi/a6yBrXHwkcI/hq720.jpg"
+            },
+            {
+              "videoId": "yriovzppLXc",
+              "title": "Gabriel Eziashi - Aka Jehovah (Music Video)",
+              "views": 10560787,
+              "duration": "3:40",
+              "thumbnail": "https://i.ytimg.com/vi/yriovzppLXc/hq720.jpg"
+            },
+            {
+              "videoId": "4YRhTXpZxtQ",
+              "title": "Gabriel Eziashi - African Praise Medley Live at Arcadia",
+              "views": 1351956,
+              "duration": "13:19",
+              "thumbnail": "https://i.ytimg.com/vi/4YRhTXpZxtQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Jimmy D Psalmist",
+          "channel": {
+            "id": "UC9Khfjm3AVAd9pc72R52ITA",
+            "name": "Jimmy Johnson (Jimmy D Psalmist)",
+            "image": "https://yt3.googleusercontent.com/1jUzc0s8uTqHjbbC-VC5EdqjT9fa5nEi7YxmO5b9zYDbvj7eFbW-51sSXUnh5akCrbMHyaknUA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1010000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "aTaXCYhSvOU",
+              "title": "CONSUMING FIRE - JIMMY D PSALMIST (OFFICIAL VIDEO)",
+              "views": 75338742,
+              "duration": "6:26",
+              "thumbnail": "https://i.ytimg.com/vi/aTaXCYhSvOU/hq720.jpg"
+            },
+            {
+              "videoId": "kYausrO4c5g",
+              "title": "Jimmy D Psalmist Songs Playlist | The Best Songs Of Jimmy D Psalmist | Powerful Gospel Worship Songs",
+              "views": 1116462,
+              "duration": "1:15:50",
+              "thumbnail": "https://i.ytimg.com/vi/kYausrO4c5g/hq720.jpg"
+            },
+            {
+              "videoId": "0CdmQA9yOyA",
+              "title": "ASCEND - 22 May 2026 || JIMMY JOHNSON || #JimmyDPsalmist",
+              "views": 1086,
+              "duration": "3:04:51",
+              "thumbnail": "https://i.ytimg.com/vi/0CdmQA9yOyA/hq720.jpg"
+            },
+            {
+              "videoId": "jHrQp-A52pc",
+              "title": "MIGHTY MAN OF WAR - JIMMY D PSALMIST (OFFICIAL VIDEO)",
+              "views": 111567745,
+              "duration": "8:16",
+              "thumbnail": "https://i.ytimg.com/vi/jHrQp-A52pc/hq720.jpg"
+            },
+            {
+              "videoId": "JfXLfDpNzZk",
+              "title": "CHAMPION DEFENDER - JIMMY D PSALMIST (OFFICIAL VIDEO)",
+              "views": 267932,
+              "duration": "4:20",
+              "thumbnail": "https://i.ytimg.com/vi/JfXLfDpNzZk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Joe Praize",
+          "channel": {
+            "id": "UC7VcakvLzpcnCINLzSVRPbQ",
+            "name": "joepraizemusic",
+            "image": "https://yt3.googleusercontent.com/KICnoyNtWVzBV5VhmG1GCLUevY2iy6MqxdGkzUv_RrplBCPWQHFNGBcGGK4vxOH8LF_CKUFW=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 644000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "zl62KqAruBo",
+              "title": "MIGHTY GOD (OFFICIAL VIDEO) - JOEPRAIZE FT SOWETO GOSPEL CHOIR",
+              "views": 52769478,
+              "duration": "5:24",
+              "thumbnail": "https://i.ytimg.com/vi/zl62KqAruBo/hqdefault.jpg"
+            },
+            {
+              "videoId": "lwj2Krjdup8",
+              "title": "Joy Overflow Live",
+              "views": 23503607,
+              "duration": "8:35",
+              "thumbnail": "https://i.ytimg.com/vi/lwj2Krjdup8/hq720.jpg"
+            },
+            {
+              "videoId": "Hlet3BhiALA",
+              "title": "UNCHANGEABLE (OFFICIAL MUSIC VIDEO) - Joepraize",
+              "views": 54600456,
+              "duration": "6:27",
+              "thumbnail": "https://i.ytimg.com/vi/Hlet3BhiALA/hq720.jpg"
+            },
+            {
+              "videoId": "DIFXXJ4MWrA",
+              "title": "ADA EHI x JOE PRAIZE - GAME CHANGER I The Official Music Video",
+              "views": 17520736,
+              "duration": "4:42",
+              "thumbnail": "https://i.ytimg.com/vi/DIFXXJ4MWrA/hq720.jpg"
+            },
+            {
+              "videoId": "VO1JO9XOpew",
+              "title": "Miracle Papa { LIVE MINISTRATION AT THE PRAISE OVATION }",
+              "views": 8546681,
+              "duration": "12:43",
+              "thumbnail": "https://i.ytimg.com/vi/VO1JO9XOpew/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Judikay",
+          "channel": {
+            "id": "UCQmRXe_YwIXaGcODToPXAEg",
+            "name": "JUDIKAY 🌏",
+            "image": "https://yt3.googleusercontent.com/UhRQF9Mwur8aTAO0VOmTwPEmYSTdSDyfbdApONesGXEasJV7fB-vFGfttjw5b3N-aQwN4LLUnA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 242000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "elCtvocTfe4",
+              "title": "Judikay - Capable God (Official Video)",
+              "views": 62754339,
+              "duration": "3:25",
+              "thumbnail": "https://i.ytimg.com/vi/elCtvocTfe4/hq720.jpg"
+            },
+            {
+              "videoId": "ZN-c0N1cXOw",
+              "title": "Judikay - Have You Seen (Live)",
+              "views": 952394,
+              "duration": "7:44",
+              "thumbnail": "https://i.ytimg.com/vi/ZN-c0N1cXOw/hq720.jpg"
+            },
+            {
+              "videoId": "DcO9rwqr79c",
+              "title": "Judikay - Omemma (LIVE)",
+              "views": 133594880,
+              "duration": "6:29",
+              "thumbnail": "https://i.ytimg.com/vi/DcO9rwqr79c/hq720.jpg"
+            },
+            {
+              "videoId": "AEGjZ2ERKnU",
+              "title": "Judikay – More Than Gold (Official Video)",
+              "views": 39542882,
+              "duration": "4:59",
+              "thumbnail": "https://i.ytimg.com/vi/AEGjZ2ERKnU/hq720.jpg"
+            },
+            {
+              "videoId": "lVr-xrZgKoY",
+              "title": "Judikay - Have You Seen (Official Video)",
+              "views": 855571,
+              "duration": "4:18",
+              "thumbnail": "https://i.ytimg.com/vi/lVr-xrZgKoY/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Kunle Ojo",
+          "channel": {
+            "id": "UC6VOeXAzJqWphYX0-wz3GXg",
+            "name": "Kunle Ojo",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_ksQQl2B9h3YStUGVnbkEBwQ17nquLWhFzYP0HbtW3Fg4xF0T91e_MyLGpXuaKOx1LlOQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "ytSl_jR5kDo",
+              "title": "AFRICAN HOME: PLANTAIN WAHALA | W/ @thetaaooma",
+              "views": 3068441,
+              "duration": "11:25",
+              "thumbnail": "https://i.ytimg.com/vi/ytSl_jR5kDo/hq720.jpg"
+            },
+            {
+              "videoId": "nHGiWJdA70I",
+              "title": "Reigniting the Altar of Prayer ll Pastor 'Kunle Ojo ll 2026 Prayer Conference",
+              "views": 16,
+              "duration": "57:06",
+              "thumbnail": "https://i.ytimg.com/vi/nHGiWJdA70I/hq720.jpg"
+            },
+            {
+              "videoId": "hgalZsjbVcU",
+              "title": "Actively Desiring Growth ll Pst. 'Kunle Ojo",
+              "views": 29,
+              "duration": "35:49",
+              "thumbnail": "https://i.ytimg.com/vi/hgalZsjbVcU/hq720.jpg"
+            },
+            {
+              "videoId": "F1AjneQWRfE",
+              "title": "Celebrating God's Graciousness ll Pastor 'Kunle Ojo",
+              "views": 18,
+              "duration": "28:36",
+              "thumbnail": "https://i.ytimg.com/vi/F1AjneQWRfE/hq720.jpg"
+            },
+            {
+              "videoId": "-gfiwlKjEUE",
+              "title": "Ojo Ayo (Lovely Day)",
+              "views": 124,
+              "duration": "4:29",
+              "thumbnail": "https://i.ytimg.com/vi/-gfiwlKjEUE/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Lara George",
+          "channel": {
+            "id": "UCbAKflp9fii0rD_W4Goc_nQ",
+            "name": "Lara George",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_mt_8qnQ7qmOsfZ2ryPqThJdEEtqEpI07tTF05rM89EdW4=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 100000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "0i9WxiMVjbc",
+              "title": "LARA GEORGE - DANSAKI (I'M ACKNOWLEDGING YOU)(OFFICIAL VIDEO)",
+              "views": 22252498,
+              "duration": "5:20",
+              "thumbnail": "https://i.ytimg.com/vi/0i9WxiMVjbc/hq720.jpg"
+            },
+            {
+              "videoId": "2_1CyA7iDuY",
+              "title": "LARA GEORGE - Ijoba Orun (Mu mi de'le) [OFFICIAL VIDEO]",
+              "views": 4723415,
+              "duration": "4:55",
+              "thumbnail": "https://i.ytimg.com/vi/2_1CyA7iDuY/hqdefault.jpg"
+            },
+            {
+              "videoId": "FPLERTa2bUI",
+              "title": "ShezAr VS Lara George - 'Young Hearts Run Free' | The Battles | The Voice UK 2020",
+              "views": 182758,
+              "duration": "2:21",
+              "thumbnail": "https://i.ytimg.com/vi/FPLERTa2bUI/hq720.jpg"
+            },
+            {
+              "videoId": "ZAemp-Rk_QI",
+              "title": "4 LAGOS COMMUNITY GOSPEL CHOIR  AND LARA GEORGE BEYOND MUSIC",
+              "views": 349220,
+              "duration": "19:41",
+              "thumbnail": "https://i.ytimg.com/vi/ZAemp-Rk_QI/hq720.jpg"
+            },
+            {
+              "videoId": "xPqNjJ85H58",
+              "title": "Lara George sings ‘Don't Be So Hard on Yourself’ by Jess Glynne | The Voice Stage #40",
+              "views": 6125244,
+              "duration": "7:45",
+              "thumbnail": "https://i.ytimg.com/vi/xPqNjJ85H58/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mercy Chinwo",
+          "channel": {
+            "id": "UCtIRyuESlnOflQCpmk-fHUw",
+            "name": "Mercy Chinwo Official",
+            "image": "https://yt3.googleusercontent.com/hS8XZsV6lzNSRULRMM1isEbTqv7q1aXoyMfFb6xLxpQltqGd1CK35Ou86dnJwi09JKhTY1OE=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1630000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "mdiXlmpEEnk",
+              "title": "Mercy Chinwo - Heaven and Earth Adore You (Official Video)",
+              "views": 1736008,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/mdiXlmpEEnk/hqdefault.jpg"
+            },
+            {
+              "videoId": "oE8BMhFP7eo",
+              "title": "Mercy Chinwo - We Move (Official Video)",
+              "views": 16865986,
+              "duration": "4:47",
+              "thumbnail": "https://i.ytimg.com/vi/oE8BMhFP7eo/hq720.jpg"
+            },
+            {
+              "videoId": "LITUELXmkWk",
+              "title": "Mercy Chinwo - Onyeoma (Good God) (Official Video)",
+              "views": 2925245,
+              "duration": "4:35",
+              "thumbnail": "https://i.ytimg.com/vi/LITUELXmkWk/hqdefault.jpg"
+            },
+            {
+              "videoId": "nB9OfQwOlcM",
+              "title": "Mercy Chinwo - Wonder (Official Video)",
+              "views": 45322796,
+              "duration": "3:58",
+              "thumbnail": "https://i.ytimg.com/vi/nB9OfQwOlcM/hq720.jpg"
+            },
+            {
+              "videoId": "Hg_5_sAo6rI",
+              "title": "Mercy Chinwo - Obinasom (Official Video)",
+              "views": 95777938,
+              "duration": "5:02",
+              "thumbnail": "https://i.ytimg.com/vi/Hg_5_sAo6rI/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Monique",
+          "channel": {},
+          "topSongs": [
+            {
+              "videoId": "u-pSGPREmZE",
+              "title": "Miss Monique @ Grand Canyon (Arizona, USA) [Melodic Techno/ Progressive House DJ Mix]",
+              "views": 5985400,
+              "duration": "1:25:30",
+              "thumbnail": "https://i.ytimg.com/vi/u-pSGPREmZE/hq720.jpg"
+            },
+            {
+              "videoId": "8JYeHJI_CtA",
+              "title": "🔴 Israel vs Iran: Fakta ini Orang Indo harus Tahu! Monique Rijkers FaktaIsrael",
+              "views": 407805,
+              "duration": "53:06",
+              "thumbnail": "https://i.ytimg.com/vi/8JYeHJI_CtA/hq720.jpg"
+            },
+            {
+              "videoId": "vSjBU4m4Rhs",
+              "title": "Miss Monique - Frozen Lotus | Tomorrowland Winter 2026",
+              "views": 263154,
+              "duration": "1:33:08",
+              "thumbnail": "https://i.ytimg.com/vi/vSjBU4m4Rhs/hq720.jpg"
+            },
+            {
+              "videoId": "-pIGfB_rhRA",
+              "title": "Miss Monique | Mixmag x Burn Energy Tour | Bucharest",
+              "views": 618062,
+              "duration": "1:29:52",
+              "thumbnail": "https://i.ytimg.com/vi/-pIGfB_rhRA/hq720.jpg"
+            },
+            {
+              "videoId": "lGHWjhSUWQA",
+              "title": "Miss Monique - MainStage | Tomorrowland Winter 2026",
+              "views": 494923,
+              "duration": "1:00:26",
+              "thumbnail": "https://i.ytimg.com/vi/lGHWjhSUWQA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Moses Bliss",
+          "channel": {
+            "id": "UCv88VZJUuRoot7GfSO_sm-g",
+            "name": "Moses Bliss",
+            "image": "https://yt3.googleusercontent.com/yl4va6yzZtk5Rja7PR0h-VrvuIPtIMfwhlRIgou5IJiaQqmXuAaESn0zFm-llSMDYBISnEjK3w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1930000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "tmjGiVSF210",
+              "title": "Moses Bliss - You Are Great [Official Video] x Festizie, Neeja, Chizie, Son Music & Ajay Asika",
+              "views": 38536350,
+              "duration": "3:04",
+              "thumbnail": "https://i.ytimg.com/vi/tmjGiVSF210/hq720.jpg"
+            },
+            {
+              "videoId": "_oVzNBiZ09A",
+              "title": "Moses Bliss & Chandler Moore - Your Love (Official Video)",
+              "views": 14606902,
+              "duration": "3:50",
+              "thumbnail": "https://i.ytimg.com/vi/_oVzNBiZ09A/hq720.jpg"
+            },
+            {
+              "videoId": "DBbxZVAb5CQ",
+              "title": "Moses Bliss - MERCY Feat. Pastor Jerry Eze & Sunmisola Agbebi",
+              "views": 24282723,
+              "duration": "16:54",
+              "thumbnail": "https://i.ytimg.com/vi/DBbxZVAb5CQ/hq720.jpg"
+            },
+            {
+              "videoId": "5ZfX0N-d-60",
+              "title": "Moses Bliss - E Dey Flow [Official Video] x Neeja, Ajay Asika, Festizie, Chizie & Son Music",
+              "views": 19530109,
+              "duration": "2:37",
+              "thumbnail": "https://i.ytimg.com/vi/5ZfX0N-d-60/hq720.jpg"
+            },
+            {
+              "videoId": "YA2Lxfw4SSw",
+              "title": "MOSES BLISS - TOO FAITHFUL (LIVE)",
+              "views": 102919119,
+              "duration": "6:16",
+              "thumbnail": "https://i.ytimg.com/vi/YA2Lxfw4SSw/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Mr M & Revelation",
+          "channel": {
+            "id": "UCwLhmyAenL3yfWPYi9yUQog",
+            "name": "Mr. M",
+            "image": "https://yt3.googleusercontent.com/ytc/AIdro_k6Qbm-TUurDwsatD0CTCYnG7_BMQWgktsrFm3DZGqzS5w=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 426000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "u9Z9qOtqCwE",
+              "title": "Mr M Band (Mister M) Full Album Kompilasi",
+              "views": 38380,
+              "duration": "29:04",
+              "thumbnail": "https://i.ytimg.com/vi/u9Z9qOtqCwE/hq720.jpg"
+            },
+            {
+              "videoId": "Rp6EUi6pJrU",
+              "title": "MR.M - TAK DI MENGERTI LIRIK",
+              "views": 13827,
+              "duration": "4:25",
+              "thumbnail": "https://i.ytimg.com/vi/Rp6EUi6pJrU/hqdefault.jpg"
+            },
+            {
+              "videoId": "HtXW3PiMvLs",
+              "title": "MR.M dan Yuki 🧕B4bak Belur Jedot Kepala dan Hayalan saja😂😂",
+              "views": 1900,
+              "duration": "11:49",
+              "thumbnail": "https://i.ytimg.com/vi/HtXW3PiMvLs/hqdefault.jpg"
+            },
+            {
+              "videoId": "ZXQgV71Bvuw",
+              "title": "DETIK-DETIK AGATHA DIKALAHKAN MR.M 🤣 NGAKAK SAMPAI PERUT KRAM",
+              "views": 3764,
+              "duration": "42:12",
+              "thumbnail": "https://i.ytimg.com/vi/ZXQgV71Bvuw/hq720.jpg"
+            },
+            {
+              "videoId": "I9eA8jgn5Ts",
+              "title": "NGAKAK BARENG! APOLOGET JUGA BUTUH HIBURAN - MOMEN KOCAK AGATHA VS MR.M",
+              "views": 10300,
+              "duration": "32:08",
+              "thumbnail": "https://i.ytimg.com/vi/I9eA8jgn5Ts/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Nathaniel Bassey",
+          "channel": {
+            "id": "UCRe2Ir9wtPk_YQjElam7n2w",
+            "name": "Nathaniel Bassey Main",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_mBSL_grhGNrkYsyBfniDMHW59RWNjadnCnBuBjz-rrhw=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 4550000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "5taka1Ftu-E",
+              "title": "Yahweh Sabaoth | Nathaniel Bassey",
+              "views": 46517069,
+              "duration": "11:41",
+              "thumbnail": "https://i.ytimg.com/vi/5taka1Ftu-E/hq720.jpg"
+            },
+            {
+              "videoId": "ipSdHFZKF24",
+              "title": "Nathaniel Bassey Best Worship Songs Mix 2022 - Powerful Gospel Worship Songs 2022",
+              "views": 3692065,
+              "duration": "2:05:12",
+              "thumbnail": "https://i.ytimg.com/vi/ipSdHFZKF24/hq720.jpg"
+            },
+            {
+              "videoId": "lw0-n4EIVxQ",
+              "title": "Nathaniel Bassey  |  Wonderful Wonder   #nathanielbassey #wonderfulwonder #newvideo",
+              "views": 20716382,
+              "duration": "5:40",
+              "thumbnail": "https://i.ytimg.com/vi/lw0-n4EIVxQ/hq720.jpg"
+            },
+            {
+              "videoId": "lWGx7EL_rsQ",
+              "title": "THERE IS A PLACE - NATHANIEL BASSEY",
+              "views": 23132639,
+              "duration": "8:09",
+              "thumbnail": "https://i.ytimg.com/vi/lWGx7EL_rsQ/hq720.jpg"
+            },
+            {
+              "videoId": "l99fn9OdIvQ",
+              "title": "ADONAI  |  NATHANIEL BASSEY",
+              "views": 52101908,
+              "duration": "8:32",
+              "thumbnail": "https://i.ytimg.com/vi/l99fn9OdIvQ/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Pastor Saki",
+          "channel": {
+            "id": "UCLtu0_nKTgSJRJOue10AX9A",
+            "name": "Pastor Saki",
+            "image": "https://yt3.ggpht.com/Li7oDAOxd4VK3SsC5RZbwsVHgWsI-apHSxSt0xyVwFKZlKjPO8Jki2Au75JScnvp9Uy56l0b=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 11900,
+            "verified": false
+          },
+          "topSongs": [
+            {
+              "videoId": "BRdSXnEU6ms",
+              "title": "Pastor Saki - You Deserve It All [Official Video]",
+              "views": 422517,
+              "duration": "5:11",
+              "thumbnail": "https://i.ytimg.com/vi/BRdSXnEU6ms/hq720.jpg"
+            },
+            {
+              "videoId": "os6Xenw2f4A",
+              "title": "Liquid Love",
+              "views": 26567,
+              "duration": "4:23",
+              "thumbnail": "https://i.ytimg.com/vi/os6Xenw2f4A/hq720.jpg"
+            },
+            {
+              "videoId": "_zLyqeiFrVE",
+              "title": "Lights",
+              "views": 37607,
+              "duration": "4:36",
+              "thumbnail": "https://i.ytimg.com/vi/_zLyqeiFrVE/hq720.jpg"
+            },
+            {
+              "videoId": "HwDkaZCJoL0",
+              "title": "Pastor Saki- Holy Spirit Lyrics",
+              "views": 8731,
+              "duration": "5:23",
+              "thumbnail": "https://i.ytimg.com/vi/HwDkaZCJoL0/hqdefault.jpg"
+            },
+            {
+              "videoId": "Wwci1Ki3NCc",
+              "title": "Lyrics video for \"YOU DESERVE IT ALL\" by Pastor Saki",
+              "views": 541611,
+              "duration": "5:18",
+              "thumbnail": "https://i.ytimg.com/vi/Wwci1Ki3NCc/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Prospa Ochimana",
+          "channel": {
+            "id": "UCvS4J2b39RxtzEe7_Cz0LqA",
+            "name": "Prospa Ochimana",
+            "image": "https://yt3.googleusercontent.com/I7mgeIV0MHAWQKMgGExLKdvryaRtcSqhuWiygoWTVYvYytJv1mx_hekwF5Pnpx6_S9TzbLBaQQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1000000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "Z-ln__MWpKA",
+              "title": "Prospa Ochimana - Ekwueme feat. Osinachi (Live Ministration)",
+              "views": 155824071,
+              "duration": "6:58",
+              "thumbnail": "https://i.ytimg.com/vi/Z-ln__MWpKA/hq720.jpg"
+            },
+            {
+              "videoId": "HA0V-tD6zF8",
+              "title": "Prospa Ochimana  - Out Of My Belly   (Official Video )",
+              "views": 8960498,
+              "duration": "6:24",
+              "thumbnail": "https://i.ytimg.com/vi/HA0V-tD6zF8/hq720.jpg"
+            },
+            {
+              "videoId": "jD-cb2drhh0",
+              "title": "Prospa Ochimana  -  Out Of My Belly II (Live) feat. Theophilus Sunday & Moses Akoh",
+              "views": 18136442,
+              "duration": "14:25",
+              "thumbnail": "https://i.ytimg.com/vi/jD-cb2drhh0/hq720.jpg"
+            },
+            {
+              "videoId": "3urhrPggNqY",
+              "title": "Prospa Ochimana -The Great I Am(Official Video)  HD",
+              "views": 2419457,
+              "duration": "6:15",
+              "thumbnail": "https://i.ytimg.com/vi/3urhrPggNqY/hq720.jpg"
+            },
+            {
+              "videoId": "2iLqCVErA0w",
+              "title": "Prospa Ochimana - You are Jehovah",
+              "views": 5680099,
+              "duration": "7:02",
+              "thumbnail": "https://i.ytimg.com/vi/2iLqCVErA0w/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Samsong",
+          "channel": {
+            "id": "UC3fNi1h9GOlCpYpwQgyQr1w",
+            "name": "Samsong ",
+            "image": "https://yt3.googleusercontent.com/JKe6znGQBBx1018JNt5NiT4Htteo28ZsJIYqJN67noxhHGXKHa6HeQZPRM9gUztO3Lru4G2l=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 269000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "-yG8j2MGOyY",
+              "title": "SAMSONS - Kenangan Terindah (Official Music Video)",
+              "views": 174254257,
+              "duration": "4:12",
+              "thumbnail": "https://i.ytimg.com/vi/-yG8j2MGOyY/hq720.jpg"
+            },
+            {
+              "videoId": "gtEAla9bhWY",
+              "title": "Samsong  - Victory Chant (Official Video)",
+              "views": 7898527,
+              "duration": "4:53",
+              "thumbnail": "https://i.ytimg.com/vi/gtEAla9bhWY/hqdefault.jpg"
+            },
+            {
+              "videoId": "rO-ceo8yACs",
+              "title": "SAMSONG - TURN ME AROUND (OFFICIAL VIDEO HD)",
+              "views": 8631535,
+              "duration": "4:59",
+              "thumbnail": "https://i.ytimg.com/vi/rO-ceo8yACs/hq720.jpg"
+            },
+            {
+              "videoId": "PdgxjSr75OY",
+              "title": "Samsung Galaxy S27 Pro - Samsung Just Changed the Ultra Formula",
+              "views": 84434,
+              "duration": "5:39",
+              "thumbnail": "https://i.ytimg.com/vi/PdgxjSr75OY/hq720.jpg"
+            },
+            {
+              "videoId": "PzggFqQfL0M",
+              "title": "Samsung Galaxy A57 - Tips & Tricks | YOU MUST KNOW!!!",
+              "views": 30730,
+              "duration": "10:47",
+              "thumbnail": "https://i.ytimg.com/vi/PzggFqQfL0M/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sinach",
+          "channel": {
+            "id": "UCcaV40yrjS5R88xYHxK_0rA",
+            "name": "SINACH",
+            "image": "https://yt3.googleusercontent.com/GFOwEYRhI9ltmYx-E4kBenXXcG0ZGxe9s76kFCcGUmORWSzgM1kK31HWayPIyB6r_jBeeIst9Ic=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 2510000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "frtZ4XfoXxM",
+              "title": "SINACH - I KNOW WHO I AM (official video)",
+              "views": 163122001,
+              "duration": "6:11",
+              "thumbnail": "https://i.ytimg.com/vi/frtZ4XfoXxM/hq720.jpg"
+            },
+            {
+              "videoId": "zOqLp95WcjI",
+              "title": "WORSHIP WITHOUT WALLS  LAGOS EDITION 2026",
+              "views": 7317,
+              "duration": "2:29:01",
+              "thumbnail": "https://i.ytimg.com/vi/zOqLp95WcjI/hq720.jpg"
+            },
+            {
+              "videoId": "beKXY3fx0xg",
+              "title": "Best Playlist Of Sinach Gospel Songs 2021 | Most Popular Sinach Songs Of All Time Playlist",
+              "views": 6249561,
+              "duration": "1:15:56",
+              "thumbnail": "https://i.ytimg.com/vi/beKXY3fx0xg/hq720.jpg"
+            },
+            {
+              "videoId": "9zjRQ-rdWsI",
+              "title": "SINACH - You Are Good (Ulungile) (Official Music Video)",
+              "views": 5573626,
+              "duration": "15:09",
+              "thumbnail": "https://i.ytimg.com/vi/9zjRQ-rdWsI/hq720.jpg"
+            },
+            {
+              "videoId": "9kh08vUGhzs",
+              "title": "SINACH - VICTORY IS MY NAME / featuring ISRAEL HOUGHTON (OFFICIAL MUSIC VIDEO)",
+              "views": 11373683,
+              "duration": "7:14",
+              "thumbnail": "https://i.ytimg.com/vi/9kh08vUGhzs/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Steve Crown",
+          "channel": {
+            "id": "UCjTAH49kFeXioaTEKr6pPIg",
+            "name": "STEVE CROWN",
+            "image": "https://yt3.googleusercontent.com/kwSa-CiezmFb-F7i0TfBSQHVjQxLRAzfoyiKkK1MmOUL3eGOzuyAP1SL1DXxRYJDtYs1vEwckg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 997000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "i4nc8cY9Z6s",
+              "title": "YOU ARE GREAT- STEVE CROWN (The Official Video)  #worship #stevecrown #yahweh #trending",
+              "views": 58733371,
+              "duration": "6:28",
+              "thumbnail": "https://i.ytimg.com/vi/i4nc8cY9Z6s/hq720.jpg"
+            },
+            {
+              "videoId": "NR_oP7aRdto",
+              "title": "S t e v e C r o w n Greatest Hits ~ Top Christian Gospel Worship Songs",
+              "views": 1382507,
+              "duration": "51:11",
+              "thumbnail": "https://i.ytimg.com/vi/NR_oP7aRdto/hq720.jpg"
+            },
+            {
+              "videoId": "mCyN3Ty6_BE",
+              "title": "YOU ARE YAHWEH (LIVE) STEVE CROWN  #worship #stevecrown #yahweh   #trending #trendingvideo",
+              "views": 85810436,
+              "duration": "4:56",
+              "thumbnail": "https://i.ytimg.com/vi/mCyN3Ty6_BE/hqdefault.jpg"
+            },
+            {
+              "videoId": "DboMwgmXbQA",
+              "title": "Steve Crown- We Wait On You/ official video #worship #stevecrown #yahweh   #trending #trendingvideo",
+              "views": 6571862,
+              "duration": "4:58",
+              "thumbnail": "https://i.ytimg.com/vi/DboMwgmXbQA/hq720.jpg"
+            },
+            {
+              "videoId": "_uI2ao1XgZY",
+              "title": "Steve Crown-All The Glory-Official Lyric video #worship #stevecrown #yahweh #trending #trendingvideo",
+              "views": 4927072,
+              "duration": "5:15",
+              "thumbnail": "https://i.ytimg.com/vi/_uI2ao1XgZY/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Sunmisola Agbebi",
+          "channel": {
+            "id": "UCySzzBJLlLcw8RCdSwQGZZw",
+            "name": "SUNMISOLA AGBEBI",
+            "image": "https://yt3.googleusercontent.com/mudA24aHJ5BHYlR_sde7ROI_uQoeRMhiyrrzDFe1HO6kDMUM3Vl13RtYUh75UdxyL35zwEfviA=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 795000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "z_gtrZ63sIw",
+              "title": "Sunmisola Agbebi - The Feast: Worship Medley Vol. 3 (Live Video)",
+              "views": 3668942,
+              "duration": "22:31",
+              "thumbnail": "https://i.ytimg.com/vi/z_gtrZ63sIw/hq720.jpg"
+            },
+            {
+              "videoId": "31perb35YoU",
+              "title": "Sunmisola Agbebi Prophetic Worship |The Liberty Church Global LONDON |Cross Over service 31/12/2023",
+              "views": 5133545,
+              "duration": "28:16",
+              "thumbnail": "https://i.ytimg.com/vi/31perb35YoU/hq720.jpg"
+            },
+            {
+              "videoId": "a276pMl4udQ",
+              "title": "Sunmisola Agbebi - B'OLA (Official Video)",
+              "views": 15373104,
+              "duration": "5:25",
+              "thumbnail": "https://i.ytimg.com/vi/a276pMl4udQ/hqdefault.jpg"
+            },
+            {
+              "videoId": "cCz3nXJnNiA",
+              "title": "60 MINUTES DEEP SOAKING WORSHIP WITH SUNMISOLA AGBEBI OKELEYE YINKA OKELEYE AND SEUN DEDE #WORSHIP",
+              "views": 2669548,
+              "duration": "53:35",
+              "thumbnail": "https://i.ytimg.com/vi/cCz3nXJnNiA/hq720.jpg"
+            },
+            {
+              "videoId": "g0Z7f0mtfNk",
+              "title": "SUNMISOLA AGBEBI MENGHADIRKAN HADIRAT SURGAWI DENGAN PELAYANAN YANG PENUH ROH",
+              "views": 1939,
+              "duration": "1:00:45",
+              "thumbnail": "https://i.ytimg.com/vi/g0Z7f0mtfNk/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tasha Cobbs",
+          "channel": {
+            "id": "UC8aCcbdR6hWfeynEmrguPyg",
+            "name": "Tasha Cobbs Leonard",
+            "image": "https://yt3.googleusercontent.com/OxZ28xt1C9VjVp-JVQwFmN93XlSv3bd_ekrx0bA_Rd7so8Kf_ScEPGJt-Vhe8PsE31KeVylIdg=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 3170000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "OKWkYxikygQ",
+              "title": "Tasha Cobbs - Fill Me Up / Overflow (Medley/Live)",
+              "views": 254676042,
+              "duration": "9:38",
+              "thumbnail": "https://i.ytimg.com/vi/OKWkYxikygQ/hq720.jpg"
+            },
+            {
+              "videoId": "BZT8jqsc8lQ",
+              "title": "Tasha Cobbs Leonard - Your Spirit ft. Kierra Sheard",
+              "views": 222073406,
+              "duration": "7:41",
+              "thumbnail": "https://i.ytimg.com/vi/BZT8jqsc8lQ/hq720.jpg"
+            },
+            {
+              "videoId": "ucY6NwQTI3M",
+              "title": "Tasha Cobbs Leonard - Break Every Chain (Live At Passion City Church)",
+              "views": 45884734,
+              "duration": "5:43",
+              "thumbnail": "https://i.ytimg.com/vi/ucY6NwQTI3M/hq720.jpg"
+            },
+            {
+              "videoId": "og6_QlfBHpo",
+              "title": "T a s h a C o b b s Greatest Hits ~ Top Praise And Worship Songs",
+              "views": 745399,
+              "duration": "1:09:00",
+              "thumbnail": "https://i.ytimg.com/vi/og6_QlfBHpo/hq720.jpg"
+            },
+            {
+              "videoId": "xz-4jcHJei8",
+              "title": "Tasha Cobbs Leonard - Royalty: Live At The Ryman",
+              "views": 11472575,
+              "duration": "1:30:15",
+              "thumbnail": "https://i.ytimg.com/vi/xz-4jcHJei8/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tim Godfrey",
+          "channel": {
+            "id": "UCUGxX9TxsmjfqDbo4uPMQFg",
+            "name": "TimGodfreyWorld",
+            "image": "https://yt3.googleusercontent.com/IhsnBmdP29PwX5NamYy_8AP-e9eonmT-GqeSQKUOUuV4H5v7GIh4r-NJ2Z89kuPFY3Woqysy8Vs=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1130000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "jVK8eE4dCno",
+              "title": "Tim Godfrey, Fearless Community and Nosa - We Raise A Sound (Official Video)",
+              "views": 16701,
+              "duration": "8:23",
+              "thumbnail": "https://i.ytimg.com/vi/jVK8eE4dCno/hq720.jpg"
+            },
+            {
+              "videoId": "GFF2xl3kkeU",
+              "title": "Tim Godfrey & Fearless Community - My Daddy",
+              "views": 26268831,
+              "duration": "7:41",
+              "thumbnail": "https://i.ytimg.com/vi/GFF2xl3kkeU/hq720.jpg"
+            },
+            {
+              "videoId": "oZnIO1iP-UM",
+              "title": "Tim Godfrey, Fearless Community and Nosa - We Raise A Sound (Official Audio)",
+              "views": 2271,
+              "duration": "8:23",
+              "thumbnail": "https://i.ytimg.com/vi/oZnIO1iP-UM/hq720.jpg"
+            },
+            {
+              "videoId": "cGkKJuWB_58",
+              "title": "Big God - Tim Godfrey X Fearless Community ft. Anderson",
+              "views": 42826091,
+              "duration": "10:55",
+              "thumbnail": "https://i.ytimg.com/vi/cGkKJuWB_58/hq720.jpg"
+            },
+            {
+              "videoId": "PufwbbSKGgk",
+              "title": "Tim Godfrey - My Praise Report (Agidigba Medley)",
+              "views": 64371,
+              "duration": "22:40",
+              "thumbnail": "https://i.ytimg.com/vi/PufwbbSKGgk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Toluwani",
+          "channel": {
+            "id": "UCHwaB5F_AswDSeN4tXZ9XYg",
+            "name": "Toluwani Odukoya",
+            "image": "https://yt3.googleusercontent.com/S6U_iEKicgvhFzV7srMYv8nP7ils1qFbCvJgzncbFmwQ_sqXrBeOYT7GTpQif3_QxG7rJyqT=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 117000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "6sTXziWF20w",
+              "title": "Living Waters | Pastor Toluwani Odukoya | Sunday Worship Experience",
+              "views": 11291,
+              "duration": "15:00",
+              "thumbnail": "https://i.ytimg.com/vi/6sTXziWF20w/hq720.jpg"
+            },
+            {
+              "videoId": "fuGNnByvx2I",
+              "title": "Worship With Me | Volume 3 | Toluwani Odukoya",
+              "views": 203055,
+              "duration": "44:22",
+              "thumbnail": "https://i.ytimg.com/vi/fuGNnByvx2I/hq720.jpg"
+            },
+            {
+              "videoId": "W6snB8KnbOc",
+              "title": "2025  Worship Compilation | Pastor Toluwani Odukoya | Worship Compilation",
+              "views": 255334,
+              "duration": "2:20:47",
+              "thumbnail": "https://i.ytimg.com/vi/W6snB8KnbOc/hq720.jpg"
+            },
+            {
+              "videoId": "_gJ9MOIaW4s",
+              "title": "UNRESERVED PRAISE with toluwanisings",
+              "views": 4522512,
+              "duration": "33:18",
+              "thumbnail": "https://i.ytimg.com/vi/_gJ9MOIaW4s/hq720.jpg"
+            },
+            {
+              "videoId": "e7nLR0RRjD0",
+              "title": "Volume 1: Worship With Me | Pastor Toluwani Odukoya",
+              "views": 195745,
+              "duration": "38:02",
+              "thumbnail": "https://i.ytimg.com/vi/e7nLR0RRjD0/hqdefault.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tope Alabi",
+          "channel": {
+            "id": "UCSso6ynLza_BKtcqMDzK-MQ",
+            "name": "Tope Alabi",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_nkN37dNyaRJaEzdegk3f6iKeF7gc2jlOaNntdXUokC9Pc=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 342000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "L9kA6DZg1VI",
+              "title": "KA MA MA RI - Tope Alabi x BBO x Eyitayo | ORO - THE WORD (EP)",
+              "views": 2558813,
+              "duration": "7:29",
+              "thumbnail": "https://i.ytimg.com/vi/L9kA6DZg1VI/hqdefault.jpg"
+            },
+            {
+              "videoId": "YOPvbYd8w7U",
+              "title": "Tope Alabi-LOGAN TI ODE ft. TY Bello and George (Spontaneous Song)",
+              "views": 9768007,
+              "duration": "4:24",
+              "thumbnail": "https://i.ytimg.com/vi/YOPvbYd8w7U/hq720.jpg"
+            },
+            {
+              "videoId": "urxodk3kEag",
+              "title": "Pelayanan pertama Tope Alabi pada PUJIAN YANG MAHA KUASA 2025; 'DEKLARASI PERKEMBANGANNYA'",
+              "views": 144662,
+              "duration": "38:31",
+              "thumbnail": "https://i.ytimg.com/vi/urxodk3kEag/hq720.jpg"
+            },
+            {
+              "videoId": "M9lBODwCo5g",
+              "title": "Tope Alabi's praise session at \"PRAISE THE ALMIGHTY 2025\". 'DECLEARATION OF GOD'S INCREASE'",
+              "views": 139304,
+              "duration": "1:12:50",
+              "thumbnail": "https://i.ytimg.com/vi/M9lBODwCo5g/hq720.jpg"
+            },
+            {
+              "videoId": "D24iLzAbVNA",
+              "title": "Yes And Amen",
+              "views": 3497538,
+              "duration": "8:03",
+              "thumbnail": "https://i.ytimg.com/vi/D24iLzAbVNA/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Tosin Bee",
+          "channel": {
+            "id": "UCWuywqoaO1RDOtcu9JWWrpw",
+            "name": "TOSIN BEE",
+            "image": "https://yt3.googleusercontent.com/gGjy6GGc7q_tjaGfiNiLkoySK75GdS31eDosQgL_VLTdFU32xVELLupZJH3qfe456A9941SfG38=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 91500,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "INbVgvJLo4c",
+              "title": "TOSIN BEE - PRAISE UNLIMITED MEDLEY VOLUME 3 (FEAT. BEEZLENATION)",
+              "views": 763464,
+              "duration": "42:02",
+              "thumbnail": "https://i.ytimg.com/vi/INbVgvJLo4c/hq720.jpg"
+            },
+            {
+              "videoId": "UP-tGv0t4xY",
+              "title": "Tosin Bee - Praise Unlimited 1 Medley (feat. Beezlenation)",
+              "views": 2587563,
+              "duration": "51:31",
+              "thumbnail": "https://i.ytimg.com/vi/UP-tGv0t4xY/hq720.jpg"
+            },
+            {
+              "videoId": "4gAYGJXRn0g",
+              "title": "TOSIN BEE - PRAISE UNLIMITED MEDLEY VOL.2 (FEAT BEEZLENATION)",
+              "views": 1969360,
+              "duration": "1:02:04",
+              "thumbnail": "https://i.ytimg.com/vi/4gAYGJXRn0g/hq720.jpg"
+            },
+            {
+              "videoId": "r87cSu7zRtE",
+              "title": "TOSIN BEE - CONGRATULATIONS",
+              "views": 498,
+              "duration": "2:50",
+              "thumbnail": "https://i.ytimg.com/vi/r87cSu7zRtE/hq720.jpg"
+            },
+            {
+              "videoId": "D6PJ6Uib2t0",
+              "title": "Praise Unlimited",
+              "views": 460483,
+              "duration": "13:41",
+              "thumbnail": "https://i.ytimg.com/vi/D6PJ6Uib2t0/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Travis Greene",
+          "channel": {
+            "id": "UC4jufEFPiBuZhH2QDul-mHw",
+            "name": "Travis Greene",
+            "image": "https://yt3.googleusercontent.com/C6zDhs63GszJopZ1isOGKrK5wJyDlfO_x-tI9-0Tz4Kdkip0ZBMFgwLI-N8bmWunAXRcfQNV=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 1160000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "qnN9Zz6BBzs",
+              "title": "Travis Greene - You Waited (Official Video)",
+              "views": 91530700,
+              "duration": "5:51",
+              "thumbnail": "https://i.ytimg.com/vi/qnN9Zz6BBzs/hq720.jpg"
+            },
+            {
+              "videoId": "VH3f0ellNv8",
+              "title": "Travis Greene - Intentional (Official Music Video)",
+              "views": 84500995,
+              "duration": "3:34",
+              "thumbnail": "https://i.ytimg.com/vi/VH3f0ellNv8/hq720.jpg"
+            },
+            {
+              "videoId": "MimVg0OMGvA",
+              "title": "Travis Greene - Made A Way (Official Music Video)",
+              "views": 43267853,
+              "duration": "4:31",
+              "thumbnail": "https://i.ytimg.com/vi/MimVg0OMGvA/hq720.jpg"
+            },
+            {
+              "videoId": "DefL-oJpjo8",
+              "title": "Good And Loved - Travis Greene & Steffany Gretzinger (Official Music Video)",
+              "views": 12985029,
+              "duration": "9:38",
+              "thumbnail": "https://i.ytimg.com/vi/DefL-oJpjo8/hq720.jpg"
+            },
+            {
+              "videoId": "uCdgAe90Oos",
+              "title": "Simple Matter (Official Music Video)",
+              "views": 321379,
+              "duration": "5:19",
+              "thumbnail": "https://i.ytimg.com/vi/uCdgAe90Oos/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "William McDowell",
+          "channel": {
+            "id": "UC2DG1coLhDhGucGc05JX-0A",
+            "name": "William McDowell Music",
+            "image": "https://yt3.ggpht.com/ytc/AIdro_lo1DGiwnMzDAU6wYSJIWol8PY9F1VvUpHahgqd13qqCQ=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 834000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "2KiUPP0KO5A",
+              "title": "Stay - William McDowell - Official Live Video",
+              "views": 39726424,
+              "duration": "6:31",
+              "thumbnail": "https://i.ytimg.com/vi/2KiUPP0KO5A/hq720.jpg"
+            },
+            {
+              "videoId": "8DhO5YOhTx4",
+              "title": "Withholding Nothing Medley",
+              "views": 64971287,
+              "duration": "13:27",
+              "thumbnail": "https://i.ytimg.com/vi/8DhO5YOhTx4/hq720.jpg"
+            },
+            {
+              "videoId": "g8CYNEGnf-Y",
+              "title": "William McDowell - Sounds Of Revival (OFFICIAL FILM)",
+              "views": 5220112,
+              "duration": "1:45:46",
+              "thumbnail": "https://i.ytimg.com/vi/g8CYNEGnf-Y/hq720.jpg"
+            },
+            {
+              "videoId": "oXIcVEH5zuM",
+              "title": "William McDowell Night Of Worship | Knoxville, TN",
+              "views": 7448122,
+              "duration": "2:05:33",
+              "thumbnail": "https://i.ytimg.com/vi/oXIcVEH5zuM/hqdefault.jpg"
+            },
+            {
+              "videoId": "wOSLtqxD-bM",
+              "title": "William McDowell - Spirit Break Out feat. Trinity Anderson (OFFICIAL VIDEO)",
+              "views": 34303239,
+              "duration": "4:15",
+              "thumbnail": "https://i.ytimg.com/vi/wOSLtqxD-bM/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        },
+        {
+          "name": "Yinka Okeleye",
+          "channel": {
+            "id": "UCjyaLIUsWpRiq9cmhpYNj_w",
+            "name": "Yinka Okeleye",
+            "image": "https://yt3.googleusercontent.com/dEVZLEA4H7FyMunPUOMXEC1tkb-eYBg86hdtkMl8BFRfOQtTMk77pLSa_T2s22mNau6khA4Aoos=s88-c-k-c0x00ffffff-no-rj-mo",
+            "subscribers": 339000,
+            "verified": true
+          },
+          "topSongs": [
+            {
+              "videoId": "ggSqKXFR1x4",
+              "title": "35 MINUTES SOAKING WORSHIP WITH SUNMISOLA AGBEBI AND YINKA OKELEYE | FULL EXPRESSION",
+              "views": 10567387,
+              "duration": "34:18",
+              "thumbnail": "https://i.ytimg.com/vi/ggSqKXFR1x4/hq720.jpg"
+            },
+            {
+              "videoId": "6fNz-k_QJ-Y",
+              "title": "50 MINUTES DEEP IN WORSHIP WITH YINKA OKELEYE AND VICTOR THOMPSON",
+              "views": 2609897,
+              "duration": "50:27",
+              "thumbnail": "https://i.ytimg.com/vi/6fNz-k_QJ-Y/hq720.jpg"
+            },
+            {
+              "videoId": "cCz3nXJnNiA",
+              "title": "60 MINUTES DEEP SOAKING WORSHIP WITH SUNMISOLA AGBEBI OKELEYE YINKA OKELEYE AND SEUN DEDE #WORSHIP",
+              "views": 2669548,
+              "duration": "53:35",
+              "thumbnail": "https://i.ytimg.com/vi/cCz3nXJnNiA/hq720.jpg"
+            },
+            {
+              "videoId": "ZMF6ChyOxYU",
+              "title": "THE GLORY CLOUD WITH YINKA OKELEYE, SEUN DEDE AND OLAMIJI RASHEED",
+              "views": 193089,
+              "duration": "34:18",
+              "thumbnail": "https://i.ytimg.com/vi/ZMF6ChyOxYU/hq720.jpg"
+            },
+            {
+              "videoId": "lW9Fm8LhjEk",
+              "title": "60 MINUTES IN HIS PRESENCE WITH YINKA OKELEYE, SEUN DEDE, OLAMIJI RASHEED, KING EMMANUEL #worship",
+              "views": 238756,
+              "duration": "1:00:32",
+              "thumbnail": "https://i.ytimg.com/vi/lW9Fm8LhjEk/hq720.jpg"
+            }
+          ],
+          "songCount": 5
+        }
+      ]
+    }
+  }
+}

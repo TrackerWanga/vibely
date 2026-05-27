@@ -1,0 +1,19 @@
+{
+  "autoplay": {
+    "queue_building": {
+      "immediate_queue": 3,
+      "prefetch_next": 2,
+      "download_ahead": 3
+    },
+    "transition_rules": {
+      "same_artist": "play all top songs then switch",
+      "similar_genre": "play 3 songs then introduce new genre",
+      "collaboration_bridge": "use collab data to cross genres"
+    },
+    "discovery_patterns": {
+      "african_night": "Afrobeats → Amapiano → Bongo Flava → Gengetone",
+      "global_tour": "K-Pop → C-Pop → Bollywood → Arabic Pop",
+      "spiritual_sunday": "Nigerian Gospel → SA Gospel → Hillsong → Nasheed"
+    }
+  }
+}

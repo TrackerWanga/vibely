@@ -43,8 +43,9 @@ jobs:
     - name: Build web app
       run: npm run build
 
-    - name: Init Capacitor
+    - name: Remove existing config and Init Capacitor
       run: |
+        rm -f capacitor.config.ts capacitor.config.json
         npx cap init "Vibely" com.megan.vibely --web-dir=dist
         npx cap add android
 
@@ -61,14 +62,12 @@ jobs:
         mkdir -p android/app/src/main/res/drawable-land-xhdpi
         mkdir -p android/app/src/main/res/drawable-land-xxhdpi
         mkdir -p android/app/src/main/res/drawable-land-xxxhdpi
-        # Use ImageMagick to resize icon
         sudo apt-get install -y imagemagick
         convert resources/icon.png -resize 48x48 android/app/src/main/res/mipmap-mdpi/ic_launcher.png
         convert resources/icon.png -resize 72x72 android/app/src/main/res/mipmap-hdpi/ic_launcher.png
         convert resources/icon.png -resize 96x96 android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
         convert resources/icon.png -resize 144x144 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
         convert resources/icon.png -resize 192x192 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
-        # Splash screen
         convert resources/splash.png -resize 480x320 android/app/src/main/res/drawable-land-mdpi/splash.png
         convert resources/splash.png -resize 800x480 android/app/src/main/res/drawable-land-hdpi/splash.png
         convert resources/splash.png -resize 1280x720 android/app/src/main/res/drawable-land-xhdpi/splash.png

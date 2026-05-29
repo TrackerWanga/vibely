@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Play, Trash2, Music, HardDrive, FolderSearch, Shield } from 'lucide-react';
+import { ArrowLeft, Play, Trash2, Music, HardDrive, FolderSearch, Shield, RefreshCw } from 'lucide-react';
 import { getAllAudio, getStorageUsed, deleteDownload, type DownloadedTrack } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 import { useMusicStore } from '../store/musicStore';
@@ -10,36 +10,54 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   const [tracks, setTracks] = useState<DownloadedTrack[]>([]);
   const [storageUsed, setStorageUsed] = useState('');
   const [loading, setLoading] = useState(true);
-  const [permissionDenied, setPermissionDenied] = useState(false);
+  const [permissionState, setPermissionState] = useState<'granted' | 'denied' | 'prompt' | 'unknown'>('unknown');
   const { setQueue } = useMusicStore();
 
-  useEffect(() => { requestAndLoad(); }, []);
+  useEffect(() => { checkPermissionAndLoad(); }, []);
 
-  const requestAndLoad = async () => {
+  const checkPermissionAndLoad = async () => {
     setLoading(true);
-    setPermissionDenied(false);
-
     if (isNativeApp()) {
       try {
-        // Request storage permission on Android 13+
         const { Filesystem } = await import('@capacitor/filesystem');
-        try {
-          await Filesystem.requestPermissions();
-        } catch (e) {
-          // Permission dialog might not be supported on all versions
+        const permStatus = await Filesystem.checkPermissions();
+        
+        if (permStatus.publicStorage === 'granted') {
+          setPermissionState('granted');
+          await loadAllAudio();
+        } else if (permStatus.publicStorage === 'denied') {
+          setPermissionState('denied');
+          await loadFromLocalStorage();
+        } else {
+          setPermissionState('prompt');
+          await requestStoragePermission();
         }
-        await loadAllAudio();
-      } catch (e: any) {
-        if (e.message?.includes('permission') || e.message?.includes('denied')) {
-          setPermissionDenied(true);
-        }
-        // Fallback to localStorage for web
-        await loadFromLocalStorage();
+      } catch (e) {
+        console.error('Permission check failed:', e);
+        await loadAllAudio(); // Try anyway
       }
     } else {
+      setPermissionState('granted');
       await loadFromLocalStorage();
     }
     setLoading(false);
+  };
+
+  const requestStoragePermission = async () => {
+    try {
+      const { Filesystem } = await import('@capacitor/filesystem');
+      const result = await Filesystem.requestPermissions();
+      if (result.publicStorage === 'granted') {
+        setPermissionState('granted');
+        await loadAllAudio();
+      } else {
+        setPermissionState('denied');
+        await loadFromLocalStorage();
+      }
+    } catch (e) {
+      console.error('Permission request failed:', e);
+      await loadFromLocalStorage();
+    }
   };
 
   const loadAllAudio = async () => {
@@ -48,6 +66,7 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
       setTracks(all);
       setStorageUsed(await getStorageUsed());
     } catch (e) {
+      console.error('Load audio failed:', e);
       await loadFromLocalStorage();
     }
   };
@@ -59,57 +78,30 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   };
 
   const playTrack = (track: DownloadedTrack, index: number) => {
-    if (track.source === 'vibely' || !isNativeApp()) {
-      // Play via YouTube streaming
-      setQueue(tracks.filter(t => t.source === 'vibely').map(d => ({
-        videoId: d.videoId,
-        title: d.title,
-        artist: d.artist,
-        thumbnail: d.thumbnail,
-        duration: d.duration,
-      })), index);
-    } else {
-      // Play local file directly
+    if (track.source === 'device' && track.filePath && isNativeApp()) {
+      // Convert file:// URI to accessible path
       const audio = new Audio(track.filePath);
-      audio.play();
-    }
-    onSongPlay();
-  };
-
-  const playAllLocal = () => {
-    if (tracks.length === 0) return;
-    const first = tracks[0];
-    if (first.source === 'vibely' || !isNativeApp()) {
-      const vibelyTracks = tracks.filter(t => t.source === 'vibely');
-      if (vibelyTracks.length > 0) {
-        setQueue(vibelyTracks.map(d => ({
+      audio.play().catch(e => console.error('Playback failed:', e));
+    } else {
+      // Stream from YouTube
+      const allVibely = tracks.filter(t => t.source === 'vibely');
+      const idx = allVibely.findIndex(t => t.videoId === track.videoId);
+      if (idx >= 0 && allVibely.length > 0) {
+        setQueue(allVibely.map(d => ({
           videoId: d.videoId,
           title: d.title,
           artist: d.artist,
           thumbnail: d.thumbnail,
           duration: d.duration,
-        })), 0);
+        })), idx);
+        onSongPlay();
       }
-    } else {
-      // Play first local track
-      const audio = new Audio(first.filePath);
-      audio.play();
     }
-    onSongPlay();
   };
 
   const handleDelete = async (track: DownloadedTrack) => {
-    if (track.source === 'device') {
-      // Can't delete device files from here
-      return;
-    }
-    try {
-      await deleteDownload(track.videoId);
-    } catch (e) {
-      const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
-      localStorage.setItem('vibely_downloads', JSON.stringify(saved.filter((d: any) => d.videoId !== track.videoId)));
-    }
-    loadAllAudio();
+    await deleteDownload(track.videoId);
+    await loadAllAudio();
   };
 
   const vibelyDownloads = tracks.filter(t => t.source === 'vibely');
@@ -125,11 +117,40 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
     </div>
   );
 
+  if (permissionState === 'denied' || permissionState === 'prompt') {
+    return (
+      <div style={{ minHeight: '100vh', background: '#06060e', color: '#f1f5f9', padding: '20px 24px' }}>
+        <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <ArrowLeft size={16} /> Back
+        </button>
+        <div style={{ textAlign: 'center', padding: '80px 20px' }}>
+          <Shield size={64} color="#f59e0b" style={{ marginBottom: '16px' }} />
+          <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Storage Permission Required</div>
+          <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '24px' }}>
+            Vibely needs access to your device storage to find and play audio files.
+          </p>
+          <button onClick={requestStoragePermission} className="btn-primary" style={{ padding: '14px 32px', fontSize: '16px' }}>
+            <Shield size={18} /> Grant Storage Access
+          </button>
+          <p style={{ color: '#64748b', fontSize: '12px', marginTop: '12px' }}>
+            You can also enable this in Settings → Apps → Vibely → Permissions
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div style={{ minHeight: '100vh', background: '#06060e', color: '#f1f5f9', padding: '20px 24px 120px' }}>
-      <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-        <ArrowLeft size={16} /> Back
-      </button>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+        <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <ArrowLeft size={16} /> Back
+        </button>
+        <div style={{ flex: 1 }} />
+        <button onClick={loadAllAudio} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <RefreshCw size={14} /> Refresh
+        </button>
+      </div>
 
       <div style={{ marginBottom: '32px' }}>
         <h1 style={{ fontSize: '32px', fontWeight: 900, display: 'flex', alignItems: 'center', gap: '12px' }}>
@@ -140,26 +161,14 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
         </p>
       </div>
 
-      {permissionDenied && (
-        <div style={{ padding: '16px', background: 'rgba(245,158,11,0.1)', border: '1px solid rgba(245,158,11,0.2)', borderRadius: '12px', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <Shield size={24} color="#f59e0b" />
-          <div style={{ flex: 1 }}>
-            <div style={{ fontWeight: 600, color: '#f59e0b', fontSize: '14px' }}>Storage Permission Needed</div>
-            <div style={{ color: '#94a3b8', fontSize: '12px' }}>Grant storage access to see all audio files on your device</div>
-          </div>
-          <button onClick={requestAndLoad} className="btn-primary" style={{ fontSize: '12px', padding: '8px 16px' }}>Grant Access</button>
-        </div>
-      )}
-
       {tracks.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '80px 20px', color: '#64748b' }}>
           <Music size={64} color="#a78bfa" style={{ marginBottom: '16px', opacity: 0.3 }} />
           <div style={{ fontSize: '18px', color: '#f1f5f9' }}>No audio files found</div>
-          <div style={{ fontSize: '14px', marginTop: '8px' }}>Download songs from Vibely or add music files to your device</div>
+          <div style={{ fontSize: '14px', marginTop: '8px' }}>Download songs or add music files to your Downloads folder</div>
         </div>
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
-          {/* Vibely Downloads Section */}
           {vibelyDownloads.length > 0 && (
             <section>
               <h2 style={{ fontSize: '16px', fontWeight: 700, color: '#a78bfa', marginBottom: '12px' }}>💜 Vibely Downloads</h2>
@@ -174,13 +183,9 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
                       <div style={{ color: '#f1f5f9', fontWeight: 500, fontSize: '14px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{track.title}</div>
                       <div style={{ color: '#a78bfa', fontSize: '12px' }}>{track.artist || 'Unknown'}</div>
                     </div>
-                    <span style={{ color: '#64748b', fontSize: '11px' }}>
-                      {new Date(track.downloadedAt).toLocaleDateString()}
-                    </span>
+                    <span style={{ color: '#64748b', fontSize: '11px' }}>{new Date(track.downloadedAt).toLocaleDateString()}</span>
                     <button onClick={(e) => { e.stopPropagation(); handleDelete(track); }}
-                      style={{ background: 'none', border: 'none', color: '#f43f5e', cursor: 'pointer', padding: '8px' }}>
-                      <Trash2 size={16} />
-                    </button>
+                      style={{ background: 'none', border: 'none', color: '#f43f5e', cursor: 'pointer', padding: '8px' }}><Trash2 size={16} /></button>
                     <Play size={16} color="#a78bfa" />
                   </div>
                 ))}
@@ -188,7 +193,6 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
             </section>
           )}
 
-          {/* Device Audio Section */}
           {deviceAudio.length > 0 && (
             <section>
               <h2 style={{ fontSize: '16px', fontWeight: 700, color: '#10b981', marginBottom: '12px' }}>📁 Device Audio</h2>
@@ -196,7 +200,7 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
                 {deviceAudio.map((track, i) => (
                   <div key={track.videoId} className="glass-card" style={{ padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '14px', cursor: 'pointer' }}
                     onClick={() => playTrack(track, i)}>
-                    <span style={{ color: '#64748b', fontSize: '18px', width: '28px' }}>#{i + 1}</span>
+                    <span style={{ color: '#64748b', fontSize: '18px', width: '28px' }}>#{vibelyDownloads.length + i + 1}</span>
                     <div style={{ width: '48px', height: '36px', borderRadius: '4px', background: 'rgba(16,185,129,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Music size={18} color="#10b981" /></div>
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{ color: '#f1f5f9', fontWeight: 500, fontSize: '14px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{track.title}</div>

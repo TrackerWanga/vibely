@@ -1,7 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
+import { Browser } from '@capacitor/browser';
 import { useMusicStore } from '../store/musicStore';
 import { updateMediaSession, updatePlaybackState, updatePositionState } from '../services/mediaSession';
+import { saveDownloadRecord } from '../services/offlineStorage';
+import { isNativeApp } from '../services/platform';
 
 interface Props { onBack: () => void; onVideoMode: () => void; }
 
@@ -32,7 +35,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
 
-  // Media Session update
+  // Media Session for lock screen & notification
   useEffect(() => {
     if (track) {
       updateMediaSession({
@@ -43,14 +46,8 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
       });
     }
   }, [track]);
-
-  useEffect(() => {
-    updatePlaybackState(isPlaying);
-  }, [isPlaying]);
-
-  useEffect(() => {
-    updatePositionState(duration, playbackRate, progress);
-  }, [duration, playbackRate, progress]);
+  useEffect(() => { updatePlaybackState(isPlaying); }, [isPlaying]);
+  useEffect(() => { updatePositionState(duration, playbackRate, progress); }, [duration, playbackRate, progress]);
 
   useEffect(() => {
     if (audioState === 'loading' || audioState === 'retrying') {
@@ -58,7 +55,6 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
       return () => clearInterval(interval);
     }
   }, [audioState]);
-
   useEffect(() => { if (track) { hasAutoPlayed.current = false; loadAll(); } return () => clearTimeout(retryTimer.current); }, [track]);
   useEffect(() => {
     if (audioRef.current && audioUrl) {
@@ -86,12 +82,10 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
       const q = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
       let lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(q)}&apikey=${KEY}`);
       let ld = await lr.json();
-
       if (!ld?.syncedLyrics && !ld?.lyrics && track?.artist && track?.title) {
         lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(track.title)}&apikey=${KEY}`);
         ld = await lr.json();
       }
-
       if (ld?.syncedLyrics) {
         const lines = ld.syncedLyrics.split('\n').map((line: string) => {
           const m = line.match(/\[(\d+):(\d+)\.(\d+)\]\s*(.*)/);
@@ -109,24 +103,19 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
 
   const fetchAudio = async () => {
     const videoId = track?.videoId || '';
-    const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
-
     setStatusMsg('Streaming');
     try {
-      // Direct stream URL
-      const streamUrl = `${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`;
-      setAudioUrl(streamUrl);
+      setAudioUrl(`${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`);
       return;
     } catch (e) {}
-
     try {
+      const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
       setStatusMsg('Getting audio');
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(query)}&apikey=${KEY}`);
       const d = await res.json();
       const url = d?.proxyUrl || d?.downloadUrl;
       if (url) { setAudioUrl(url); return; }
     } catch (e) {}
-
     setAudioState('retrying');
     setStatusMsg('Waking server');
     retryTimer.current = setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 5000);
@@ -143,40 +132,26 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         const related = data.recommendations
           .filter((r: any) => r.videoId && r.durationSeconds > 30 && r.durationSeconds < 900)
           .slice(0, 5)
-          .map((r: any) => ({
-            videoId: r.videoId,
-            title: r.title,
-            artist: r.author || '',
-            thumbnail: r.thumbnail || '',
-            duration: r.duration || '',
-          }));
+          .map((r: any) => ({ videoId: r.videoId, title: r.title, artist: r.author || '', thumbnail: r.thumbnail || '', duration: r.duration || '' }));
         if (related.length > 0) {
           setQueue([...queue, ...related], queueIndex + 1);
           nextTrack();
         }
       }
-    } catch (e) { console.error('Autoplay fetch failed:', e); }
+    } catch (e) {}
     setAutoplayLoading(false);
   };
 
   const handleEnded = () => {
-    if (queueIndex < queue.length - 1) {
-      nextTrack();
-    } else if (autoplayEnabled && track?.videoId) {
-      fetchAndQueueRelated();
-    }
+    if (queueIndex < queue.length - 1) nextTrack();
+    else if (autoplayEnabled && track?.videoId) fetchAndQueueRelated();
   };
 
-  const skipForward = () => {
-    if (audioRef.current) audioRef.current.currentTime = Math.min(audioRef.current.currentTime + 10, audioRef.current.duration || 0);
-  };
-  const skipBackward = () => {
-    if (audioRef.current) audioRef.current.currentTime = Math.max(audioRef.current.currentTime - 10, 0);
-  };
+  const skipForward = () => { if (audioRef.current) audioRef.current.currentTime = Math.min(audioRef.current.currentTime + 10, audioRef.current.duration || 0); };
+  const skipBackward = () => { if (audioRef.current) audioRef.current.currentTime = Math.max(audioRef.current.currentTime - 10, 0); };
   const cycleSpeed = () => {
     const speeds = [1, 1.25, 1.5, 2, 0.75, 0.5];
-    const idx = speeds.indexOf(playbackRate);
-    setPlaybackRate(speeds[(idx + 1) % speeds.length]);
+    setPlaybackRate(speeds[(speeds.indexOf(playbackRate) + 1) % speeds.length]);
   };
 
   const handleDownload = async () => {
@@ -185,49 +160,45 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
 
     try {
-      // Get download URL from Megan
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
-      const dlUrl = data?.downloadUrl || data?.proxyUrl || data?.videoUrl;
+      const dlUrl = data?.downloadUrl || data?.proxyUrl;
 
-      if (!dlUrl) {
-        console.error('No download URL in response:', data);
-        setDownloading(false);
-        return;
-      }
-
-      // Use direct anchor download — works on both web and Capacitor
-      const a = document.createElement('a');
-      a.href = dlUrl;
-      a.download = `${title}.mp3`;
-      a.target = '_blank';
-      a.rel = 'noopener';
-      document.body.appendChild(a);
-      a.click();
-      document.body.removeChild(a);
-
-      // Save to downloads list
-      const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
-      if (!saved.find((s: any) => s.videoId === track.videoId)) {
-        saved.push({
+      if (dlUrl) {
+        // Save record
+        await saveDownloadRecord({
           videoId: track.videoId,
-          title: track.title,
+          title: track.title || '',
           artist: track.artist || '',
           thumbnail: track.thumbnail || '',
           duration: track.duration || '',
           filePath: '',
-          fileSize: 0,
-          downloadedAt: new Date().toISOString(),
-          source: 'vibely'
+          fileSize: 0
+        }).catch(() => {
+          // Fallback to localStorage
+          const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
+          if (!saved.find((s: any) => s.videoId === track.videoId)) {
+            saved.push({ videoId: track.videoId, title: track.title, artist: track.artist || '', thumbnail: track.thumbnail || '', duration: track.duration || '', downloadedAt: new Date().toISOString(), source: 'vibely' });
+            localStorage.setItem('vibely_downloads', JSON.stringify(saved));
+          }
         });
-        localStorage.setItem('vibely_downloads', JSON.stringify(saved));
-      }
 
-      setDownloaded(true);
-      setTimeout(() => setDownloaded(false), 3000);
-    } catch (err) {
-      console.error('Download failed:', err);
-    }
+        if (isNativeApp()) {
+          // Open in-app browser to download — saves to Downloads folder
+          await Browser.open({ url: dlUrl, windowName: '_blank' });
+        } else {
+          // Web: direct download
+          const a = document.createElement('a');
+          a.href = dlUrl;
+          a.download = `${title}.mp3`;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        }
+        setDownloaded(true);
+        setTimeout(() => setDownloaded(false), 3000);
+      }
+    } catch (err) { console.error('Download failed:', err); }
     setDownloading(false);
   };
 
@@ -252,20 +223,13 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     }
   };
 
-  const handleLoadedMetadata = () => {
-    if (audioRef.current) {
-      setDuration(audioRef.current.duration);
-      setAudioState('playing');
-      setStatusMsg('');
-    }
-  };
+  const handleLoadedMetadata = () => { if (audioRef.current) { setDuration(audioRef.current.duration); setAudioState('playing'); setStatusMsg(''); } };
   const handleCanPlay = () => { setAudioState('playing'); setStatusMsg(''); };
   const handlePlaying = () => { setAudioState('playing'); setStatusMsg(''); };
   const handleWaiting = () => { setStatusMsg('Buffering...'); };
   const handleError = () => { setAudioState('retrying'); setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 3000); };
 
   const formatTime = (t: number) => { if (isNaN(t)) return '0:00'; const m = Math.floor(t/60), s = Math.floor(t%60); return `${m}:${s.toString().padStart(2,'0')}`; };
-
   const isLoading = audioState === 'loading' || audioState === 'retrying';
 
   if (!track) return (
@@ -287,7 +251,6 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}{dots}
         </div>
       )}
-
       {autoplayLoading && (
         <div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(245,158,11,0.1)', color: '#f59e0b', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
           <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> Finding related songs...
@@ -300,9 +263,10 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             {track.thumbnail ? <img src={track.thumbnail} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <Music size={80} color="#a78bfa" />}
             {isLoading && <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Loader size={48} color="#a78bfa" style={{ animation: 'spin 1s linear infinite' }} /></div>}
           </div>
-          <h1 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '2px' }}>{track.title}</h1>
+          <h1 style={{ fontSize: '20px', fontWeight: 700 }}>{track.title}</h1>
           <p style={{ color: '#a78bfa', fontSize: '14px', marginBottom: '2px' }}>{track.artist || 'Unknown Artist'}</p>
           {track.duration && <p style={{ color: '#64748b', fontSize: '11px' }}>{track.duration}</p>}
+
           <div style={{ marginTop: '16px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
               <button onClick={skipBackward} className="btn-glass" style={{ padding: '4px 8px', fontSize: '10px' }}><RotateCcw size={12} /> 10s</button>
@@ -314,6 +278,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px', color: '#64748b' }}><span>{formatTime(progress)}</span><span>{formatTime(duration)}</span></div>
           </div>
+
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', marginTop: '16px' }}>
             <button onClick={prevTrack} style={ctrlBtn}><SkipBack size={22} /></button>
             <button onClick={skipBackward} style={ctrlBtn}><RotateCcw size={16} /></button>
@@ -323,6 +288,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             <button onClick={skipForward} style={ctrlBtn}><RotateCw size={16} /></button>
             <button onClick={nextTrack} style={ctrlBtn}><SkipForward size={22} /></button>
           </div>
+
           <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '14px', flexWrap: 'wrap' }}>
             <button onClick={cycleSpeed} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '11px' }}><Gauge size={12} /> {playbackRate}x</button>
             <button onClick={() => track && toggleFavorite(track)} className="btn-glass"><Heart size={12} fill={isFav ? '#f43f5e' : 'none'} color={isFav ? '#f43f5e' : '#94a3b8'} /></button>
@@ -331,7 +297,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             </button>
             <button onClick={handleDownload} className="btn-glass" style={{ fontSize: '11px' }}>
               {downloading ? <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> : downloaded ? <Check size={12} color="#10b981" /> : <Download size={12} />}
-              {downloaded ? 'Done' : 'MP3'}
+              {downloaded ? 'Saved' : 'MP3'}
             </button>
             <button onClick={handleShare} className="btn-glass" style={{ fontSize: '11px' }}>
               {shared ? <Check size={12} color="#10b981" /> : <Share2 size={12} />}
@@ -340,7 +306,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           </div>
           {upcomingTrack && (
             <div style={{ marginTop: '14px', padding: '10px 14px', background: 'rgba(255,255,255,0.02)', borderRadius: '10px', border: '1px solid rgba(255,255,255,0.04)' }}>
-              <div style={{ fontSize: '10px', color: '#64748b', marginBottom: '2px' }}>⏭ Coming Next</div>
+              <div style={{ fontSize: '10px', color: '#64748b' }}>⏭ Coming Next</div>
               <div style={{ fontSize: '12px', color: '#f1f5f9', fontWeight: 500 }}>{upcomingTrack.title?.substring(0, 40)}</div>
               <div style={{ fontSize: '10px', color: '#a78bfa' }}>{upcomingTrack.artist}</div>
             </div>
@@ -358,7 +324,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             <div style={{ textAlign: 'center', padding: '60px 20px', color: '#64748b' }}>
               <Music size={48} color="#a78bfa" style={{ marginBottom: '12px', opacity: 0.5 }} />
               <div style={{ fontSize: '15px' }}>🎤 Vocals Playing</div>
-              <div style={{ fontSize: '12px', marginTop: '6px' }}>Lyrics unavailable for this track</div>
+              <div style={{ fontSize: '12px', marginTop: '6px' }}>Lyrics unavailable</div>
             </div>
           )}
         </div>

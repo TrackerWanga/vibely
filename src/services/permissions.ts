@@ -1,4 +1,5 @@
 import { isNativeApp } from './platform';
+import { NativeSettings, AndroidSettings } from 'capacitor-native-settings';
 
 // Request all needed permissions on app startup
 export async function requestAllPermissions(): Promise<{
@@ -9,31 +10,29 @@ export async function requestAllPermissions(): Promise<{
 
   const result = { storage: false, notifications: false };
 
+  // Storage
   try {
-    // Storage permission
     const { Filesystem } = await import('@capacitor/filesystem');
     const permStatus = await Filesystem.checkPermissions();
-    
-    if (permStatus.publicStorage !== 'granted') {
+    if (permStatus.publicStorage === 'granted') {
+      result.storage = true;
+    } else {
       const requestResult = await Filesystem.requestPermissions();
       result.storage = requestResult.publicStorage === 'granted';
-    } else {
-      result.storage = true;
     }
   } catch (e) {
     console.error('Storage permission error:', e);
   }
 
+  // Notifications
   try {
-    // Notification permission
     const { LocalNotifications } = await import('@capacitor/local-notifications');
     const permResult = await LocalNotifications.checkPermissions();
-    
-    if (permResult.display !== 'granted') {
+    if (permResult.display === 'granted') {
+      result.notifications = true;
+    } else {
       const requestResult = await LocalNotifications.requestPermissions();
       result.notifications = requestResult.display === 'granted';
-    } else {
-      result.notifications = true;
     }
   } catch (e) {
     console.error('Notification permission error:', e);
@@ -42,7 +41,7 @@ export async function requestAllPermissions(): Promise<{
   return result;
 }
 
-// Check if we have storage access
+// Check storage permission
 export async function hasStoragePermission(): Promise<boolean> {
   if (!isNativeApp()) return true;
   try {
@@ -51,5 +50,12 @@ export async function hasStoragePermission(): Promise<boolean> {
     return status.publicStorage === 'granted';
   } catch {
     return false;
+  }
+}
+
+// Open app settings so user can manually grant permissions
+export function openAppSettings() {
+  if (isNativeApp()) {
+    NativeSettings.openAndroid({ option: AndroidSettings.ApplicationDetails });
   }
 }

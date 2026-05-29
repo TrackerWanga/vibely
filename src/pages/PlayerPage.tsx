@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
 import { Browser } from '@capacitor/browser';
 import { useMusicStore } from '../store/musicStore';
-import { updateMediaSession, updatePlaybackState, updatePositionState } from '../services/mediaSession';
+import { createMusicControls, updateMusicControlsPlaying, updateMusicControlsTrack, setupMusicControlListeners, destroyMusicControls } from '../services/notifications';
 import { saveDownloadRecord } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 
@@ -35,19 +35,28 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
 
-  // Media Session for lock screen & notification
+  // Setup music control listeners once
+  useEffect(() => {
+    setupMusicControlListeners();
+    return () => { destroyMusicControls(); };
+  }, []);
+
+  // Update native music controls when track changes
   useEffect(() => {
     if (track) {
-      updateMediaSession({
+      createMusicControls({
         title: track.title || 'Unknown',
         artist: track.artist || 'Unknown Artist',
         thumbnail: track.thumbnail || '',
-        videoId: track.videoId
+        isPlaying: true,
       });
     }
   }, [track]);
-  useEffect(() => { updatePlaybackState(isPlaying); }, [isPlaying]);
-  useEffect(() => { updatePositionState(duration, playbackRate, progress); }, [duration, playbackRate, progress]);
+
+  // Update play/pause state
+  useEffect(() => {
+    updateMusicControlsPlaying(isPlaying);
+  }, [isPlaying]);
 
   useEffect(() => {
     if (audioState === 'loading' || audioState === 'retrying') {
@@ -104,10 +113,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const fetchAudio = async () => {
     const videoId = track?.videoId || '';
     setStatusMsg('Streaming');
-    try {
-      setAudioUrl(`${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`);
-      return;
-    } catch (e) {}
+    try { setAudioUrl(`${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`); return; } catch (e) {}
     try {
       const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
       setStatusMsg('Getting audio');
@@ -158,14 +164,11 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     if (!track?.videoId) return;
     setDownloading(true);
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
-
     try {
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
       const dlUrl = data?.downloadUrl || data?.proxyUrl;
-
       if (dlUrl) {
-        // Save record
         await saveDownloadRecord({
           videoId: track.videoId,
           title: track.title || '',
@@ -175,19 +178,15 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           filePath: '',
           fileSize: 0
         }).catch(() => {
-          // Fallback to localStorage
           const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
           if (!saved.find((s: any) => s.videoId === track.videoId)) {
             saved.push({ videoId: track.videoId, title: track.title, artist: track.artist || '', thumbnail: track.thumbnail || '', duration: track.duration || '', downloadedAt: new Date().toISOString(), source: 'vibely' });
             localStorage.setItem('vibely_downloads', JSON.stringify(saved));
           }
         });
-
         if (isNativeApp()) {
-          // Open in-app browser to download — saves to Downloads folder
-          await Browser.open({ url: dlUrl, windowName: '_blank' });
+          await Browser.open({ url: dlUrl });
         } else {
-          // Web: direct download
           const a = document.createElement('a');
           a.href = dlUrl;
           a.download = `${title}.mp3`;

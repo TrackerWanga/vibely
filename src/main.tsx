@@ -11,6 +11,7 @@ import GospelPage from './pages/GospelPage';
 import BelovedPage from './pages/BelovedPage';
 import OfflinePage from './pages/OfflinePage';
 import { useMusicStore } from './store/musicStore';
+import { requestAllPermissions } from './services/permissions';
 import './styles/globals.css';
 
 function HomeWrapper() {
@@ -78,18 +79,26 @@ function SharedSongHandler() {
 function AppShell() {
   const navigate = useNavigate();
 
+  // Request permissions on first launch
   useEffect(() => {
-    // Handle Android back button
+    const initPermissions = async () => {
+      const result = await requestAllPermissions();
+      console.log('Permissions:', result);
+    };
+    // Delay slightly to let the app render first
+    setTimeout(initPermissions, 1000);
+  }, []);
+
+  // Handle Android back button
+  useEffect(() => {
     const handleBack = () => {
       const path = window.location.pathname;
       if (path === '/' || path === '') {
-        // On home page, minimize app
         CapApp.minimizeApp();
       } else {
         navigate(-1);
       }
     };
-
     CapApp.addListener('backButton', handleBack);
     return () => {
       CapApp.removeAllListeners();

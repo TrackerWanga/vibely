@@ -1,4 +1,7 @@
-// Check if running inside Capacitor (native app)
 export function isNativeApp(): boolean {
-  return !!(window as any).Capacitor?.isNativePlatform();
+  try {
+    return !!(window as any).Capacitor?.isNativePlatform();
+  } catch {
+    return false;
+  }
 }

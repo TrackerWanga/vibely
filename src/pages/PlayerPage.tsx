@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
 import { useMusicStore } from '../store/musicStore';
-import { isNativeApp } from '../services/platform';
-import { downloadToDevice } from '../services/offlineStorage';
+import { updateMediaSession, updatePlaybackState, updatePositionState } from '../services/mediaSession';
 
 interface Props { onBack: () => void; onVideoMode: () => void; }
 
@@ -32,6 +31,26 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const track = currentTrack;
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
+
+  // Media Session update
+  useEffect(() => {
+    if (track) {
+      updateMediaSession({
+        title: track.title || 'Unknown',
+        artist: track.artist || 'Unknown Artist',
+        thumbnail: track.thumbnail || '',
+        videoId: track.videoId
+      });
+    }
+  }, [track]);
+
+  useEffect(() => {
+    updatePlaybackState(isPlaying);
+  }, [isPlaying]);
+
+  useEffect(() => {
+    updatePositionState(duration, playbackRate, progress);
+  }, [duration, playbackRate, progress]);
 
   useEffect(() => {
     if (audioState === 'loading' || audioState === 'retrying') {
@@ -93,7 +112,12 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
 
     setStatusMsg('Streaming');
-    try { setAudioUrl(`${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`); return; } catch (e) {}
+    try {
+      // Direct stream URL
+      const streamUrl = `${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`;
+      setAudioUrl(streamUrl);
+      return;
+    } catch (e) {}
 
     try {
       setStatusMsg('Getting audio');
@@ -161,28 +185,49 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
 
     try {
+      // Get download URL from Megan
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
-      const dlUrl = data?.downloadUrl || data?.proxyUrl;
+      const dlUrl = data?.downloadUrl || data?.proxyUrl || data?.videoUrl;
 
-      if (dlUrl) {
-        if (isNativeApp()) {
-          // Capacitor: save to device storage
-          await downloadToDevice(track.videoId, track.title, track.artist || '', dlUrl);
-        } else {
-          // Browser: download via anchor
-          const a = document.createElement('a');
-          a.href = dlUrl;
-          a.download = `${title}.mp3`;
-          a.style.display = 'none';
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
-        }
-        setDownloaded(true);
-        setTimeout(() => setDownloaded(false), 3000);
+      if (!dlUrl) {
+        console.error('No download URL in response:', data);
+        setDownloading(false);
+        return;
       }
-    } catch (err) { console.error('Download failed:', err); }
+
+      // Use direct anchor download — works on both web and Capacitor
+      const a = document.createElement('a');
+      a.href = dlUrl;
+      a.download = `${title}.mp3`;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+
+      // Save to downloads list
+      const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
+      if (!saved.find((s: any) => s.videoId === track.videoId)) {
+        saved.push({
+          videoId: track.videoId,
+          title: track.title,
+          artist: track.artist || '',
+          thumbnail: track.thumbnail || '',
+          duration: track.duration || '',
+          filePath: '',
+          fileSize: 0,
+          downloadedAt: new Date().toISOString(),
+          source: 'vibely'
+        });
+        localStorage.setItem('vibely_downloads', JSON.stringify(saved));
+      }
+
+      setDownloaded(true);
+      setTimeout(() => setDownloaded(false), 3000);
+    } catch (err) {
+      console.error('Download failed:', err);
+    }
     setDownloading(false);
   };
 
@@ -207,7 +252,13 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     }
   };
 
-  const handleLoadedMetadata = () => { if (audioRef.current) { setDuration(audioRef.current.duration); setAudioState('playing'); setStatusMsg(''); } };
+  const handleLoadedMetadata = () => {
+    if (audioRef.current) {
+      setDuration(audioRef.current.duration);
+      setAudioState('playing');
+      setStatusMsg('');
+    }
+  };
   const handleCanPlay = () => { setAudioState('playing'); setStatusMsg(''); };
   const handlePlaying = () => { setAudioState('playing'); setStatusMsg(''); };
   const handleWaiting = () => { setStatusMsg('Buffering...'); };

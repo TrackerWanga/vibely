@@ -30,7 +30,6 @@
     "@capacitor/share": "^5.0.0",
     "@capacitor/splash-screen": "^5.0.0",
     "@capacitor/status-bar": "^5.0.0",
-    "@capacitor-community/volume-buttons": "^1.0.5",
     "axios": "^1.6.0",
     "capacitor-music-controls-plugin": "^6.1.0",
     "capacitor-native-settings": "^5.0.0",

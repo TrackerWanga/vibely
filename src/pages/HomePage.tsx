@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Play, ChevronLeft, ChevronRight, Loader, TrendingUp } from 'lucide-react';
+import { Play, ChevronLeft, ChevronRight, Loader, TrendingUp, HardDrive } from 'lucide-react';
 import { getHomepage, getArtists, type Artist, type Country, type Song } from '../services/api';
 import { useMusicStore } from '../store/musicStore';
 import Navbar from '../components/Navbar';
@@ -12,13 +12,14 @@ interface Props {
   onSongPlay: () => void;
   onGospelClick: () => void;
   onBelovedClick: () => void;
+  onOfflineClick: () => void;
 }
 
 const COUNTRIES_PER_PAGE = 5;
 const MEGAN = 'https://apis.megan.qzz.io';
 const KEY = 'megan_admin_master';
 
-export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick, onBelovedClick }: Props) {
+export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick, onBelovedClick, onOfflineClick }: Props) {
   const [data, setData] = useState<any>(null);
   const [allCountries, setAllCountries] = useState<Country[]>([]);
   const [visibleCountries, setVisibleCountries] = useState<Country[]>([]);
@@ -170,7 +171,7 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
           {trendingLoading ? (
             <div className="skeleton" style={{ height: '200px', borderRadius: '12px' }} />
           ) : (
-            <div className="scroll-row" ref={trendingRef}>
+            <div className="scroll-row">
               {trendingSongs.map((song: any, i: number) => (
                 <div key={i} className="glass-card" style={{ width: '200px', padding: '10px', flexShrink: 0 }}
                   onClick={() => playSong({ videoId: song.videoId, title: song.title, artistName: song.author, thumbnail: song.thumbnail, duration: song.duration }, trendingSongs)}>
@@ -206,6 +207,17 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
               <p style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>28 global superstars • Alan Walker, Drake, Taylor Swift & more</p>
             </div>
             <button className="btn-primary" onClick={onBelovedClick} style={{ background: '#f59e0b', fontSize: '12px', padding: '8px 16px' }}>View All →</button>
+          </div>
+        </section>
+
+        {/* Offline Library Section */}
+        <section style={{ marginBottom: '24px', padding: '20px 24px', background: 'rgba(124,58,237,0.05)', border: '1px solid rgba(124,58,237,0.1)', borderRadius: '16px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div>
+              <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#f1f5f9' }}><HardDrive size={18} style={{ marginRight: '8px', display: 'inline' }} />Offline Library</h2>
+              <p style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>Downloaded songs play without internet</p>
+            </div>
+            <button className="btn-primary" onClick={onOfflineClick} style={{ background: '#7c3aed', fontSize: '12px', padding: '8px 16px' }}>View Library →</button>
           </div>
         </section>
 

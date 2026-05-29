@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, Copy } from 'lucide-react';
+import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge } from 'lucide-react';
 import { useMusicStore } from '../store/musicStore';
-import { getCachedUrl, setCachedUrl } from '../services/audioCache';
 
 interface Props { onBack: () => void; onVideoMode: () => void; }
 
@@ -12,61 +11,52 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const [currentLine, setCurrentLine] = useState(0);
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [audioState, setAudioState] = useState<'loading' | 'playing' | 'error'>('loading');
+  const [audioState, setAudioState] = useState<'loading' | 'playing' | 'retrying'>('loading');
   const [audioUrl, setAudioUrl] = useState('');
-  const [statusMsg, setStatusMsg] = useState('');
+  const [statusMsg, setStatusMsg] = useState('Connecting...');
+  const [dots, setDots] = useState('');
   const [downloading, setDownloading] = useState(false);
   const [downloaded, setDownloaded] = useState(false);
   const [shared, setShared] = useState(false);
+  const [playbackRate, setPlaybackRate] = useState(1);
   const audioRef = useRef<HTMLAudioElement>(null);
+  const retryTimer = useRef<any>(null);
 
   const track = currentTrack;
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
 
-  useEffect(() => { if (track) loadAll(); }, [track]);
+  const MEGAN = 'https://apis.megan.qzz.io';
+  const KEY = 'megan_admin_master';
+
+  useEffect(() => {
+    if (audioState === 'loading' || audioState === 'retrying') {
+      const interval = setInterval(() => setDots(prev => prev.length >= 3 ? '' : prev + '.'), 500);
+      return () => clearInterval(interval);
+    }
+  }, [audioState]);
+
+  useEffect(() => { if (track) loadAll(); return () => clearTimeout(retryTimer.current); }, [track]);
   useEffect(() => {
     if (audioRef.current && audioUrl) {
       isPlaying ? audioRef.current.play().catch(() => {}) : audioRef.current.pause();
     }
   }, [isPlaying, audioUrl]);
+  useEffect(() => {
+    if (audioRef.current) audioRef.current.playbackRate = playbackRate;
+  }, [playbackRate]);
 
   const loadAll = async () => {
-    const videoId = track?.videoId || '';
-    const cached = getCachedUrl(videoId);
-    if (cached) { setAudioUrl(cached); setAudioState('playing'); loadLyrics(); return; }
-    
     setAudioState('loading');
-    const youtubeUrl = `https://www.youtube.com/watch?v=${videoId}`;
-    const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
+    setAudioUrl('');
     loadLyrics();
-
-    // Try xwolf first (fast), then Megan
-    try {
-      setStatusMsg('Getting audio...');
-      const res = await fetch(`https://apis.xwolf.space/download/mp3?url=${encodeURIComponent(youtubeUrl)}&q=${encodeURIComponent(query)}`);
-      const d = await res.json();
-      const url = d?.proxyUrl || d?.downloadUrl;
-      if (url) { setCachedUrl(videoId, url); setAudioUrl(url); return; }
-    } catch (e) {}
-
-    try {
-      setStatusMsg('Trying backup...');
-      const res = await fetch(`https://apis.megan.qzz.io/download/audio?q=${encodeURIComponent(query)}&apikey=megan_admin_master`);
-      const d = await res.json();
-      const url = d?.proxyUrl || d?.downloadUrl;
-      if (url) { setCachedUrl(videoId, url); setAudioUrl(url); return; }
-    } catch (e) {}
-
-    setAudioState('error');
-    setStatusMsg('');
-    setTimeout(() => onVideoMode(), 2000);
+    fetchAudio();
   };
 
   const loadLyrics = async () => {
     try {
-      const q = track?.artist || track?.title || '';
-      const lr = await fetch(`https://apis.xwolf.space/download/lyrics?q=${encodeURIComponent(q)}`);
+      const q = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
+      const lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(q)}&apikey=${KEY}`);
       const ld = await lr.json();
       if (ld?.syncedLyrics) {
         const lines = ld.syncedLyrics.split('\n').map((line: string) => {
@@ -75,10 +65,47 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           return { time: 0, text: line };
         }).filter((l: any) => l.text);
         setLyricLines(lines);
-      } else if (ld?.lyrics) { setLyrics(ld); }
+        setLyrics(ld);
+      } else if (ld?.lyrics) {
+        setLyrics(ld);
+        setLyricLines([]);
+      }
     } catch (e) {}
   };
 
+  const fetchAudio = async () => {
+    const videoId = track?.videoId || '';
+    const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
+
+    setStatusMsg('Streaming');
+    try { setAudioUrl(`${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`); return; } catch (e) {}
+
+    try {
+      setStatusMsg('Getting audio');
+      const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(query)}&apikey=${KEY}`);
+      const d = await res.json();
+      const url = d?.proxyUrl || d?.downloadUrl;
+      if (url) { setAudioUrl(url); return; }
+    } catch (e) {}
+
+    setAudioState('retrying');
+    setStatusMsg('Waking server');
+    retryTimer.current = setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 5000);
+  };
+
+  const skipForward = () => {
+    if (audioRef.current) audioRef.current.currentTime = Math.min(audioRef.current.currentTime + 10, audioRef.current.duration || 0);
+  };
+  const skipBackward = () => {
+    if (audioRef.current) audioRef.current.currentTime = Math.max(audioRef.current.currentTime - 10, 0);
+  };
+  const cycleSpeed = () => {
+    const speeds = [1, 1.25, 1.5, 2, 0.75, 0.5];
+    const idx = speeds.indexOf(playbackRate);
+    setPlaybackRate(speeds[(idx + 1) % speeds.length]);
+  };
+
+  // DOWNLOAD - EXACT same method as search page (Megan API, no redirect)
   const handleDownload = async () => {
     if (!track?.videoId) return;
     setDownloading(true);
@@ -86,60 +113,36 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
     
     try {
-      const res = await fetch(`https://apis.xwolf.space/download/mp3?url=${encodeURIComponent(`https://www.youtube.com/watch?v=${videoId}`)}&q=${encodeURIComponent(title)}`);
+      const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
-      const dlUrl = data?.proxyUrl || data?.downloadUrl;
+      const dlUrl = data?.downloadUrl || data?.proxyUrl;
       
       if (dlUrl) {
-        // Download via hidden iframe
-        const iframe = document.createElement('iframe');
-        iframe.style.display = 'none';
-        iframe.src = dlUrl;
-        document.body.appendChild(iframe);
-        setTimeout(() => document.body.removeChild(iframe), 5000);
+        const a = document.createElement('a');
+        a.href = dlUrl;
+        a.download = `${title}.mp3`;
+        a.style.display = 'none';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
         
-        // Save to localStorage
         const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
         saved.push({ videoId, title: track.title, downloadedAt: new Date().toISOString() });
         localStorage.setItem('vibely_downloads', JSON.stringify(saved));
-        
         setDownloaded(true);
         setTimeout(() => setDownloaded(false), 3000);
       }
-    } catch (err) {
-      // Fallback: open in new tab
-      window.open(`https://apis.xwolf.space/download/mp3?url=${encodeURIComponent(`https://www.youtube.com/watch?v=${videoId}`)}&q=${encodeURIComponent(title)}`, '_blank');
-      setDownloaded(true);
-      setTimeout(() => setDownloaded(false), 3000);
-    }
+    } catch (err) {}
     setDownloading(false);
   };
 
   const handleShare = async () => {
     if (!track?.videoId) return;
-    const url = `${window.location.origin}/?song=${track.videoId}&title=${encodeURIComponent(track.title || '')}`;
-    
-    // Try Web Share API first (mobile)
+    const url = `${window.location.origin}/?song=${track.videoId}`;
     if (navigator.share) {
-      try {
-        await navigator.share({
-          title: track.title || 'Check out this song',
-          text: `🎵 ${track.title} - ${track.artist || 'Unknown'}`,
-          url: `https://www.youtube.com/watch?v=${track.videoId}`,
-        });
-        return;
-      } catch (e) {}
+      try { await navigator.share({ title: track.title || '', text: `🎵 ${track.title}`, url }); return; } catch (e) {}
     }
-    
-    // Fallback: copy to clipboard
-    try {
-      await navigator.clipboard.writeText(`${window.location.origin}/?song=${track.videoId}`);
-      setShared(true);
-      setTimeout(() => setShared(false), 2000);
-    } catch (e) {
-      // Final fallback: show the URL
-      prompt("Share this song:", `${window.location.origin}/?song=${track.videoId}`);
-    }
+    try { await navigator.clipboard.writeText(url); setShared(true); setTimeout(() => setShared(false), 2000); } catch (e) {}
   };
 
   const handleTimeUpdate = () => {
@@ -155,9 +158,13 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   };
   const handleLoadedMetadata = () => { if (audioRef.current) { setDuration(audioRef.current.duration); setAudioState('playing'); setStatusMsg(''); } };
   const handleCanPlay = () => { setAudioState('playing'); setStatusMsg(''); };
-  const handleError = () => { setAudioState('error'); setTimeout(() => onVideoMode(), 1500); };
+  const handlePlaying = () => { setAudioState('playing'); setStatusMsg(''); };
+  const handleWaiting = () => { setStatusMsg('Buffering...'); };
+  const handleError = () => { setAudioState('retrying'); setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 3000); };
   const handleEnded = () => nextTrack();
   const formatTime = (t: number) => { if (isNaN(t)) return '0:00'; const m = Math.floor(t/60), s = Math.floor(t%60); return `${m}:${s.toString().padStart(2,'0')}`; };
+
+  const isLoading = audioState === 'loading' || audioState === 'retrying';
 
   if (!track) return (
     <div style={{ minHeight: '100vh', background: '#06060e', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff' }}>
@@ -172,90 +179,82 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         <div style={{ flex: 1 }}><div style={{ fontSize: '12px', color: '#a78bfa' }}>Now Playing</div><div style={{ fontSize: '16px', fontWeight: 600 }}>{track.title?.substring(0, 50)}</div></div>
         <button onClick={onVideoMode} className="btn-glass"><Video size={16} /> Video</button>
       </div>
+      
       {statusMsg && (
-        <div style={{ padding: '10px 24px', textAlign: 'center', background: 'rgba(124,58,237,0.08)', color: '#a78bfa', fontSize: '13px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-          <Loader size={14} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}
+        <div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(124,58,237,0.06)', color: '#a78bfa', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+          <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}{dots}
         </div>
       )}
+
       <div style={{ display: 'flex', padding: '0 24px', gap: '24px', flexWrap: 'wrap' }}>
-        <div style={{ flex: '0 0 350px', minWidth: '280px' }}>
+        <div style={{ flex: '0 0 380px', minWidth: '300px' }}>
           <div style={{ width: '100%', aspectRatio: '1', borderRadius: '16px', background: 'linear-gradient(135deg, #1a1a2e, #16213e)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', overflow: 'hidden', position: 'relative' }}>
             {track.thumbnail ? <img src={track.thumbnail} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} /> : <Music size={80} color="#a78bfa" />}
-            {audioState === 'loading' && <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Loader size={48} color="#a78bfa" style={{ animation: 'spin 1s linear infinite' }} /></div>}
+            {isLoading && <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Loader size={48} color="#a78bfa" style={{ animation: 'spin 1s linear infinite' }} /></div>}
           </div>
-          <h1 style={{ fontSize: '22px', fontWeight: 700, marginBottom: '4px' }}>{track.title}</h1>
-          <p style={{ color: '#a78bfa', fontSize: '16px', marginBottom: '4px' }}>{track.artist || 'Unknown Artist'}</p>
-          {track.duration && <p style={{ color: '#64748b', fontSize: '13px' }}>{track.duration}</p>}
-          <div style={{ marginTop: '20px' }}>
-            <div style={{ height: '4px', background: 'rgba(255,255,255,0.1)', borderRadius: '2px', overflow: 'hidden', cursor: 'pointer' }}
-              onClick={(e) => { if (audioRef.current && duration) { const r = e.currentTarget.getBoundingClientRect(); audioRef.current.currentTime = ((e.clientX-r.left)/r.width)*duration; }}}>
-              <div style={{ height: '100%', width: `${duration ? (progress/duration)*100 : 0}%`, background: 'linear-gradient(90deg, #7c3aed, #a78bfa)' }} />
+          <h1 style={{ fontSize: '20px', fontWeight: 700, marginBottom: '2px' }}>{track.title}</h1>
+          <p style={{ color: '#a78bfa', fontSize: '14px', marginBottom: '2px' }}>{track.artist || 'Unknown Artist'}</p>
+          {track.duration && <p style={{ color: '#64748b', fontSize: '11px' }}>{track.duration}</p>}
+          <div style={{ marginTop: '16px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+              <button onClick={skipBackward} className="btn-glass" style={{ padding: '4px 8px', fontSize: '10px' }}><RotateCcw size={12} /> 10s</button>
+              <div style={{ flex: 1, height: '4px', background: 'rgba(255,255,255,0.1)', borderRadius: '2px', overflow: 'hidden', cursor: 'pointer' }}
+                onClick={(e) => { if (audioRef.current && duration) { const r = e.currentTarget.getBoundingClientRect(); audioRef.current.currentTime = ((e.clientX-r.left)/r.width)*duration; }}}>
+                <div style={{ height: '100%', width: `${duration ? (progress/duration)*100 : 0}%`, background: 'linear-gradient(90deg, #7c3aed, #a78bfa)' }} />
+              </div>
+              <button onClick={skipForward} className="btn-glass" style={{ padding: '4px 8px', fontSize: '10px' }}>10s <RotateCw size={12} /></button>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '8px', fontSize: '12px', color: '#64748b' }}><span>{formatTime(progress)}</span><span>{formatTime(duration)}</span></div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px', color: '#64748b' }}><span>{formatTime(progress)}</span><span>{formatTime(duration)}</span></div>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px', marginTop: '20px' }}>
-            <button onClick={prevTrack} style={ctrlBtn}><SkipBack size={24} /></button>
-            <button onClick={togglePlay} style={{ ...ctrlBtn, width: '56px', height: '56px', background: '#7c3aed', borderRadius: '50%' }}>{isPlaying ? <Pause size={28} /> : <Play size={28} />}</button>
-            <button onClick={nextTrack} style={ctrlBtn}><SkipForward size={24} /></button>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', marginTop: '16px' }}>
+            <button onClick={prevTrack} style={ctrlBtn}><SkipBack size={22} /></button>
+            <button onClick={skipBackward} style={ctrlBtn}><RotateCcw size={16} /></button>
+            <button onClick={togglePlay} style={{ ...ctrlBtn, width: '48px', height: '48px', background: '#7c3aed', borderRadius: '50%' }}>
+              {isLoading ? <Loader size={24} style={{ animation: 'spin 1s linear infinite' }} /> : isPlaying ? <Pause size={24} /> : <Play size={24} />}
+            </button>
+            <button onClick={skipForward} style={ctrlBtn}><RotateCw size={16} /></button>
+            <button onClick={nextTrack} style={ctrlBtn}><SkipForward size={22} /></button>
           </div>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginTop: '20px' }}>
-            <button onClick={() => track && toggleFavorite(track)} className="btn-glass" title="Favorite">
-              <Heart size={16} fill={isFav ? '#f43f5e' : 'none'} color={isFav ? '#f43f5e' : '#94a3b8'} />
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '14px', flexWrap: 'wrap' }}>
+            <button onClick={cycleSpeed} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '11px' }}><Gauge size={12} /> {playbackRate}x</button>
+            <button onClick={() => track && toggleFavorite(track)} className="btn-glass"><Heart size={12} fill={isFav ? '#f43f5e' : 'none'} color={isFav ? '#f43f5e' : '#94a3b8'} /></button>
+            <button onClick={handleDownload} className="btn-glass" style={{ fontSize: '11px' }}>
+              {downloading ? <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> : downloaded ? <Check size={12} color="#10b981" /> : <Download size={12} />}
+              {downloaded ? 'Done' : 'MP3'}
             </button>
-            <button onClick={handleDownload} className="btn-glass" title="Download MP3" style={{ color: downloaded ? '#10b981' : '#94a3b8' }}>
-              {downloading ? <Loader size={16} style={{ animation: 'spin 1s linear infinite' }} /> :
-               downloaded ? <Check size={16} /> : <Download size={16} />}
-              <span style={{ fontSize: '11px', marginLeft: '4px' }}>{downloaded ? 'Done' : downloading ? '' : 'MP3'}</span>
-            </button>
-            <button onClick={handleShare} className="btn-glass" title="Share" style={{ color: shared ? '#10b981' : '#94a3b8' }}>
-              {shared ? <Check size={16} /> : <Share2 size={16} />}
-              <span style={{ fontSize: '11px', marginLeft: '4px' }}>{shared ? 'Copied!' : 'Share'}</span>
+            <button onClick={handleShare} className="btn-glass" style={{ fontSize: '11px' }}>
+              {shared ? <Check size={12} color="#10b981" /> : <Share2 size={12} />}
+              {shared ? 'Copied' : 'Share'}
             </button>
           </div>
-          {audioState === 'error' && (
-            <div style={{ marginTop: '20px', padding: '16px', background: 'rgba(244,63,94,0.06)', borderRadius: '12px', textAlign: 'center' }}>
-              <p style={{ color: '#f43f5e', fontSize: '13px' }}>Audio unavailable</p>
-              <button onClick={onVideoMode} className="btn-primary" style={{ marginTop: '10px' }}><Video size={14} /> Play Video</button>
-            </div>
-          )}
           {upcomingTrack && (
-            <div style={{ marginTop: '20px', padding: '12px', background: 'rgba(255,255,255,0.03)', borderRadius: '10px' }}>
-              <div style={{ fontSize: '11px', color: '#64748b', marginBottom: '4px' }}>Coming Next</div>
-              <div style={{ fontSize: '13px', color: '#f1f5f9' }}>{upcomingTrack.title?.substring(0, 40)}</div>
-              <div style={{ fontSize: '11px', color: '#a78bfa' }}>{upcomingTrack.artist}</div>
+            <div style={{ marginTop: '14px', padding: '10px 14px', background: 'rgba(255,255,255,0.02)', borderRadius: '10px', border: '1px solid rgba(255,255,255,0.04)' }}>
+              <div style={{ fontSize: '10px', color: '#64748b', marginBottom: '2px' }}>⏭ Coming Next</div>
+              <div style={{ fontSize: '12px', color: '#f1f5f9', fontWeight: 500 }}>{upcomingTrack.title?.substring(0, 40)}</div>
+              <div style={{ fontSize: '10px', color: '#a78bfa' }}>{upcomingTrack.artist}</div>
             </div>
           )}
         </div>
-        <div style={{ flex: 1, minWidth: '300px', maxHeight: '60vh', overflowY: 'auto', padding: '0 16px' }}>
+        <div style={{ flex: 1, minWidth: '300px', maxHeight: '60vh', overflowY: 'auto', padding: '0 8px' }}>
           {lyricLines.length > 0 ? lyricLines.map((line, i) => (
-            <p key={i} style={{ padding: '8px 0', fontSize: '18px', fontWeight: i === currentLine ? 700 : 400, color: i === currentLine ? '#fff' : i < currentLine ? '#64748b' : '#94a3b8', transition: 'all 0.3s', lineHeight: 1.6 }}>{line.text}</p>
-          )) : lyrics?.lyrics ? <pre style={{ color: '#94a3b8', fontSize: '14px', whiteSpace: 'pre-wrap', lineHeight: 1.8 }}>{lyrics.lyrics}</pre> : (
-            <div style={{ textAlign: 'center', padding: '60px 20px', color: '#64748b' }}><Music size={48} color="#a78bfa" style={{ marginBottom: '16px' }} /><div style={{ fontSize: '16px' }}>🎤 Vocals Playing</div></div>
+            <p key={i} onClick={() => { if (audioRef.current) audioRef.current.currentTime = line.time; }}
+              style={{ padding: '6px 0', fontSize: '17px', fontWeight: i === currentLine ? 700 : 400, color: i === currentLine ? '#fff' : i < currentLine ? '#64748b' : '#94a3b8', transition: 'all 0.3s', lineHeight: 1.6, cursor: 'pointer' }}>
+              {line.text}
+            </p>
+          )) : lyrics?.lyrics ? (
+            <pre style={{ color: '#94a3b8', fontSize: '13px', whiteSpace: 'pre-wrap', lineHeight: 1.8 }}>{lyrics.lyrics}</pre>
+          ) : (
+            <div style={{ textAlign: 'center', padding: '60px 20px', color: '#64748b' }}>
+              <Music size={48} color="#a78bfa" style={{ marginBottom: '12px', opacity: 0.5 }} />
+              <div style={{ fontSize: '15px' }}>🎤 Vocals Playing</div>
+              <div style={{ fontSize: '12px', marginTop: '6px' }}>Lyrics unavailable for this track</div>
+            </div>
           )}
         </div>
       </div>
-      {audioUrl && <audio ref={audioRef} src={audioUrl} onTimeUpdate={handleTimeUpdate} onLoadedMetadata={handleLoadedMetadata} onCanPlay={handleCanPlay} onError={handleError} onEnded={handleEnded} preload="auto" crossOrigin="anonymous" autoPlay />}
+      {audioUrl && <audio ref={audioRef} src={audioUrl} onTimeUpdate={handleTimeUpdate} onLoadedMetadata={handleLoadedMetadata} onCanPlay={handleCanPlay} onWaiting={handleWaiting} onPlaying={handlePlaying} onError={handleError} onEnded={handleEnded} preload="auto" crossOrigin="anonymous" autoPlay />}
       <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
     </div>
   );
 }
 const ctrlBtn: React.CSSProperties = { background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer', padding: '8px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' };
-
-// The nextTrack and prevTrack functions from useMusicStore already work.
-// They increment/decrement queueIndex and update currentTrack.
-// The audio element's onEnded calls nextTrack() automatically.
-// The next/prev buttons call nextTrack() and prevTrack().
-// Everything is wired correctly in the store:
-//
-// nextTrack: () => {
-//   const { queue, queueIndex } = get();
-//   if (queueIndex < queue.length - 1) {
-//     set({ queueIndex: queueIndex + 1, currentTrack: queue[queueIndex + 1], isPlaying: true });
-//   }
-// },
-// prevTrack: () => {
-//   const { queue, queueIndex } = get();
-//   if (queueIndex > 0) {
-//     set({ queueIndex: queueIndex - 1, currentTrack: queue[queueIndex - 1], isPlaying: true });
-//   }
-// },

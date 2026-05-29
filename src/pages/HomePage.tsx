@@ -11,11 +11,12 @@ interface Props {
   onArtistSelect: (name: string) => void;
   onSongPlay: () => void;
   onGospelClick: () => void;
+  onBelovedClick: () => void;
 }
 
 const COUNTRIES_PER_PAGE = 5;
 
-export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick }: Props) {
+export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick, onBelovedClick }: Props) {
   const [data, setData] = useState<any>(null);
   const [allCountries, setAllCountries] = useState<Country[]>([]);
   const [visibleCountries, setVisibleCountries] = useState<Country[]>([]);
@@ -76,8 +77,14 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
     setLoadingMore(false);
   };
 
-  const playSong = (song: any) => {
-    setQueue([{ videoId: song.videoId, title: song.title, artist: song.artistName || '', thumbnail: song.thumbnail, duration: song.duration }], 0);
+  const playSong = (song: any, allSongs?: any[]) => {
+    const trackList = [{ videoId: song.videoId, title: song.title, artist: song.artistName || '', thumbnail: song.thumbnail, duration: song.duration }];
+    if (allSongs && allSongs.length > 1) {
+      allSongs.filter((s: any) => s.videoId !== song.videoId).slice(0, 19).forEach((s: any) => {
+        trackList.push({ videoId: s.videoId, title: s.title, artist: s.artistName || '', thumbnail: s.thumbnail, duration: s.duration });
+      });
+    }
+    setQueue(trackList, 0);
     onSongPlay();
   };
 
@@ -123,7 +130,7 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
               {currentBanner.name}
             </h1>
             <p style={{ color: '#94a3b8', fontSize: '16px' }}>{(currentBanner.channel?.subscribers || 0).toLocaleString()} subscribers</p>
-            <button className="btn-primary" onClick={() => playSong(currentBanner.topSongs?.[0])} style={{ marginTop: '20px' }}>
+            <button className="btn-primary" onClick={() => playSong(currentBanner.topSongs?.[0], currentBanner.topSongs)} style={{ marginTop: '20px' }}>
               <Play size={18} /> Play Audio
             </button>
           </div>
@@ -139,17 +146,24 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
       <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 24px' }}>
 
         {/* Gospel Section */}
-        <section style={{ marginBottom: '40px', padding: '24px', background: 'rgba(16,185,129,0.05)', border: '1px solid rgba(16,185,129,0.1)', borderRadius: '16px' }}>
+        <section style={{ marginBottom: '24px', padding: '20px 24px', background: 'rgba(16,185,129,0.05)', border: '1px solid rgba(16,185,129,0.1)', borderRadius: '16px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <div>
-              <h2 style={{ fontSize: '20px', fontWeight: 700, color: '#f1f5f9', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                🙏 Gospel Music
-              </h2>
-              <p style={{ color: '#64748b', fontSize: '13px', marginTop: '4px' }}>Spiritual music from around the world</p>
+              <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#f1f5f9' }}>🙏 Gospel Music</h2>
+              <p style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>Spiritual music from around the world</p>
             </div>
-            <button className="btn-primary" onClick={onGospelClick} style={{ background: '#10b981', fontSize: '13px' }}>
-              View All Gospel →
-            </button>
+            <button className="btn-primary" onClick={onGospelClick} style={{ background: '#10b981', fontSize: '12px', padding: '8px 16px' }}>View All →</button>
+          </div>
+        </section>
+
+        {/* Beloved Section */}
+        <section style={{ marginBottom: '24px', padding: '20px 24px', background: 'rgba(245,158,11,0.05)', border: '1px solid rgba(245,158,11,0.1)', borderRadius: '16px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div>
+              <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#f1f5f9' }}>🌟 Beloved & Trending</h2>
+              <p style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>28 global superstars • Alan Walker, Drake, Taylor Swift & more</p>
+            </div>
+            <button className="btn-primary" onClick={onBelovedClick} style={{ background: '#f59e0b', fontSize: '12px', padding: '8px 16px' }}>View All →</button>
           </div>
         </section>
 
@@ -191,7 +205,7 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
           </section>
         )}
 
-        {/* Countries */}
+        {/* Countries - Infinite Scroll */}
         {visibleCountries.map((country: Country) => {
           const songs = countrySongs[country.code] || [];
           return (
@@ -205,7 +219,7 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
               {songs.length > 0 ? (
                 <div className="scroll-row">
                   {songs.map((song: any, i: number) => (
-                    <div key={i} className="glass-card" style={{ width: '200px', padding: '10px' }} onClick={() => playSong(song)}>
+                    <div key={i} className="glass-card" style={{ width: '200px', padding: '10px' }} onClick={() => playSong(song, songs)}>
                       <img src={song.thumbnail} alt="" style={{ width: '100%', aspectRatio: '16/9', objectFit: 'cover', borderRadius: '6px', marginBottom: '8px' }} loading="lazy" />
                       <div style={{ fontWeight: 500, fontSize: '12px', color: '#f1f5f9', lineHeight: 1.3 }}>{song.title?.substring(0, 50)}...</div>
                       <div style={{ color: '#64748b', fontSize: '11px', marginTop: '4px' }}>{song.artistName} • {song.duration}</div>

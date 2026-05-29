@@ -2,6 +2,7 @@
   "name": "vibely",
   "version": "2.1.0",
   "description": "Global Music Discovery - 1689 artists, 8398 songs, 31 countries",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -39,6 +40,7 @@
     "zustand": "^4.4.0"
   },
   "devDependencies": {
+    "@capacitor/assets": "^5.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.2.0",

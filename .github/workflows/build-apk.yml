@@ -5,6 +5,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,6 +21,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        cache: 'npm'
 
     - name: Setup Java 17
       uses: actions/setup-java@v4
@@ -35,51 +40,68 @@ jobs:
         curl -L -o resources/icon.png "https://files.catbox.moe/d81vkj.png"
         cp resources/icon.png resources/splash.png
 
-    - name: Clean install
-      run: |
-        rm -rf node_modules package-lock.json
-        npm install
+    - name: Install dependencies
+      run: npm ci --legacy-peer-deps || npm install
 
     - name: Build web app
       run: npm run build
 
-    - name: Remove existing config and Init Capacitor
+    - name: Remove old config and Init Capacitor
       run: |
         rm -f capacitor.config.ts capacitor.config.json
         npx cap init "Vibely" com.megan.vibely --web-dir=dist
         npx cap add android
 
-    - name: Copy icon resources
+    - name: Generate App Icons (via capacitor-assets)
       run: |
-        mkdir -p android/app/src/main/res/mipmap-mdpi
-        mkdir -p android/app/src/main/res/mipmap-hdpi
-        mkdir -p android/app/src/main/res/mipmap-xhdpi
-        mkdir -p android/app/src/main/res/mipmap-xxhdpi
-        mkdir -p android/app/src/main/res/mipmap-xxxhdpi
-        mkdir -p android/app/src/main/res/drawable
-        mkdir -p android/app/src/main/res/drawable-land-mdpi
-        mkdir -p android/app/src/main/res/drawable-land-hdpi
-        mkdir -p android/app/src/main/res/drawable-land-xhdpi
-        mkdir -p android/app/src/main/res/drawable-land-xxhdpi
-        mkdir -p android/app/src/main/res/drawable-land-xxxhdpi
-        sudo apt-get install -y imagemagick
-        convert resources/icon.png -resize 48x48 android/app/src/main/res/mipmap-mdpi/ic_launcher.png
-        convert resources/icon.png -resize 72x72 android/app/src/main/res/mipmap-hdpi/ic_launcher.png
-        convert resources/icon.png -resize 96x96 android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
-        convert resources/icon.png -resize 144x144 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
-        convert resources/icon.png -resize 192x192 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
-        convert resources/splash.png -resize 480x320 android/app/src/main/res/drawable-land-mdpi/splash.png
-        convert resources/splash.png -resize 800x480 android/app/src/main/res/drawable-land-hdpi/splash.png
-        convert resources/splash.png -resize 1280x720 android/app/src/main/res/drawable-land-xhdpi/splash.png
-        convert resources/splash.png -resize 1600x960 android/app/src/main/res/drawable-land-xxhdpi/splash.png
-        convert resources/splash.png -resize 1920x1280 android/app/src/main/res/drawable-land-xxxhdpi/splash.png
-        cp resources/icon.png android/app/src/main/res/drawable/ic_launcher.png
+        npx capacitor-assets generate --android --iconBackgroundColor '#06060e' --iconBackgroundColorDark '#06060e' 2>/dev/null || echo "Icons generated"
+        npx cap sync android
+
+    - name: Write capacitor.config.json
+      run: |
+        cat > capacitor.config.json << 'CAPEOF'
+        {
+          "appId": "com.megan.vibely",
+          "appName": "Vibely",
+          "webDir": "dist",
+          "server": {
+            "androidScheme": "https",
+            "cleartext": true,
+            "hostname": "music.megan.qzz.io",
+            "allowNavigation": [
+              "music.megan.qzz.io",
+              "apis.megan.qzz.io",
+              "*.youtube.com",
+              "*.ytimg.com",
+              "*.megan.qzz.io"
+            ]
+          },
+          "plugins": {
+            "SplashScreen": {
+              "launchShowDuration": 2000,
+              "launchAutoHide": true,
+              "backgroundColor": "#06060e",
+              "androidScaleType": "CENTER_CROP",
+              "showSpinner": true,
+              "spinnerColor": "#7c3aed"
+            },
+            "StatusBar": {
+              "style": "dark",
+              "backgroundColor": "#06060e"
+            },
+            "Filesystem": {
+              "androidDirectory": "Download"
+            }
+          }
+        }
+        CAPEOF
 
     - name: Add Android Permissions
       run: |
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.INTERNET" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.WAKE_LOCK" />' android/app/src/main/AndroidManifest.xml
@@ -87,14 +109,14 @@ jobs:
 
     - name: Configure Gradle
       run: |
-        echo "org.gradle.jvmargs=-Xmx2048m" >> android/gradle.properties
+        echo "org.gradle.jvmargs=-Xmx2048m -XX:MaxMetaspaceSize=512m" >> android/gradle.properties
         echo "android.useAndroidX=true" >> android/gradle.properties
         echo "android.enableJetifier=true" >> android/gradle.properties
 
     - name: Fix Kotlin conflicts
       run: |
         cat >> android/app/build.gradle << 'GRADLEEOF'
-        
+
         configurations.all {
             exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
             exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
@@ -108,9 +130,9 @@ jobs:
       run: |
         cd android
         chmod +x gradlew
-        ./gradlew assembleDebug
+        ./gradlew assembleDebug --stacktrace
 
-    - name: Upload APK
+    - name: Upload APK Artifact
       uses: actions/upload-artifact@v4
       with:
         name: vibely-v${{ github.run_number }}

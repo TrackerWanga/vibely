@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
 import { useMusicStore } from '../store/musicStore';
+import { isNativeApp } from '../services/platform';
+import { downloadToDevice } from '../services/offlineStorage';
 
 interface Props { onBack: () => void; onVideoMode: () => void; }
 
@@ -66,7 +68,6 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
       let lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(q)}&apikey=${KEY}`);
       let ld = await lr.json();
 
-      // Fallback: try just the title if artist+title didn't work
       if (!ld?.syncedLyrics && !ld?.lyrics && track?.artist && track?.title) {
         lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(track.title)}&apikey=${KEY}`);
         ld = await lr.json();
@@ -158,25 +159,30 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     if (!track?.videoId) return;
     setDownloading(true);
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
+
     try {
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
       const dlUrl = data?.downloadUrl || data?.proxyUrl;
+
       if (dlUrl) {
-        const a = document.createElement('a');
-        a.href = dlUrl;
-        a.download = `${title}.mp3`;
-        a.style.display = 'none';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
-        saved.push({ videoId: track.videoId, title: track.title, downloadedAt: new Date().toISOString() });
-        localStorage.setItem('vibely_downloads', JSON.stringify(saved));
+        if (isNativeApp()) {
+          // Capacitor: save to device storage
+          await downloadToDevice(track.videoId, track.title, track.artist || '', dlUrl);
+        } else {
+          // Browser: download via anchor
+          const a = document.createElement('a');
+          a.href = dlUrl;
+          a.download = `${title}.mp3`;
+          a.style.display = 'none';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        }
         setDownloaded(true);
         setTimeout(() => setDownloaded(false), 3000);
       }
-    } catch (err) {}
+    } catch (err) { console.error('Download failed:', err); }
     setDownloading(false);
   };
 

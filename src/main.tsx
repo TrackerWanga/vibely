@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, useNavigate, useParams, useSearchParams } from 'react-router-dom';
+import { App as CapApp } from '@capacitor/app';
 import HomePage from './pages/HomePage';
 import SearchPage from './pages/SearchPage';
 import ArtistPage from './pages/ArtistPage';
@@ -74,9 +75,29 @@ function SharedSongHandler() {
   return null;
 }
 
-function App() {
+function AppShell() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Handle Android back button
+    const handleBack = () => {
+      const path = window.location.pathname;
+      if (path === '/' || path === '') {
+        // On home page, minimize app
+        CapApp.minimizeApp();
+      } else {
+        navigate(-1);
+      }
+    };
+
+    CapApp.addListener('backButton', handleBack);
+    return () => {
+      CapApp.removeAllListeners();
+    };
+  }, [navigate]);
+
   return (
-    <BrowserRouter>
+    <>
       <SharedSongHandler />
       <Routes>
         <Route path="/" element={<HomeWrapper />} />
@@ -88,6 +109,14 @@ function App() {
         <Route path="/beloved" element={<BelovedWrapper />} />
         <Route path="/offline" element={<OfflineWrapper />} />
       </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <AppShell />
     </BrowserRouter>
   );
 }

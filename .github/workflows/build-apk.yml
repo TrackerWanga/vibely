@@ -1,0 +1,118 @@
+name: Build Vibely APK
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Setup Java 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+
+    - name: Setup Android SDK
+      uses: android-actions/setup-android@v3
+      with:
+        packages: 'platforms;android-34 build-tools;34.0.0 platform-tools'
+
+    - name: Download app icon
+      run: |
+        mkdir -p resources
+        curl -L -o resources/icon.png "https://files.catbox.moe/d81vkj.png"
+        cp resources/icon.png resources/splash.png
+
+    - name: Clean install
+      run: |
+        rm -rf node_modules package-lock.json
+        npm install
+
+    - name: Build web app
+      run: npm run build
+
+    - name: Init Capacitor
+      run: |
+        npx cap init "Vibely" com.megan.vibely --web-dir=dist
+        npx cap add android
+
+    - name: Copy icon resources
+      run: |
+        mkdir -p android/app/src/main/res/mipmap-mdpi
+        mkdir -p android/app/src/main/res/mipmap-hdpi
+        mkdir -p android/app/src/main/res/mipmap-xhdpi
+        mkdir -p android/app/src/main/res/mipmap-xxhdpi
+        mkdir -p android/app/src/main/res/mipmap-xxxhdpi
+        mkdir -p android/app/src/main/res/drawable
+        mkdir -p android/app/src/main/res/drawable-land-mdpi
+        mkdir -p android/app/src/main/res/drawable-land-hdpi
+        mkdir -p android/app/src/main/res/drawable-land-xhdpi
+        mkdir -p android/app/src/main/res/drawable-land-xxhdpi
+        mkdir -p android/app/src/main/res/drawable-land-xxxhdpi
+        # Use ImageMagick to resize icon
+        sudo apt-get install -y imagemagick
+        convert resources/icon.png -resize 48x48 android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+        convert resources/icon.png -resize 72x72 android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+        convert resources/icon.png -resize 96x96 android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+        convert resources/icon.png -resize 144x144 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+        convert resources/icon.png -resize 192x192 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+        # Splash screen
+        convert resources/splash.png -resize 480x320 android/app/src/main/res/drawable-land-mdpi/splash.png
+        convert resources/splash.png -resize 800x480 android/app/src/main/res/drawable-land-hdpi/splash.png
+        convert resources/splash.png -resize 1280x720 android/app/src/main/res/drawable-land-xhdpi/splash.png
+        convert resources/splash.png -resize 1600x960 android/app/src/main/res/drawable-land-xxhdpi/splash.png
+        convert resources/splash.png -resize 1920x1280 android/app/src/main/res/drawable-land-xxxhdpi/splash.png
+        cp resources/icon.png android/app/src/main/res/drawable/ic_launcher.png
+
+    - name: Add Android Permissions
+      run: |
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.INTERNET" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.WAKE_LOCK" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<application/a \        android:usesCleartextTraffic="true"' android/app/src/main/AndroidManifest.xml
+
+    - name: Configure Gradle
+      run: |
+        echo "org.gradle.jvmargs=-Xmx2048m" >> android/gradle.properties
+        echo "android.useAndroidX=true" >> android/gradle.properties
+        echo "android.enableJetifier=true" >> android/gradle.properties
+
+    - name: Fix Kotlin conflicts
+      run: |
+        cat >> android/app/build.gradle << 'GRADLEEOF'
+        
+        configurations.all {
+            exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
+            exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+        }
+        GRADLEEOF
+
+    - name: Sync Capacitor
+      run: npx cap sync
+
+    - name: Build APK
+      run: |
+        cd android
+        chmod +x gradlew
+        ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: vibely-v${{ github.run_number }}
+        path: android/app/build/outputs/apk/debug/app-debug.apk

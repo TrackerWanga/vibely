@@ -8,17 +8,19 @@ import PlayerPage from './pages/PlayerPage';
 import VideoPage from './pages/VideoPage';
 import GospelPage from './pages/GospelPage';
 import BelovedPage from './pages/BelovedPage';
+import OfflinePage from './pages/OfflinePage';
 import { useMusicStore } from './store/musicStore';
 import './styles/globals.css';
 
 function HomeWrapper() {
   const navigate = useNavigate();
-  return <HomePage 
+  return <HomePage
     onSearch={() => navigate('/search')}
     onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)}
     onSongPlay={() => navigate('/player')}
     onGospelClick={() => navigate('/gospel')}
     onBelovedClick={() => navigate('/beloved')}
+    onOfflineClick={() => navigate('/offline')}
   />;
 }
 
@@ -53,6 +55,11 @@ function BelovedWrapper() {
   return <BelovedPage onBack={() => navigate(-1)} onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)} onSongPlay={() => navigate('/player')} />;
 }
 
+function OfflineWrapper() {
+  const navigate = useNavigate();
+  return <OfflinePage onBack={() => navigate(-1)} onSongPlay={() => navigate('/player')} />;
+}
+
 function SharedSongHandler() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -79,6 +86,7 @@ function App() {
         <Route path="/video" element={<VideoWrapper />} />
         <Route path="/gospel" element={<GospelWrapper />} />
         <Route path="/beloved" element={<BelovedWrapper />} />
+        <Route path="/offline" element={<OfflineWrapper />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,15 @@
+<!-- Add to the Props interface: -->
+  onOfflineClick: () => void;
+
+<!-- Add this section after Beloved section, before Featured Artists: -->
+
+        {/* Offline Library Section */}
+        <section style={{ marginBottom: '24px', padding: '20px 24px', background: 'rgba(124,58,237,0.05)', border: '1px solid rgba(124,58,237,0.1)', borderRadius: '16px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            <div>
+              <h2 style={{ fontSize: '18px', fontWeight: 700, color: '#f1f5f9' }}>💾 Offline Library</h2>
+              <p style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>Downloaded songs play without internet</p>
+            </div>
+            <button className="btn-primary" onClick={onOfflineClick} style={{ background: '#7c3aed', fontSize: '12px', padding: '8px 16px' }}>View Library →</button>
+          </div>
+        </section>

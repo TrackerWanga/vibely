@@ -1,11 +1,14 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge } from 'lucide-react';
+import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
 import { useMusicStore } from '../store/musicStore';
 
 interface Props { onBack: () => void; onVideoMode: () => void; }
 
+const MEGAN = 'https://apis.megan.qzz.io';
+const KEY = 'megan_admin_master';
+
 export default function PlayerPage({ onBack, onVideoMode }: Props) {
-  const { currentTrack, isPlaying, queue, queueIndex, togglePlay, nextTrack, prevTrack, toggleFavorite, favorites } = useMusicStore();
+  const { currentTrack, isPlaying, queue, queueIndex, togglePlay, nextTrack, prevTrack, toggleFavorite, favorites, autoplayEnabled, toggleAutoplay, setQueue } = useMusicStore();
   const [lyrics, setLyrics] = useState<any>(null);
   const [lyricLines, setLyricLines] = useState<Array<{ time: number; text: string }>>([]);
   const [currentLine, setCurrentLine] = useState(0);
@@ -19,15 +22,14 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const [downloaded, setDownloaded] = useState(false);
   const [shared, setShared] = useState(false);
   const [playbackRate, setPlaybackRate] = useState(1);
+  const [autoplayLoading, setAutoplayLoading] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const retryTimer = useRef<any>(null);
+  const hasAutoPlayed = useRef(false);
 
   const track = currentTrack;
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
-
-  const MEGAN = 'https://apis.megan.qzz.io';
-  const KEY = 'megan_admin_master';
 
   useEffect(() => {
     if (audioState === 'loading' || audioState === 'retrying') {
@@ -36,7 +38,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     }
   }, [audioState]);
 
-  useEffect(() => { if (track) loadAll(); return () => clearTimeout(retryTimer.current); }, [track]);
+  useEffect(() => { if (track) { hasAutoPlayed.current = false; loadAll(); } return () => clearTimeout(retryTimer.current); }, [track]);
   useEffect(() => {
     if (audioRef.current && audioUrl) {
       isPlaying ? audioRef.current.play().catch(() => {}) : audioRef.current.pause();
@@ -49,6 +51,11 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const loadAll = async () => {
     setAudioState('loading');
     setAudioUrl('');
+    setLyrics(null);
+    setLyricLines([]);
+    setCurrentLine(0);
+    setProgress(0);
+    setDuration(0);
     loadLyrics();
     fetchAudio();
   };
@@ -56,8 +63,15 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const loadLyrics = async () => {
     try {
       const q = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
-      const lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(q)}&apikey=${KEY}`);
-      const ld = await lr.json();
+      let lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(q)}&apikey=${KEY}`);
+      let ld = await lr.json();
+
+      // Fallback: try just the title if artist+title didn't work
+      if (!ld?.syncedLyrics && !ld?.lyrics && track?.artist && track?.title) {
+        lr = await fetch(`${MEGAN}/download/lyrics?q=${encodeURIComponent(track.title)}&apikey=${KEY}`);
+        ld = await lr.json();
+      }
+
       if (ld?.syncedLyrics) {
         const lines = ld.syncedLyrics.split('\n').map((line: string) => {
           const m = line.match(/\[(\d+):(\d+)\.(\d+)\]\s*(.*)/);
@@ -93,6 +107,41 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     retryTimer.current = setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 5000);
   };
 
+  const fetchAndQueueRelated = async () => {
+    if (!track?.videoId || hasAutoPlayed.current) return;
+    hasAutoPlayed.current = true;
+    setAutoplayLoading(true);
+    try {
+      const res = await fetch(`${MEGAN}/api/youtube/recommend?id=${track.videoId}&apikey=${KEY}`);
+      const data = await res.json();
+      if (data?.recommendations?.length) {
+        const related = data.recommendations
+          .filter((r: any) => r.videoId && r.durationSeconds > 30 && r.durationSeconds < 900)
+          .slice(0, 5)
+          .map((r: any) => ({
+            videoId: r.videoId,
+            title: r.title,
+            artist: r.author || '',
+            thumbnail: r.thumbnail || '',
+            duration: r.duration || '',
+          }));
+        if (related.length > 0) {
+          setQueue([...queue, ...related], queueIndex + 1);
+          nextTrack();
+        }
+      }
+    } catch (e) { console.error('Autoplay fetch failed:', e); }
+    setAutoplayLoading(false);
+  };
+
+  const handleEnded = () => {
+    if (queueIndex < queue.length - 1) {
+      nextTrack();
+    } else if (autoplayEnabled && track?.videoId) {
+      fetchAndQueueRelated();
+    }
+  };
+
   const skipForward = () => {
     if (audioRef.current) audioRef.current.currentTime = Math.min(audioRef.current.currentTime + 10, audioRef.current.duration || 0);
   };
@@ -105,18 +154,14 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     setPlaybackRate(speeds[(idx + 1) % speeds.length]);
   };
 
-  // DOWNLOAD - EXACT same method as search page (Megan API, no redirect)
   const handleDownload = async () => {
     if (!track?.videoId) return;
     setDownloading(true);
-    const videoId = track.videoId;
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
-    
     try {
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
       const dlUrl = data?.downloadUrl || data?.proxyUrl;
-      
       if (dlUrl) {
         const a = document.createElement('a');
         a.href = dlUrl;
@@ -125,9 +170,8 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        
         const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
-        saved.push({ videoId, title: track.title, downloadedAt: new Date().toISOString() });
+        saved.push({ videoId: track.videoId, title: track.title, downloadedAt: new Date().toISOString() });
         localStorage.setItem('vibely_downloads', JSON.stringify(saved));
         setDownloaded(true);
         setTimeout(() => setDownloaded(false), 3000);
@@ -156,12 +200,13 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
       if (idx !== -1) setCurrentLine(idx);
     }
   };
+
   const handleLoadedMetadata = () => { if (audioRef.current) { setDuration(audioRef.current.duration); setAudioState('playing'); setStatusMsg(''); } };
   const handleCanPlay = () => { setAudioState('playing'); setStatusMsg(''); };
   const handlePlaying = () => { setAudioState('playing'); setStatusMsg(''); };
   const handleWaiting = () => { setStatusMsg('Buffering...'); };
   const handleError = () => { setAudioState('retrying'); setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 3000); };
-  const handleEnded = () => nextTrack();
+
   const formatTime = (t: number) => { if (isNaN(t)) return '0:00'; const m = Math.floor(t/60), s = Math.floor(t%60); return `${m}:${s.toString().padStart(2,'0')}`; };
 
   const isLoading = audioState === 'loading' || audioState === 'retrying';
@@ -179,10 +224,16 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         <div style={{ flex: 1 }}><div style={{ fontSize: '12px', color: '#a78bfa' }}>Now Playing</div><div style={{ fontSize: '16px', fontWeight: 600 }}>{track.title?.substring(0, 50)}</div></div>
         <button onClick={onVideoMode} className="btn-glass"><Video size={16} /> Video</button>
       </div>
-      
+
       {statusMsg && (
         <div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(124,58,237,0.06)', color: '#a78bfa', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
           <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}{dots}
+        </div>
+      )}
+
+      {autoplayLoading && (
+        <div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(245,158,11,0.1)', color: '#f59e0b', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+          <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> Finding related songs...
         </div>
       )}
 
@@ -218,6 +269,9 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '14px', flexWrap: 'wrap' }}>
             <button onClick={cycleSpeed} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '11px' }}><Gauge size={12} /> {playbackRate}x</button>
             <button onClick={() => track && toggleFavorite(track)} className="btn-glass"><Heart size={12} fill={isFav ? '#f43f5e' : 'none'} color={isFav ? '#f43f5e' : '#94a3b8'} /></button>
+            <button onClick={toggleAutoplay} className="btn-glass" style={{ fontSize: '11px', background: autoplayEnabled ? 'rgba(245,158,11,0.15)' : 'transparent', borderColor: autoplayEnabled ? 'rgba(245,158,11,0.3)' : 'rgba(255,255,255,0.08)' }}>
+              <Infinity size={12} color={autoplayEnabled ? '#f59e0b' : '#64748b'} /> Autoplay
+            </button>
             <button onClick={handleDownload} className="btn-glass" style={{ fontSize: '11px' }}>
               {downloading ? <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> : downloaded ? <Check size={12} color="#10b981" /> : <Download size={12} />}
               {downloaded ? 'Done' : 'MP3'}
@@ -257,4 +311,5 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
     </div>
   );
 }
+
 const ctrlBtn: React.CSSProperties = { background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer', padding: '8px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' };

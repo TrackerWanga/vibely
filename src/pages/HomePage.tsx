@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Play, ChevronLeft, ChevronRight, Loader } from 'lucide-react';
+import { Play, ChevronLeft, ChevronRight, Loader, TrendingUp } from 'lucide-react';
 import { getHomepage, getArtists, type Artist, type Country, type Song } from '../services/api';
 import { useMusicStore } from '../store/musicStore';
 import Navbar from '../components/Navbar';
@@ -15,6 +15,8 @@ interface Props {
 }
 
 const COUNTRIES_PER_PAGE = 5;
+const MEGAN = 'https://apis.megan.qzz.io';
+const KEY = 'megan_admin_master';
 
 export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick, onBelovedClick }: Props) {
   const [data, setData] = useState<any>(null);
@@ -26,12 +28,14 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
   const [bannerIndex, setBannerIndex] = useState(0);
   const [bannerLoaded, setBannerLoaded] = useState(false);
   const [page, setPage] = useState(1);
+  const [trendingSongs, setTrendingSongs] = useState<any[]>([]);
+  const [trendingLoading, setTrendingLoading] = useState(true);
   const { setQueue } = useMusicStore();
   const bannerTimer = useRef<any>(null);
   const trendingRef = useRef<HTMLDivElement>(null);
   const loadMoreRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => { loadHomepage(); return () => clearInterval(bannerTimer.current); }, []);
+  useEffect(() => { loadHomepage(); loadTrending(); return () => clearInterval(bannerTimer.current); }, []);
   useEffect(() => { if (data?.countries) { setAllCountries(data.countries); loadMoreCountries(1, data.countries); } }, [data]);
   useEffect(() => {
     if (!data?.banner?.length) return;
@@ -53,6 +57,17 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
   const loadHomepage = async () => {
     try { const d = await getHomepage(); setData(d); } catch (e) {}
     setLoading(false);
+  };
+
+  const loadTrending = async () => {
+    try {
+      const res = await fetch(`${MEGAN}/api/music/trending?apikey=${KEY}`);
+      const d = await res.json();
+      if (d?.results) {
+        setTrendingSongs(d.results.filter((s: any) => s.videoId && s.durationSeconds > 30 && s.durationSeconds < 900).slice(0, 20));
+      }
+    } catch (e) { console.error('Trending load failed:', e); }
+    setTrendingLoading(false);
   };
 
   const loadMoreCountries = async (nextPage: number, countries: Country[]) => {
@@ -78,10 +93,10 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
   };
 
   const playSong = (song: any, allSongs?: any[]) => {
-    const trackList = [{ videoId: song.videoId, title: song.title, artist: song.artistName || '', thumbnail: song.thumbnail, duration: song.duration }];
+    const trackList = [{ videoId: song.videoId, title: song.title, artist: song.artistName || song.author || '', thumbnail: song.thumbnail, duration: song.duration }];
     if (allSongs && allSongs.length > 1) {
       allSongs.filter((s: any) => s.videoId !== song.videoId).slice(0, 19).forEach((s: any) => {
-        trackList.push({ videoId: s.videoId, title: s.title, artist: s.artistName || '', thumbnail: s.thumbnail, duration: s.duration });
+        trackList.push({ videoId: s.videoId, title: s.title, artist: s.artistName || s.author || '', thumbnail: s.thumbnail, duration: s.duration });
       });
     }
     setQueue(trackList, 0);
@@ -144,6 +159,33 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
       )}
 
       <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 24px' }}>
+
+        {/* Discover - Trending Music Grid */}
+        <section style={{ marginBottom: '40px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '16px' }}>
+            <TrendingUp size={20} color="#f59e0b" />
+            <h2 style={{ fontSize: '20px', fontWeight: 700, color: '#f1f5f9' }}>Discover</h2>
+            <span style={{ color: '#64748b', fontSize: '13px' }}>Trending now</span>
+          </div>
+          {trendingLoading ? (
+            <div className="skeleton" style={{ height: '200px', borderRadius: '12px' }} />
+          ) : (
+            <div className="scroll-row" ref={trendingRef}>
+              {trendingSongs.map((song: any, i: number) => (
+                <div key={i} className="glass-card" style={{ width: '200px', padding: '10px', flexShrink: 0 }}
+                  onClick={() => playSong({ videoId: song.videoId, title: song.title, artistName: song.author, thumbnail: song.thumbnail, duration: song.duration }, trendingSongs)}>
+                  <div style={{ position: 'relative' }}>
+                    <img src={song.thumbnail} alt="" style={{ width: '100%', aspectRatio: '16/9', objectFit: 'cover', borderRadius: '6px', marginBottom: '8px' }} loading="lazy" />
+                    <div style={{ position: 'absolute', bottom: '12px', right: '4px', background: 'rgba(0,0,0,0.7)', color: '#fff', fontSize: '10px', padding: '2px 6px', borderRadius: '4px' }}>{song.duration}</div>
+                  </div>
+                  <div style={{ fontWeight: 500, fontSize: '12px', color: '#f1f5f9', lineHeight: 1.3, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{song.title}</div>
+                  <div style={{ color: '#64748b', fontSize: '11px', marginTop: '4px', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{song.author}</div>
+                  <div style={{ color: '#475569', fontSize: '10px', marginTop: '2px' }}>{(song.views || 0).toLocaleString()} views</div>
+                </div>
+              ))}
+            </div>
+          )}
+        </section>
 
         {/* Gospel Section */}
         <section style={{ marginBottom: '24px', padding: '20px 24px', background: 'rgba(16,185,129,0.05)', border: '1px solid rgba(16,185,129,0.1)', borderRadius: '16px' }}>

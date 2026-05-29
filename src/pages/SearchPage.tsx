@@ -19,6 +19,9 @@ const QUICK_EXAMPLES = [
   { icon: '🇯🇲', text: 'Jamaica', query: 'Jamaica' },
 ];
 
+const MEGAN = 'https://apis.megan.qzz.io';
+const KEY = 'megan_admin_master';
+
 export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<any>(null);
@@ -34,16 +37,15 @@ export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
     if (!query.trim()) return;
     setLoading(true);
     setHasSearched(true);
-    
     const q = query.trim();
-    
-    // Check country
+
+    // Check country database
     setLoadingStage('Checking country database...');
     let countryData: any = null;
     try {
       const countryRes = await fetch('https://music-discovery-platform.vercel.app/api/countries');
       const countries = await countryRes.json();
-      const matched = countries?.countries?.find((c: any) => 
+      const matched = countries?.countries?.find((c: any) =>
         c.name.toLowerCase() === q.toLowerCase() || c.code.toLowerCase() === q.toLowerCase()
       );
       if (matched) {
@@ -62,24 +64,28 @@ export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
       localResults = localData?.local || [];
     } catch (e) {}
 
-    // Search YouTube via Siputzx
-    setLoadingStage('Searching YouTube...');
+    // Search YouTube via Megan (replaces Siputzx)
+    setLoadingStage('Searching YouTube via Megan...');
     let youtubeResults: any[] = [];
     try {
-      const ytRes = await fetch(`https://api.siputzx.my.id/api/s/youtube?query=${encodeURIComponent(q)}`);
+      const ytRes = await fetch(`${MEGAN}/api/search/youtube?q=${encodeURIComponent(q)}&apikey=${KEY}`);
       const ytData = await ytRes.json();
-      if (ytData?.data) {
-        youtubeResults = ytData.data
-          .filter((item: any) => item.type === 'video')
-          .slice(0, 10)
-          .map((item: any) => ({
-            videoId: item.videoId, title: item.title,
-            channelTitle: item.author?.name || '', duration: item.timestamp,
-            views: item.views, thumbnail: item.thumbnail, url: item.url,
-          }));
+      if (ytData?.results) {
+        youtubeResults = ytData.results.slice(0, 10).map((item: any) => ({
+          videoId: item.videoId,
+          title: item.title,
+          channelTitle: item.author || '',
+          duration: item.duration || '',
+          views: item.views || 0,
+          thumbnail: item.thumbnail || '',
+          url: item.url || '',
+        }));
       }
-    } catch (e) {}
+    } catch (e) {
+      console.error('Megan YouTube search failed:', e);
+    }
 
+    // Enrich local results
     setLoadingStage('Enriching results...');
     const enrichedLocal = await Promise.all(
       localResults.slice(0, 5).map(async (artist: any) => {
@@ -91,17 +97,7 @@ export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
       })
     );
 
-    const enrichedYouTube = await Promise.all(
-      youtubeResults.map(async (item: any) => {
-        try {
-          const res = await fetch(`https://music-discovery-platform.vercel.app/api/search?q=${encodeURIComponent(item.channelTitle)}`);
-          const d = await res.json();
-          return { ...item, inLibrary: !!d?.local?.[0], matchedArtist: d?.local?.[0] || null };
-        } catch { return { ...item, inLibrary: false }; }
-      })
-    );
-
-    setResults({ query: q, local: enrichedLocal, youtube: enrichedYouTube, country: countryData });
+    setResults({ query: q, local: enrichedLocal, youtube: youtubeResults, country: countryData });
     setLoading(false);
     setLoadingStage('');
   };
@@ -123,16 +119,12 @@ export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
     e.stopPropagation();
     const videoId = item.videoId || '';
     const title = (item.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
-    
     setDownloading(videoId);
-    
     try {
-      const res = await fetch(`https://apis.megan.qzz.io/download/audio?q=${encodeURIComponent(title)}&apikey=megan_admin_master`);
+      const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
       const data = await res.json();
       const dlUrl = data?.downloadUrl || data?.proxyUrl;
-      
       if (dlUrl) {
-        // Download via hidden anchor (no popup)
         const a = document.createElement('a');
         a.href = dlUrl;
         a.download = `${title}.mp3`;
@@ -140,21 +132,14 @@ export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        
         const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
         saved.push({ videoId, title, downloadedAt: new Date().toISOString() });
         localStorage.setItem('vibely_downloads', JSON.stringify(saved));
-        
         setDownloaded(videoId);
         setTimeout(() => setDownloaded(null), 3000);
       }
     } catch (err) {
-      // Fallback: open xwolf download page (hidden)
-      const iframe = document.createElement('iframe');
-      iframe.style.display = 'none';
-      iframe.src = `https://apis.xwolf.space/download/mp3?url=${encodeURIComponent(`https://www.youtube.com/watch?v=${videoId}`)}&q=${encodeURIComponent(title)}`;
-      document.body.appendChild(iframe);
-      setTimeout(() => document.body.removeChild(iframe), 5000);
+      console.error('Download failed:', err);
     }
     setDownloading(null);
   };
@@ -284,17 +269,17 @@ export default function SearchPage({ onSongPlay, onArtistSelect }: Props) {
             </section>
           )}
 
-          {/* YouTube Results */}
+          {/* YouTube Results via Megan */}
           {results.youtube?.length > 0 && (
             <section>
-              <h2 style={{ color: '#f1f5f9', fontSize: '18px', marginBottom: '16px' }}>▶ YouTube Results ({results.youtube.length})</h2>
+              <h2 style={{ color: '#f1f5f9', fontSize: '18px', marginBottom: '16px' }}>▶ YouTube Results ({results.youtube.length}) via Megan</h2>
               {results.youtube.map((item: any, i: number) => (
                 <div key={i} className="glass-card" style={{ padding: '12px 16px', marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '14px', cursor: 'pointer' }} onClick={() => playSong(item)}>
                   {item.thumbnail ? <img src={item.thumbnail} alt="" style={{ width: '80px', height: '60px', borderRadius: '6px' }} /> :
                     <div style={{ width: '80px', height: '60px', borderRadius: '6px', background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Music size={24} color="#a78bfa" /></div>}
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ color: '#f1f5f9', fontSize: '14px', fontWeight: 500 }}>{item.title}</div>
-                    <div style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>{item.channelTitle} • {item.views?.toLocaleString()} views • {item.duration}</div>
+                    <div style={{ color: '#64748b', fontSize: '12px', marginTop: '2px' }}>{item.channelTitle} • {(item.views || 0).toLocaleString()} views • {item.duration}</div>
                   </div>
                   <div style={{ display: 'flex', gap: '8px', flexShrink: 0 }}>
                     <button onClick={(e) => { e.stopPropagation(); playSong(item); }} style={{ width: '36px', height: '36px', borderRadius: '50%', background: '#7c3aed', border: 'none', color: '#fff', cursor: 'pointer' }}><Play size={14} /></button>

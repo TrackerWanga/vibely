@@ -16,6 +16,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
   }, [isOpen]);
 
   const handleNav = (path: string) => { navigate(path); onClose(); };
+
   const handleStorageRequest = async () => {
     const ok = await requestStoragePermission();
     if (!ok) openAppSettings();
@@ -46,6 +47,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
     { icon: <Heart size={18} />, label: 'Beloved', path: '/beloved' },
     { icon: <Video size={18} />, label: 'Video Player', path: '/video' },
     { icon: <HardDrive size={18} />, label: 'Offline Library', path: '/offline' },
+    { icon: <Star size={18} />, label: 'Reviews', path: '/reviews' },
     { icon: <BookOpen size={18} />, label: 'Docs & Help', path: '/docs' },
   ];
 
@@ -55,11 +57,13 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
     <>
       <div onClick={onClose} style={{ position: 'fixed', inset: 0, zIndex: 300, background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(4px)' }} />
       <div style={{ position: 'fixed', top: 0, right: 0, bottom: 0, width: '320px', maxWidth: '85vw', zIndex: 301, background: '#0a0a18', borderLeft: '1px solid rgba(255,255,255,0.06)', display: 'flex', flexDirection: 'column', overflow: 'auto' }}>
+        {/* Header */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 20px', borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
           <span style={{ fontWeight: 700, fontSize: '16px', color: '#f1f5f9' }}>Menu</span>
           <button onClick={onClose} style={{ background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer', padding: '4px' }}><X size={20} /></button>
         </div>
 
+        {/* Navigation */}
         <div style={{ padding: '8px' }}>
           {navItems.map((item) => (
             <button key={item.path} onClick={() => handleNav(item.path)} style={{
@@ -76,6 +80,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
 
         <div style={{ height: '1px', background: 'rgba(255,255,255,0.06)', margin: '8px 16px' }} />
 
+        {/* Storage Permission */}
         <div style={{ padding: '8px' }}>
           <button onClick={handleStorageRequest} style={{
             display: 'flex', alignItems: 'center', gap: '12px', width: '100%', padding: '12px 16px',
@@ -93,6 +98,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
 
         <div style={{ height: '1px', background: 'rgba(255,255,255,0.06)', margin: '8px 16px' }} />
 
+        {/* Rate & Share */}
         <div style={{ padding: '8px' }}>
           <button onClick={rateApp} style={{
             display: 'flex', alignItems: 'center', gap: '12px', width: '100%', padding: '12px 16px',
@@ -112,6 +118,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
 
         <div style={{ height: '1px', background: 'rgba(255,255,255,0.06)', margin: '8px 16px' }} />
 
+        {/* External Links */}
         <div style={{ padding: '8px' }}>
           <a href="https://music.megan.qzz.io" target="_blank" rel="noopener" style={{ display: 'flex', alignItems: 'center', gap: '12px', width: '100%', padding: '12px 16px', background: 'rgba(255,255,255,0.02)', border: 'none', borderRadius: '10px', color: '#94a3b8', fontSize: '13px', cursor: 'pointer', marginBottom: '2px', textDecoration: 'none' }}>
             <ExternalLink size={16} /> Visit music.megan.qzz.io
@@ -121,6 +128,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
           </a>
         </div>
 
+        {/* About Developer */}
         <div style={{ marginTop: 'auto', padding: '20px', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
           <div style={{ display: 'flex', gap: '14px', alignItems: 'center', marginBottom: '16px' }}>
             <img src="https://files.catbox.moe/r1rptl.png" alt="Tracker Wanga" style={{ width: '56px', height: '56px', borderRadius: '50%', objectFit: 'cover', border: '2px solid rgba(124,58,237,0.4)' }} />
@@ -139,11 +147,15 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
             <a href="https://wa.me/254758476795" target="_blank" rel="noopener" style={{ color: '#06b6d4', fontSize: '12px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}>
               <ExternalLink size={12} /> WhatsApp: +254 758 476 795
             </a>
+            <a href="https://github.com/TrackerWanga" target="_blank" rel="noopener" style={{ color: '#94a3b8', fontSize: '12px', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <ExternalLink size={12} /> GitHub: Tracker Wanga
+            </a>
           </div>
 
           <div style={{ color: '#475569', fontSize: '10px', lineHeight: 1.6, borderTop: '1px solid rgba(255,255,255,0.04)', paddingTop: '12px' }}>
             <p style={{ fontWeight: 600, color: '#64748b', marginBottom: '4px' }}>© 2026 Vibely by Tracker Wanga</p>
-            <p>All rights reserved.</p>
+            <p>Powered by Megan Music • Falcon Tech</p>
+            <p style={{ marginTop: '4px' }}>Version 2.1.0</p>
           </div>
         </div>
       </div>

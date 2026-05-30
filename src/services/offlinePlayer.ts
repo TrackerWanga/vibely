@@ -1,4 +1,3 @@
-// Dedicated offline player - completely separate from streaming
 import { showOfflineNotification, hideOfflineNotification } from './notifications';
 import { getPlayableUrl } from './offlineStorage';
 import { isNativeApp } from './platform';
@@ -23,42 +22,17 @@ export function playTrack(track: { videoId: string; title: string; artist: strin
   
   currentAudio = new Audio(url);
   currentAudio.play().catch(console.error);
-  
-  // Show notification with action buttons
-  showOfflineNotification({ title: track.title, artist: track.artist });
-  
-  currentAudio.onended = () => {
-    stopTrack();
-  };
-  
+  showOfflineNotification(track.title, track.artist);
+  currentAudio.onended = () => stopTrack();
   notify();
 }
 
 export function stopTrack() {
-  if (currentAudio) {
-    currentAudio.pause();
-    currentAudio.currentTime = 0;
-    currentAudio.src = '';
-    currentAudio = null;
-  }
+  if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; currentAudio.src = ''; currentAudio = null; }
   hideOfflineNotification();
   currentTrack = null;
   notify();
 }
 
-export function toggleTrack(track: { videoId: string; title: string; artist: string; filePath?: string }) {
-  if (currentTrack?.videoId === track.videoId) {
-    stopTrack();
-    return false;
-  }
-  playTrack(track);
-  return true;
-}
-
-export function getCurrentTrack() {
-  return currentTrack;
-}
-
-export function isTrackPlaying(videoId: string) {
-  return currentTrack?.videoId === videoId && currentAudio && !currentAudio.paused;
-}
+export function getCurrentTrack() { return currentTrack; }
+export function isTrackPlaying(videoId: string) { return currentTrack?.videoId === videoId && currentAudio && !currentAudio.paused; }

@@ -10,9 +10,9 @@ import VideoPage from './pages/VideoPage';
 import GospelPage from './pages/GospelPage';
 import BelovedPage from './pages/BelovedPage';
 import OfflinePage from './pages/OfflinePage';
+import PlayerBar from './components/PlayerBar';
 import { useMusicStore } from './store/musicStore';
 import { requestAllPermissions } from './services/permissions';
-
 import './styles/globals.css';
 
 function HomeWrapper() {
@@ -63,25 +63,26 @@ function SharedSongHandler() {
 }
 function AppShell() {
   const navigate = useNavigate();
-  useEffect(() => {
-    requestAllPermissions();
-
-  }, []);
+  useEffect(() => { requestAllPermissions(); }, []);
   useEffect(() => {
     CapApp.addListener('backButton', () => {
       window.location.pathname === '/' ? CapApp.minimizeApp() : navigate(-1);
     });
   }, [navigate]);
-  return (<><SharedSongHandler /><Routes>
-    <Route path="/" element={<HomeWrapper />} />
-    <Route path="/search" element={<SearchWrapper />} />
-    <Route path="/artist/:name" element={<ArtistWrapper />} />
-    <Route path="/player" element={<PlayerWrapper />} />
-    <Route path="/video" element={<VideoWrapper />} />
-    <Route path="/gospel" element={<GospelWrapper />} />
-    <Route path="/beloved" element={<BelovedWrapper />} />
-    <Route path="/offline" element={<OfflineWrapper />} />
-  </Routes></>);
+  return (<>
+    <SharedSongHandler />
+    <Routes>
+      <Route path="/" element={<HomeWrapper />} />
+      <Route path="/search" element={<SearchWrapper />} />
+      <Route path="/artist/:name" element={<ArtistWrapper />} />
+      <Route path="/player" element={<PlayerWrapper />} />
+      <Route path="/video" element={<VideoWrapper />} />
+      <Route path="/gospel" element={<GospelWrapper />} />
+      <Route path="/beloved" element={<BelovedWrapper />} />
+      <Route path="/offline" element={<OfflineWrapper />} />
+    </Routes>
+    <PlayerBar />
+  </>);
 }
 function App() {
   return <BrowserRouter><AppShell /></BrowserRouter>;

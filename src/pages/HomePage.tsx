@@ -4,7 +4,6 @@ import { getHomepage, getArtists, type Artist, type Country, type Song } from '.
 import { useMusicStore } from '../store/musicStore';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import PlayerBar from '../components/PlayerBar';
 
 interface Props {
   onSearch: () => void;
@@ -294,7 +293,6 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
       </div>
 
       <Footer />
-      <PlayerBar />
       <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
     </div>
   );

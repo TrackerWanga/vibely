@@ -12,6 +12,7 @@ import BelovedPage from './pages/BelovedPage';
 import OfflinePage from './pages/OfflinePage';
 import { useMusicStore } from './store/musicStore';
 import { requestAllPermissions } from './services/permissions';
+import { isNativeApp } from './services/platform';
 import './styles/globals.css';
 
 function HomeWrapper() {
@@ -79,14 +80,30 @@ function SharedSongHandler() {
 function AppShell() {
   const navigate = useNavigate();
 
-  // Request permissions on first launch
+  // Request ALL permissions on first launch
   useEffect(() => {
     const initPermissions = async () => {
-      const result = await requestAllPermissions();
-      console.log('Permissions:', result);
+      if (isNativeApp()) {
+        try {
+          // Force request storage permission immediately
+          const { Filesystem } = await import('@capacitor/filesystem');
+          const checkResult = await Filesystem.checkPermissions();
+          if (checkResult.publicStorage !== 'granted') {
+            await Filesystem.requestPermissions();
+          }
+          
+          // Request notification permission
+          const { LocalNotifications } = await import('@capacitor/local-notifications');
+          const notifCheck = await LocalNotifications.checkPermissions();
+          if (notifCheck.display !== 'granted') {
+            await LocalNotifications.requestPermissions();
+          }
+        } catch (e) {
+          console.error('Permission init error:', e);
+        }
+      }
     };
-    // Delay slightly to let the app render first
-    setTimeout(initPermissions, 1000);
+    setTimeout(initPermissions, 1500);
   }, []);
 
   // Handle Android back button

@@ -9,13 +9,12 @@ async function ensureChannel() {
   if (!isNativeApp() || channelCreated) return;
   
   try {
-    // Create notification channel (REQUIRED for action buttons on Android)
     await LocalNotifications.createChannel({
       id: 'vibely_playback',
       name: 'Now Playing',
       description: 'Shows currently playing track with playback controls',
-      importance: 4, // High - shows heads-up
-      visibility: 1, // Public - shows on lock screen
+      importance: 4,
+      visibility: 1,
       sound: undefined,
       vibration: false,
       lights: false,
@@ -81,6 +80,8 @@ export async function showNowPlaying(track: { title: string; artist: string }) {
         autoCancel: false,
         schedule: { at: new Date(Date.now() + 100) },
         actionTypeId: 'playback_controls',
+        smallIcon: 'ic_launcher',
+        iconColor: '#7c3aed',
       }]
     });
   } catch (e) {

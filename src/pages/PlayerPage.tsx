@@ -45,7 +45,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
 
   // Notification: update play/pause state
   useEffect(() => {
-    updateNowPlayingState(isPlaying);
+    updateNowPlayingState();
   }, [isPlaying]);
 
   // Web Media Session API

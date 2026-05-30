@@ -10,6 +10,7 @@ import VideoPage from './pages/VideoPage';
 import GospelPage from './pages/GospelPage';
 import BelovedPage from './pages/BelovedPage';
 import OfflinePage from './pages/OfflinePage';
+import DocsPage from './pages/DocsPage';
 import PlayerBar from './components/PlayerBar';
 import Sidebar from './components/Sidebar';
 import { SidebarProvider, useSidebar } from './context/SidebarContext';
@@ -70,6 +71,7 @@ function AppShell() {
         <Route path="/gospel" element={<GospelWrapper />} />
         <Route path="/beloved" element={<BelovedWrapper />} />
         <Route path="/offline" element={<OfflineWrapper />} />
+        <Route path="/docs" element={<DocsWrapper />} />
       </Routes>
       <PlayerBar />
       <Sidebar isOpen={sidebar.isOpen} onClose={() => sidebar.close()} />
@@ -104,6 +106,10 @@ function BelovedWrapper() {
   return <BelovedPage onBack={() => navigate(-1)} onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)} onSongPlay={() => navigate('/player')} />;
 }
 function OfflineWrapper() {
+function DocsWrapper() {
+  const navigate = useNavigate();
+  return <DocsPage onBack={() => navigate(-1)} />;
+}
   const navigate = useNavigate();
   const sidebar = useSidebar();
   return <OfflinePage onBack={() => navigate(-1)} onSongPlay={() => navigate('/player')} onMenuClick={() => sidebar.open()} />;

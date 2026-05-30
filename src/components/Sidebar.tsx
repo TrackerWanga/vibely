@@ -34,6 +34,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
     { icon: <Music size={18} />, label: 'Gospel', path: '/gospel' },
     { icon: <Heart size={18} />, label: 'Beloved', path: '/beloved' },
     { icon: <HardDrive size={18} />, label: 'Offline Library', path: '/offline' },
+    { icon: <Info size={18} />, label: 'Docs', path: '/docs' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -140,7 +141,7 @@ export default function Sidebar({ isOpen, onClose }: { isOpen: boolean; onClose:
         <div style={{ marginTop: 'auto', padding: '20px', borderTop: '1px solid rgba(255,255,255,0.06)' }}>
           <div style={{ display: 'flex', gap: '14px', alignItems: 'center', marginBottom: '16px' }}>
             <img 
-              src="/tracker.jpg" 
+              src="https://files.catbox.moe/r1rptl.png" 
               alt="Tracker Wanga"
               style={{ width: '56px', height: '56px', borderRadius: '50%', objectFit: 'cover', border: '2px solid rgba(124,58,237,0.4)' }}
             />

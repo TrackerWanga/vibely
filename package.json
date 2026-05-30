@@ -16,7 +16,6 @@
     "cap:build": "npm run build && npx cap sync && cd android && ./gradlew assembleDebug"
   },
   "dependencies": {
-    "@anuradev/capacitor-background-mode": "^5.0.0",
     "@capacitor/android": "^5.0.0",
     "@capacitor/app": "^5.0.0",
     "@capacitor/browser": "^5.0.0",

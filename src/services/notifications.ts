@@ -10,7 +10,7 @@ async function setupOnce() {
   try {
     await LocalNotifications.createChannel({
       id: 'vibely',
-      name: 'Now Playing',
+      name: 'Vibely Player',
       importance: 4,
       visibility: 1,
     });
@@ -21,33 +21,34 @@ async function setupOnce() {
       types: [{
         id: 'controls',
         actions: [
-          { id: 'prev', title: 'Previous' },
-          { id: 'play_pause', title: 'Play/Pause' },
-          { id: 'next', title: 'Next' },
+          { id: 'prev', title: 'Previous', foreground: true },
+          { id: 'play_pause', title: 'Play/Pause', foreground: true },
+          { id: 'next', title: 'Next', foreground: true },
           { id: 'close', title: 'Close', destructive: true }
         ]
       }]
     });
   } catch (e) {}
 
-  LocalNotifications.addListener('localNotificationActionPerformed', (n) => {
-    if (n.actionId === 'close') {
-      // Stop whatever is playing and cancel the notification that was tapped
-      const s = useMusicStore.getState();
-      if (s.isPlaying) s.togglePlay();
-      LocalNotifications.cancel({ notifications: [{ id: n.notification.id }] });
-      return;
+  LocalNotifications.addListener('localNotificationActionPerformed', (action) => {
+    const actionId = action.actionId;
+    const store = useMusicStore.getState();
+    
+    if (actionId === 'prev') store.prevTrack();
+    else if (actionId === 'play_pause') store.togglePlay();
+    else if (actionId === 'next') store.nextTrack();
+    else if (actionId === 'close') {
+      // Stop playback
+      if (store.isPlaying) store.togglePlay();
+      // Cancel all notifications
+      LocalNotifications.cancel({ notifications: [{ id: 1 }, { id: 2 }] });
     }
-    const s = useMusicStore.getState();
-    if (n.actionId === 'prev') s.prevTrack();
-    if (n.actionId === 'play_pause') s.togglePlay();
-    if (n.actionId === 'next') s.nextTrack();
   });
 
   setup = true;
 }
 
-// For streaming (PlayerPage) - uses ID 1
+// Notification ID 1: Streaming
 export async function showStreamingNotification(track: { title: string; artist: string }) {
   if (!isNativeApp()) return;
   await setupOnce();
@@ -57,7 +58,7 @@ export async function showStreamingNotification(track: { title: string; artist: 
       notifications: [{
         id: 1,
         title: track.title || 'Unknown',
-        body: `${track.artist || 'Unknown Artist'} — Streaming`,
+        body: `${track.artist || 'Unknown Artist'}`,
         channelId: 'vibely',
         ongoing: true,
         autoCancel: false,
@@ -68,7 +69,7 @@ export async function showStreamingNotification(track: { title: string; artist: 
   } catch (e) {}
 }
 
-// For offline playback - uses ID 2
+// Notification ID 2: Offline
 export async function showOfflineNotification(track: { title: string; artist: string }) {
   if (!isNativeApp()) return;
   await setupOnce();
@@ -78,7 +79,7 @@ export async function showOfflineNotification(track: { title: string; artist: st
       notifications: [{
         id: 2,
         title: track.title || 'Unknown',
-        body: `${track.artist || 'Unknown Artist'} — Offline`,
+        body: `${track.artist || 'Unknown Artist'}`,
         channelId: 'vibely',
         ongoing: true,
         autoCancel: false,
@@ -89,7 +90,6 @@ export async function showOfflineNotification(track: { title: string; artist: st
   } catch (e) {}
 }
 
-// Hide specific notification
 export function hideStreamingNotification() {
   if (!isNativeApp()) return;
   LocalNotifications.cancel({ notifications: [{ id: 1 }] }).catch(() => {});
@@ -100,15 +100,13 @@ export function hideOfflineNotification() {
   LocalNotifications.cancel({ notifications: [{ id: 2 }] }).catch(() => {});
 }
 
-// These keep backward compatibility
+// Backward compat
 export function showNowPlaying(track: { title: string; artist: string }) {
   showStreamingNotification(track);
 }
-
 export function hideNowPlaying() {
   hideStreamingNotification();
 }
-
 export async function updateNowPlayingState(_isPlaying: boolean) {
   const s = useMusicStore.getState();
   if (s.currentTrack) {

@@ -49,34 +49,29 @@ function SharedSongHandler() {
 function AppShell() {
   const navigate = useNavigate();
   const sidebar = useSidebar();
-
   useEffect(() => { requestAllPermissions(); }, []);
-  
   useEffect(() => {
     CapApp.addListener('backButton', () => {
       if (sidebar.isOpen) { sidebar.close(); return; }
       window.location.pathname === '/' ? CapApp.minimizeApp() : navigate(-1);
     });
   }, [navigate, sidebar]);
-
-  return (
-    <>
-      <SharedSongHandler />
-      <Routes>
-        <Route path="/" element={<HomeWrapper />} />
-        <Route path="/search" element={<SearchWrapper />} />
-        <Route path="/artist/:name" element={<ArtistWrapper />} />
-        <Route path="/player" element={<PlayerWrapper />} />
-        <Route path="/video" element={<VideoWrapper />} />
-        <Route path="/gospel" element={<GospelWrapper />} />
-        <Route path="/beloved" element={<BelovedWrapper />} />
-        <Route path="/offline" element={<OfflineWrapper />} />
-        <Route path="/docs" element={<DocsWrapper />} />
-      </Routes>
-      <PlayerBar />
-      <Sidebar isOpen={sidebar.isOpen} onClose={() => sidebar.close()} />
-    </>
-  );
+  return (<>
+    <SharedSongHandler />
+    <Routes>
+      <Route path="/" element={<HomeWrapper />} />
+      <Route path="/search" element={<SearchWrapper />} />
+      <Route path="/artist/:name" element={<ArtistWrapper />} />
+      <Route path="/player" element={<PlayerWrapper />} />
+      <Route path="/video" element={<VideoWrapper />} />
+      <Route path="/gospel" element={<GospelWrapper />} />
+      <Route path="/beloved" element={<BelovedWrapper />} />
+      <Route path="/offline" element={<OfflineWrapper />} />
+      <Route path="/docs" element={<DocsWrapper />} />
+    </Routes>
+    <PlayerBar />
+    <Sidebar isOpen={sidebar.isOpen} onClose={() => sidebar.close()} />
+  </>);
 }
 
 function SearchWrapper() {
@@ -106,23 +101,17 @@ function BelovedWrapper() {
   return <BelovedPage onBack={() => navigate(-1)} onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)} onSongPlay={() => navigate('/player')} />;
 }
 function OfflineWrapper() {
-function DocsWrapper() {
-  const navigate = useNavigate();
-  return <DocsPage onBack={() => navigate(-1)} />;
-}
   const navigate = useNavigate();
   const sidebar = useSidebar();
   return <OfflinePage onBack={() => navigate(-1)} onSongPlay={() => navigate('/player')} onMenuClick={() => sidebar.open()} />;
 }
+function DocsWrapper() {
+  const navigate = useNavigate();
+  return <DocsPage onBack={() => navigate(-1)} />;
+}
 
 function App() {
-  return (
-    <BrowserRouter>
-      <SidebarProvider>
-        <AppShell />
-      </SidebarProvider>
-    </BrowserRouter>
-  );
+  return <BrowserRouter><SidebarProvider><AppShell /></SidebarProvider></BrowserRouter>;
 }
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);

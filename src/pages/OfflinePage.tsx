@@ -21,18 +21,14 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   const checkAndLoad = async () => {
     setLoading(true);
     if (isNativeApp()) {
-      // Try multiple times to get permission
       let granted = await hasStoragePermission();
-      
       if (!granted) {
-        // Force request
         try {
           const { Filesystem } = await import('@capacitor/filesystem');
           const result = await Filesystem.requestPermissions();
           granted = result.publicStorage === 'granted';
         } catch (e) {}
       }
-
       if (granted) {
         setPermissionState('granted');
         await loadAllAudio();
@@ -81,15 +77,12 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
 
   const playTrack = (track: DownloadedTrack) => {
     const trackId = track.videoId;
-    if (stopIfPlaying(trackId)) {
-      setPlayingTrackId(null);
-      return;
-    }
+    if (stopIfPlaying(trackId)) { setPlayingTrackId(null); return; }
     stopAll();
     
     if (track.source === 'device' && track.filePath && isNativeApp()) {
       const url = getPlayableUrl(track.filePath);
-      const audio = playAudio(url, trackId);
+      const audio = playAudio(url, trackId, { title: track.title, artist: track.artist });
       setPlayingTrackId(trackId);
       audio.onended = () => setPlayingTrackId(null);
       audio.onerror = () => setPlayingTrackId(null);
@@ -137,14 +130,14 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
           <Shield size={64} color="#f59e0b" style={{ marginBottom: '16px' }} />
           <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Storage Access Required</div>
           <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '24px' }}>
-            Vibely needs access to your audio files. Your files stay on your device.
+            Vibely needs access to your audio files to play them offline.
           </p>
           <button onClick={requestStorageAccess} className="btn-primary" style={{ padding: '14px 32px', fontSize: '16px', marginBottom: '12px' }}>
             <Shield size={18} /> Request Permission
           </button>
           <br />
           <button onClick={openAppSettings} className="btn-primary" style={{ background: '#64748b', padding: '10px 20px', fontSize: '13px' }}>
-            ⚙ Open App Settings → Permissions → Music & audio
+            ⚙ Open App Settings
           </button>
           <br />
           <button onClick={loadAllAudio} className="btn-glass" style={{ marginTop: '12px' }}>

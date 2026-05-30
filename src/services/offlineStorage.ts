@@ -15,10 +15,8 @@ export interface DownloadedTrack {
   source: 'vibely' | 'device';
 }
 
-// Convert file:// URI to a URL playable in WebView
 export function getPlayableUrl(filePath: string): string {
   if (isNativeApp() && filePath) {
-    // Use Capacitor's file src converter for native playback
     return Capacitor.convertFileSrc(filePath);
   }
   return filePath;
@@ -27,11 +25,7 @@ export function getPlayableUrl(filePath: string): string {
 export async function saveDownloadRecord(track: Omit<DownloadedTrack, 'downloadedAt' | 'source'>): Promise<void> {
   const downloads = await getVibelyDownloads();
   if (!downloads.find(d => d.videoId === track.videoId)) {
-    downloads.push({
-      ...track,
-      downloadedAt: new Date().toISOString(),
-      source: 'vibely'
-    });
+    downloads.push({ ...track, downloadedAt: new Date().toISOString(), source: 'vibely' });
     await Preferences.set({ key: 'vibely_downloads', value: JSON.stringify(downloads) });
   }
 }
@@ -43,7 +37,7 @@ export async function getVibelyDownloads(): Promise<DownloadedTrack[]> {
 
 export async function scanDeviceAudio(): Promise<DownloadedTrack[]> {
   const audioFiles: DownloadedTrack[] = [];
-  const audioExtensions = ['.mp3', '.m4a', '.aac', '.ogg', '.wav', '.flac', '.wma', '.opus', '.m4p', '.3gp'];
+  const audioExtensions = ['.mp3', '.m4a', '.aac', '.ogg', '.wav', '.flac', '.wma', '.opus', '.m4p', '.3gp', '.mid', '.xmf', '.mxmf', '.rtttl', '.rtx', '.ota', '.imy'];
 
   if (!isNativeApp()) {
     const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
@@ -54,6 +48,7 @@ export async function scanDeviceAudio(): Promise<DownloadedTrack[]> {
     try {
       const result = await Filesystem.readdir({ path: dirPath, directory: dir });
       for (const file of result.files) {
+        if (file.type === 'directory') continue;
         const name = file.name.toLowerCase();
         const ext = name.substring(name.lastIndexOf('.'));
         if (audioExtensions.includes(ext)) {
@@ -80,15 +75,37 @@ export async function scanDeviceAudio(): Promise<DownloadedTrack[]> {
     } catch (e) {}
   }
 
+  // Try multiple directories and fallbacks for different Android versions
   await scanDir('Download/Vibely');
   await scanDir('Download');
   await scanDir('Music');
+  await scanDir('Audio');
+  await scanDir('Downloads');
 
+  // Try Documents directory (works on some devices)
+  try {
+    await scanDir('', Directory.Documents);
+  } catch (e) {}
+
+  // Try Data directory
+  try {
+    await scanDir('', Directory.Data);
+  } catch (e) {}
+
+  // Try External (app-specific external)
+  try {
+    await scanDir('', Directory.External);
+  } catch (e) {}
+
+  // Scan root external storage for any audio
   try {
     const root = await Filesystem.readdir({ path: '', directory: Directory.ExternalStorage });
     for (const file of root.files) {
-      if (file.type === 'directory' && ['download', 'downloads', 'music', 'audio'].includes(file.name.toLowerCase())) {
-        await scanDir(file.name);
+      if (file.type === 'directory') {
+        const dirName = file.name.toLowerCase();
+        if (['download', 'downloads', 'music', 'audio', 'media', 'ringtones', 'notifications', 'alarms', 'podcasts'].includes(dirName)) {
+          await scanDir(file.name);
+        }
       }
     }
   } catch (e) {}

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { App as CapApp } from '@capacitor/app';
@@ -11,14 +11,76 @@ import GospelPage from './pages/GospelPage';
 import BelovedPage from './pages/BelovedPage';
 import OfflinePage from './pages/OfflinePage';
 import PlayerBar from './components/PlayerBar';
+import Sidebar from './components/Sidebar';
 import { useMusicStore } from './store/musicStore';
 import { requestAllPermissions } from './services/permissions';
 import './styles/globals.css';
 
 function HomeWrapper() {
   const navigate = useNavigate();
-  return <HomePage onSearch={() => navigate('/search')} onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)} onSongPlay={() => navigate('/player')} onGospelClick={() => navigate('/gospel')} onBelovedClick={() => navigate('/beloved')} onOfflineClick={() => navigate('/offline')} />;
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  return (
+    <>
+      <HomePage 
+        onSearch={() => navigate('/search')} 
+        onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)} 
+        onSongPlay={() => navigate('/player')} 
+        onGospelClick={() => navigate('/gospel')} 
+        onBelovedClick={() => navigate('/beloved')} 
+        onOfflineClick={() => navigate('/offline')} 
+        onMenuClick={() => setSidebarOpen(true)}
+      />
+      <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+    </>
+  );
 }
+
+function AppShell() {
+  const navigate = useNavigate();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  useEffect(() => { requestAllPermissions(); }, []);
+  
+  useEffect(() => {
+    CapApp.addListener('backButton', () => {
+      if (sidebarOpen) { setSidebarOpen(false); return; }
+      window.location.pathname === '/' ? CapApp.minimizeApp() : navigate(-1);
+    });
+  }, [navigate, sidebarOpen]);
+
+  return (
+    <>
+      <SharedSongHandler />
+      <Routes>
+        <Route path="/" element={<HomeWrapper />} />
+        <Route path="/search" element={<SearchWrapper />} />
+        <Route path="/artist/:name" element={<ArtistWrapper />} />
+        <Route path="/player" element={<PlayerWrapper />} />
+        <Route path="/video" element={<VideoWrapper />} />
+        <Route path="/gospel" element={<GospelWrapper />} />
+        <Route path="/beloved" element={<BelovedWrapper />} />
+        <Route path="/offline" element={<OfflineWrapper />} />
+      </Routes>
+      <PlayerBar />
+      <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
+    </>
+  );
+}
+
+function SharedSongHandler() {
+  const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const setQueue = useMusicStore(s => s.setQueue);
+  useEffect(() => {
+    const songId = searchParams.get('song');
+    if (songId) {
+      setQueue([{ videoId: songId, title: searchParams.get('title') || 'Shared Song', artist: '', thumbnail: `https://i.ytimg.com/vi/${songId}/hqdefault.jpg`, duration: '' }], 0);
+      navigate('/player', { replace: true });
+    }
+  }, []);
+  return null;
+}
+
 function SearchWrapper() {
   const navigate = useNavigate();
   return <SearchPage onSongPlay={() => navigate('/player')} onArtistSelect={(name) => navigate(`/artist/${encodeURIComponent(name)}`)} />;
@@ -48,43 +110,9 @@ function OfflineWrapper() {
   const navigate = useNavigate();
   return <OfflinePage onBack={() => navigate(-1)} onSongPlay={() => navigate('/player')} />;
 }
-function SharedSongHandler() {
-  const [searchParams] = useSearchParams();
-  const navigate = useNavigate();
-  const setQueue = useMusicStore(s => s.setQueue);
-  useEffect(() => {
-    const songId = searchParams.get('song');
-    if (songId) {
-      setQueue([{ videoId: songId, title: searchParams.get('title') || 'Shared Song', artist: '', thumbnail: `https://i.ytimg.com/vi/${songId}/hqdefault.jpg`, duration: '' }], 0);
-      navigate('/player', { replace: true });
-    }
-  }, []);
-  return null;
-}
-function AppShell() {
-  const navigate = useNavigate();
-  useEffect(() => { requestAllPermissions(); }, []);
-  useEffect(() => {
-    CapApp.addListener('backButton', () => {
-      window.location.pathname === '/' ? CapApp.minimizeApp() : navigate(-1);
-    });
-  }, [navigate]);
-  return (<>
-    <SharedSongHandler />
-    <Routes>
-      <Route path="/" element={<HomeWrapper />} />
-      <Route path="/search" element={<SearchWrapper />} />
-      <Route path="/artist/:name" element={<ArtistWrapper />} />
-      <Route path="/player" element={<PlayerWrapper />} />
-      <Route path="/video" element={<VideoWrapper />} />
-      <Route path="/gospel" element={<GospelWrapper />} />
-      <Route path="/beloved" element={<BelovedWrapper />} />
-      <Route path="/offline" element={<OfflineWrapper />} />
-    </Routes>
-    <PlayerBar />
-  </>);
-}
+
 function App() {
   return <BrowserRouter><AppShell /></BrowserRouter>;
 }
+
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App /></React.StrictMode>);

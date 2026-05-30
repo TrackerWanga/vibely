@@ -12,13 +12,14 @@ interface Props {
   onGospelClick: () => void;
   onBelovedClick: () => void;
   onOfflineClick: () => void;
+  onMenuClick: () => void;
 }
 
 const COUNTRIES_PER_PAGE = 5;
 const MEGAN = 'https://apis.megan.qzz.io';
 const KEY = 'megan_admin_master';
 
-export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick, onBelovedClick, onOfflineClick }: Props) {
+export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospelClick, onBelovedClick, onOfflineClick, onMenuClick }: Props) {
   const [data, setData] = useState<any>(null);
   const [allCountries, setAllCountries] = useState<Country[]>([]);
   const [visibleCountries, setVisibleCountries] = useState<Country[]>([]);
@@ -129,7 +130,7 @@ export default function HomePage({ onSearch, onArtistSelect, onSongPlay, onGospe
 
   return (
     <div style={{ background: '#06060e', minHeight: '100vh' }}>
-      <Navbar onSearchClick={onSearch} />
+      <Navbar onSearchClick={onSearch} onMenuClick={onMenuClick} />
 
       {/* Hero Banner */}
       {currentBanner && (

@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Play, Pause, Trash2, Music, HardDrive, FolderSearch, Shield, RefreshCw, Settings, Info } from 'lucide-react';
+import { ArrowLeft, Play, Pause, Trash2, Music, HardDrive, FolderSearch, Shield, RefreshCw, Settings, Info } from 'lucide-react'
+import { Menu } from 'lucide-react';
 import { getAllAudio, getStorageUsed, deleteDownload, getPlayableUrl, type DownloadedTrack } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 import { hasStoragePermission, requestStoragePermission, openAppSettings } from '../services/permissions';
 import { play, stop, toggle, isPlaying, currentId } from '../services/audioManager';
 import { useMusicStore } from '../store/musicStore';
 
-interface Props { onBack: () => void; onSongPlay: () => void; }
+interface Props { onBack: () => void; onSongPlay: () => void; onMenuClick: () => void; }
 
-export default function OfflinePage({ onBack, onSongPlay }: Props) {
+export default function OfflinePage({ onBack, onSongPlay, onMenuClick }: Props) {
   const [tracks, setTracks] = useState<DownloadedTrack[]>([]);
   const [storageUsed, setStorageUsed] = useState('');
   const [loading, setLoading] = useState(true);
@@ -113,6 +114,7 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
         <button onClick={load} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 12, marginRight: 8 }}>
           <RefreshCw size={14} /> Refresh
         </button>
+        <button onClick={onMenuClick} style={{ background: "none", border: "none", color: "#94a3b8", cursor: "pointer", padding: "8px" }}><Menu size={20} /></button>
         <div style={{ position: 'relative' }}>
           <button onClick={() => setShowMenu(!showMenu)} className="btn-glass" style={{ padding: '8px 10px', fontSize: 20, lineHeight: 0 }}>
             ⋮

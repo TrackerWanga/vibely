@@ -12,7 +12,7 @@ import BelovedPage from './pages/BelovedPage';
 import OfflinePage from './pages/OfflinePage';
 import { useMusicStore } from './store/musicStore';
 import { requestAllPermissions } from './services/permissions';
-import { registerPlaybackActions } from './services/notifications';
+
 import './styles/globals.css';
 
 function HomeWrapper() {
@@ -65,7 +65,7 @@ function AppShell() {
   const navigate = useNavigate();
   useEffect(() => {
     requestAllPermissions();
-    registerPlaybackActions();
+
   }, []);
   useEffect(() => {
     CapApp.addListener('backButton', () => {

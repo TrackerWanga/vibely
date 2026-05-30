@@ -65,6 +65,7 @@ async function send(id: number, title: string, artist: string) {
         channelId: 'vibely',
         ongoing: true,
         autoCancel: false,
+        smallIcon: 'ic_notification',
         schedule: { at: new Date(Date.now() + 200) },
         actionTypeId: 'playback',
         smallIcon: 'ic_notification',

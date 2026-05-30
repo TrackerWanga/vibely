@@ -37,6 +37,7 @@ jobs:
     - name: Download app icon
       run: |
         mkdir -p resources
+        sudo apt-get install -y imagemagick
         curl -L --connect-timeout 30 -o resources/icon.png "https://files.catbox.moe/d81vkj.png" || \
         convert -size 1024x1024 xc:'#7c3aed' -fill white -gravity center -pointsize 400 -annotate 0 'V' resources/icon.png
         cp resources/icon.png resources/icon-foreground.png
@@ -58,7 +59,23 @@ jobs:
     - name: Generate App Icons via capacitor-assets
       run: |
         npx capacitor-assets generate --android --iconBackgroundColor '#06060e' --splashBackgroundColor '#06060e' 2>/dev/null
-        echo "Icons generated"
+        echo "Launcher icons generated"
+
+    - name: Generate Notification Icon
+      run: |
+        mkdir -p android/app/src/main/res/drawable
+        mkdir -p android/app/src/main/res/drawable-mdpi
+        mkdir -p android/app/src/main/res/drawable-hdpi
+        mkdir -p android/app/src/main/res/drawable-xhdpi
+        mkdir -p android/app/src/main/res/drawable-xxhdpi
+        mkdir -p android/app/src/main/res/drawable-xxxhdpi
+        convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable/ic_notification.png
+        convert resources/icon.png -resize 24x24 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-mdpi/ic_notification.png
+        convert resources/icon.png -resize 36x36 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-hdpi/ic_notification.png
+        convert resources/icon.png -resize 48x48 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xhdpi/ic_notification.png
+        convert resources/icon.png -resize 72x72 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xxhdpi/ic_notification.png
+        convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xxxhdpi/ic_notification.png
+        echo "Notification icons generated"
 
     - name: Write capacitor.config.json
       run: |

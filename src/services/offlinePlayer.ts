@@ -15,23 +15,28 @@ function notify() { listeners.forEach(cb => cb()); }
 
 export function playTrack(track: { videoId: string; title: string; artist: string; filePath?: string }) {
   stopTrack();
+  if (!track.filePath || !isNativeApp()) return;
   currentTrack = track;
-  
-  const url = track.filePath && isNativeApp() ? getPlayableUrl(track.filePath) : '';
-  if (!url) return;
-  
+  const url = getPlayableUrl(track.filePath);
   currentAudio = new Audio(url);
   currentAudio.play().catch(console.error);
   showOfflineNotification(track.title, track.artist);
   currentAudio.onended = () => stopTrack();
+  currentAudio.onerror = () => stopTrack();
   notify();
 }
 
 export function stopTrack() {
-  if (currentAudio) { currentAudio.pause(); currentAudio.currentTime = 0; currentAudio.src = ''; currentAudio = null; }
+  if (currentAudio) { currentAudio.pause(); currentAudio.src = ''; currentAudio = null; }
   hideOfflineNotification();
   currentTrack = null;
   notify();
+}
+
+export function toggleTrack(track: { videoId: string; title: string; artist: string; filePath?: string }) {
+  if (currentTrack?.videoId === track.videoId) { stopTrack(); return false; }
+  playTrack(track);
+  return true;
 }
 
 export function getCurrentTrack() { return currentTrack; }

@@ -1,7 +1,6 @@
 import { isNativeApp } from './platform';
 import { useMusicStore } from '../store/musicStore';
 
-// Try to use native music controls, fallback to Media Session API
 let controlsAvailable = false;
 
 export async function createMusicControls(track: {
@@ -11,7 +10,6 @@ export async function createMusicControls(track: {
   isPlaying?: boolean;
 }) {
   if (!isNativeApp()) {
-    // Web: use Media Session API
     if ('mediaSession' in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: track.title || 'Unknown',
@@ -22,10 +20,9 @@ export async function createMusicControls(track: {
     return;
   }
 
-  // Native: try capacitor-music-controls, catch errors
   try {
     const { CapacitorMusicControls } = await import('capacitor-music-controls-plugin');
-    await CapacitorMusicControls.create({
+    CapacitorMusicControls.create({
       track: track.title || 'Unknown',
       artist: track.artist || 'Unknown Artist',
       cover: track.thumbnail || '',
@@ -38,7 +35,7 @@ export async function createMusicControls(track: {
     });
     controlsAvailable = true;
   } catch (e) {
-    console.log('Music controls not available, using media session');
+    console.log('Music controls not available');
     controlsAvailable = false;
   }
 }
@@ -47,7 +44,7 @@ export async function updateMusicControlsPlaying(isPlaying: boolean) {
   if (!isNativeApp() || !controlsAvailable) return;
   try {
     const { CapacitorMusicControls } = await import('capacitor-music-controls-plugin');
-    await CapacitorMusicControls.updateIsPlaying({ isPlaying });
+    CapacitorMusicControls.updateIsPlaying({ isPlaying });
   } catch (e) {}
 }
 
@@ -55,25 +52,20 @@ export function setupMusicControlListeners() {
   if (!isNativeApp()) return;
 
   try {
-    const { CapacitorMusicControls } = await import('capacitor-music-controls-plugin');
-    
-    CapacitorMusicControls.addListener('controlsNotification', (info: any) => {
-      handleControlEvent(info?.message || info);
-    });
+    import('capacitor-music-controls-plugin').then(({ CapacitorMusicControls }) => {
+      CapacitorMusicControls.addListener('controlsNotification', (info: any) => {
+        handleControlEvent(info?.message || info);
+      });
+    }).catch(() => {});
     
     document.addEventListener('controlsNotification', (event: any) => {
       const message = event?.message || event?.detail?.message;
       if (message) handleControlEvent(message);
     });
-    
-    controlsAvailable = true;
-  } catch (e) {
-    controlsAvailable = false;
-  }
+  } catch (e) {}
 }
 
 export function destroyMusicControls() {
-  if (!isNativeApp() || !controlsAvailable) return;
   controlsAvailable = false;
 }
 

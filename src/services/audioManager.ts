@@ -1,16 +1,37 @@
-// Centralized audio manager - ensures only ONE audio plays at a time
+import { showNowPlaying, hideNowPlaying } from './notifications';
+
 let currentAudio: HTMLAudioElement | null = null;
 let currentTrackId: string | null = null;
+let currentTrackInfo: { title: string; artist: string } | null = null;
 
-export function playAudio(url: string, trackId: string): HTMLAudioElement {
-  // Stop any currently playing audio
+export function playAudio(url: string, trackId: string, trackInfo?: { title: string; artist: string }): HTMLAudioElement {
   stopAll();
   
   const audio = new Audio(url);
   currentAudio = audio;
   currentTrackId = trackId;
+  currentTrackInfo = trackInfo || null;
   
   audio.play().catch(e => console.error('Audio play failed:', e));
+  
+  // Show notification for offline playback
+  if (trackInfo) {
+    showNowPlaying({ title: trackInfo.title, artist: trackInfo.artist });
+  }
+  
+  // Hide notification when audio ends
+  audio.onended = () => {
+    hideNowPlaying();
+    currentAudio = null;
+    currentTrackId = null;
+  };
+  
+  audio.onerror = () => {
+    hideNowPlaying();
+    currentAudio = null;
+    currentTrackId = null;
+  };
+  
   return audio;
 }
 
@@ -21,7 +42,9 @@ export function stopAll(): void {
     currentAudio.src = '';
     currentAudio = null;
     currentTrackId = null;
+    currentTrackInfo = null;
   }
+  hideNowPlaying();
 }
 
 export function stopIfPlaying(trackId: string): boolean {

@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
 import { Browser } from '@capacitor/browser';
 import { useMusicStore } from '../store/musicStore';
-import { showNowPlaying, hideNowPlaying } from '../services/notifications';
+import { showNowPlaying, hideNowPlaying, updateNowPlayingState } from '../services/notifications';
 import { saveDownloadRecord } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 
@@ -35,15 +35,20 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
 
-  // Show/hide notification when track changes
+  // Notification: show when track changes
   useEffect(() => {
     if (track) {
       showNowPlaying({ title: track.title || 'Unknown', artist: track.artist || 'Unknown Artist' });
     }
     return () => { hideNowPlaying(); };
-  }, [track]);
+  }, [track?.videoId]);
 
-  // Web Media Session API (works in Chrome Android)
+  // Notification: update play/pause state
+  useEffect(() => {
+    updateNowPlayingState(isPlaying);
+  }, [isPlaying]);
+
+  // Web Media Session API
   useEffect(() => {
     if (track && 'mediaSession' in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({
@@ -51,10 +56,10 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         artist: track.artist || 'Unknown Artist',
         artwork: track.thumbnail ? [{ src: track.thumbnail, sizes: '480x360', type: 'image/jpg' }] : []
       });
-      navigator.mediaSession.setActionHandler('play', () => togglePlay());
-      navigator.mediaSession.setActionHandler('pause', () => togglePlay());
-      navigator.mediaSession.setActionHandler('previoustrack', () => prevTrack());
-      navigator.mediaSession.setActionHandler('nexttrack', () => nextTrack());
+      navigator.mediaSession.setActionHandler('play', () => useMusicStore.getState().togglePlay());
+      navigator.mediaSession.setActionHandler('pause', () => useMusicStore.getState().togglePlay());
+      navigator.mediaSession.setActionHandler('previoustrack', () => useMusicStore.getState().prevTrack());
+      navigator.mediaSession.setActionHandler('nexttrack', () => useMusicStore.getState().nextTrack());
     }
   }, [track]);
 
@@ -240,18 +245,8 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         <div style={{ flex: 1 }}><div style={{ fontSize: '12px', color: '#a78bfa' }}>Now Playing</div><div style={{ fontSize: '16px', fontWeight: 600 }}>{track.title?.substring(0, 50)}</div></div>
         <button onClick={onVideoMode} className="btn-glass"><Video size={16} /> Video</button>
       </div>
-
-      {statusMsg && (
-        <div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(124,58,237,0.06)', color: '#a78bfa', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-          <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}{dots}
-        </div>
-      )}
-      {autoplayLoading && (
-        <div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(245,158,11,0.1)', color: '#f59e0b', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-          <Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> Finding related songs...
-        </div>
-      )}
-
+      {statusMsg && (<div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(124,58,237,0.06)', color: '#a78bfa', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}><Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}{dots}</div>)}
+      {autoplayLoading && (<div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(245,158,11,0.1)', color: '#f59e0b', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}><Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> Finding related songs...</div>)}
       <div style={{ display: 'flex', padding: '0 24px', gap: '24px', flexWrap: 'wrap' }}>
         <div style={{ flex: '0 0 380px', minWidth: '300px' }}>
           <div style={{ width: '100%', aspectRatio: '1', borderRadius: '16px', background: 'linear-gradient(135deg, #1a1a2e, #16213e)', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: '20px', overflow: 'hidden', position: 'relative' }}>

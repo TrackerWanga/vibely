@@ -1,56 +1,30 @@
 import { showOfflineNotification, hideOfflineNotification } from './notifications';
 
-let currentAudio: HTMLAudioElement | null = null;
-let currentTrackId: string | null = null;
+let audio: HTMLAudioElement | null = null;
+let id: string | null = null;
 
-export function playAudio(url: string, trackId: string, trackInfo?: { title: string; artist: string }): HTMLAudioElement {
-  stopAll();
-  
-  const audio = new Audio(url);
-  currentAudio = audio;
-  currentTrackId = trackId;
-  
-  // Show OFFLINE notification (ID 2)
-  if (trackInfo) {
-    showOfflineNotification({ title: trackInfo.title, artist: trackInfo.artist });
-  }
-  
-  audio.play().catch(e => console.error('Audio play failed:', e));
-  
-  audio.onended = () => {
-    hideOfflineNotification();
-    currentAudio = null;
-    currentTrackId = null;
-  };
-  
-  audio.onerror = () => {
-    hideOfflineNotification();
-    currentAudio = null;
-    currentTrackId = null;
-  };
-  
+export function play(url: string, trackId: string, info?: { title: string; artist: string }) {
+  stop();
+  audio = new Audio(url);
+  id = trackId;
+  audio.play().catch(()=>{});
+  if (info) showOfflineNotification(info.title, info.artist);
+  audio.onended = () => stop();
+  audio.onerror = () => stop();
   return audio;
 }
 
-export function stopAll(): void {
-  if (currentAudio) {
-    currentAudio.pause();
-    currentAudio.currentTime = 0;
-    currentAudio.src = '';
-    currentAudio = null;
-    currentTrackId = null;
-  }
+export function stop() {
+  if (audio) { audio.pause(); audio.src = ''; audio = null; }
   hideOfflineNotification();
+  id = null;
 }
 
-export function stopIfPlaying(trackId: string): boolean {
-  if (currentTrackId === trackId && currentAudio) {
-    stopAll();
-    return true;
-  }
-  return false;
+export function toggle(url: string, trackId: string, info?: { title: string; artist: string }) {
+  if (id === trackId) { stop(); return false; }
+  play(url, trackId, info);
+  return true;
 }
 
-export function getCurrentTrackId(): string | null {
-  return currentTrackId;
-}
+export function isPlaying(trackId: string) { return id === trackId && audio && !audio.paused; }
+export function currentId() { return id; }

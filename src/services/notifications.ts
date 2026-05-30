@@ -2,114 +2,91 @@ import { LocalNotifications } from '@capacitor/local-notifications';
 import { isNativeApp } from './platform';
 import { useMusicStore } from '../store/musicStore';
 
-let setup = false;
+let ready = false;
 
-async function setupOnce() {
-  if (!isNativeApp() || setup) return;
-  
+async function init() {
+  if (!isNativeApp() || ready) return;
   try {
     await LocalNotifications.createChannel({
       id: 'vibely',
-      name: 'Vibely Player',
+      name: 'Vibely',
       importance: 4,
       visibility: 1,
     });
-  } catch (e) {}
+  } catch(e){}
+  
+  LocalNotifications.addListener('localNotificationActionPerformed', (action) => {
+    const s = useMusicStore.getState();
+    switch(action.actionId) {
+      case 'prev': s.prevTrack(); break;
+      case 'play_pause': s.togglePlay(); break;
+      case 'next': s.nextTrack(); break;
+      case 'close': s.isPlaying && s.togglePlay(); break;
+    }
+  });
+  
+  ready = true;
+}
 
+async function send(id: number, title: string, artist: string) {
+  if (!isNativeApp()) return;
+  await init();
+  try {
+    await LocalNotifications.cancel({ notifications: [{ id }] });
+    await LocalNotifications.schedule({
+      notifications: [{
+        id,
+        title,
+        body: artist,
+        channelId: 'vibely',
+        ongoing: true,
+        autoCancel: false,
+        schedule: { at: new Date(Date.now() + 100) },
+        actionTypeId: 'playback',
+      }]
+    });
+  } catch(e){}
+}
+
+// Call this ONCE at app start
+export async function registerPlaybackActions() {
+  if (!isNativeApp()) return;
   try {
     await LocalNotifications.registerActionTypes({
       types: [{
-        id: 'controls',
+        id: 'playback',
         actions: [
-          { id: 'prev', title: 'Previous', foreground: true },
-          { id: 'play_pause', title: 'Play/Pause', foreground: true },
-          { id: 'next', title: 'Next', foreground: true },
+          { id: 'prev', title: 'Previous' },
+          { id: 'play_pause', title: 'Play/Pause' },
+          { id: 'next', title: 'Next' },
           { id: 'close', title: 'Close', destructive: true }
         ]
       }]
     });
-  } catch (e) {}
-
-  LocalNotifications.addListener('localNotificationActionPerformed', (action) => {
-    const actionId = action.actionId;
-    const store = useMusicStore.getState();
-    
-    if (actionId === 'prev') store.prevTrack();
-    else if (actionId === 'play_pause') store.togglePlay();
-    else if (actionId === 'next') store.nextTrack();
-    else if (actionId === 'close') {
-      // Stop playback
-      if (store.isPlaying) store.togglePlay();
-      // Cancel all notifications
-      LocalNotifications.cancel({ notifications: [{ id: 1 }, { id: 2 }] });
-    }
-  });
-
-  setup = true;
+  } catch(e){}
 }
 
-// Notification ID 1: Streaming
-export async function showStreamingNotification(track: { title: string; artist: string }) {
-  if (!isNativeApp()) return;
-  await setupOnce();
-  try {
-    await LocalNotifications.cancel({ notifications: [{ id: 1 }] });
-    await LocalNotifications.schedule({
-      notifications: [{
-        id: 1,
-        title: track.title || 'Unknown',
-        body: `${track.artist || 'Unknown Artist'}`,
-        channelId: 'vibely',
-        ongoing: true,
-        autoCancel: false,
-        schedule: { at: new Date(Date.now() + 100) },
-        actionTypeId: 'controls',
-      }]
-    });
-  } catch (e) {}
+export async function showStreamNotification(title: string, artist: string) {
+  await send(1, title, artist);
 }
 
-// Notification ID 2: Offline
-export async function showOfflineNotification(track: { title: string; artist: string }) {
-  if (!isNativeApp()) return;
-  await setupOnce();
-  try {
-    await LocalNotifications.cancel({ notifications: [{ id: 2 }] });
-    await LocalNotifications.schedule({
-      notifications: [{
-        id: 2,
-        title: track.title || 'Unknown',
-        body: `${track.artist || 'Unknown Artist'}`,
-        channelId: 'vibely',
-        ongoing: true,
-        autoCancel: false,
-        schedule: { at: new Date(Date.now() + 100) },
-        actionTypeId: 'controls',
-      }]
-    });
-  } catch (e) {}
+export async function showOfflineNotification(title: string, artist: string) {
+  await send(2, title, artist);
 }
 
-export function hideStreamingNotification() {
-  if (!isNativeApp()) return;
-  LocalNotifications.cancel({ notifications: [{ id: 1 }] }).catch(() => {});
+export function hideStreamNotification() {
+  LocalNotifications.cancel({ notifications: [{ id: 1 }] }).catch(()=>{});
 }
 
 export function hideOfflineNotification() {
-  if (!isNativeApp()) return;
-  LocalNotifications.cancel({ notifications: [{ id: 2 }] }).catch(() => {});
+  LocalNotifications.cancel({ notifications: [{ id: 2 }] }).catch(()=>{});
 }
 
-// Backward compat
+// Backward compat for PlayerPage
 export function showNowPlaying(track: { title: string; artist: string }) {
-  showStreamingNotification(track);
+  showStreamNotification(track.title, track.artist);
 }
 export function hideNowPlaying() {
-  hideStreamingNotification();
+  hideStreamNotification();
 }
-export async function updateNowPlayingState(_isPlaying: boolean) {
-  const s = useMusicStore.getState();
-  if (s.currentTrack) {
-    await showStreamingNotification({ title: s.currentTrack.title || '', artist: s.currentTrack.artist || '' });
-  }
-}
+export async function updateNowPlayingState() {}

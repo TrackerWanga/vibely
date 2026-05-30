@@ -1,12 +1,10 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Music, HardDrive, FolderSearch, RefreshCw, Info } from 'lucide-react';
-import { getAllAudio, getStorageUsed, deleteDownload, type DownloadedTrack } from '../services/offlineStorage';
+import { ArrowLeft, Play, Pause, Trash2, Music, HardDrive, FolderSearch, Shield, RefreshCw, Settings, Info } from 'lucide-react';
+import { getAllAudio, getStorageUsed, deleteDownload, getPlayableUrl, type DownloadedTrack } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
-import { hasStoragePermission } from '../services/permissions';
-import { toggleTrack, stopTrack, isTrackPlaying, getCurrentTrack, onTrackChange } from '../services/offlinePlayer';
+import { hasStoragePermission, requestStoragePermission, openAppSettings } from '../services/permissions';
+import { play, stop, toggle, isPlaying, currentId } from '../services/audioManager';
 import { useMusicStore } from '../store/musicStore';
-import PermissionGate from '../components/offline/PermissionGate';
-import TrackRow from '../components/offline/TrackRow';
 
 interface Props { onBack: () => void; onSongPlay: () => void; }
 
@@ -14,165 +12,172 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   const [tracks, setTracks] = useState<DownloadedTrack[]>([]);
   const [storageUsed, setStorageUsed] = useState('');
   const [loading, setLoading] = useState(true);
-  const [needsPermission, setNeedsPermission] = useState(false);
+  const [needPerm, setNeedPerm] = useState(false);
   const [playingId, setPlayingId] = useState<string | null>(null);
+  const [showMenu, setShowMenu] = useState(false);
   const { setQueue } = useMusicStore();
 
-  useEffect(() => {
-    checkAndLoad();
-    const unsub = onTrackChange(() => {
-      setPlayingId(getCurrentTrack()?.videoId || null);
-    });
-    return () => { unsub(); stopTrack(); };
-  }, []);
+  useEffect(() => { load(); }, []);
 
-  const checkAndLoad = async () => {
+  const load = async () => {
     setLoading(true);
     if (isNativeApp()) {
-      const granted = await hasStoragePermission();
-      if (granted) {
-        setNeedsPermission(false);
-        await loadAllAudio();
-      } else {
-        setNeedsPermission(true);
-        await loadFromLocalStorage();
-      }
-    } else {
-      setNeedsPermission(false);
-      await loadFromLocalStorage();
-    }
+      const ok = await hasStoragePermission();
+      if (ok) { setNeedPerm(false); await loadTracks(); }
+      else { setNeedPerm(true); await localOnly(); }
+    } else { setNeedPerm(false); await localOnly(); }
     setLoading(false);
   };
 
-  const requestPermission = async () => {
-    try {
-      const { Filesystem } = await import('@capacitor/filesystem');
-      await Filesystem.requestPermissions();
-      const granted = await hasStoragePermission();
-      if (granted) {
-        setNeedsPermission(false);
-        await loadAllAudio();
-      }
-    } catch (e) {}
-  };
-
-  const loadAllAudio = async () => {
+  const loadTracks = async () => {
     try {
       const all = await getAllAudio();
       setTracks(all);
       setStorageUsed(await getStorageUsed());
-    } catch (e) {
-      await loadFromLocalStorage();
-    }
+    } catch { await localOnly(); }
   };
 
-  const loadFromLocalStorage = async () => {
+  const localOnly = async () => {
     const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
-    setTracks(saved.map((d: any) => ({ ...d, source: 'device' as const })));
+    setTracks(saved.map((d: any) => ({ ...d, source: 'device' })));
   };
 
-  const handlePlayTrack = (track: DownloadedTrack) => {
+  const handlePerm = async () => {
+    const ok = await requestStoragePermission();
+    if (ok) { setNeedPerm(false); await loadTracks(); }
+    else { openAppSettings(); }
+  };
+
+  const handlePlay = (track: DownloadedTrack) => {
     if (track.source === 'device' && track.filePath && isNativeApp()) {
-      toggleTrack({ videoId: track.videoId, title: track.title, artist: track.artist, filePath: track.filePath });
-      setPlayingId(isTrackPlaying(track.videoId) ? null : track.videoId);
+      const url = getPlayableUrl(track.filePath);
+      const started = toggle(url, track.videoId, { title: track.title, artist: track.artist });
+      setPlayingId(started ? track.videoId : null);
     } else if (track.source === 'vibely') {
-      stopTrack();
-      const allVibely = tracks.filter(t => t.source === 'vibely');
-      const idx = allVibely.findIndex(t => t.videoId === track.videoId);
-      if (idx >= 0) {
-        setQueue(allVibely.map(d => ({
-          videoId: d.videoId, title: d.title, artist: d.artist,
-          thumbnail: d.thumbnail, duration: d.duration,
-        })), idx);
+      stop();
+      const v = tracks.filter(t => t.source === 'vibely');
+      const i = v.findIndex(t => t.videoId === track.videoId);
+      if (i >= 0) {
+        setPlayingId(track.videoId);
+        setQueue(v.map(d => ({ videoId: d.videoId, title: d.title, artist: d.artist, thumbnail: d.thumbnail, duration: d.duration })), i);
         onSongPlay();
       }
     }
   };
 
   const handleDelete = async (track: DownloadedTrack) => {
-    if (isTrackPlaying(track.videoId)) stopTrack();
+    if (isPlaying(track.videoId)) stop();
     await deleteDownload(track.videoId);
-    await loadAllAudio();
+    await loadTracks();
   };
 
-  const vibelyDownloads = tracks.filter(t => t.source === 'vibely');
-  const deviceAudio = tracks.filter(t => t.source === 'device');
+  const vibely = tracks.filter(t => t.source === 'vibely');
+  const device = tracks.filter(t => t.source === 'device');
 
   if (loading) return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', background: '#06060e' }}>
-      <div style={{ textAlign: 'center', color: '#a78bfa' }}>
-        <FolderSearch size={48} style={{ marginBottom: '16px', animation: 'pulse 1.5s infinite' }} />
-        <div>Scanning for audio files...</div>
-        <style>{`@keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:0.5 } }`}</style>
-      </div>
+      <div style={{ textAlign: 'center', color: '#a78bfa' }}>Loading...</div>
     </div>
   );
 
-  if (needsPermission) {
-    return (
-      <div style={{ position: 'relative' }}>
-        <button onClick={onBack} style={{ position: 'absolute', top: '20px', left: '20px', zIndex: 10, background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <ArrowLeft size={16} /> Back
-        </button>
-        <PermissionGate onRequestPermission={requestPermission} />
-      </div>
-    );
-  }
+  if (needPerm) return (
+    <div style={{ minHeight: '100vh', background: '#06060e', color: '#f1f5f9', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 24 }}>
+      <button onClick={onBack} style={{ position: 'absolute', top: 20, left: 20, background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer' }}>
+        <ArrowLeft size={16} /> Back
+      </button>
+      <Shield size={80} color="#a78bfa" style={{ marginBottom: 24 }} />
+      <h1 style={{ fontSize: 24, fontWeight: 800, marginBottom: 12, textAlign: 'center' }}>Access Your Music</h1>
+      <p style={{ color: '#94a3b8', fontSize: 15, textAlign: 'center', marginBottom: 32, maxWidth: 340 }}>
+        Vibely needs permission to find and play music on your device
+      </p>
+      <button onClick={handlePerm} className="btn-primary" style={{ padding: '16px 40px', fontSize: 16, width: '100%', maxWidth: 320, marginBottom: 12 }}>
+        <Shield size={18} /> Grant Permission
+      </button>
+      <button onClick={openAppSettings} style={{ width: '100%', maxWidth: 320, padding: 14, background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 12, color: '#94a3b8', fontSize: 14, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+        <Settings size={16} /> Open App Settings
+      </button>
+      <p style={{ color: '#64748b', fontSize: 11, marginTop: 16, textAlign: 'center' }}>
+        Settings → Apps → Vibely → Permissions → Music & audio
+      </p>
+    </div>
+  );
 
   return (
     <div style={{ minHeight: '100vh', background: '#06060e', color: '#f1f5f9', padding: '20px 24px 120px' }}>
-      {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '24px' }}>
-        <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '6px', fontSize: '14px' }}>
+      {/* Header with menu */}
+      <div style={{ display: 'flex', alignItems: 'center', marginBottom: 24, position: 'relative' }}>
+        <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer' }}>
           <ArrowLeft size={16} /> Back
         </button>
         <div style={{ flex: 1 }} />
-        <button onClick={loadAllAudio} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px' }}>
+        <button onClick={load} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 12, marginRight: 8 }}>
           <RefreshCw size={14} /> Refresh
         </button>
+        <div style={{ position: 'relative' }}>
+          <button onClick={() => setShowMenu(!showMenu)} className="btn-glass" style={{ padding: '8px 10px', fontSize: 20, lineHeight: 0 }}>
+            ⋮
+          </button>
+          {showMenu && (
+            <div style={{ position: 'absolute', right: 0, top: '100%', marginTop: 4, background: '#111128', border: '1px solid rgba(255,255,255,0.1)', borderRadius: 10, padding: 8, minWidth: 200, zIndex: 50 }}>
+              <button onClick={() => { setShowMenu(false); openAppSettings(); }} style={{ display: 'flex', alignItems: 'center', gap: 8, width: '100%', padding: '10px 12px', background: 'none', border: 'none', color: '#f1f5f9', fontSize: 13, cursor: 'pointer', borderRadius: 6 }}>
+                <Settings size={14} /> App Permissions
+              </button>
+              <button onClick={() => { setShowMenu(false); alert('Vibely v2.1.0\nGlobal Music Discovery\n1689 artists • 8398 songs • 31 countries\n\nCreated by Tracker Wanga\n📞 +254 758 476 795'); }} style={{ display: 'flex', alignItems: 'center', gap: 8, width: '100%', padding: '10px 12px', background: 'none', border: 'none', color: '#f1f5f9', fontSize: 13, cursor: 'pointer', borderRadius: 6 }}>
+                <Info size={14} /> About Vibely
+              </button>
+            </div>
+          )}
+        </div>
       </div>
 
-      {/* Title */}
-      <div style={{ marginBottom: '32px' }}>
-        <h1 style={{ fontSize: '28px', fontWeight: 900, display: 'flex', alignItems: 'center', gap: '12px' }}>
+      <div style={{ marginBottom: 32 }}>
+        <h1 style={{ fontSize: 28, fontWeight: 900, display: 'flex', alignItems: 'center', gap: 12 }}>
           <HardDrive size={26} color="#7c3aed" /> Offline Library
         </h1>
-        <p style={{ color: '#64748b', fontSize: '13px', marginTop: '4px' }}>
-          {tracks.length} audio files • {storageUsed || '0 KB'}
-        </p>
+        <p style={{ color: '#64748b', fontSize: 13, marginTop: 4 }}>{tracks.length} audio files • {storageUsed || '0 KB'}</p>
       </div>
 
-      {/* Empty state */}
       {tracks.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '80px 20px', color: '#64748b' }}>
-          <Music size={64} color="#a78bfa" style={{ marginBottom: '16px', opacity: 0.3 }} />
-          <div style={{ fontSize: '18px', color: '#f1f5f9', fontWeight: 600 }}>No audio files found</div>
-          <div style={{ fontSize: '14px', marginTop: '8px' }}>Download songs or add music to your Downloads folder</div>
+          <Music size={64} color="#a78bfa" style={{ marginBottom: 16, opacity: 0.3 }} />
+          <div style={{ fontSize: 18, color: '#f1f5f9', fontWeight: 600 }}>No audio files found</div>
+          <div style={{ fontSize: 14, marginTop: 8 }}>Download songs or add music to your Downloads folder</div>
         </div>
       ) : (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '28px' }}>
-          {vibelyDownloads.length > 0 && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 28 }}>
+          {vibely.length > 0 && (
             <section>
-              <h2 style={{ fontSize: '14px', fontWeight: 700, color: '#a78bfa', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                💜 Vibely Downloads · {vibelyDownloads.length}
-              </h2>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                {vibelyDownloads.map((track, i) => (
-                  <TrackRow key={track.videoId} track={track} index={i} isPlaying={playingId === track.videoId} onPlay={() => handlePlayTrack(track)} onDelete={() => handleDelete(track)} color="#a78bfa" />
-                ))}
-              </div>
+              <h2 style={{ fontSize: 14, fontWeight: 700, color: '#a78bfa', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.5px' }}>💜 Vibely Downloads · {vibely.length}</h2>
+              {vibely.map((t, i) => (
+                <div key={t.videoId} className="glass-card" onClick={() => handlePlay(t)} style={{ padding: '12px 14px', display: 'flex', alignItems: 'center', gap: 12, cursor: 'pointer', marginBottom: 4, borderColor: playingId === t.videoId ? 'rgba(124,58,237,0.5)' : undefined, background: playingId === t.videoId ? 'rgba(124,58,237,0.12)' : undefined }}>
+                  <span style={{ color: '#64748b', fontSize: 13, width: 24 }}>#{i+1}</span>
+                  {t.thumbnail ? <img src={t.thumbnail} style={{ width: 44, height: 32, borderRadius: 4, objectFit: 'cover' }} /> : <div style={{ width: 44, height: 32, borderRadius: 4, background: 'rgba(124,58,237,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Music size={16} color="#a78bfa" /></div>}
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ color: '#f1f5f9', fontWeight: 500, fontSize: 13, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t.title}</div>
+                    <div style={{ color: '#a78bfa', fontSize: 11, marginTop: 1 }}>{t.artist || 'Unknown'}</div>
+                  </div>
+                  <span style={{ color: '#475569', fontSize: 10, flexShrink: 0 }}>{new Date(t.downloadedAt).toLocaleDateString()}</span>
+                  <button onClick={e => { e.stopPropagation(); handleDelete(t); }} style={{ background: 'none', border: 'none', color: '#f43f5e', cursor: 'pointer', padding: 6, flexShrink: 0 }}><Trash2 size={14} /></button>
+                  <div style={{ width: 32, display: 'flex', justifyContent: 'center', flexShrink: 0 }}>{playingId === t.videoId ? <Pause size={18} color="#a78bfa" /> : <Play size={18} color="#a78bfa" />}</div>
+                </div>
+              ))}
             </section>
           )}
-          {deviceAudio.length > 0 && (
+          {device.length > 0 && (
             <section>
-              <h2 style={{ fontSize: '14px', fontWeight: 700, color: '#10b981', marginBottom: '10px', textTransform: 'uppercase', letterSpacing: '0.5px' }}>
-                📁 Device Audio · {deviceAudio.length}
-              </h2>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                {deviceAudio.map((track, i) => (
-                  <TrackRow key={track.videoId} track={track} index={i} isPlaying={playingId === track.videoId} onPlay={() => handlePlayTrack(track)} onDelete={() => handleDelete(track)} color="#10b981" />
-                ))}
-              </div>
+              <h2 style={{ fontSize: 14, fontWeight: 700, color: '#10b981', marginBottom: 10, textTransform: 'uppercase', letterSpacing: '0.5px' }}>📁 Device Audio · {device.length}</h2>
+              {device.map((t, i) => (
+                <div key={t.videoId} className="glass-card" onClick={() => handlePlay(t)} style={{ padding: '12px 14px', display: 'flex', alignItems: 'center', gap: 12, cursor: 'pointer', marginBottom: 4, borderColor: playingId === t.videoId ? 'rgba(16,185,129,0.5)' : undefined, background: playingId === t.videoId ? 'rgba(16,185,129,0.1)' : undefined }}>
+                  <span style={{ color: '#64748b', fontSize: 13, width: 24 }}>#{vibely.length+i+1}</span>
+                  <div style={{ width: 44, height: 32, borderRadius: 4, background: 'rgba(16,185,129,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Music size={16} color="#10b981" /></div>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ color: '#f1f5f9', fontWeight: 500, fontSize: 13, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{t.title}</div>
+                    <div style={{ color: '#10b981', fontSize: 11, marginTop: 1 }}>{t.artist}</div>
+                  </div>
+                  <span style={{ color: '#475569', fontSize: 9, textTransform: 'uppercase', flexShrink: 0 }}>{t.filePath?.split('.').pop()}</span>
+                  <div style={{ width: 32, display: 'flex', justifyContent: 'center', flexShrink: 0 }}>{playingId === t.videoId ? <Pause size={18} color="#10b981" /> : <Play size={18} color="#10b981" />}</div>
+                </div>
+              ))}
             </section>
           )}
         </div>

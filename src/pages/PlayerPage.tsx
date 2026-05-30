@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
 import { Browser } from '@capacitor/browser';
 import { useMusicStore } from '../store/musicStore';
-import { createMusicControls, updateMusicControlsPlaying, updateMusicControlsTrack, setupMusicControlListeners, destroyMusicControls } from '../services/notifications';
+import { showNowPlaying, hideNowPlaying } from '../services/notifications';
 import { saveDownloadRecord } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 
@@ -35,27 +35,33 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
 
-  // Setup music control listeners once
-  useEffect(() => {
-    setupMusicControlListeners();
-    return () => { destroyMusicControls(); };
-  }, []);
-
-  // Update native music controls when track changes
+  // Show/hide notification when track changes
   useEffect(() => {
     if (track) {
-      createMusicControls({
+      showNowPlaying({ title: track.title || 'Unknown', artist: track.artist || 'Unknown Artist' });
+    }
+    return () => { hideNowPlaying(); };
+  }, [track]);
+
+  // Web Media Session API (works in Chrome Android)
+  useEffect(() => {
+    if (track && 'mediaSession' in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
         title: track.title || 'Unknown',
         artist: track.artist || 'Unknown Artist',
-        thumbnail: track.thumbnail || '',
-        isPlaying: true,
+        artwork: track.thumbnail ? [{ src: track.thumbnail, sizes: '480x360', type: 'image/jpg' }] : []
       });
+      navigator.mediaSession.setActionHandler('play', () => togglePlay());
+      navigator.mediaSession.setActionHandler('pause', () => togglePlay());
+      navigator.mediaSession.setActionHandler('previoustrack', () => prevTrack());
+      navigator.mediaSession.setActionHandler('nexttrack', () => nextTrack());
     }
   }, [track]);
 
-  // Update play/pause state
   useEffect(() => {
-    updateMusicControlsPlaying(isPlaying);
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
+    }
   }, [isPlaying]);
 
   useEffect(() => {
@@ -169,14 +175,9 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
       const data = await res.json();
       const dlUrl = data?.downloadUrl || data?.proxyUrl;
       if (dlUrl) {
-        await saveDownloadRecord({
-          videoId: track.videoId,
-          title: track.title || '',
-          artist: track.artist || '',
-          thumbnail: track.thumbnail || '',
-          duration: track.duration || '',
-          filePath: '',
-          fileSize: 0
+        saveDownloadRecord({
+          videoId: track.videoId, title: track.title || '', artist: track.artist || '',
+          thumbnail: track.thumbnail || '', duration: track.duration || '', filePath: '', fileSize: 0
         }).catch(() => {
           const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
           if (!saved.find((s: any) => s.videoId === track.videoId)) {
@@ -187,15 +188,10 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         if (isNativeApp()) {
           await Browser.open({ url: dlUrl });
         } else {
-          const a = document.createElement('a');
-          a.href = dlUrl;
-          a.download = `${title}.mp3`;
-          document.body.appendChild(a);
-          a.click();
-          document.body.removeChild(a);
+          const a = document.createElement('a'); a.href = dlUrl; a.download = `${title}.mp3`;
+          document.body.appendChild(a); a.click(); document.body.removeChild(a);
         }
-        setDownloaded(true);
-        setTimeout(() => setDownloaded(false), 3000);
+        setDownloaded(true); setTimeout(() => setDownloaded(false), 3000);
       }
     } catch (err) { console.error('Download failed:', err); }
     setDownloading(false);
@@ -265,7 +261,6 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           <h1 style={{ fontSize: '20px', fontWeight: 700 }}>{track.title}</h1>
           <p style={{ color: '#a78bfa', fontSize: '14px', marginBottom: '2px' }}>{track.artist || 'Unknown Artist'}</p>
           {track.duration && <p style={{ color: '#64748b', fontSize: '11px' }}>{track.duration}</p>}
-
           <div style={{ marginTop: '16px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
               <button onClick={skipBackward} className="btn-glass" style={{ padding: '4px 8px', fontSize: '10px' }}><RotateCcw size={12} /> 10s</button>
@@ -277,7 +272,6 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '10px', color: '#64748b' }}><span>{formatTime(progress)}</span><span>{formatTime(duration)}</span></div>
           </div>
-
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', marginTop: '16px' }}>
             <button onClick={prevTrack} style={ctrlBtn}><SkipBack size={22} /></button>
             <button onClick={skipBackward} style={ctrlBtn}><RotateCcw size={16} /></button>
@@ -287,7 +281,6 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
             <button onClick={skipForward} style={ctrlBtn}><RotateCw size={16} /></button>
             <button onClick={nextTrack} style={ctrlBtn}><SkipForward size={22} /></button>
           </div>
-
           <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '14px', flexWrap: 'wrap' }}>
             <button onClick={cycleSpeed} className="btn-glass" style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '11px' }}><Gauge size={12} /> {playbackRate}x</button>
             <button onClick={() => track && toggleFavorite(track)} className="btn-glass"><Heart size={12} fill={isFav ? '#f43f5e' : 'none'} color={isFav ? '#f43f5e' : '#94a3b8'} /></button>

@@ -34,11 +34,16 @@ jobs:
       with:
         packages: 'platforms;android-34 build-tools;34.0.0 platform-tools'
 
-    - name: Download app icon
+    - name: Create app icon (fallback if catbox is down)
       run: |
         mkdir -p resources
-        curl -L -o resources/icon.png "https://files.catbox.moe/d81vkj.png"
+        sudo apt-get install -y imagemagick
+        # Try catbox first, fallback to generated icon
+        curl -L --connect-timeout 10 -o resources/icon.png "https://files.catbox.moe/d81vkj.png" 2>/dev/null || \
+        convert -size 1024x1024 xc:'#7c3aed' -fill white -font Helvetica-Bold -pointsize 400 -gravity center -annotate 0 'V' resources/icon.png
+        cp resources/icon.png resources/icon-foreground.png
         cp resources/icon.png resources/splash.png
+        cp resources/icon.png resources/splash-dark.png
 
     - name: Install dependencies
       run: npm ci --legacy-peer-deps || npm install
@@ -52,45 +57,28 @@ jobs:
         npx cap init "Vibely" com.megan.vibely --web-dir=dist
         npx cap add android
 
-    - name: Generate App Icons and Notification Icon
+    - name: Generate App Icons
       run: |
-        sudo apt-get install -y imagemagick
+        mkdir -p android/app/src/main/res/mipmap-mdpi android/app/src/main/res/mipmap-hdpi android/app/src/main/res/mipmap-xhdpi android/app/src/main/res/mipmap-xxhdpi android/app/src/main/res/mipmap-xxxhdpi
+        mkdir -p android/app/src/main/res/drawable android/app/src/main/res/drawable-mdpi android/app/src/main/res/drawable-hdpi android/app/src/main/res/drawable-xhdpi android/app/src/main/res/drawable-xxhdpi android/app/src/main/res/drawable-xxxhdpi
+        mkdir -p android/app/src/main/res/drawable-land-mdpi android/app/src/main/res/drawable-land-hdpi android/app/src/main/res/drawable-land-xhdpi android/app/src/main/res/drawable-land-xxhdpi android/app/src/main/res/drawable-land-xxxhdpi
         
         # App launcher icons
-        mkdir -p android/app/src/main/res/mipmap-mdpi
-        mkdir -p android/app/src/main/res/mipmap-hdpi
-        mkdir -p android/app/src/main/res/mipmap-xhdpi
-        mkdir -p android/app/src/main/res/mipmap-xxhdpi
-        mkdir -p android/app/src/main/res/mipmap-xxxhdpi
         convert resources/icon.png -resize 48x48 android/app/src/main/res/mipmap-mdpi/ic_launcher.png
         convert resources/icon.png -resize 72x72 android/app/src/main/res/mipmap-hdpi/ic_launcher.png
         convert resources/icon.png -resize 96x96 android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
         convert resources/icon.png -resize 144x144 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
         convert resources/icon.png -resize 192x192 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
         
-        # Create white notification icon (for status bar)
-        mkdir -p android/app/src/main/res/drawable
-        # Convert icon to white silhouette with transparent background
+        # White notification icon
         convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable/ic_notification.png
-        
-        # Also create mdpi/notification icons at different sizes
-        mkdir -p android/app/src/main/res/drawable-mdpi
-        mkdir -p android/app/src/main/res/drawable-hdpi
-        mkdir -p android/app/src/main/res/drawable-xhdpi
-        mkdir -p android/app/src/main/res/drawable-xxhdpi
-        mkdir -p android/app/src/main/res/drawable-xxxhdpi
         convert resources/icon.png -resize 24x24 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-mdpi/ic_notification.png
         convert resources/icon.png -resize 36x36 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-hdpi/ic_notification.png
         convert resources/icon.png -resize 48x48 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xhdpi/ic_notification.png
         convert resources/icon.png -resize 72x72 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xxhdpi/ic_notification.png
         convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xxxhdpi/ic_notification.png
         
-        # Splash screen
-        mkdir -p android/app/src/main/res/drawable-land-mdpi
-        mkdir -p android/app/src/main/res/drawable-land-hdpi
-        mkdir -p android/app/src/main/res/drawable-land-xhdpi
-        mkdir -p android/app/src/main/res/drawable-land-xxhdpi
-        mkdir -p android/app/src/main/res/drawable-land-xxxhdpi
+        # Splash
         convert resources/splash.png -resize 480x320 android/app/src/main/res/drawable-land-mdpi/splash.png
         convert resources/splash.png -resize 800x480 android/app/src/main/res/drawable-land-hdpi/splash.png
         convert resources/splash.png -resize 1280x720 android/app/src/main/res/drawable-land-xhdpi/splash.png
@@ -158,7 +146,7 @@ jobs:
     - name: Fix Kotlin conflicts
       run: |
         cat >> android/app/build.gradle << 'GRADLEEOF'
-
+        
         configurations.all {
             exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
             exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'

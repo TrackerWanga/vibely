@@ -1,7 +1,7 @@
 import { isNativeApp } from './platform';
 import { NativeSettings, AndroidSettings } from 'capacitor-native-settings';
 
-// Request all needed permissions on app startup
+// Show a persistent permission request flow
 export async function requestAllPermissions(): Promise<{
   storage: boolean;
   notifications: boolean;
@@ -10,34 +10,41 @@ export async function requestAllPermissions(): Promise<{
 
   const result = { storage: false, notifications: false };
 
-  // Storage
-  try {
-    const { Filesystem } = await import('@capacitor/filesystem');
-    const permStatus = await Filesystem.checkPermissions();
-    if (permStatus.publicStorage === 'granted') {
-      result.storage = true;
-    } else {
-      const requestResult = await Filesystem.requestPermissions();
-      result.storage = requestResult.publicStorage === 'granted';
-    }
-  } catch (e) {
-    console.error('Storage permission error:', e);
-  }
-
-  // Notifications
+  // 1. Try notifications first (this one already works)
   try {
     const { LocalNotifications } = await import('@capacitor/local-notifications');
-    const permResult = await LocalNotifications.checkPermissions();
-    if (permResult.display === 'granted') {
-      result.notifications = true;
+    const nCheck = await LocalNotifications.checkPermissions();
+    if (nCheck.display !== 'granted') {
+      const nReq = await LocalNotifications.requestPermissions();
+      result.notifications = nReq.display === 'granted';
     } else {
-      const requestResult = await LocalNotifications.requestPermissions();
-      result.notifications = requestResult.display === 'granted';
+      result.notifications = true;
     }
-  } catch (e) {
-    console.error('Notification permission error:', e);
-  }
+  } catch (e) {}
 
+  // 2. Try storage - chain multiple attempts
+  try {
+    const { Filesystem } = await import('@capacitor/filesystem');
+    
+    // Try 1: Direct request
+    const check = await Filesystem.checkPermissions();
+    if (check.publicStorage === 'granted') {
+      result.storage = true;
+    } else {
+      const req1 = await Filesystem.requestPermissions();
+      if (req1.publicStorage === 'granted') {
+        result.storage = true;
+      } else {
+        // Try 2: requestPermissions again (sometimes works on second attempt)
+        const req2 = await Filesystem.requestPermissions();
+        if (req2.publicStorage === 'granted') {
+          result.storage = true;
+        }
+      }
+    }
+  } catch (e) {}
+
+  // 3. If still denied, we'll let the user know to use settings
   return result;
 }
 
@@ -53,7 +60,7 @@ export async function hasStoragePermission(): Promise<boolean> {
   }
 }
 
-// Open app settings so user can manually grant permissions
+// Open app settings
 export function openAppSettings() {
   if (isNativeApp()) {
     NativeSettings.openAndroid({ option: AndroidSettings.ApplicationDetails });

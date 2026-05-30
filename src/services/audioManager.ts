@@ -1,4 +1,4 @@
-import { showNowPlaying, hideNowPlaying } from './notifications';
+import { showOfflineNotification, hideOfflineNotification } from './notifications';
 
 let currentAudio: HTMLAudioElement | null = null;
 let currentTrackId: string | null = null;
@@ -10,21 +10,21 @@ export function playAudio(url: string, trackId: string, trackInfo?: { title: str
   currentAudio = audio;
   currentTrackId = trackId;
   
-  // Show notification for offline playback
+  // Show OFFLINE notification (ID 2)
   if (trackInfo) {
-    showNowPlaying({ title: trackInfo.title, artist: trackInfo.artist });
+    showOfflineNotification({ title: trackInfo.title, artist: trackInfo.artist });
   }
   
   audio.play().catch(e => console.error('Audio play failed:', e));
   
   audio.onended = () => {
-    hideNowPlaying();
+    hideOfflineNotification();
     currentAudio = null;
     currentTrackId = null;
   };
   
   audio.onerror = () => {
-    hideNowPlaying();
+    hideOfflineNotification();
     currentAudio = null;
     currentTrackId = null;
   };
@@ -40,7 +40,7 @@ export function stopAll(): void {
     currentAudio = null;
     currentTrackId = null;
   }
-  hideNowPlaying();
+  hideOfflineNotification();
 }
 
 export function stopIfPlaying(trackId: string): boolean {

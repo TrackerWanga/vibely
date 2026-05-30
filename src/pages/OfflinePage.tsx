@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowLeft, Play, Pause, Trash2, Music, HardDrive, FolderSearch, Shield, RefreshCw } from 'lucide-react';
+import { ArrowLeft, Play, Pause, Trash2, Music, HardDrive, FolderSearch, Shield, RefreshCw, ArrowRight } from 'lucide-react';
 import { getAllAudio, getStorageUsed, deleteDownload, getPlayableUrl, type DownloadedTrack } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 import { hasStoragePermission, openAppSettings } from '../services/permissions';
@@ -12,7 +12,8 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   const [tracks, setTracks] = useState<DownloadedTrack[]>([]);
   const [storageUsed, setStorageUsed] = useState('');
   const [loading, setLoading] = useState(true);
-  const [permissionState, setPermissionState] = useState<'granted' | 'denied' | 'prompt' | 'unknown'>('unknown');
+  const [showPermissionPrompt, setShowPermissionPrompt] = useState(false);
+  const [permissionStep, setPermissionStep] = useState(0);
   const [playingTrackId, setPlayingTrackId] = useState<string | null>(null);
   const { setQueue } = useMusicStore();
 
@@ -21,42 +22,58 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   const checkAndLoad = async () => {
     setLoading(true);
     if (isNativeApp()) {
-      let granted = await hasStoragePermission();
-      if (!granted) {
-        try {
-          const { Filesystem } = await import('@capacitor/filesystem');
-          const result = await Filesystem.requestPermissions();
-          granted = result.publicStorage === 'granted';
-        } catch (e) {}
-      }
+      const granted = await hasStoragePermission();
       if (granted) {
-        setPermissionState('granted');
+        setShowPermissionPrompt(false);
         await loadAllAudio();
       } else {
-        setPermissionState('denied');
+        setShowPermissionPrompt(true);
+        setPermissionStep(0);
         await loadFromLocalStorage();
       }
     } else {
-      setPermissionState('granted');
+      setShowPermissionPrompt(false);
       await loadFromLocalStorage();
     }
     setLoading(false);
   };
 
-  const requestStorageAccess = async () => {
-    try {
-      const { Filesystem } = await import('@capacitor/filesystem');
-      const result = await Filesystem.requestPermissions();
-      if (result.publicStorage === 'granted') {
-        setPermissionState('granted');
-        await loadAllAudio();
-      } else {
-        setPermissionState('denied');
-        await loadFromLocalStorage();
-      }
-    } catch (e) {
-      setPermissionState('denied');
-      await loadFromLocalStorage();
+  const handlePermissionStep = async () => {
+    if (permissionStep === 0) {
+      // Step 1: Try to request directly
+      try {
+        const { Filesystem } = await import('@capacitor/filesystem');
+        const result = await Filesystem.requestPermissions();
+        if (result.publicStorage === 'granted') {
+          setShowPermissionPrompt(false);
+          await loadAllAudio();
+          return;
+        }
+      } catch (e) {}
+      setPermissionStep(1);
+    } else if (permissionStep === 1) {
+      // Step 2: Try again
+      try {
+        const { Filesystem } = await import('@capacitor/filesystem');
+        const result = await Filesystem.requestPermissions();
+        if (result.publicStorage === 'granted') {
+          setShowPermissionPrompt(false);
+          await loadAllAudio();
+          return;
+        }
+      } catch (e) {}
+      setPermissionStep(2);
+    } else {
+      // Step 3: Open app settings
+      openAppSettings();
+      // Check again after user returns
+      setTimeout(async () => {
+        const granted = await hasStoragePermission();
+        if (granted) {
+          setShowPermissionPrompt(false);
+          await loadAllAudio();
+        }
+      }, 2000);
     }
   };
 
@@ -120,29 +137,31 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
     </div>
   );
 
-  if (permissionState === 'denied') {
+  if (showPermissionPrompt) {
+    const steps = [
+      { title: 'Allow Music Access', desc: 'Please grant permission to access your media library', btn: 'Grant Access' },
+      { title: 'Read Media Details', desc: 'Please grant permission to read media details from this device storage', btn: 'Allow' },
+      { title: 'Complete Setup', desc: 'Tap below to open Settings where you can enable all permissions', btn: 'Open Settings' },
+    ];
+    const step = steps[permissionStep];
+
     return (
       <div style={{ minHeight: '100vh', background: '#06060e', color: '#f1f5f9', padding: '20px 24px' }}>
         <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '6px' }}>
           <ArrowLeft size={16} /> Back
         </button>
-        <div style={{ textAlign: 'center', padding: '80px 20px' }}>
-          <Shield size={64} color="#f59e0b" style={{ marginBottom: '16px' }} />
-          <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Storage Access Required</div>
-          <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '24px' }}>
-            Vibely needs access to your audio files to play them offline.
+        <div style={{ textAlign: 'center', padding: '60px 20px' }}>
+          <Shield size={64} color="#a78bfa" style={{ marginBottom: '16px' }} />
+          <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>{step.title}</div>
+          <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '32px', maxWidth: '350px', margin: '0 auto 32px' }}>
+            {step.desc}
           </p>
-          <button onClick={requestStorageAccess} className="btn-primary" style={{ padding: '14px 32px', fontSize: '16px', marginBottom: '12px' }}>
-            <Shield size={18} /> Request Permission
+          <button onClick={handlePermissionStep} className="btn-primary" style={{ padding: '16px 40px', fontSize: '16px' }}>
+            {step.btn} <ArrowRight size={18} style={{ marginLeft: '8px' }} />
           </button>
-          <br />
-          <button onClick={openAppSettings} className="btn-primary" style={{ background: '#64748b', padding: '10px 20px', fontSize: '13px' }}>
-            ⚙ Open App Settings
-          </button>
-          <br />
-          <button onClick={loadAllAudio} className="btn-glass" style={{ marginTop: '12px' }}>
-            <RefreshCw size={14} /> Try Again
-          </button>
+          <p style={{ color: '#64748b', fontSize: '11px', marginTop: '16px' }}>
+            Step {permissionStep + 1} of 3
+          </p>
         </div>
       </div>
     );

@@ -34,7 +34,7 @@ jobs:
       with:
         packages: 'platforms;android-34 build-tools;34.0.0 platform-tools'
 
-    - name: Download app icon and create resources
+    - name: Download app icon
       run: |
         mkdir -p resources
         curl -L -o resources/icon.png "https://files.catbox.moe/d81vkj.png"
@@ -44,9 +44,6 @@ jobs:
 
     - name: Install dependencies
       run: npm ci --legacy-peer-deps || npm install
-
-    - name: Install Capacitor Assets
-      run: npm install @capacitor/assets --save-dev
 
     - name: Build web app
       run: npm run build
@@ -98,16 +95,21 @@ jobs:
         }
         CAPEOF
 
-    - name: Add Android Permissions
+    - name: Add Android Permissions and Services
       run: |
+        # Permissions
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.INTERNET" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />' android/app/src/main/AndroidManifest.xml
+        sed -i '/<manifest/a \    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />' android/app/src/main/AndroidManifest.xml
         sed -i '/<manifest/a \    <uses-permission android:name="android.permission.WAKE_LOCK" />' android/app/src/main/AndroidManifest.xml
+        
+        # Allow cleartext and add service
         sed -i '/<application/a \        android:usesCleartextTraffic="true"' android/app/src/main/AndroidManifest.xml
+        sed -i '/<application/,/<\/application>/s|</application>|    <service android:name="com.getcapacitor.community.media.MediaNotificationService" android:foregroundServiceType="mediaPlayback" android:exported="false">\n            <intent-filter>\n                <action android:name="android.intent.action.MEDIA_BUTTON" />\n            </intent-filter>\n        </service>\n    </application>|' android/app/src/main/AndroidManifest.xml
 
     - name: Upgrade Gradle to 8.5
       run: |

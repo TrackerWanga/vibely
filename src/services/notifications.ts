@@ -1,18 +1,30 @@
-import { CapacitorMusicControls } from 'capacitor-music-controls-plugin';
 import { isNativeApp } from './platform';
 import { useMusicStore } from '../store/musicStore';
 
-// Initialize music controls for Android notification & lock screen
+// Try to use native music controls, fallback to Media Session API
+let controlsAvailable = false;
+
 export async function createMusicControls(track: {
   title: string;
   artist: string;
   thumbnail: string;
-  duration?: string;
   isPlaying?: boolean;
 }) {
-  if (!isNativeApp()) return;
+  if (!isNativeApp()) {
+    // Web: use Media Session API
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: track.title || 'Unknown',
+        artist: track.artist || 'Unknown Artist',
+        artwork: track.thumbnail ? [{ src: track.thumbnail, sizes: '480x360', type: 'image/jpg' }] : []
+      });
+    }
+    return;
+  }
 
+  // Native: try capacitor-music-controls, catch errors
   try {
+    const { CapacitorMusicControls } = await import('capacitor-music-controls-plugin');
     await CapacitorMusicControls.create({
       track: track.title || 'Unknown',
       artist: track.artist || 'Unknown Artist',
@@ -20,110 +32,69 @@ export async function createMusicControls(track: {
       isPlaying: track.isPlaying ?? true,
       hasPrev: true,
       hasNext: true,
-      hasClose: true,
+      hasClose: false,
       dismissable: true,
       ticker: `Now playing: ${track.title}`,
     });
+    controlsAvailable = true;
   } catch (e) {
-    console.error('Music controls create failed:', e);
+    console.log('Music controls not available, using media session');
+    controlsAvailable = false;
   }
 }
 
-// Update play/pause state
 export async function updateMusicControlsPlaying(isPlaying: boolean) {
-  if (!isNativeApp()) return;
+  if (!isNativeApp() || !controlsAvailable) return;
   try {
+    const { CapacitorMusicControls } = await import('capacitor-music-controls-plugin');
     await CapacitorMusicControls.updateIsPlaying({ isPlaying });
   } catch (e) {}
 }
 
-// Update track info
+export function setupMusicControlListeners() {
+  if (!isNativeApp()) return;
+
+  try {
+    const { CapacitorMusicControls } = await import('capacitor-music-controls-plugin');
+    
+    CapacitorMusicControls.addListener('controlsNotification', (info: any) => {
+      handleControlEvent(info?.message || info);
+    });
+    
+    document.addEventListener('controlsNotification', (event: any) => {
+      const message = event?.message || event?.detail?.message;
+      if (message) handleControlEvent(message);
+    });
+    
+    controlsAvailable = true;
+  } catch (e) {
+    controlsAvailable = false;
+  }
+}
+
+export function destroyMusicControls() {
+  if (!isNativeApp() || !controlsAvailable) return;
+  controlsAvailable = false;
+}
+
+function handleControlEvent(message: string) {
+  const store = useMusicStore.getState();
+  switch (message) {
+    case 'music-controls-next': store.nextTrack(); break;
+    case 'music-controls-previous': store.prevTrack(); break;
+    case 'music-controls-pause':
+    case 'music-controls-play':
+    case 'music-controls-toggle-play-pause': store.togglePlay(); break;
+    case 'music-controls-headset-unplugged': if (store.isPlaying) store.togglePlay(); break;
+    default: break;
+  }
+}
+
 export async function updateMusicControlsTrack(track: {
   title: string;
   artist: string;
   thumbnail: string;
   isPlaying?: boolean;
 }) {
-  if (!isNativeApp()) return;
-  try {
-    await CapacitorMusicControls.create({
-      track: track.title || 'Unknown',
-      artist: track.artist || 'Unknown Artist',
-      cover: track.thumbnail || '',
-      isPlaying: track.isPlaying ?? true,
-      hasPrev: true,
-      hasNext: true,
-      hasClose: true,
-      dismissable: true,
-      ticker: `Now playing: ${track.title}`,
-    });
-  } catch (e) {}
-}
-
-// Destroy music controls
-export async function destroyMusicControls() {
-  if (!isNativeApp()) return;
-  try {
-    // CapacitorMusicControls doesn't have destroy, we just update with empty
-    await CapacitorMusicControls.create({
-      track: '',
-      artist: '',
-      isPlaying: false,
-      hasPrev: false,
-      hasNext: false,
-      hasClose: true,
-      dismissable: true,
-    });
-  } catch (e) {}
-}
-
-// Listen for control events from notification/lock screen
-export function setupMusicControlListeners() {
-  if (!isNativeApp()) return;
-
-  const store = useMusicStore.getState;
-
-  try {
-    // iOS listener
-    CapacitorMusicControls.addListener('controlsNotification', (info: any) => {
-      handleControlEvent(info?.message || info);
-    });
-  } catch (e) {
-    // Android listener (bug in Capacitor 4+ on Android 13)
-    document.addEventListener('controlsNotification', (event: any) => {
-      const message = event?.message || event?.detail?.message;
-      handleControlEvent(message);
-    });
-  }
-}
-
-function handleControlEvent(message: string) {
-  const store = useMusicStore.getState();
-  
-  switch (message) {
-    case 'music-controls-next':
-      store.nextTrack();
-      break;
-    case 'music-controls-previous':
-      store.prevTrack();
-      break;
-    case 'music-controls-pause':
-      store.togglePlay();
-      break;
-    case 'music-controls-play':
-      store.togglePlay();
-      break;
-    case 'music-controls-destroy':
-      break;
-    case 'music-controls-toggle-play-pause':
-      store.togglePlay();
-      break;
-    case 'music-controls-headset-unplugged':
-      if (store.isPlaying) store.togglePlay();
-      break;
-    case 'music-controls-headset-plugged':
-      break;
-    default:
-      break;
-  }
+  await createMusicControls(track);
 }

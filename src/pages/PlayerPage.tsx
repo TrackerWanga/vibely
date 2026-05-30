@@ -1,17 +1,17 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity } from 'lucide-react';
+import { ArrowLeft, Play, Pause, SkipBack, SkipForward, Download, Heart, Share2, Music, Video, Loader, Check, RotateCcw, RotateCw, Gauge, Infinity, Menu } from 'lucide-react';
 import { Browser } from '@capacitor/browser';
 import { useMusicStore } from '../store/musicStore';
 import { showNowPlaying, hideNowPlaying, updateNowPlayingState } from '../services/notifications';
 import { saveDownloadRecord } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 
-interface Props { onBack: () => void; onVideoMode: () => void; }
+interface Props { onBack: () => void; onVideoMode: () => void; onMenuClick: () => void; }
 
 const MEGAN = 'https://apis.megan.qzz.io';
 const KEY = 'megan_admin_master';
 
-export default function PlayerPage({ onBack, onVideoMode }: Props) {
+export default function PlayerPage({ onBack, onVideoMode, onMenuClick }: Props) {
   const { currentTrack, isPlaying, queue, queueIndex, togglePlay, nextTrack, prevTrack, toggleFavorite, favorites, autoplayEnabled, toggleAutoplay, setQueue } = useMusicStore();
   const [lyrics, setLyrics] = useState<any>(null);
   const [lyricLines, setLyricLines] = useState<Array<{ time: number; text: string }>>([]);
@@ -35,39 +35,11 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   const upcomingTrack = queue[queueIndex + 1];
   const isFav = track ? favorites.some(f => f.videoId === track.videoId) : false;
 
-  // Notification: show when track changes
   useEffect(() => {
-    if (track) {
-      showNowPlaying({ title: track.title || 'Unknown', artist: track.artist || 'Unknown Artist' });
-    }
+    if (track) showNowPlaying({ title: track.title || 'Unknown', artist: track.artist || 'Unknown Artist' });
     return () => { hideNowPlaying(); };
   }, [track?.videoId]);
-
-  // Notification: update play/pause state
-  useEffect(() => {
-    updateNowPlayingState();
-  }, [isPlaying]);
-
-  // Web Media Session API
-  useEffect(() => {
-    if (track && 'mediaSession' in navigator) {
-      navigator.mediaSession.metadata = new MediaMetadata({
-        title: track.title || 'Unknown',
-        artist: track.artist || 'Unknown Artist',
-        artwork: track.thumbnail ? [{ src: track.thumbnail, sizes: '480x360', type: 'image/jpg' }] : []
-      });
-      navigator.mediaSession.setActionHandler('play', () => useMusicStore.getState().togglePlay());
-      navigator.mediaSession.setActionHandler('pause', () => useMusicStore.getState().togglePlay());
-      navigator.mediaSession.setActionHandler('previoustrack', () => useMusicStore.getState().prevTrack());
-      navigator.mediaSession.setActionHandler('nexttrack', () => useMusicStore.getState().nextTrack());
-    }
-  }, [track]);
-
-  useEffect(() => {
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.playbackState = isPlaying ? 'playing' : 'paused';
-    }
-  }, [isPlaying]);
+  useEffect(() => { updateNowPlayingState(); }, [isPlaying]);
 
   useEffect(() => {
     if (audioState === 'loading' || audioState === 'retrying') {
@@ -77,26 +49,14 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
   }, [audioState]);
   useEffect(() => { if (track) { hasAutoPlayed.current = false; loadAll(); } return () => clearTimeout(retryTimer.current); }, [track]);
   useEffect(() => {
-    if (audioRef.current && audioUrl) {
-      isPlaying ? audioRef.current.play().catch(() => {}) : audioRef.current.pause();
-    }
+    if (audioRef.current && audioUrl) isPlaying ? audioRef.current.play().catch(() => {}) : audioRef.current.pause();
   }, [isPlaying, audioUrl]);
-  useEffect(() => {
-    if (audioRef.current) audioRef.current.playbackRate = playbackRate;
-  }, [playbackRate]);
+  useEffect(() => { if (audioRef.current) audioRef.current.playbackRate = playbackRate; }, [playbackRate]);
 
   const loadAll = async () => {
-    setAudioState('loading');
-    setAudioUrl('');
-    setLyrics(null);
-    setLyricLines([]);
-    setCurrentLine(0);
-    setProgress(0);
-    setDuration(0);
-    loadLyrics();
-    fetchAudio();
+    setAudioState('loading'); setAudioUrl(''); setLyrics(null); setLyricLines([]);
+    setCurrentLine(0); setProgress(0); setDuration(0); loadLyrics(); fetchAudio();
   };
-
   const loadLyrics = async () => {
     try {
       const q = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
@@ -112,123 +72,77 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
           if (m) return { time: parseInt(m[1])*60 + parseInt(m[2]) + parseInt(m[3])/100, text: m[4] };
           return { time: 0, text: line };
         }).filter((l: any) => l.text);
-        setLyricLines(lines);
-        setLyrics(ld);
-      } else if (ld?.lyrics) {
-        setLyrics(ld);
-        setLyricLines([]);
-      }
+        setLyricLines(lines); setLyrics(ld);
+      } else if (ld?.lyrics) { setLyrics(ld); setLyricLines([]); }
     } catch (e) {}
   };
-
   const fetchAudio = async () => {
-    const videoId = track?.videoId || '';
-    setStatusMsg('Streaming');
+    const videoId = track?.videoId || ''; setStatusMsg('Streaming');
     try { setAudioUrl(`${MEGAN}/stream?q=${videoId}&type=mp3&apikey=${KEY}`); return; } catch (e) {}
     try {
       const query = track?.artist ? `${track.artist} ${track.title}` : track?.title || '';
       setStatusMsg('Getting audio');
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(query)}&apikey=${KEY}`);
-      const d = await res.json();
-      const url = d?.proxyUrl || d?.downloadUrl;
+      const d = await res.json(); const url = d?.proxyUrl || d?.downloadUrl;
       if (url) { setAudioUrl(url); return; }
     } catch (e) {}
-    setAudioState('retrying');
-    setStatusMsg('Waking server');
+    setAudioState('retrying'); setStatusMsg('Waking server');
     retryTimer.current = setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 5000);
   };
-
   const fetchAndQueueRelated = async () => {
     if (!track?.videoId || hasAutoPlayed.current) return;
-    hasAutoPlayed.current = true;
-    setAutoplayLoading(true);
+    hasAutoPlayed.current = true; setAutoplayLoading(true);
     try {
       const res = await fetch(`${MEGAN}/api/youtube/recommend?id=${track.videoId}&apikey=${KEY}`);
       const data = await res.json();
       if (data?.recommendations?.length) {
-        const related = data.recommendations
-          .filter((r: any) => r.videoId && r.durationSeconds > 30 && r.durationSeconds < 900)
-          .slice(0, 5)
-          .map((r: any) => ({ videoId: r.videoId, title: r.title, artist: r.author || '', thumbnail: r.thumbnail || '', duration: r.duration || '' }));
-        if (related.length > 0) {
-          setQueue([...queue, ...related], queueIndex + 1);
-          nextTrack();
-        }
+        const related = data.recommendations.filter((r: any) => r.videoId && r.durationSeconds > 30 && r.durationSeconds < 900).slice(0, 5).map((r: any) => ({ videoId: r.videoId, title: r.title, artist: r.author || '', thumbnail: r.thumbnail || '', duration: r.duration || '' }));
+        if (related.length > 0) { setQueue([...queue, ...related], queueIndex + 1); nextTrack(); }
       }
     } catch (e) {}
     setAutoplayLoading(false);
   };
-
   const handleEnded = () => {
     if (queueIndex < queue.length - 1) nextTrack();
     else if (autoplayEnabled && track?.videoId) fetchAndQueueRelated();
   };
-
   const skipForward = () => { if (audioRef.current) audioRef.current.currentTime = Math.min(audioRef.current.currentTime + 10, audioRef.current.duration || 0); };
   const skipBackward = () => { if (audioRef.current) audioRef.current.currentTime = Math.max(audioRef.current.currentTime - 10, 0); };
-  const cycleSpeed = () => {
-    const speeds = [1, 1.25, 1.5, 2, 0.75, 0.5];
-    setPlaybackRate(speeds[(speeds.indexOf(playbackRate) + 1) % speeds.length]);
-  };
-
+  const cycleSpeed = () => { const speeds = [1, 1.25, 1.5, 2, 0.75, 0.5]; setPlaybackRate(speeds[(speeds.indexOf(playbackRate) + 1) % speeds.length]); };
   const handleDownload = async () => {
-    if (!track?.videoId) return;
-    setDownloading(true);
+    if (!track?.videoId) return; setDownloading(true);
     const title = (track.title || 'song').replace(/[^a-zA-Z0-9 ]/g, '').substring(0, 50);
     try {
       const res = await fetch(`${MEGAN}/download/audio?q=${encodeURIComponent(title)}&apikey=${KEY}`);
-      const data = await res.json();
-      const dlUrl = data?.downloadUrl || data?.proxyUrl;
+      const data = await res.json(); const dlUrl = data?.downloadUrl || data?.proxyUrl;
       if (dlUrl) {
-        saveDownloadRecord({
-          videoId: track.videoId, title: track.title || '', artist: track.artist || '',
-          thumbnail: track.thumbnail || '', duration: track.duration || '', filePath: '', fileSize: 0
-        }).catch(() => {
-          const saved = JSON.parse(localStorage.getItem('vibely_downloads') || '[]');
-          if (!saved.find((s: any) => s.videoId === track.videoId)) {
-            saved.push({ videoId: track.videoId, title: track.title, artist: track.artist || '', thumbnail: track.thumbnail || '', duration: track.duration || '', downloadedAt: new Date().toISOString(), source: 'vibely' });
-            localStorage.setItem('vibely_downloads', JSON.stringify(saved));
-          }
-        });
-        if (isNativeApp()) {
-          await Browser.open({ url: dlUrl });
-        } else {
-          const a = document.createElement('a'); a.href = dlUrl; a.download = `${title}.mp3`;
-          document.body.appendChild(a); a.click(); document.body.removeChild(a);
-        }
+        saveDownloadRecord({ videoId: track.videoId, title: track.title || '', artist: track.artist || '', thumbnail: track.thumbnail || '', duration: track.duration || '', filePath: '', fileSize: 0 }).catch(() => {});
+        if (isNativeApp()) { await Browser.open({ url: dlUrl }); }
+        else { const a = document.createElement('a'); a.href = dlUrl; a.download = `${title}.mp3`; document.body.appendChild(a); a.click(); document.body.removeChild(a); }
         setDownloaded(true); setTimeout(() => setDownloaded(false), 3000);
       }
-    } catch (err) { console.error('Download failed:', err); }
+    } catch (err) {}
     setDownloading(false);
   };
-
   const handleShare = async () => {
     if (!track?.videoId) return;
     const url = `${window.location.origin}/?song=${track.videoId}`;
-    if (navigator.share) {
-      try { await navigator.share({ title: track.title || '', text: `🎵 ${track.title}`, url }); return; } catch (e) {}
-    }
+    if (navigator.share) { try { await navigator.share({ title: track.title || '', text: `🎵 ${track.title}`, url }); return; } catch (e) {} }
     try { await navigator.clipboard.writeText(url); setShared(true); setTimeout(() => setShared(false), 2000); } catch (e) {}
   };
-
   const handleTimeUpdate = () => {
     if (audioRef.current) {
       setProgress(audioRef.current.currentTime);
       const ct = audioRef.current.currentTime;
-      const idx = lyricLines.findIndex((line, i) => {
-        const next = lyricLines[i+1];
-        return ct >= line.time && (!next || ct < next.time);
-      });
+      const idx = lyricLines.findIndex((line, i) => { const next = lyricLines[i+1]; return ct >= line.time && (!next || ct < next.time); });
       if (idx !== -1) setCurrentLine(idx);
     }
   };
-
   const handleLoadedMetadata = () => { if (audioRef.current) { setDuration(audioRef.current.duration); setAudioState('playing'); setStatusMsg(''); } };
   const handleCanPlay = () => { setAudioState('playing'); setStatusMsg(''); };
   const handlePlaying = () => { setAudioState('playing'); setStatusMsg(''); };
   const handleWaiting = () => { setStatusMsg('Buffering...'); };
   const handleError = () => { setAudioState('retrying'); setTimeout(() => { setAudioState('loading'); fetchAudio(); }, 3000); };
-
   const formatTime = (t: number) => { if (isNaN(t)) return '0:00'; const m = Math.floor(t/60), s = Math.floor(t%60); return `${m}:${s.toString().padStart(2,'0')}`; };
   const isLoading = audioState === 'loading' || audioState === 'retrying';
 
@@ -244,6 +158,7 @@ export default function PlayerPage({ onBack, onVideoMode }: Props) {
         <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer' }}><ArrowLeft size={24} /></button>
         <div style={{ flex: 1 }}><div style={{ fontSize: '12px', color: '#a78bfa' }}>Now Playing</div><div style={{ fontSize: '16px', fontWeight: 600 }}>{track.title?.substring(0, 50)}</div></div>
         <button onClick={onVideoMode} className="btn-glass"><Video size={16} /> Video</button>
+        <button onClick={onMenuClick} style={{ background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer', padding: '8px' }}><Menu size={20} /></button>
       </div>
       {statusMsg && (<div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(124,58,237,0.06)', color: '#a78bfa', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}><Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> {statusMsg}{dots}</div>)}
       {autoplayLoading && (<div style={{ padding: '8px 24px', textAlign: 'center', background: 'rgba(245,158,11,0.1)', color: '#f59e0b', fontSize: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}><Loader size={12} style={{ animation: 'spin 1s linear infinite' }} /> Finding related songs...</div>)}

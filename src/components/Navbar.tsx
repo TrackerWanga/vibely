@@ -2,10 +2,10 @@ import { Search, Menu } from 'lucide-react';
 
 interface Props {
   onSearchClick: () => void;
-  onMenuClickk: () => void;
+  onMenuClick: () => void;
 }
 
-export default function Navbar({ onSearchClick, onMenuClickk }: Props) {
+export default function Navbar({ onSearchClick, onMenuClick }: Props) {
   return (
     <nav style={{
       position: 'sticky', top: 0, zIndex: 100,
@@ -37,7 +37,7 @@ export default function Navbar({ onSearchClick, onMenuClickk }: Props) {
         </button>
         
         <button
-          onClick={onMenuClickk}
+          onClick={onMenuClick}
           style={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             width: '40px', height: '40px',

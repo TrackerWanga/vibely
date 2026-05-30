@@ -3,7 +3,7 @@ import { ArrowLeft, Play, Pause, Trash2, Music, HardDrive, FolderSearch, Shield,
 import { getAllAudio, getStorageUsed, deleteDownload, getPlayableUrl, type DownloadedTrack } from '../services/offlineStorage';
 import { isNativeApp } from '../services/platform';
 import { hasStoragePermission, openAppSettings } from '../services/permissions';
-import { playAudio, stopAll, stopIfPlaying, isPlaying as audioIsPlaying } from '../services/audioManager';
+import { playAudio, stopAll, stopIfPlaying } from '../services/audioManager';
 import { useMusicStore } from '../store/musicStore';
 
 interface Props { onBack: () => void; onSongPlay: () => void; }
@@ -21,13 +21,24 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
   const checkAndLoad = async () => {
     setLoading(true);
     if (isNativeApp()) {
-      const hasPermission = await hasStoragePermission();
-      if (hasPermission) {
+      // Try multiple times to get permission
+      let granted = await hasStoragePermission();
+      
+      if (!granted) {
+        // Force request
+        try {
+          const { Filesystem } = await import('@capacitor/filesystem');
+          const result = await Filesystem.requestPermissions();
+          granted = result.publicStorage === 'granted';
+        } catch (e) {}
+      }
+
+      if (granted) {
         setPermissionState('granted');
         await loadAllAudio();
       } else {
-        // Force request permission
-        await requestStorageAccess();
+        setPermissionState('denied');
+        await loadFromLocalStorage();
       }
     } else {
       setPermissionState('granted');
@@ -70,28 +81,19 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
 
   const playTrack = (track: DownloadedTrack) => {
     const trackId = track.videoId;
-    
-    // If this track is already playing, stop it
     if (stopIfPlaying(trackId)) {
       setPlayingTrackId(null);
       return;
     }
-    
-    // Stop any other audio
     stopAll();
     
     if (track.source === 'device' && track.filePath && isNativeApp()) {
       const url = getPlayableUrl(track.filePath);
-      playAudio(url, trackId);
+      const audio = playAudio(url, trackId);
       setPlayingTrackId(trackId);
-      
-      // Listen for audio end
-      const audio = document.querySelector('audio');
-      if (audio) {
-        audio.onended = () => setPlayingTrackId(null);
-      }
+      audio.onended = () => setPlayingTrackId(null);
+      audio.onerror = () => setPlayingTrackId(null);
     } else if (track.source === 'vibely') {
-      // Stream from YouTube
       const allVibely = tracks.filter(t => t.source === 'vibely');
       const idx = allVibely.findIndex(t => t.videoId === track.videoId);
       if (idx >= 0 && allVibely.length > 0) {
@@ -134,35 +136,19 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
         <div style={{ textAlign: 'center', padding: '80px 20px' }}>
           <Shield size={64} color="#f59e0b" style={{ marginBottom: '16px' }} />
           <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Storage Access Required</div>
-          <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '24px', maxWidth: '400px', margin: '0 auto 24px' }}>
-            Vibely needs access to your music files to play them offline.
+          <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '24px' }}>
+            Vibely needs access to your audio files. Your files stay on your device.
           </p>
           <button onClick={requestStorageAccess} className="btn-primary" style={{ padding: '14px 32px', fontSize: '16px', marginBottom: '12px' }}>
-            <Shield size={18} /> Grant Storage Access
+            <Shield size={18} /> Request Permission
           </button>
           <br />
-          <button onClick={openAppSettings} style={{ background: 'none', border: '1px solid rgba(255,255,255,0.1)', color: '#94a3b8', padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', fontSize: '13px' }}>
-            Open App Settings
+          <button onClick={openAppSettings} className="btn-primary" style={{ background: '#64748b', padding: '10px 20px', fontSize: '13px' }}>
+            ⚙ Open App Settings → Permissions → Music & audio
           </button>
-        </div>
-      </div>
-    );
-  }
-
-  if (permissionState === 'prompt') {
-    return (
-      <div style={{ minHeight: '100vh', background: '#06060e', color: '#f1f5f9', padding: '20px 24px' }}>
-        <button onClick={onBack} style={{ background: 'none', border: 'none', color: '#a78bfa', cursor: 'pointer', marginBottom: '20px', display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <ArrowLeft size={16} /> Back
-        </button>
-        <div style={{ textAlign: 'center', padding: '80px 20px' }}>
-          <Shield size={64} color="#a78bfa" style={{ marginBottom: '16px' }} />
-          <div style={{ fontSize: '20px', fontWeight: 700, marginBottom: '8px' }}>Allow Storage Access</div>
-          <p style={{ color: '#94a3b8', fontSize: '14px', marginBottom: '24px' }}>
-            Tap below to allow Vibely to find and play music on your device.
-          </p>
-          <button onClick={requestStorageAccess} className="btn-primary" style={{ padding: '14px 32px', fontSize: '16px' }}>
-            <Shield size={18} /> Allow Access
+          <br />
+          <button onClick={loadAllAudio} className="btn-glass" style={{ marginTop: '12px' }}>
+            <RefreshCw size={14} /> Try Again
           </button>
         </div>
       </div>
@@ -208,8 +194,7 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
                     padding: '12px 16px', marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '14px', cursor: 'pointer',
                     borderColor: isCurrentlyPlaying ? 'rgba(124,58,237,0.5)' : undefined,
                     background: isCurrentlyPlaying ? 'rgba(124,58,237,0.1)' : undefined
-                  }}
-                    onClick={() => playTrack(track)}>
+                  }} onClick={() => playTrack(track)}>
                     <span style={{ color: '#64748b', fontSize: '18px', width: '28px' }}>#{i + 1}</span>
                     {track.thumbnail ? <img src={track.thumbnail} alt="" style={{ width: '48px', height: '36px', borderRadius: '4px', objectFit: 'cover' }} /> :
                       <div style={{ width: '48px', height: '36px', borderRadius: '4px', background: 'rgba(124,58,237,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Music size={18} color="#a78bfa" /></div>}
@@ -237,8 +222,7 @@ export default function OfflinePage({ onBack, onSongPlay }: Props) {
                     padding: '12px 16px', marginBottom: '6px', display: 'flex', alignItems: 'center', gap: '14px', cursor: 'pointer',
                     borderColor: isCurrentlyPlaying ? 'rgba(16,185,129,0.5)' : undefined,
                     background: isCurrentlyPlaying ? 'rgba(16,185,129,0.1)' : undefined
-                  }}
-                    onClick={() => playTrack(track)}>
+                  }} onClick={() => playTrack(track)}>
                     <span style={{ color: '#64748b', fontSize: '18px', width: '28px' }}>#{vibelyDownloads.length + i + 1}</span>
                     <div style={{ width: '48px', height: '36px', borderRadius: '4px', background: 'rgba(16,185,129,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><Music size={18} color="#10b981" /></div>
                     <div style={{ flex: 1, minWidth: 0 }}>

@@ -34,13 +34,14 @@ jobs:
       with:
         packages: 'platforms;android-34 build-tools;34.0.0 platform-tools'
 
-    - name: Create app icon
+    - name: Download app icon
       run: |
         mkdir -p resources
-        sudo apt-get install -y imagemagick
-        curl -L --connect-timeout 10 -o resources/icon.png "https://files.catbox.moe/d81vkj.png" 2>/dev/null || \
+        curl -L --connect-timeout 30 -o resources/icon.png "https://files.catbox.moe/d81vkj.png" || \
         convert -size 1024x1024 xc:'#7c3aed' -fill white -gravity center -pointsize 400 -annotate 0 'V' resources/icon.png
+        cp resources/icon.png resources/icon-foreground.png
         cp resources/icon.png resources/splash.png
+        cp resources/icon.png resources/splash-dark.png
 
     - name: Install dependencies
       run: npm ci --legacy-peer-deps || npm install
@@ -53,6 +54,18 @@ jobs:
         rm -f capacitor.config.ts capacitor.config.json
         npx cap init "Vibely" com.megan.vibely --web-dir=dist
         npx cap add android
+
+    - name: Generate App Icons and Splash
+      run: |
+        npx capacitor-assets generate --android --iconBackgroundColor '#06060e' --splashBackgroundColor '#06060e' 2>/dev/null
+        echo "Icons generated"
+
+    - name: Generate Notification Icon (white silhouette)
+      run: |
+        sudo apt-get install -y imagemagick
+        mkdir -p android/app/src/main/res/drawable
+        convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable/ic_notification.png
+        echo "Notification icon generated"
 
     - name: Write capacitor.config.json
       run: |
@@ -121,31 +134,6 @@ jobs:
             exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
         }
         GRADLEEOF
-
-    - name: Generate All Icons (ImageMagick) - AFTER cap add
-      run: |
-        mkdir -p android/app/src/main/res/mipmap-mdpi android/app/src/main/res/mipmap-hdpi android/app/src/main/res/mipmap-xhdpi android/app/src/main/res/mipmap-xxhdpi android/app/src/main/res/mipmap-xxxhdpi
-        mkdir -p android/app/src/main/res/drawable android/app/src/main/res/drawable-mdpi android/app/src/main/res/drawable-hdpi android/app/src/main/res/drawable-xhdpi android/app/src/main/res/drawable-xxhdpi android/app/src/main/res/drawable-xxxhdpi
-        # Launcher icons
-        convert resources/icon.png -resize 48x48 android/app/src/main/res/mipmap-mdpi/ic_launcher.png
-        convert resources/icon.png -resize 72x72 android/app/src/main/res/mipmap-hdpi/ic_launcher.png
-        convert resources/icon.png -resize 96x96 android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
-        convert resources/icon.png -resize 144x144 android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
-        convert resources/icon.png -resize 192x192 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
-        # Also as round icons
-        convert resources/icon.png -resize 48x48 android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
-        convert resources/icon.png -resize 72x72 android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
-        convert resources/icon.png -resize 96x96 android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
-        convert resources/icon.png -resize 144x144 android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
-        convert resources/icon.png -resize 192x192 android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
-        # Notification icon (white silhouette)
-        convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable/ic_notification.png
-        convert resources/icon.png -resize 24x24 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-mdpi/ic_notification.png
-        convert resources/icon.png -resize 36x36 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-hdpi/ic_notification.png
-        convert resources/icon.png -resize 48x48 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xhdpi/ic_notification.png
-        convert resources/icon.png -resize 72x72 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xxhdpi/ic_notification.png
-        convert resources/icon.png -resize 96x96 -colorspace Gray -negate -threshold 50% -transparent black -fill white -colorize 100% android/app/src/main/res/drawable-xxxhdpi/ic_notification.png
-        echo "All icons generated"
 
     - name: Sync Capacitor
       run: npx cap sync
